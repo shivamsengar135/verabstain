@@ -1,0 +1,12 @@
+2026-11-07 01:07:32,887 INFO START quant3bq8_rag_topk_popqa_lt: 200/200 examples to run; projected 3 min
+2026-11-07 01:07:37,405 INFO quant3bq8_rag_topk_popqa_lt: 25/200 done, 0 errors, 4s
+2026-11-07 01:07:41,368 INFO quant3bq8_rag_topk_popqa_lt: 50/200 done, 0 errors, 8s
+2026-11-07 01:07:45,324 INFO quant3bq8_rag_topk_popqa_lt: 75/200 done, 0 errors, 12s
+2026-11-07 01:07:49,364 INFO quant3bq8_rag_topk_popqa_lt: 100/200 done, 0 errors, 16s
+2026-11-07 01:07:52,954 INFO quant3bq8_rag_topk_popqa_lt: 125/200 done, 0 errors, 20s
+2026-11-07 01:07:57,623 INFO quant3bq8_rag_topk_popqa_lt: 150/200 done, 0 errors, 25s
+2026-11-07 01:08:00,577 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=15.7 on_battery=False
+2026-11-07 01:08:00,987 INFO quant3bq8_rag_topk_popqa_lt: 175/200 done, 0 errors, 28s
+2026-11-07 01:08:20,586 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=4.6
+2026-11-07 01:08:24,987 INFO quant3bq8_rag_topk_popqa_lt: 200/200 done, 0 errors, 52s
+2026-11-07 01:08:25,168 INFO END quant3bq8_rag_topk_popqa_lt: complete, wall 0.9 min, stats {'llm_calls': 200, 'cache_hits': 0, 'prompt_tokens': 126548, 'completion_tokens': 1235, 'llm_seconds': 255.96751080000104, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,89 @@
+{
+ "seed": {
+  "key": "yao2024seakr",
+  "title": "SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation",
+  "arxiv_id": "2406.19215",
+  "category": "adaptive",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation",
+  "authors": [
+   "Zijun Yao",
+   "Weijian Qi",
+   "Liangming Pan",
+   "Shulin Cao",
+   "Linmei Hu",
+   "Weichuan Liu",
+   "Lei Hou",
+   "Juanzi Li"
+  ],
+  "abstract": "This paper introduces Self-aware Knowledge Retrieval (SeaKR), a novel adaptive RAG model that extracts self-aware uncertainty of LLMs from their internal states. SeaKR activates retrieval when the LLMs present high self-aware uncertainty for generation. To effectively integrate retrieved knowledge snippets, SeaKR re-ranks them based on LLM's self-aware uncertainty to preserve the snippet that reduces their uncertainty to the utmost. To facilitate solving complex tasks that require multiple retrievals, SeaKR utilizes their self-aware uncertainty to choose among different reasoning strategies. Our experiments on both complex and simple Question Answering datasets show that SeaKR outperforms existing adaptive RAG methods. We release our code at https://github.com/THU-KEG/SeaKR.",
+  "published": "2024-06-27",
+  "arxiv_id": "2406.19215",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "2a7720c878c20ed21608978e31507ca9d9936d1c",
+  "externalIds": {
+   "ArXiv": "2406.19215",
+   "DBLP": "conf/acl/0002QPCHL0L25",
+   "DOI": "10.48550/arXiv.2406.19215",
+   "CorpusId": 270764613
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2024,
+  "publicationDate": "2024-06-27",
+  "journal": {
+   "pages": "27022-27043"
+  },
+  "authors": [
+   {
+    "authorId": "2273946831",
+    "name": "Zi-Jun Yao"
+   },
+   {
+    "authorId": "2346326957",
+    "name": "Weijian Qi"
+   },
+   {
+    "authorId": "2308643805",
+    "name": "Liang-Ming Pan"
+   },
+   {
+    "authorId": "1712738522",
+    "name": "S. Cao"
+   },
+   {
+    "authorId": "2282510494",
+    "name": "Lin-Mei Hu"
+   },
+   {
+    "authorId": "2308556832",
+    "name": "Wei-Chuan Liu"
+   },
+   {
+    "authorId": "2284777109",
+    "name": "Lei Hou"
+   },
+   {
+    "authorId": "2133353675",
+    "name": "Juan-Zi Li"
+   }
+  ]
+ }
+}

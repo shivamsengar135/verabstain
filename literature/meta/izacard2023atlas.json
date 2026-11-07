@@ -1,0 +1,108 @@
+{
+ "seed": {
+  "key": "izacard2023atlas",
+  "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+  "arxiv_id": "2208.03299",
+  "category": "rag",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+  "authors": [
+   "Gautier Izacard",
+   "Patrick Lewis",
+   "Maria Lomeli",
+   "Lucas Hosseini",
+   "Fabio Petroni",
+   "Timo Schick",
+   "Jane Dwivedi-Yu",
+   "Armand Joulin",
+   "Sebastian Riedel",
+   "Edouard Grave"
+  ],
+  "abstract": "Large language models have shown impressive few-shot results on a wide range of tasks. However, when knowledge is key for such results, as is the case for tasks such as question answering and fact checking, massive parameter counts to store knowledge seem to be needed. Retrieval augmented models are known to excel at knowledge intensive tasks without the need for as many parameters, but it is unclear whether they work in few-shot settings. In this work we present Atlas, a carefully designed and pre-trained retrieval augmented language model able to learn knowledge intensive tasks with very few training examples. We perform evaluations on a wide range of tasks, including MMLU, KILT and NaturalQuestions, and study the impact of the content of the document index, showing that it can easily be updated. Notably, Atlas reaches over 42% accuracy on Natural Questions using only 64 examples, outperforming a 540B parameters model by 3% despite having 50x fewer parameters.",
+  "published": "2022-08-05",
+  "arxiv_id": "2208.03299",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "916be31cbf847faa65cad0549e153f0c25b9f424",
+  "externalIds": {
+   "ArXiv": "2208.03299",
+   "DBLP": "journals/jmlr/IzacardLLHPSDJRG23",
+   "CorpusId": 251371732
+  },
+  "publicationVenue": {
+   "id": "c22e7c36-3bfa-43e1-bb7b-edccdea2a780",
+   "name": "Journal of machine learning research",
+   "type": "journal",
+   "alternate_names": [
+    "Journal of Machine Learning Research",
+    "J mach learn res",
+    "J Mach Learn Res"
+   ],
+   "issn": "1532-4435",
+   "alternate_issns": [
+    "1533-7928"
+   ],
+   "url": "http://www.ai.mit.edu/projects/jmlr/",
+   "alternate_urls": [
+    "http://jmlr.csail.mit.edu/",
+    "http://www.jmlr.org/",
+    "http://portal.acm.org/affiliated/jmlr"
+   ]
+  },
+  "title": "Few-shot Learning with Retrieval Augmented Language Models",
+  "venue": "Journal of machine learning research",
+  "year": 2022,
+  "publicationDate": "2022-08-05",
+  "journal": {
+   "name": "J. Mach. Learn. Res.",
+   "pages": "251:1-251:43",
+   "volume": "24"
+  },
+  "authors": [
+   {
+    "authorId": "1410231361",
+    "name": "Gautier Izacard"
+   },
+   {
+    "authorId": "145222654",
+    "name": "Patrick Lewis"
+   },
+   {
+    "authorId": "3376175",
+    "name": "M. Lomeli"
+   },
+   {
+    "authorId": "26360550",
+    "name": "Lucas Hosseini"
+   },
+   {
+    "authorId": "40052301",
+    "name": "F. Petroni"
+   },
+   {
+    "authorId": "32246932",
+    "name": "Timo Schick"
+   },
+   {
+    "authorId": null,
+    "name": "Jane Dwivedi-Yu"
+   },
+   {
+    "authorId": "2319608",
+    "name": "A. Joulin"
+   },
+   {
+    "authorId": "48662861",
+    "name": "Sebastian Riedel"
+   },
+   {
+    "authorId": "3024698",
+    "name": "E. Grave"
+   }
+  ]
+ }
+}

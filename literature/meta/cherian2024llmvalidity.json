@@ -1,0 +1,64 @@
+{
+ "seed": {
+  "key": "cherian2024llmvalidity",
+  "title": "Large language model validity via enhanced conformal prediction methods",
+  "arxiv_id": "2406.09714",
+  "category": "conformal",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Large language model validity via enhanced conformal prediction methods",
+  "authors": [
+   "John J. Cherian",
+   "Isaac Gibbs",
+   "Emmanuel J. Candès"
+  ],
+  "abstract": "We develop new conformal inference methods for obtaining validity guarantees on the output of large language models (LLMs). Prior work in conformal language modeling identifies a subset of the text that satisfies a high-probability guarantee of correctness. These methods work by filtering claims from the LLM's original response if a scoring function evaluated on the claim fails to exceed a threshold calibrated via split conformal prediction. Existing methods in this area suffer from two deficiencies. First, the guarantee stated is not conditionally valid. The trustworthiness of the filtering step may vary based on the topic of the response. Second, because the scoring function is imperfect, the filtering step can remove many valuable and accurate claims. We address both of these challenges via two new conformal methods. First, we generalize the conditional conformal procedure of Gibbs et al. (2023) in order to adaptively issue weaker guarantees when they are required to preserve the utility of the output. Second, we show how to systematically improve the quality of the scoring function via a novel algorithm for differentiating through the conditional conformal procedure. We demonstrate the efficacy of our approach on biography and medical question-answering datasets.",
+  "published": "2024-06-14",
+  "arxiv_id": "2406.09714",
+  "comment": "24 pages, 14 figures, NeurIPS",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "2c85de293de93582e3d457ab9a5760a5ac71aa11",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2406-09714",
+   "ArXiv": "2406.09714",
+   "DOI": "10.48550/arXiv.2406.09714",
+   "CorpusId": 270521658
+  },
+  "publicationVenue": {
+   "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+   "name": "Neural Information Processing Systems",
+   "type": "conference",
+   "alternate_names": [
+    "Neural Inf Process Syst",
+    "NeurIPS",
+    "NIPS"
+   ],
+   "url": "http://neurips.cc/"
+  },
+  "title": "Large language model validity via enhanced conformal prediction methods",
+  "venue": "Neural Information Processing Systems",
+  "year": 2024,
+  "publicationDate": "2024-06-14",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2406.09714"
+  },
+  "authors": [
+   {
+    "authorId": "1879342053",
+    "name": "John J. Cherian"
+   },
+   {
+    "authorId": "79650740",
+    "name": "Isaac Gibbs"
+   },
+   {
+    "authorId": "2006869",
+    "name": "E. Candès"
+   }
+  ]
+ }
+}

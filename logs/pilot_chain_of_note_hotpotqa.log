@@ -1,0 +1,6 @@
+2026-11-04 23:44:49,330 INFO START pilot_chain_of_note_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:45:26,371 INFO pilot_chain_of_note_hotpotqa: 25/100 done, 0 errors, 37s
+2026-11-04 23:45:58,715 INFO pilot_chain_of_note_hotpotqa: 50/100 done, 0 errors, 69s
+2026-11-04 23:46:29,076 INFO pilot_chain_of_note_hotpotqa: 75/100 done, 0 errors, 100s
+2026-11-04 23:46:54,834 INFO pilot_chain_of_note_hotpotqa: 100/100 done, 0 errors, 125s
+2026-11-04 23:46:54,837 INFO END pilot_chain_of_note_hotpotqa: complete, wall 2.1 min, stats {'llm_calls': 100, 'cache_hits': 0, 'prompt_tokens': 71337, 'completion_tokens': 16506, 'llm_seconds': 987.8964507999481, 'retrievals': 0, 'verifier_pairs': 0}

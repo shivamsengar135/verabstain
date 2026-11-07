@@ -1,0 +1,27 @@
+2026-11-06 23:28:15,949 INFO START sec3b_rag_topk_popqa_lt: 500/500 examples to run; projected 4 min
+2026-11-06 23:28:20,259 INFO sec3b_rag_topk_popqa_lt: 25/500 done, 0 errors, 4s
+2026-11-06 23:28:24,128 INFO sec3b_rag_topk_popqa_lt: 50/500 done, 0 errors, 8s
+2026-11-06 23:28:28,148 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=12.1 on_battery=False
+2026-11-06 23:28:28,238 INFO sec3b_rag_topk_popqa_lt: 75/500 done, 0 errors, 12s
+2026-11-06 23:28:48,163 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.9
+2026-11-06 23:28:51,976 INFO sec3b_rag_topk_popqa_lt: 100/500 done, 0 errors, 36s
+2026-11-06 23:28:56,111 INFO sec3b_rag_topk_popqa_lt: 125/500 done, 0 errors, 40s
+2026-11-06 23:29:00,074 INFO sec3b_rag_topk_popqa_lt: 150/500 done, 0 errors, 44s
+2026-11-06 23:29:03,763 INFO sec3b_rag_topk_popqa_lt: 175/500 done, 0 errors, 48s
+2026-11-06 23:29:07,579 INFO sec3b_rag_topk_popqa_lt: 200/500 done, 0 errors, 51s
+2026-11-06 23:29:11,818 INFO sec3b_rag_topk_popqa_lt: 225/500 done, 0 errors, 56s
+2026-11-06 23:29:15,318 INFO sec3b_rag_topk_popqa_lt: 250/500 done, 0 errors, 59s
+2026-11-06 23:29:18,643 INFO sec3b_rag_topk_popqa_lt: 275/500 done, 0 errors, 63s
+2026-11-06 23:29:20,188 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=15.1 on_battery=False
+2026-11-06 23:29:40,198 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.9
+2026-11-06 23:29:42,345 INFO sec3b_rag_topk_popqa_lt: 300/500 done, 0 errors, 86s
+2026-11-06 23:29:46,336 INFO sec3b_rag_topk_popqa_lt: 325/500 done, 0 errors, 90s
+2026-11-06 23:29:49,968 INFO sec3b_rag_topk_popqa_lt: 350/500 done, 0 errors, 94s
+2026-11-06 23:29:53,768 INFO sec3b_rag_topk_popqa_lt: 375/500 done, 0 errors, 98s
+2026-11-06 23:29:57,308 INFO sec3b_rag_topk_popqa_lt: 400/500 done, 0 errors, 101s
+2026-11-06 23:30:01,646 INFO sec3b_rag_topk_popqa_lt: 425/500 done, 0 errors, 106s
+2026-11-06 23:30:05,525 INFO sec3b_rag_topk_popqa_lt: 450/500 done, 0 errors, 109s
+2026-11-06 23:30:09,063 INFO sec3b_rag_topk_popqa_lt: 475/500 done, 0 errors, 113s
+2026-11-06 23:30:12,221 WARNING PAUSE: gpu_temp=80 cpu_zone=50.9 cpu_load=13.0 on_battery=False
+2026-11-06 23:30:12,581 INFO sec3b_rag_topk_popqa_lt: 500/500 done, 0 errors, 116s
+2026-11-06 23:30:12,763 INFO END sec3b_rag_topk_popqa_lt: complete, wall 1.9 min, stats {'llm_calls': 499, 'cache_hits': 1, 'prompt_tokens': 314359, 'completion_tokens': 2531, 'llm_seconds': 612.5254172000314, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_crag_popqa_lt",
+ "n": 100,
+ "n_expected": 100,
+ "method": "crag",
+ "dataset": "popqa_lt",
+ "split": "dev",
+ "correct": 0.45,
+ "match": 0.45,
+ "match_norm": 0.47,
+ "em": 0.43,
+ "f1": 0.48771428571428566,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 4.0,
+ "mean_prompt_tokens": 1762.39,
+ "mean_completion_tokens": 19.82,
+ "mean_llm_seconds": 12.002550949999277,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 14.257421090998832,
+ "wall_s": 180.10995841026306
+}

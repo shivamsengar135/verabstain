@@ -1,0 +1,16 @@
+2026-11-05 03:14:24,063 INFO START devB2_ragverify_pubhealth: 300/300 examples to run; projected 12 min
+2026-11-05 03:14:24,523 INFO devB2_ragverify_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 03:14:24,736 INFO devB2_ragverify_pubhealth: 50/300 done, 0 errors, 1s
+2026-11-05 03:14:24,942 INFO devB2_ragverify_pubhealth: 75/300 done, 0 errors, 1s
+2026-11-05 03:14:25,170 INFO devB2_ragverify_pubhealth: 100/300 done, 0 errors, 1s
+2026-11-05 03:14:32,145 INFO devB2_ragverify_pubhealth: 125/300 done, 0 errors, 8s
+2026-11-05 03:14:42,892 INFO devB2_ragverify_pubhealth: 150/300 done, 0 errors, 19s
+2026-11-05 03:14:47,018 INFO devB2_ragverify_pubhealth: 175/300 done, 0 errors, 23s
+2026-11-05 03:14:52,367 INFO devB2_ragverify_pubhealth: 200/300 done, 0 errors, 28s
+2026-11-05 03:15:00,226 INFO devB2_ragverify_pubhealth: 225/300 done, 0 errors, 36s
+2026-11-05 03:15:09,918 INFO devB2_ragverify_pubhealth: 250/300 done, 0 errors, 46s
+2026-11-05 03:15:19,194 INFO devB2_ragverify_pubhealth: 275/300 done, 0 errors, 55s
+2026-11-05 03:15:19,358 WARNING PAUSE: gpu_temp=84 cpu_zone=82.9 cpu_load=17.9 on_battery=False
+2026-11-05 03:15:37,936 WARNING RESUME: gpu_temp=49 cpu_zone=55.9 cpu_load=4.7
+2026-11-05 03:15:45,821 INFO devB2_ragverify_pubhealth: 300/300 done, 0 errors, 82s
+2026-11-05 03:15:46,374 INFO END devB2_ragverify_pubhealth: complete, wall 1.4 min, stats {'llm_calls': 115, 'cache_hits': 570, 'prompt_tokens': 77384, 'completion_tokens': 4673, 'llm_seconds': 453.63491339984466, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,139 @@
+{
+ "seed": {
+  "key": "ru2024ragchecker",
+  "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+  "arxiv_id": "2408.08067",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+  "authors": [
+   "Dongyu Ru",
+   "Lin Qiu",
+   "Xiangkun Hu",
+   "Tianhang Zhang",
+   "Peng Shi",
+   "Shuaichen Chang",
+   "Cheng Jiayang",
+   "Cunxiang Wang",
+   "Shichao Sun",
+   "Huanyu Li",
+   "Zizhao Zhang",
+   "Binjie Wang",
+   "Jiarong Jiang",
+   "Tong He",
+   "Zhiguo Wang",
+   "Pengfei Liu",
+   "Yue Zhang",
+   "Zheng Zhang"
+  ],
+  "abstract": "Despite Retrieval-Augmented Generation (RAG) showing promising capability in leveraging external knowledge, a comprehensive evaluation of RAG systems is still challenging due to the modular nature of RAG, evaluation of long-form responses and reliability of measurements. In this paper, we propose a fine-grained evaluation framework, RAGChecker, that incorporates a suite of diagnostic metrics for both the retrieval and generation modules. Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics. Using RAGChecker, we evaluate 8 RAG systems and conduct an in-depth analysis of their performance, revealing insightful patterns and trade-offs in the design choices of RAG architectures. The metrics of RAGChecker can guide researchers and practitioners in developing more effective RAG systems. This work has been open sourced at https://github.com/amazon-science/RAGChecker.",
+  "published": "2024-08-15",
+  "arxiv_id": "2408.08067",
+  "comment": "Under Review. Github Repo: https://github.com/amazon-science/RAGChecker",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "f08cd81718a2002516476c38255c66de1916e85d",
+  "externalIds": {
+   "DBLP": "conf/nips/RuQHZSCJWSLZWJ024",
+   "ArXiv": "2408.08067",
+   "DOI": "10.48550/arXiv.2408.08067",
+   "CorpusId": 271874517
+  },
+  "publicationVenue": {
+   "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+   "name": "Neural Information Processing Systems",
+   "type": "conference",
+   "alternate_names": [
+    "Neural Inf Process Syst",
+    "NeurIPS",
+    "NIPS"
+   ],
+   "url": "http://neurips.cc/"
+  },
+  "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+  "venue": "Neural Information Processing Systems",
+  "year": 2024,
+  "publicationDate": "2024-08-15",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2408.08067"
+  },
+  "authors": [
+   {
+    "authorId": "41017337",
+    "name": "Dongyu Ru"
+   },
+   {
+    "authorId": "2315986460",
+    "name": "Lin Qiu"
+   },
+   {
+    "authorId": "2311193493",
+    "name": "Xiangkun Hu"
+   },
+   {
+    "authorId": "2257868315",
+    "name": "Tianhang Zhang"
+   },
+   {
+    "authorId": "2321562456",
+    "name": "Peng Shi"
+   },
+   {
+    "authorId": "46923811",
+    "name": "Shuaichen Chang"
+   },
+   {
+    "authorId": "2109077713",
+    "name": "Cheng Jiayang"
+   },
+   {
+    "authorId": "35504092",
+    "name": "Cunxiang Wang"
+   },
+   {
+    "authorId": "2256995981",
+    "name": "Shichao Sun"
+   },
+   {
+    "authorId": "2108840269",
+    "name": "Huan Li"
+   },
+   {
+    "authorId": "2128158461",
+    "name": "Zi-Zhao Zhang"
+   },
+   {
+    "authorId": "2307185797",
+    "name": "Bin-Jie Wang"
+   },
+   {
+    "authorId": "3024518",
+    "name": "Jiarong Jiang"
+   },
+   {
+    "authorId": "2264160722",
+    "name": "Tong He"
+   },
+   {
+    "authorId": "2287451122",
+    "name": "Zhiguo Wang"
+   },
+   {
+    "authorId": "2217850099",
+    "name": "Peng-Fei Liu"
+   },
+   {
+    "authorId": "2260818095",
+    "name": "Yue Zhang"
+   },
+   {
+    "authorId": "2313339226",
+    "name": "Zheng Zhang"
+   }
+  ]
+ }
+}

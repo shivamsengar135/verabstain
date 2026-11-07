@@ -1,0 +1,58 @@
+{
+ "seed": {
+  "key": "nogueira2019monobert",
+  "title": "Passage Re-ranking with BERT",
+  "arxiv_id": "1901.04085",
+  "category": "retrieval",
+  "role": "method-component"
+ },
+ "arxiv": {
+  "title": "Passage Re-ranking with BERT",
+  "authors": [
+   "Rodrigo Nogueira",
+   "Kyunghyun Cho"
+  ],
+  "abstract": "Recently, neural models pretrained on a language modeling task, such as ELMo (Peters et al., 2017), OpenAI GPT (Radford et al., 2018), and BERT (Devlin et al., 2018), have achieved impressive results on various natural language processing tasks such as question-answering and natural language inference. In this paper, we describe a simple re-implementation of BERT for query-based passage re-ranking. Our system is the state of the art on the TREC-CAR dataset and the top entry in the leaderboard of the MS MARCO passage retrieval task, outperforming the previous state of the art by 27% (relative) in MRR@10. The code to reproduce our results is available at https://github.com/nyu-dl/dl4marco-bert",
+  "published": "2019-01-13",
+  "arxiv_id": "1901.04085",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "85e07116316e686bf787114ba10ca60f4ea7c5b2",
+  "externalIds": {
+   "ArXiv": "1901.04085",
+   "DBLP": "journals/corr/abs-1901-04085",
+   "MAG": "2909544278",
+   "DOI": "10.48550/arXiv.1901.04085",
+   "CorpusId": 58004692
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Passage Re-ranking with BERT",
+  "venue": "arXiv.org",
+  "year": 2019,
+  "publicationDate": "2019-01-13",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/1901.04085"
+  },
+  "authors": [
+   {
+    "authorId": "143744603",
+    "name": "Rodrigo Nogueira"
+   },
+   {
+    "authorId": "1979489",
+    "name": "Kyunghyun Cho"
+   }
+  ]
+ }
+}

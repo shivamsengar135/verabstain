@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_rag_rerank_triviaqa",
+ "n": 300,
+ "n_expected": 300,
+ "method": "rag_rerank",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.5033333333333333,
+ "match": 0.5033333333333333,
+ "match_norm": 0.5833333333333334,
+ "em": 0.5366666666666666,
+ "f1": 0.5925467068053274,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 580.8833333333333,
+ "mean_completion_tokens": 4.706666666666667,
+ "mean_llm_seconds": 1.2637179310001374,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.3191987596660815,
+ "wall_s": 49.91590619087219
+}

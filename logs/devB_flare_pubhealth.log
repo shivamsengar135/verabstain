@@ -1,0 +1,29 @@
+2026-11-05 02:50:31,885 ERROR JOB FAILED devB_flare_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 290, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 170, in run_job
+    examples = D.load(job["dataset"], job["split"], job.get("n"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in load
+    return [byid[i] for i in want]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in <listcomp>
+    return [byid[i] for i in want]
+            ~~~~^^^
+KeyError: 'pubdev:there'
+
+2026-11-05 03:01:19,889 INFO START devB_flare_pubhealth: 300/300 examples to run; projected 8 min
+2026-11-05 03:01:20,050 INFO devB_flare_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 03:01:20,069 INFO devB_flare_pubhealth: 50/300 done, 0 errors, 0s
+2026-11-05 03:01:20,084 INFO devB_flare_pubhealth: 75/300 done, 0 errors, 0s
+2026-11-05 03:01:20,103 INFO devB_flare_pubhealth: 100/300 done, 0 errors, 0s
+2026-11-05 03:01:20,123 INFO devB_flare_pubhealth: 125/300 done, 0 errors, 0s
+2026-11-05 03:01:25,535 INFO devB_flare_pubhealth: 150/300 done, 0 errors, 6s
+2026-11-05 03:01:25,564 INFO devB_flare_pubhealth: 175/300 done, 0 errors, 6s
+2026-11-05 03:01:25,589 INFO devB_flare_pubhealth: 200/300 done, 0 errors, 6s
+2026-11-05 03:01:28,508 INFO devB_flare_pubhealth: 225/300 done, 0 errors, 8s
+2026-11-05 03:01:30,151 INFO devB_flare_pubhealth: 250/300 done, 0 errors, 10s
+2026-11-05 03:01:30,190 INFO devB_flare_pubhealth: 275/300 done, 0 errors, 10s
+2026-11-05 03:01:30,888 INFO devB_flare_pubhealth: 300/300 done, 0 errors, 11s
+2026-11-05 03:01:31,371 INFO END devB_flare_pubhealth: complete, wall 0.2 min, stats {'llm_calls': 10, 'cache_hits': 315, 'prompt_tokens': 5565, 'completion_tokens': 20, 'llm_seconds': 14.425365300005069, 'retrievals': 0, 'verifier_pairs': 0}

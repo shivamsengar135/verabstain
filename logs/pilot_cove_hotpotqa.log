@@ -1,0 +1,6 @@
+2026-11-04 23:57:19,817 INFO START pilot_cove_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:58:02,643 INFO pilot_cove_hotpotqa: 25/100 done, 0 errors, 43s
+2026-11-04 23:58:35,556 INFO pilot_cove_hotpotqa: 50/100 done, 0 errors, 76s
+2026-11-04 23:59:08,117 INFO pilot_cove_hotpotqa: 75/100 done, 0 errors, 108s
+2026-11-04 23:59:37,116 INFO pilot_cove_hotpotqa: 100/100 done, 0 errors, 137s
+2026-11-04 23:59:37,119 INFO END pilot_cove_hotpotqa: complete, wall 2.3 min, stats {'llm_calls': 493, 'cache_hits': 100, 'prompt_tokens': 138810, 'completion_tokens': 13253, 'llm_seconds': 861.3932701000158, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,14 @@
+2026-11-05 02:03:30,922 INFO START devB_rag_largek_popqa_lt: 300/300 examples to run; projected 8 min
+2026-11-05 02:03:31,086 INFO devB_rag_largek_popqa_lt: 25/300 done, 0 errors, 0s
+2026-11-05 02:03:31,104 INFO devB_rag_largek_popqa_lt: 50/300 done, 0 errors, 0s
+2026-11-05 02:03:31,120 INFO devB_rag_largek_popqa_lt: 75/300 done, 0 errors, 0s
+2026-11-05 02:03:31,140 INFO devB_rag_largek_popqa_lt: 100/300 done, 0 errors, 0s
+2026-11-05 02:03:43,536 INFO devB_rag_largek_popqa_lt: 125/300 done, 0 errors, 12s
+2026-11-05 02:03:53,492 INFO devB_rag_largek_popqa_lt: 150/300 done, 0 errors, 22s
+2026-11-05 02:04:04,648 INFO devB_rag_largek_popqa_lt: 175/300 done, 0 errors, 34s
+2026-11-05 02:04:16,000 INFO devB_rag_largek_popqa_lt: 200/300 done, 0 errors, 45s
+2026-11-05 02:04:25,540 INFO devB_rag_largek_popqa_lt: 225/300 done, 0 errors, 54s
+2026-11-05 02:04:35,814 INFO devB_rag_largek_popqa_lt: 250/300 done, 0 errors, 65s
+2026-11-05 02:04:46,122 INFO devB_rag_largek_popqa_lt: 275/300 done, 0 errors, 75s
+2026-11-05 02:04:55,544 INFO devB_rag_largek_popqa_lt: 300/300 done, 0 errors, 84s
+2026-11-05 02:04:55,727 INFO END devB_rag_largek_popqa_lt: complete, wall 1.4 min, stats {'llm_calls': 198, 'cache_hits': 102, 'prompt_tokens': 190079, 'completion_tokens': 1018, 'llm_seconds': 671.6529298997484, 'retrievals': 0, 'verifier_pairs': 0}

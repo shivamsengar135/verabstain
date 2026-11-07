@@ -1,0 +1,20 @@
+{
+ "run_id": "main_chain_of_note_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "chain_of_note",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6938461538461539,
+ "rejected": 0.11692307692307692,
+ "fake_answer": 0.87,
+ "native_abstain_rate": 0.11692307692307692,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1447.9915384615385,
+ "mean_completion_tokens": 163.48153846153846,
+ "mean_llm_seconds": 11.617693167538494,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 11.350254802923054,
+ "wall_s": 29779.877759695053
+}

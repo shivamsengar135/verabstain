@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_flare_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "flare",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.29,
+ "match": 0.29,
+ "match_norm": 0.392,
+ "em": 0.34,
+ "f1": 0.4467224223804869,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.49,
+ "mean_prompt_tokens": 1470.99,
+ "mean_completion_tokens": 12.226,
+ "mean_llm_seconds": 2.4527384883998966,
+ "mean_retrievals": 2.49,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.9849529168000153,
+ "wall_s": 190.29718947410583
+}

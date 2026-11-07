@@ -1,0 +1,22 @@
+{
+ "run_id": "quant3bq8_rag_topk_hotpotqa",
+ "n": 200,
+ "n_expected": 200,
+ "method": "rag_topk",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.28,
+ "match": 0.28,
+ "match_norm": 0.355,
+ "em": 0.285,
+ "f1": 0.38464862914862913,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 596.075,
+ "mean_completion_tokens": 5.87,
+ "mean_llm_seconds": 1.1675061539998568,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.1753929014995448,
+ "wall_s": 68.99656271934509
+}

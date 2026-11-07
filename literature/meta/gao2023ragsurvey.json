@@ -1,0 +1,100 @@
+{
+ "seed": {
+  "key": "gao2023ragsurvey",
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "arxiv_id": "2312.10997",
+  "category": "survey",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "authors": [
+   "Yunfan Gao",
+   "Yun Xiong",
+   "Xinyu Gao",
+   "Kangxiang Jia",
+   "Jinliu Pan",
+   "Yuxi Bi",
+   "Yi Dai",
+   "Jiawei Sun",
+   "Meng Wang",
+   "Haofen Wang"
+  ],
+  "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development.",
+  "published": "2023-12-18",
+  "arxiv_id": "2312.10997",
+  "comment": "Ongoing Work",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "46f9f7b8f88f72e12cbdb21e3311f995eb6e65c5",
+  "externalIds": {
+   "ArXiv": "2312.10997",
+   "DBLP": "journals/corr/abs-2312-10997",
+   "CorpusId": 266359151
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "venue": "arXiv.org",
+  "year": 2023,
+  "publicationDate": "2023-12-18",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2312.10997"
+  },
+  "authors": [
+   {
+    "authorId": "2280046531",
+    "name": "Yun-Fan Gao"
+   },
+   {
+    "authorId": "2275320371",
+    "name": "Yun Xiong"
+   },
+   {
+    "authorId": "2275341478",
+    "name": "Xin-Yu Gao"
+   },
+   {
+    "authorId": "2275191447",
+    "name": "Kang-Xiang Jia"
+   },
+   {
+    "authorId": "2403237825",
+    "name": "Jin Pan"
+   },
+   {
+    "authorId": "2275171009",
+    "name": "Yuxi Bi"
+   },
+   {
+    "authorId": "2220823886",
+    "name": "Yi Dai"
+   },
+   {
+    "authorId": "2159889626",
+    "name": "Jia-Wei Sun"
+   },
+   {
+    "authorId": "2258800561",
+    "name": "Qian-Yu Guo"
+   },
+   {
+    "authorId": "2291409458",
+    "name": "Meng Wang"
+   },
+   {
+    "authorId": "2256769434",
+    "name": "Hao-Fen Wang"
+   }
+  ]
+ }
+}

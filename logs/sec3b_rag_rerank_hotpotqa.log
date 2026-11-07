@@ -1,0 +1,28 @@
+2026-11-07 00:00:35,431 INFO START sec3b_rag_rerank_hotpotqa: 500/500 examples to run; projected 8 min
+2026-11-07 00:00:39,631 INFO sec3b_rag_rerank_hotpotqa: 25/500 done, 0 errors, 4s
+2026-11-07 00:00:43,355 INFO sec3b_rag_rerank_hotpotqa: 50/500 done, 0 errors, 8s
+2026-11-07 00:00:47,125 INFO sec3b_rag_rerank_hotpotqa: 75/500 done, 0 errors, 12s
+2026-11-07 00:00:50,827 INFO sec3b_rag_rerank_hotpotqa: 100/500 done, 0 errors, 15s
+2026-11-07 00:00:52,042 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=13.3 on_battery=False
+2026-11-07 00:01:12,053 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=3.7
+2026-11-07 00:01:14,160 INFO sec3b_rag_rerank_hotpotqa: 125/500 done, 0 errors, 39s
+2026-11-07 00:01:18,392 INFO sec3b_rag_rerank_hotpotqa: 150/500 done, 0 errors, 43s
+2026-11-07 00:01:21,558 INFO sec3b_rag_rerank_hotpotqa: 175/500 done, 0 errors, 46s
+2026-11-07 00:01:25,765 INFO sec3b_rag_rerank_hotpotqa: 200/500 done, 0 errors, 50s
+2026-11-07 00:01:29,127 INFO sec3b_rag_rerank_hotpotqa: 225/500 done, 0 errors, 54s
+2026-11-07 00:01:32,963 INFO sec3b_rag_rerank_hotpotqa: 250/500 done, 0 errors, 57s
+2026-11-07 00:01:36,083 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=13.5 on_battery=False
+2026-11-07 00:01:36,179 INFO sec3b_rag_rerank_hotpotqa: 275/500 done, 0 errors, 61s
+2026-11-07 00:01:56,094 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=4.6
+2026-11-07 00:01:59,855 INFO sec3b_rag_rerank_hotpotqa: 300/500 done, 0 errors, 84s
+2026-11-07 00:02:03,892 INFO sec3b_rag_rerank_hotpotqa: 325/500 done, 0 errors, 88s
+2026-11-07 00:02:07,307 INFO sec3b_rag_rerank_hotpotqa: 350/500 done, 0 errors, 92s
+2026-11-07 00:02:10,587 INFO sec3b_rag_rerank_hotpotqa: 375/500 done, 0 errors, 95s
+2026-11-07 00:02:14,135 INFO sec3b_rag_rerank_hotpotqa: 400/500 done, 0 errors, 99s
+2026-11-07 00:02:16,117 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=12.7 on_battery=False
+2026-11-07 00:02:36,128 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=4.2
+2026-11-07 00:02:37,558 INFO sec3b_rag_rerank_hotpotqa: 425/500 done, 0 errors, 122s
+2026-11-07 00:02:40,853 INFO sec3b_rag_rerank_hotpotqa: 450/500 done, 0 errors, 125s
+2026-11-07 00:02:43,864 INFO sec3b_rag_rerank_hotpotqa: 475/500 done, 0 errors, 128s
+2026-11-07 00:02:46,708 INFO sec3b_rag_rerank_hotpotqa: 500/500 done, 0 errors, 131s
+2026-11-07 00:02:46,914 INFO END sec3b_rag_rerank_hotpotqa: complete, wall 2.2 min, stats {'llm_calls': 499, 'cache_hits': 1, 'prompt_tokens': 288638, 'completion_tokens': 2436, 'llm_seconds': 561.6488306000356, 'retrievals': 0, 'verifier_pairs': 0}

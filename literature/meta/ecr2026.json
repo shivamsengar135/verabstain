@@ -1,0 +1,52 @@
+{
+ "seed": {
+  "key": "ecr2026",
+  "title": "Entropic Claim Resolution: Uncertainty-Driven Evidence Selection for RAG",
+  "arxiv_id": "2603.28444",
+  "category": "verification",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Entropic Claim Resolution: Uncertainty-Driven Evidence Selection for RAG",
+  "authors": [
+   "Davide Di Gioia"
+  ],
+  "abstract": "Current Retrieval-Augmented Generation (RAG) systems predominantly rely on relevance-based dense retrieval, sequentially fetching documents to maximize semantic similarity with the query. However, in knowledge-intensive and real-world scenarios characterized by conflicting evidence or fundamental query ambiguity, relevance alone is insufficient for resolving epistemic uncertainty. We introduce Entropic Claim Resolution (ECR), a novel inference-time algorithm that reframes RAG reasoning as entropy minimization over competing semantic answer hypotheses. Unlike action-driven agentic frameworks (e.g., ReAct) or fixed-pipeline RAG architectures, ECR sequentially selects atomic evidence claims by maximizing Expected Entropy Reduction (EER), a decision-theoretic criterion for the value of information. The process dynamically terminates when the system reaches a mathematically defined state of epistemic sufficiency (H <= epsilon, subject to epistemic coherence). We integrate ECR into a production-grade multi-strategy retrieval pipeline (CSGR++) and analyze its theoretical properties. Our framework provides a rigorous foundation for uncertainty-aware evidence selection, shifting the paradigm from retrieving what is most relevant to retrieving what is most discriminative.",
+  "published": "2026-03-30",
+  "arxiv_id": "2603.28444",
+  "comment": "Preprint",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "0b1b55f06e3ddcf334c20404433567bca4987b7b",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2603-28444",
+   "ArXiv": "2603.28444",
+   "DOI": "10.48550/arXiv.2603.28444",
+   "CorpusId": 286973988
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Entropic Claim Resolution: Uncertainty-Driven Evidence Selection for RAG",
+  "venue": "arXiv.org",
+  "year": 2026,
+  "publicationDate": "2026-03-30",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2603.28444"
+  },
+  "authors": [
+   {
+    "authorId": "2485380557",
+    "name": "Davide Di Gioia"
+   }
+  ]
+ }
+}

@@ -1,0 +1,28 @@
+2026-11-07 00:25:38,942 INFO START sec3b_ragverify_hotpotqa: 500/500 examples to run; projected 25 min
+2026-11-07 00:25:55,764 INFO sec3b_ragverify_hotpotqa: 25/500 done, 0 errors, 17s
+2026-11-07 00:26:07,438 INFO sec3b_ragverify_hotpotqa: 50/500 done, 0 errors, 28s
+2026-11-07 00:26:20,081 INFO sec3b_ragverify_hotpotqa: 75/500 done, 0 errors, 41s
+2026-11-07 00:26:31,284 INFO sec3b_ragverify_hotpotqa: 100/500 done, 0 errors, 52s
+2026-11-07 00:26:44,849 INFO sec3b_ragverify_hotpotqa: 125/500 done, 0 errors, 66s
+2026-11-07 00:26:54,136 INFO sec3b_ragverify_hotpotqa: 150/500 done, 0 errors, 75s
+2026-11-07 00:27:03,101 WARNING PAUSE: gpu_temp=82 cpu_zone=54.9 cpu_load=15.4 on_battery=False
+2026-11-07 00:27:23,113 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=3.0
+2026-11-07 00:27:26,067 INFO sec3b_ragverify_hotpotqa: 175/500 done, 0 errors, 107s
+2026-11-07 00:27:37,486 INFO sec3b_ragverify_hotpotqa: 200/500 done, 0 errors, 118s
+2026-11-07 00:27:49,336 INFO sec3b_ragverify_hotpotqa: 225/500 done, 0 errors, 130s
+2026-11-07 00:28:00,652 INFO sec3b_ragverify_hotpotqa: 250/500 done, 0 errors, 142s
+2026-11-07 00:28:12,174 INFO sec3b_ragverify_hotpotqa: 275/500 done, 0 errors, 153s
+2026-11-07 00:28:22,780 INFO sec3b_ragverify_hotpotqa: 300/500 done, 0 errors, 164s
+2026-11-07 00:28:25,217 WARNING PAUSE: gpu_temp=82 cpu_zone=52.9 cpu_load=16.8 on_battery=False
+2026-11-07 00:28:45,230 WARNING RESUME: gpu_temp=47 cpu_zone=46.9 cpu_load=2.3
+2026-11-07 00:28:54,074 INFO sec3b_ragverify_hotpotqa: 325/500 done, 0 errors, 195s
+2026-11-07 00:29:06,294 INFO sec3b_ragverify_hotpotqa: 350/500 done, 0 errors, 207s
+2026-11-07 00:29:16,104 INFO sec3b_ragverify_hotpotqa: 375/500 done, 0 errors, 217s
+2026-11-07 00:29:27,364 INFO sec3b_ragverify_hotpotqa: 400/500 done, 0 errors, 228s
+2026-11-07 00:29:41,249 INFO sec3b_ragverify_hotpotqa: 425/500 done, 0 errors, 242s
+2026-11-07 00:29:41,383 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=18.8 on_battery=False
+2026-11-07 00:30:01,394 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.3
+2026-11-07 00:30:10,613 INFO sec3b_ragverify_hotpotqa: 450/500 done, 0 errors, 272s
+2026-11-07 00:30:20,098 INFO sec3b_ragverify_hotpotqa: 475/500 done, 0 errors, 281s
+2026-11-07 00:30:32,656 INFO sec3b_ragverify_hotpotqa: 500/500 done, 0 errors, 294s
+2026-11-07 00:30:33,774 INFO END sec3b_ragverify_hotpotqa: complete, wall 4.9 min, stats {'llm_calls': 794, 'cache_hits': 750, 'prompt_tokens': 495295, 'completion_tokens': 26493, 'llm_seconds': 1820.8312774999358, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,56 @@
+2026-11-05 23:29:08,995 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=11.0 on_battery=False
+2026-11-05 23:29:09,496 INFO START main_closed_book_rgb: 1300/1300 examples to run; projected 3 min
+2026-11-05 23:29:29,010 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=1.2
+2026-11-05 23:29:30,885 INFO main_closed_book_rgb: 25/1300 done, 0 errors, 13s
+2026-11-05 23:29:32,225 INFO main_closed_book_rgb: 50/1300 done, 0 errors, 14s
+2026-11-05 23:29:33,369 INFO main_closed_book_rgb: 75/1300 done, 0 errors, 16s
+2026-11-05 23:29:34,936 INFO main_closed_book_rgb: 100/1300 done, 0 errors, 17s
+2026-11-05 23:29:36,362 INFO main_closed_book_rgb: 125/1300 done, 0 errors, 19s
+2026-11-05 23:29:37,865 INFO main_closed_book_rgb: 150/1300 done, 0 errors, 20s
+2026-11-05 23:29:39,545 INFO main_closed_book_rgb: 175/1300 done, 0 errors, 22s
+2026-11-05 23:29:41,061 INFO main_closed_book_rgb: 200/1300 done, 0 errors, 23s
+2026-11-05 23:29:42,088 INFO main_closed_book_rgb: 225/1300 done, 0 errors, 24s
+2026-11-05 23:29:43,416 INFO main_closed_book_rgb: 250/1300 done, 0 errors, 26s
+2026-11-05 23:29:44,541 INFO main_closed_book_rgb: 275/1300 done, 0 errors, 27s
+2026-11-05 23:29:45,508 INFO main_closed_book_rgb: 300/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,518 INFO main_closed_book_rgb: 325/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,536 INFO main_closed_book_rgb: 350/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,550 INFO main_closed_book_rgb: 375/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,564 INFO main_closed_book_rgb: 400/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,576 INFO main_closed_book_rgb: 425/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,591 INFO main_closed_book_rgb: 450/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,609 INFO main_closed_book_rgb: 475/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,623 INFO main_closed_book_rgb: 500/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,636 INFO main_closed_book_rgb: 525/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,653 INFO main_closed_book_rgb: 550/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,667 INFO main_closed_book_rgb: 575/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,681 INFO main_closed_book_rgb: 600/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,694 INFO main_closed_book_rgb: 625/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,707 INFO main_closed_book_rgb: 650/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,722 INFO main_closed_book_rgb: 675/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,736 INFO main_closed_book_rgb: 700/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,749 INFO main_closed_book_rgb: 725/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,761 INFO main_closed_book_rgb: 750/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,774 INFO main_closed_book_rgb: 775/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,785 INFO main_closed_book_rgb: 800/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,798 INFO main_closed_book_rgb: 825/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,809 INFO main_closed_book_rgb: 850/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,821 INFO main_closed_book_rgb: 875/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,834 INFO main_closed_book_rgb: 900/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,846 INFO main_closed_book_rgb: 925/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,860 INFO main_closed_book_rgb: 950/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,872 INFO main_closed_book_rgb: 975/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,885 INFO main_closed_book_rgb: 1000/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,895 INFO main_closed_book_rgb: 1025/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,909 INFO main_closed_book_rgb: 1050/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,921 INFO main_closed_book_rgb: 1075/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,932 INFO main_closed_book_rgb: 1100/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,945 INFO main_closed_book_rgb: 1125/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,956 INFO main_closed_book_rgb: 1150/1300 done, 0 errors, 28s
+2026-11-05 23:29:45,968 INFO main_closed_book_rgb: 1175/1300 done, 0 errors, 28s
+2026-11-05 23:29:46,181 INFO main_closed_book_rgb: 1200/1300 done, 0 errors, 28s
+2026-11-05 23:29:47,550 INFO main_closed_book_rgb: 1225/1300 done, 0 errors, 30s
+2026-11-05 23:29:48,989 INFO main_closed_book_rgb: 1250/1300 done, 0 errors, 31s
+2026-11-05 23:29:50,213 INFO main_closed_book_rgb: 1275/1300 done, 0 errors, 32s
+2026-11-05 23:29:51,330 INFO main_closed_book_rgb: 1300/1300 done, 0 errors, 34s
+2026-11-05 23:29:51,514 INFO END main_closed_book_rgb: complete, wall 0.6 min, stats {'llm_calls': 403, 'cache_hits': 897, 'prompt_tokens': 22823, 'completion_tokens': 2535, 'llm_seconds': 174.99664319998556, 'retrievals': 0, 'verifier_pairs': 0}

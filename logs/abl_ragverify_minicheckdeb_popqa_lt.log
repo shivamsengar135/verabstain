@@ -1,0 +1,38 @@
+2026-11-06 22:12:20,272 INFO START abl_ragverify_minicheckdeb_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-06 22:12:20,312 ERROR JOB FAILED abl_ragverify_minicheckdeb_popqa_lt:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 339, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 239, in run_job
+    verifier = make(job["verifier"], device=cfg.get("verifier_device", "cuda"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\verifier.py", line 214, in make
+    return MiniCheck(name.split("-", 1)[1], **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\verifier.py", line 74, in __init__
+    self.family = MiniCheck.family[variant]
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'deb-l'
+
+2026-11-07 01:13:58,495 INFO START abl_ragverify_minicheckdeb_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-07 01:14:21,296 INFO abl_ragverify_minicheckdeb_popqa_lt: 25/500 done, 0 errors, 13s
+2026-11-07 01:14:27,374 INFO abl_ragverify_minicheckdeb_popqa_lt: 50/500 done, 0 errors, 19s
+2026-11-07 01:14:29,829 INFO abl_ragverify_minicheckdeb_popqa_lt: 75/500 done, 0 errors, 22s
+2026-11-07 01:14:33,294 INFO abl_ragverify_minicheckdeb_popqa_lt: 100/500 done, 0 errors, 25s
+2026-11-07 01:14:35,370 INFO abl_ragverify_minicheckdeb_popqa_lt: 125/500 done, 0 errors, 27s
+2026-11-07 01:14:37,730 INFO abl_ragverify_minicheckdeb_popqa_lt: 150/500 done, 0 errors, 29s
+2026-11-07 01:14:40,003 INFO abl_ragverify_minicheckdeb_popqa_lt: 175/500 done, 0 errors, 32s
+2026-11-07 01:14:42,099 INFO abl_ragverify_minicheckdeb_popqa_lt: 200/500 done, 0 errors, 34s
+2026-11-07 01:14:44,944 INFO abl_ragverify_minicheckdeb_popqa_lt: 225/500 done, 0 errors, 37s
+2026-11-07 01:14:47,677 INFO abl_ragverify_minicheckdeb_popqa_lt: 250/500 done, 0 errors, 39s
+2026-11-07 01:14:50,590 INFO abl_ragverify_minicheckdeb_popqa_lt: 275/500 done, 0 errors, 42s
+2026-11-07 01:14:53,117 INFO abl_ragverify_minicheckdeb_popqa_lt: 300/500 done, 0 errors, 45s
+2026-11-07 01:14:55,620 INFO abl_ragverify_minicheckdeb_popqa_lt: 325/500 done, 0 errors, 47s
+2026-11-07 01:14:58,535 INFO abl_ragverify_minicheckdeb_popqa_lt: 350/500 done, 0 errors, 50s
+2026-11-07 01:15:00,602 INFO abl_ragverify_minicheckdeb_popqa_lt: 375/500 done, 0 errors, 52s
+2026-11-07 01:15:02,601 INFO abl_ragverify_minicheckdeb_popqa_lt: 400/500 done, 0 errors, 54s
+2026-11-07 01:15:04,656 INFO abl_ragverify_minicheckdeb_popqa_lt: 425/500 done, 0 errors, 56s
+2026-11-07 01:15:06,641 INFO abl_ragverify_minicheckdeb_popqa_lt: 450/500 done, 0 errors, 58s
+2026-11-07 01:15:08,650 INFO abl_ragverify_minicheckdeb_popqa_lt: 475/500 done, 0 errors, 60s
+2026-11-07 01:15:10,479 INFO abl_ragverify_minicheckdeb_popqa_lt: 500/500 done, 0 errors, 62s
+2026-11-07 01:15:11,287 INFO END abl_ragverify_minicheckdeb_popqa_lt: complete, wall 1.0 min, stats {'llm_calls': 19, 'cache_hits': 1116, 'prompt_tokens': 10451, 'completion_tokens': 364, 'llm_seconds': 28.4982767000256, 'retrievals': 0, 'verifier_pairs': 0}

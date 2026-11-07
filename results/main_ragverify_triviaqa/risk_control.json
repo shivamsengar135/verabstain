@@ -1,0 +1,46 @@
+{
+ "run_id": "main_ragverify_triviaqa",
+ "n": 1000,
+ "0.05": {
+  "crc": {
+   "risk_mean": 0.05088,
+   "risk_sd": 0.013536085106115432,
+   "frac_risk_gt_alpha": 0.49,
+   "coverage_mean": 0.45442
+  },
+  "ltt": {
+   "risk_mean": 0.002330316742081448,
+   "risk_sd": 0.016313001656789013,
+   "frac_risk_gt_alpha": 0.02,
+   "coverage_mean": 0.00172
+  }
+ },
+ "0.1": {
+  "crc": {
+   "risk_mean": 0.09922,
+   "risk_sd": 0.017400908022284355,
+   "frac_risk_gt_alpha": 0.44,
+   "coverage_mean": 0.6408
+  },
+  "ltt": {
+   "risk_mean": 0.027620590598968126,
+   "risk_sd": 0.031954510231062085,
+   "frac_risk_gt_alpha": 0.04,
+   "coverage_mean": 0.04548000000000001
+  }
+ },
+ "0.2": {
+  "crc": {
+   "risk_mean": 0.20010000000000003,
+   "risk_sd": 0.0240039580069621,
+   "frac_risk_gt_alpha": 0.53,
+   "coverage_mean": 0.8312399999999998
+  },
+  "ltt": {
+   "risk_mean": 0.15557032348908856,
+   "risk_sd": 0.05767284885086738,
+   "frac_risk_gt_alpha": 0.12,
+   "coverage_mean": 0.61522
+  }
+ }
+}

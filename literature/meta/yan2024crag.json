@@ -1,0 +1,67 @@
+{
+ "seed": {
+  "key": "yan2024crag",
+  "title": "Corrective Retrieval Augmented Generation",
+  "arxiv_id": "2401.15884",
+  "category": "corrective",
+  "role": "baseline"
+ },
+ "arxiv": {
+  "title": "Corrective Retrieval Augmented Generation",
+  "authors": [
+   "Shi-Qi Yan",
+   "Jia-Chen Gu",
+   "Yun Zhu",
+   "Zhen-Hua Ling"
+  ],
+  "abstract": "Large language models (LLMs) inevitably exhibit hallucinations since the accuracy of generated texts cannot be secured solely by the parametric knowledge they encapsulate. Although retrieval-augmented generation (RAG) is a practicable complement to LLMs, it relies heavily on the relevance of retrieved documents, raising concerns about how the model behaves if retrieval goes wrong. To this end, we propose the Corrective Retrieval Augmented Generation (CRAG) to improve the robustness of generation. Specifically, a lightweight retrieval evaluator is designed to assess the overall quality of retrieved documents for a query, returning a confidence degree based on which different knowledge retrieval actions can be triggered. Since retrieval from static and limited corpora can only return sub-optimal documents, large-scale web searches are utilized as an extension for augmenting the retrieval results. Besides, a decompose-then-recompose algorithm is designed for retrieved documents to selectively focus on key information and filter out irrelevant information in them. CRAG is plug-and-play and can be seamlessly coupled with various RAG-based approaches. Experiments on four datasets covering short- and long-form generation tasks show that CRAG can significantly improve the performance of RAG-based approaches.",
+  "published": "2024-01-29",
+  "arxiv_id": "2401.15884",
+  "comment": "Update results, add more analysis, and fix typos",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "5bbc2b5aa6c63c6a2cfccf095d6020b063ad47ac",
+  "externalIds": {
+   "ArXiv": "2401.15884",
+   "DBLP": "journals/corr/abs-2401-15884",
+   "DOI": "10.48550/arXiv.2401.15884",
+   "CorpusId": 267312595
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Corrective Retrieval Augmented Generation",
+  "venue": "arXiv.org",
+  "year": 2024,
+  "publicationDate": "2024-01-29",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2401.15884"
+  },
+  "authors": [
+   {
+    "authorId": "2281761331",
+    "name": "Shi-Qi Yan"
+   },
+   {
+    "authorId": "3028818",
+    "name": "Jia-Chen Gu"
+   },
+   {
+    "authorId": "2281839893",
+    "name": "Yun Zhu"
+   },
+   {
+    "authorId": "2072392338",
+    "name": "Zhen-Hua Ling"
+   }
+  ]
+ }
+}

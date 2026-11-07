@@ -1,0 +1,83 @@
+{
+ "seed": {
+  "key": "quach2024clm",
+  "title": "Conformal Language Modeling",
+  "arxiv_id": "2306.10193",
+  "category": "conformal",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Conformal Language Modeling",
+  "authors": [
+   "Victor Quach",
+   "Adam Fisch",
+   "Tal Schuster",
+   "Adam Yala",
+   "Jae Ho Sohn",
+   "Tommi S. Jaakkola",
+   "Regina Barzilay"
+  ],
+  "abstract": "We propose a novel approach to conformal prediction for generative language models (LMs). Standard conformal prediction produces prediction sets -- in place of single predictions -- that have rigorous, statistical performance guarantees. LM responses are typically sampled from the model's predicted distribution over the large, combinatorial output space of natural language. Translating this process to conformal prediction, we calibrate a stopping rule for sampling different outputs from the LM that get added to a growing set of candidates until we are confident that the output set is sufficient. Since some samples may be low-quality, we also simultaneously calibrate and apply a rejection rule for removing candidates from the output set to reduce noise. Similar to conformal prediction, we prove that the sampled set returned by our procedure contains at least one acceptable answer with high probability, while still being empirically precise (i.e., small) on average. Furthermore, within this set of candidate responses, we show that we can also accurately identify subsets of individual components -- such as phrases or sentences -- that are each independently correct (e.g., that are not \"hallucinations\"), again with statistical guarantees. We demonstrate the promise of our approach on multiple tasks in open-domain question answering, text summarization, and radiology report generation using different LM variants.",
+  "published": "2023-06-16",
+  "arxiv_id": "2306.10193",
+  "comment": "ICLR 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "1c1d1b4e1edae9dca84ea655624a4c8dc7fef2a7",
+  "externalIds": {
+   "ArXiv": "2306.10193",
+   "DBLP": "conf/iclr/QuachFSYSJB24",
+   "DOI": "10.48550/arXiv.2306.10193",
+   "CorpusId": 259203582
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Conformal Language Modeling",
+  "venue": "International Conference on Learning Representations",
+  "year": 2023,
+  "publicationDate": "2023-06-16",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2306.10193"
+  },
+  "authors": [
+   {
+    "authorId": "52021665",
+    "name": "Victor Quach"
+   },
+   {
+    "authorId": "2064150446",
+    "name": "Adam Fisch"
+   },
+   {
+    "authorId": "32303439",
+    "name": "Tal Schuster"
+   },
+   {
+    "authorId": "3383328",
+    "name": "Adam Yala"
+   },
+   {
+    "authorId": "4949525",
+    "name": "J. H. Sohn"
+   },
+   {
+    "authorId": "35132120",
+    "name": "T. Jaakkola"
+   },
+   {
+    "authorId": "1741283",
+    "name": "R. Barzilay"
+   }
+  ]
+ }
+}

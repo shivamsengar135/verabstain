@@ -1,0 +1,22 @@
+{
+ "run_id": "rob_ragverify_hotpotqa_dist00",
+ "n": 300,
+ "n_expected": 300,
+ "method": "ragverify",
+ "dataset": "hotpotqa_dist00",
+ "split": "test",
+ "correct": 0.3466666666666667,
+ "match": 0.3466666666666667,
+ "match_norm": 0.37666666666666665,
+ "em": 0.3333333333333333,
+ "f1": 0.4327551707551708,
+ "native_abstain_rate": 0.26,
+ "mean_llm_calls": 3.1066666666666665,
+ "mean_prompt_tokens": 1206.8033333333333,
+ "mean_completion_tokens": 68.20333333333333,
+ "mean_llm_seconds": 9.477091299668178,
+ "mean_retrievals": 1.42,
+ "mean_verifier_pairs": 1.1133333333333333,
+ "mean_seconds": 5.7110602463332905,
+ "wall_s": 312.8676197528839
+}

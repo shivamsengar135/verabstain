@@ -1,0 +1,22 @@
+{
+ "run_id": "main_rag_largek_popqa_lt",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "rag_largek",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.544,
+ "match": 0.544,
+ "match_norm": 0.593,
+ "em": 0.518,
+ "f1": 0.5826159252624771,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1430.726,
+ "mean_completion_tokens": 4.374,
+ "mean_llm_seconds": 4.80871236780018,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.757320682799822,
+ "wall_s": 865.7504396438599
+}

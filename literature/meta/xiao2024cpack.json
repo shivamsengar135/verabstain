@@ -1,0 +1,79 @@
+{
+ "seed": {
+  "key": "xiao2024cpack",
+  "title": "C-Pack: Packed Resources For General Chinese Embeddings",
+  "arxiv_id": "2309.07597",
+  "category": "retrieval",
+  "role": "model"
+ },
+ "arxiv": {
+  "title": "C-Pack: Packed Resources For General Chinese Embeddings",
+  "authors": [
+   "Shitao Xiao",
+   "Zheng Liu",
+   "Peitian Zhang",
+   "Niklas Muennighoff",
+   "Defu Lian",
+   "Jian-Yun Nie"
+  ],
+  "abstract": "We introduce C-Pack, a package of resources that significantly advance the field of general Chinese embeddings. C-Pack includes three critical resources. 1) C-MTEB is a comprehensive benchmark for Chinese text embeddings covering 6 tasks and 35 datasets. 2) C-MTP is a massive text embedding dataset curated from labeled and unlabeled Chinese corpora for training embedding models. 3) C-TEM is a family of embedding models covering multiple sizes. Our models outperform all prior Chinese text embeddings on C-MTEB by up to +10% upon the time of the release. We also integrate and optimize the entire suite of training methods for C-TEM. Along with our resources on general Chinese embedding, we release our data and models for English text embeddings. The English models achieve state-of-the-art performance on MTEB benchmark; meanwhile, our released English data is 2 times larger than the Chinese data. All these resources are made publicly available at https://github.com/FlagOpen/FlagEmbedding.",
+  "published": "2023-09-14",
+  "arxiv_id": "2309.07597",
+  "comment": "SIGIR 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "95dda1571f1a33245726fb53e9d5060ac7a0af25",
+  "externalIds": {
+   "DBLP": "conf/sigir/XiaoLZMLN24",
+   "ArXiv": "2309.07597",
+   "DOI": "10.1145/3626772.3657878",
+   "CorpusId": 271114619
+  },
+  "publicationVenue": {
+   "id": "8dce23a9-44e0-4381-a39e-2acc1edff700",
+   "name": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+   "type": "conference",
+   "alternate_names": [
+    "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "Int ACM SIGIR Conf Res Dev Inf Retr",
+    "SIGIR",
+    "Annu Int ACM SIGIR Conf Res Dev Inf Retr"
+   ],
+   "url": "http://www.acm.org/sigir/"
+  },
+  "title": "C-Pack: Packed Resources For General Chinese Embeddings",
+  "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+  "year": 2023,
+  "publicationDate": "2023-09-14",
+  "journal": {
+   "name": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+  },
+  "authors": [
+   {
+    "authorId": "2051175765",
+    "name": "Shi-Tao Xiao"
+   },
+   {
+    "authorId": "2240687341",
+    "name": "Zheng Liu"
+   },
+   {
+    "authorId": "2153419738",
+    "name": "Peitian Zhang"
+   },
+   {
+    "authorId": "2037383772",
+    "name": "Niklas Muennighoff"
+   },
+   {
+    "authorId": "1862782",
+    "name": "De-Fu Lian"
+   },
+   {
+    "authorId": "2301152868",
+    "name": "Jian-yun Nie"
+   }
+  ]
+ }
+}

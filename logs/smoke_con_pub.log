@@ -1,0 +1,13 @@
+2026-11-04 22:47:31,592 INFO START smoke_con_pub: 5/5 examples to run; projected 2 min
+2026-11-04 22:47:31,601 ERROR JOB FAILED smoke_con_pub:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 256, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 161, in run_job
+    from ragverify.methods import REGISTRY, Ctx
+ImportError: cannot import name 'REGISTRY' from 'ragverify.methods' (C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\methods\__init__.py)
+
+2026-11-04 22:47:56,614 INFO START smoke_con_pub: 5/5 examples to run; projected 2 min
+2026-11-04 22:48:10,578 INFO END smoke_con_pub: complete, wall 0.2 min, stats {'llm_calls': 5, 'cache_hits': 0, 'prompt_tokens': 3728, 'completion_tokens': 26, 'llm_seconds': 16.498445300021558, 'retrievals': 0, 'verifier_pairs': 0}
+2026-11-04 22:49:15,277 INFO START smoke_con_pub: 5/5 examples to run; projected 2 min
+2026-11-04 22:49:30,189 INFO END smoke_con_pub: complete, wall 0.2 min, stats {'llm_calls': 5, 'cache_hits': 0, 'prompt_tokens': 3768, 'completion_tokens': 878, 'llm_seconds': 58.29279269998369, 'retrievals': 0, 'verifier_pairs': 0}

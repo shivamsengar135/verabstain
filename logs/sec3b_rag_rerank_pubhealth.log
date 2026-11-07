@@ -1,0 +1,30 @@
+2026-11-07 00:33:33,684 INFO START sec3b_rag_rerank_pubhealth: 500/500 examples to run; projected 8 min
+2026-11-07 00:33:33,804 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=13.6 on_battery=False
+2026-11-07 00:33:53,815 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.5
+2026-11-07 00:33:59,401 INFO sec3b_rag_rerank_pubhealth: 25/500 done, 0 errors, 26s
+2026-11-07 00:34:03,165 INFO sec3b_rag_rerank_pubhealth: 50/500 done, 0 errors, 29s
+2026-11-07 00:34:08,020 INFO sec3b_rag_rerank_pubhealth: 75/500 done, 0 errors, 34s
+2026-11-07 00:34:11,809 INFO sec3b_rag_rerank_pubhealth: 100/500 done, 0 errors, 38s
+2026-11-07 00:34:16,248 INFO sec3b_rag_rerank_pubhealth: 125/500 done, 0 errors, 42s
+2026-11-07 00:34:19,844 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=11.7 on_battery=False
+2026-11-07 00:34:20,645 INFO sec3b_rag_rerank_pubhealth: 150/500 done, 0 errors, 47s
+2026-11-07 00:34:39,856 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=3.8
+2026-11-07 00:34:44,766 INFO sec3b_rag_rerank_pubhealth: 175/500 done, 0 errors, 71s
+2026-11-07 00:34:49,161 INFO sec3b_rag_rerank_pubhealth: 200/500 done, 0 errors, 75s
+2026-11-07 00:34:53,385 INFO sec3b_rag_rerank_pubhealth: 225/500 done, 0 errors, 80s
+2026-11-07 00:34:57,419 INFO sec3b_rag_rerank_pubhealth: 250/500 done, 0 errors, 84s
+2026-11-07 00:34:59,874 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=12.8 on_battery=False
+2026-11-07 00:35:19,886 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=3.2
+2026-11-07 00:35:21,459 INFO sec3b_rag_rerank_pubhealth: 275/500 done, 0 errors, 108s
+2026-11-07 00:35:25,699 INFO sec3b_rag_rerank_pubhealth: 300/500 done, 0 errors, 112s
+2026-11-07 00:35:30,095 INFO sec3b_rag_rerank_pubhealth: 325/500 done, 0 errors, 116s
+2026-11-07 00:35:34,258 INFO sec3b_rag_rerank_pubhealth: 350/500 done, 0 errors, 120s
+2026-11-07 00:35:38,738 INFO sec3b_rag_rerank_pubhealth: 375/500 done, 0 errors, 125s
+2026-11-07 00:35:43,415 INFO sec3b_rag_rerank_pubhealth: 400/500 done, 0 errors, 130s
+2026-11-07 00:35:47,256 INFO sec3b_rag_rerank_pubhealth: 425/500 done, 0 errors, 133s
+2026-11-07 00:35:47,902 WARNING PAUSE: gpu_temp=82 cpu_zone=49.9 cpu_load=14.8 on_battery=False
+2026-11-07 00:36:07,913 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.3
+2026-11-07 00:36:11,542 INFO sec3b_rag_rerank_pubhealth: 450/500 done, 0 errors, 158s
+2026-11-07 00:36:15,173 INFO sec3b_rag_rerank_pubhealth: 475/500 done, 0 errors, 161s
+2026-11-07 00:36:18,758 INFO sec3b_rag_rerank_pubhealth: 500/500 done, 0 errors, 165s
+2026-11-07 00:36:18,960 INFO END sec3b_rag_rerank_pubhealth: complete, wall 2.7 min, stats {'llm_calls': 499, 'cache_hits': 1, 'prompt_tokens': 382295, 'completion_tokens': 1193, 'llm_seconds': 682.4693466999634, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,6 @@
+2026-11-04 23:55:04,708 INFO START pilot_cove_triviaqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:55:45,746 INFO pilot_cove_triviaqa: 25/100 done, 0 errors, 41s
+2026-11-04 23:56:17,798 INFO pilot_cove_triviaqa: 50/100 done, 0 errors, 73s
+2026-11-04 23:56:51,150 INFO pilot_cove_triviaqa: 75/100 done, 0 errors, 106s
+2026-11-04 23:57:19,189 INFO pilot_cove_triviaqa: 100/100 done, 0 errors, 134s
+2026-11-04 23:57:19,201 INFO END pilot_cove_triviaqa: complete, wall 2.2 min, stats {'llm_calls': 499, 'cache_hits': 100, 'prompt_tokens': 145499, 'completion_tokens': 13179, 'llm_seconds': 890.0271865000541, 'retrievals': 0, 'verifier_pairs': 0}

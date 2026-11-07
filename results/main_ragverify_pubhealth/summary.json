@@ -1,0 +1,22 @@
+{
+ "run_id": "main_ragverify_pubhealth",
+ "n": 987,
+ "n_expected": 987,
+ "method": "ragverify",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.5319148936170213,
+ "match": 0.5319148936170213,
+ "match_norm": 0.5319148936170213,
+ "em": 0.5319148936170213,
+ "f1": 0.5319148936170213,
+ "native_abstain_rate": 0.04356636271529889,
+ "mean_llm_calls": 2.32725430597771,
+ "mean_prompt_tokens": 1111.146909827761,
+ "mean_completion_tokens": 54.08206686930091,
+ "mean_llm_seconds": 7.818557049848149,
+ "mean_retrievals": 1.1408308004052685,
+ "mean_verifier_pairs": 1.1408308004052685,
+ "mean_seconds": 7.454225494731602,
+ "wall_s": 2086.4293229579926
+}

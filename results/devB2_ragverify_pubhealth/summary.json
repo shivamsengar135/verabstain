@@ -1,0 +1,22 @@
+{
+ "run_id": "devB2_ragverify_pubhealth",
+ "n": 300,
+ "n_expected": 300,
+ "method": "ragverify",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.41,
+ "match": 0.41,
+ "match_norm": 0.41,
+ "em": 0.41,
+ "f1": 0.41,
+ "native_abstain_rate": 0.09,
+ "mean_llm_calls": 2.283333333333333,
+ "mean_prompt_tokens": 896.8133333333334,
+ "mean_completion_tokens": 48.17333333333333,
+ "mean_llm_seconds": 4.895791307665398,
+ "mean_retrievals": 1.0966666666666667,
+ "mean_verifier_pairs": 1.0966666666666667,
+ "mean_seconds": 1.7154976483329665,
+ "wall_s": 81.62127351760864
+}

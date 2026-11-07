@@ -1,0 +1,80 @@
+{
+ "seed": {
+  "key": "feng2024dontabstain",
+  "title": "Don't Hallucinate Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+  "arxiv_id": "2402.00367",
+  "category": "uncertainty",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+  "authors": [
+   "Shangbin Feng",
+   "Weijia Shi",
+   "Yike Wang",
+   "Wenxuan Ding",
+   "Vidhisha Balachandran",
+   "Yulia Tsvetkov"
+  ],
+  "abstract": "Despite efforts to expand the knowledge of large language models (LLMs), knowledge gaps -- missing or outdated information in LLMs -- might always persist given the evolving nature of knowledge. In this work, we study approaches to identify LLM knowledge gaps and abstain from answering questions when knowledge gaps are present. We first adapt existing approaches to model calibration or adaptation through fine-tuning/prompting and analyze their ability to abstain from generating low-confidence outputs. Motivated by their failures in self-reflection and over-reliance on held-out sets, we propose two novel approaches that are based on model collaboration, i.e., LLMs probing other LLMs for knowledge gaps, either cooperatively or competitively. Extensive experiments with three LLMs on four QA tasks featuring diverse knowledge domains demonstrate that both cooperative and competitive approaches to unveiling LLM knowledge gaps achieve up to 19.3% improvements on abstain accuracy against the strongest baseline. Further analysis reveals that our proposed mechanisms could help identify failure cases in retrieval augmentation and pinpoint knowledge gaps in multi-hop reasoning.",
+  "published": "2024-02-01",
+  "arxiv_id": "2402.00367",
+  "comment": "ACL 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "25cee84e3a1541697a7c97443d7526574127c344",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2402-00367",
+   "ArXiv": "2402.00367",
+   "DOI": "10.48550/arXiv.2402.00367",
+   "CorpusId": 267365203
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2024,
+  "publicationDate": "2024-02-01",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2402.00367"
+  },
+  "authors": [
+   {
+    "authorId": "2114887261",
+    "name": "Shangbin Feng"
+   },
+   {
+    "authorId": "2254168375",
+    "name": "Wei-Jia Shi"
+   },
+   {
+    "authorId": "2108853330",
+    "name": "Yike Wang"
+   },
+   {
+    "authorId": "2282214127",
+    "name": "Wen-Xuan Ding"
+   },
+   {
+    "authorId": "143820870",
+    "name": "Vidhisha Balachandran"
+   },
+   {
+    "authorId": "2249583325",
+    "name": "Yulia Tsvetkov"
+   }
+  ]
+ }
+}

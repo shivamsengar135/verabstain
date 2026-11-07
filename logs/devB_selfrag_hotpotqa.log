@@ -1,0 +1,14 @@
+2026-11-05 02:46:48,064 INFO START devB_selfrag_hotpotqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:46:54,032 INFO devB_selfrag_hotpotqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:46:54,133 INFO devB_selfrag_hotpotqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:46:54,224 INFO devB_selfrag_hotpotqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:46:54,465 INFO devB_selfrag_hotpotqa: 100/300 done, 0 errors, 1s
+2026-11-05 02:47:23,641 INFO devB_selfrag_hotpotqa: 125/300 done, 0 errors, 30s
+2026-11-05 02:47:50,647 INFO devB_selfrag_hotpotqa: 150/300 done, 0 errors, 57s
+2026-11-05 02:48:16,106 INFO devB_selfrag_hotpotqa: 175/300 done, 0 errors, 82s
+2026-11-05 02:48:45,434 INFO devB_selfrag_hotpotqa: 200/300 done, 0 errors, 112s
+2026-11-05 02:49:11,844 INFO devB_selfrag_hotpotqa: 225/300 done, 0 errors, 138s
+2026-11-05 02:49:40,852 INFO devB_selfrag_hotpotqa: 250/300 done, 0 errors, 167s
+2026-11-05 02:50:06,289 INFO devB_selfrag_hotpotqa: 275/300 done, 0 errors, 192s
+2026-11-05 02:50:31,674 INFO devB_selfrag_hotpotqa: 300/300 done, 0 errors, 218s
+2026-11-05 02:50:31,857 INFO END devB_selfrag_hotpotqa: complete, wall 3.6 min, stats {'llm_calls': 1400, 'cache_hits': 700, 'prompt_tokens': 177471, 'completion_tokens': 28135, 'llm_seconds': 1687.6102855003846, 'retrievals': 0, 'verifier_pairs': 0}

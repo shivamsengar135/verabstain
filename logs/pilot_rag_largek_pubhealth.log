@@ -1,0 +1,18 @@
+2026-11-04 23:24:14,231 INFO START pilot_rag_largek_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:24:18,257 ERROR JOB FAILED pilot_rag_largek_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 259, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 158, in run_job
+    st = llm_server.start(job["server"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\llm_server.py", line 94, in start
+    raise RuntimeError(f"llama-server exited early (code {p.returncode}); see {log}")
+RuntimeError: llama-server exited early (code 1); see C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\logs\server\qwen7b_q4-20261104-232414.log
+
+2026-11-04 23:37:11,390 INFO START pilot_rag_largek_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:37:25,516 INFO pilot_rag_largek_pubhealth: 25/100 done, 0 errors, 14s
+2026-11-04 23:37:37,834 INFO pilot_rag_largek_pubhealth: 50/100 done, 0 errors, 26s
+2026-11-04 23:37:50,085 INFO pilot_rag_largek_pubhealth: 75/100 done, 0 errors, 39s
+2026-11-04 23:38:00,855 INFO pilot_rag_largek_pubhealth: 100/100 done, 0 errors, 49s
+2026-11-04 23:38:00,864 INFO END pilot_rag_largek_pubhealth: complete, wall 0.8 min, stats {'llm_calls': 100, 'cache_hits': 0, 'prompt_tokens': 115584, 'completion_tokens': 200, 'llm_seconds': 387.44230609996885, 'retrievals': 0, 'verifier_pairs': 0}

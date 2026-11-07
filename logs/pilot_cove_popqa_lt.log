@@ -1,0 +1,6 @@
+2026-11-04 23:52:56,148 INFO START pilot_cove_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-04 23:53:36,679 INFO pilot_cove_popqa_lt: 25/100 done, 0 errors, 40s
+2026-11-04 23:54:07,791 INFO pilot_cove_popqa_lt: 50/100 done, 0 errors, 71s
+2026-11-04 23:54:38,797 INFO pilot_cove_popqa_lt: 75/100 done, 0 errors, 102s
+2026-11-04 23:55:04,145 INFO pilot_cove_popqa_lt: 100/100 done, 0 errors, 128s
+2026-11-04 23:55:04,159 INFO END pilot_cove_popqa_lt: complete, wall 2.1 min, stats {'llm_calls': 500, 'cache_hits': 100, 'prompt_tokens': 130986, 'completion_tokens': 11850, 'llm_seconds': 795.7470928000257, 'retrievals': 0, 'verifier_pairs': 0}

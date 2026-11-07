@@ -1,0 +1,21 @@
+2026-11-04 22:47:31,605 INFO START smoke_flare_hot: 5/5 examples to run; projected 2 min
+2026-11-04 22:47:31,630 ERROR JOB FAILED smoke_flare_hot:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 256, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 161, in run_job
+    from ragverify.methods import REGISTRY, Ctx
+ImportError: cannot import name 'REGISTRY' from 'ragverify.methods' (C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\methods\__init__.py)
+
+2026-11-04 22:48:10,633 INFO START smoke_flare_hot: 5/5 examples to run; projected 2 min
+2026-11-04 22:48:37,286 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 210, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+RuntimeError: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss\faiss\faiss\impl\io.cpp:70: Error: 'f' failed: could not open C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\indexes\wiki17\dense_ivf_sq8.faiss for reading: No such file or directory
+
+2026-11-04 22:48:37,286 INFO END smoke_flare_hot: partial 4/5, wall 0.4 min, stats {'llm_calls': 5, 'cache_hits': 0, 'prompt_tokens': 3079, 'completion_tokens': 27, 'llm_seconds': 13.548703799999203, 'retrievals': 0, 'verifier_pairs': 0}

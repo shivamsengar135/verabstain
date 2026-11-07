@@ -1,0 +1,22 @@
+2026-11-06 23:27:39,700 INFO START abl_ragverify_rounds1_hotpotqa: 500/500 examples to run; projected 25 min
+2026-11-06 23:27:39,972 INFO abl_ragverify_rounds1_hotpotqa: 25/500 done, 0 errors, 0s
+2026-11-06 23:27:40,099 INFO abl_ragverify_rounds1_hotpotqa: 50/500 done, 0 errors, 0s
+2026-11-06 23:27:40,244 INFO abl_ragverify_rounds1_hotpotqa: 75/500 done, 0 errors, 0s
+2026-11-06 23:27:40,384 INFO abl_ragverify_rounds1_hotpotqa: 100/500 done, 0 errors, 1s
+2026-11-06 23:27:40,541 INFO abl_ragverify_rounds1_hotpotqa: 125/500 done, 0 errors, 1s
+2026-11-06 23:27:40,663 INFO abl_ragverify_rounds1_hotpotqa: 150/500 done, 0 errors, 1s
+2026-11-06 23:27:40,790 INFO abl_ragverify_rounds1_hotpotqa: 175/500 done, 0 errors, 1s
+2026-11-06 23:27:40,905 INFO abl_ragverify_rounds1_hotpotqa: 200/500 done, 0 errors, 1s
+2026-11-06 23:27:41,020 INFO abl_ragverify_rounds1_hotpotqa: 225/500 done, 0 errors, 1s
+2026-11-06 23:27:41,157 INFO abl_ragverify_rounds1_hotpotqa: 250/500 done, 0 errors, 1s
+2026-11-06 23:27:41,281 INFO abl_ragverify_rounds1_hotpotqa: 275/500 done, 0 errors, 1s
+2026-11-06 23:27:41,410 INFO abl_ragverify_rounds1_hotpotqa: 300/500 done, 0 errors, 2s
+2026-11-06 23:27:41,537 INFO abl_ragverify_rounds1_hotpotqa: 325/500 done, 0 errors, 2s
+2026-11-06 23:27:41,669 INFO abl_ragverify_rounds1_hotpotqa: 350/500 done, 0 errors, 2s
+2026-11-06 23:27:41,804 INFO abl_ragverify_rounds1_hotpotqa: 375/500 done, 0 errors, 2s
+2026-11-06 23:27:41,932 INFO abl_ragverify_rounds1_hotpotqa: 400/500 done, 0 errors, 2s
+2026-11-06 23:27:42,070 INFO abl_ragverify_rounds1_hotpotqa: 425/500 done, 0 errors, 2s
+2026-11-06 23:27:42,197 INFO abl_ragverify_rounds1_hotpotqa: 450/500 done, 0 errors, 2s
+2026-11-06 23:27:42,300 INFO abl_ragverify_rounds1_hotpotqa: 475/500 done, 0 errors, 2s
+2026-11-06 23:27:42,403 INFO abl_ragverify_rounds1_hotpotqa: 500/500 done, 0 errors, 3s
+2026-11-06 23:27:42,630 INFO END abl_ragverify_rounds1_hotpotqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 1314, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

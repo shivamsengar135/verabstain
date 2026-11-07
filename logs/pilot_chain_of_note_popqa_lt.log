@@ -1,0 +1,6 @@
+2026-11-04 23:40:43,781 INFO START pilot_chain_of_note_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-04 23:41:17,143 INFO pilot_chain_of_note_popqa_lt: 25/100 done, 0 errors, 33s
+2026-11-04 23:41:45,283 INFO pilot_chain_of_note_popqa_lt: 50/100 done, 0 errors, 61s
+2026-11-04 23:42:14,267 INFO pilot_chain_of_note_popqa_lt: 75/100 done, 0 errors, 90s
+2026-11-04 23:42:40,776 INFO pilot_chain_of_note_popqa_lt: 100/100 done, 0 errors, 117s
+2026-11-04 23:42:40,789 INFO END pilot_chain_of_note_popqa_lt: complete, wall 1.9 min, stats {'llm_calls': 100, 'cache_hits': 0, 'prompt_tokens': 61103, 'completion_tokens': 15913, 'llm_seconds': 918.4133115999575, 'retrievals': 0, 'verifier_pairs': 0}

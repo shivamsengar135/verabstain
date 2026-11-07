@@ -1,0 +1,92 @@
+{
+ "seed": {
+  "key": "unicr2025",
+  "title": "Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal",
+  "arxiv_id": "2509.01455",
+  "category": "conformal",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal",
+  "authors": [
+   "Markus Oehri",
+   "Giulia Conti",
+   "Kaviraj Pather",
+   "Alexandre Rossi",
+   "Laia Serra",
+   "Adrian Parody",
+   "Rogvi Johannesen",
+   "Aviaja Petersen",
+   "Arben Krasniqi"
+  ],
+  "abstract": "Deployed language models must decide not only what to answer but also when not to answer. We present UniCR, a unified framework that turns heterogeneous uncertainty evidence including sequence likelihoods, self-consistency dispersion, retrieval compatibility, and tool or verifier feedback into a calibrated probability of correctness and then enforces a user-specified error budget via principled refusal. UniCR learns a lightweight calibration head with temperature scaling and proper scoring, supports API-only models through black-box features, and offers distribution-free guarantees using conformal risk control. For long-form generation, we align confidence with semantic fidelity by supervising on atomic factuality scores derived from retrieved evidence, reducing confident hallucinations while preserving coverage. Experiments on short-form QA, code generation with execution tests, and retrieval-augmented long-form QA show consistent improvements in calibration metrics, lower area under the risk-coverage curve, and higher coverage at fixed risk compared to entropy or logit thresholds, post-hoc calibrators, and end-to-end selective baselines. Analyses reveal that evidence contradiction, semantic dispersion, and tool inconsistency are the dominant drivers of abstention, yielding informative user-facing refusal messages. The result is a portable recipe of evidence fusion to calibrated probability to risk-controlled decision that improves trustworthiness without fine-tuning the base model and remains valid under distribution shift.",
+  "published": "2025-09-01",
+  "arxiv_id": "2509.01455",
+  "comment": "arXiv admin note: This paper has been withdrawn by arXiv due to unverifiable authorship and affiliation",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "8ef570f049bc5b93c246976ab99b93d57fbb9897",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2509-01455",
+   "ArXiv": "2509.01455",
+   "DOI": "10.48550/arXiv.2509.01455",
+   "CorpusId": 281080456
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal",
+  "venue": "arXiv.org",
+  "year": 2025,
+  "publicationDate": "2025-09-01",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2509.01455"
+  },
+  "authors": [
+   {
+    "authorId": "2378711113",
+    "name": "Markus Oehri"
+   },
+   {
+    "authorId": "2407935152",
+    "name": "Giulia Conti"
+   },
+   {
+    "authorId": "2378706077",
+    "name": "Kaviraj Pather"
+   },
+   {
+    "authorId": "2087702749",
+    "name": "A. Rossi"
+   },
+   {
+    "authorId": "2378706137",
+    "name": "Laia Serra"
+   },
+   {
+    "authorId": "2378705321",
+    "name": "Adrian Parody"
+   },
+   {
+    "authorId": "2378710682",
+    "name": "Rogvi Johannesen"
+   },
+   {
+    "authorId": "2378630336",
+    "name": "Aviaja Petersen"
+   },
+   {
+    "authorId": "2158316466",
+    "name": "A. Krasniqi"
+   }
+  ]
+ }
+}

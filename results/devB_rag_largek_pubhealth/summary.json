@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_rag_largek_pubhealth",
+ "n": 300,
+ "n_expected": 300,
+ "method": "rag_largek",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.43,
+ "match": 0.43,
+ "match_norm": 0.43,
+ "em": 0.43,
+ "f1": 0.43,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1151.9433333333334,
+ "mean_completion_tokens": 2.0,
+ "mean_llm_seconds": 3.7924427329992856,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.5035571360006,
+ "wall_s": 111.7365140914917
+}

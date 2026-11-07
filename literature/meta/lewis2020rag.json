@@ -1,0 +1,110 @@
+{
+ "seed": {
+  "key": "lewis2020rag",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "arxiv_id": "2005.11401",
+  "category": "rag",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": [
+   "Patrick Lewis",
+   "Ethan Perez",
+   "Aleksandra Piktus",
+   "Fabio Petroni",
+   "Vladimir Karpukhin",
+   "Naman Goyal",
+   "Heinrich Küttler",
+   "Mike Lewis",
+   "Wen-tau Yih",
+   "Tim Rocktäschel",
+   "Sebastian Riedel",
+   "Douwe Kiela"
+  ],
+  "abstract": "Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
+  "published": "2020-05-22",
+  "arxiv_id": "2005.11401",
+  "comment": "Accepted at NeurIPS 2020",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+  "externalIds": {
+   "MAG": "3027879771",
+   "DBLP": "conf/nips/LewisPPPKGKLYR020",
+   "ArXiv": "2005.11401",
+   "DOI": "10.48550/arXiv.2005.11401",
+   "CorpusId": 218869575
+  },
+  "publicationVenue": {
+   "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+   "name": "Neural Information Processing Systems",
+   "type": "conference",
+   "alternate_names": [
+    "Neural Inf Process Syst",
+    "NeurIPS",
+    "NIPS"
+   ],
+   "url": "http://neurips.cc/"
+  },
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "venue": "Neural Information Processing Systems",
+  "year": 2020,
+  "publicationDate": "2020-05-22",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2005.11401"
+  },
+  "authors": [
+   {
+    "authorId": "145222654",
+    "name": "Patrick Lewis"
+   },
+   {
+    "authorId": "3439053",
+    "name": "Ethan Perez"
+   },
+   {
+    "authorId": "120174856",
+    "name": "Aleksandra Piktus"
+   },
+   {
+    "authorId": "40052301",
+    "name": "F. Petroni"
+   },
+   {
+    "authorId": "2067091563",
+    "name": "Vladimir Karpukhin"
+   },
+   {
+    "authorId": "2519247661",
+    "name": "Naman Goyal"
+   },
+   {
+    "authorId": "103131985",
+    "name": "Heinrich Kuttler"
+   },
+   {
+    "authorId": "35084211",
+    "name": "M. Lewis"
+   },
+   {
+    "authorId": "144105277",
+    "name": "Wen-tau Yih"
+   },
+   {
+    "authorId": "2620211",
+    "name": "Tim Rocktäschel"
+   },
+   {
+    "authorId": "48662861",
+    "name": "Sebastian Riedel"
+   },
+   {
+    "authorId": "1743722",
+    "name": "Douwe Kiela"
+   }
+  ]
+ }
+}

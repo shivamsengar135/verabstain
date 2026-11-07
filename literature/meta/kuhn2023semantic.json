@@ -1,0 +1,63 @@
+{
+ "seed": {
+  "key": "kuhn2023semantic",
+  "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+  "arxiv_id": "2302.09664",
+  "category": "uncertainty",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+  "authors": [
+   "Lorenz Kuhn",
+   "Yarin Gal",
+   "Sebastian Farquhar"
+  ],
+  "abstract": "We introduce a method to measure uncertainty in large language models. For tasks like question answering, it is essential to know when we can trust the natural language outputs of foundation models. We show that measuring uncertainty in natural language is challenging because of \"semantic equivalence\" -- different sentences can mean the same thing. To overcome these challenges we introduce semantic entropy -- an entropy which incorporates linguistic invariances created by shared meanings. Our method is unsupervised, uses only a single model, and requires no modifications to off-the-shelf language models. In comprehensive ablation studies we show that the semantic entropy is more predictive of model accuracy on question answering data sets than comparable baselines.",
+  "published": "2023-02-19",
+  "arxiv_id": "2302.09664",
+  "comment": "International Conference on Learning Representations 2023 (Spotlight)",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "507465f8d46489a68a527cb5304d76bdb6c31ed9",
+  "externalIds": {
+   "ArXiv": "2302.09664",
+   "DBLP": "journals/corr/abs-2302-09664",
+   "DOI": "10.48550/arXiv.2302.09664",
+   "CorpusId": 257039062
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+  "venue": "International Conference on Learning Representations",
+  "year": 2023,
+  "publicationDate": "2023-02-19",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2302.09664"
+  },
+  "authors": [
+   {
+    "authorId": "39879848",
+    "name": "Lorenz Kuhn"
+   },
+   {
+    "authorId": "2681954",
+    "name": "Yarin Gal"
+   },
+   {
+    "authorId": "33859827",
+    "name": "Sebastian Farquhar"
+   }
+  ]
+ }
+}

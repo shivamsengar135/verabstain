@@ -1,0 +1,22 @@
+{
+ "run_id": "main_flare_popqa_lt",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "flare",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.561,
+ "match": 0.561,
+ "match_norm": 0.601,
+ "em": 0.529,
+ "f1": 0.5944089058284712,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.376,
+ "mean_prompt_tokens": 823.686,
+ "mean_completion_tokens": 6.402,
+ "mean_llm_seconds": 2.77006501999998,
+ "mean_retrievals": 1.376,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.7545621201996983,
+ "wall_s": 131.57115507125854
+}

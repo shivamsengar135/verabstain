@@ -1,0 +1,80 @@
+{
+ "seed": {
+  "key": "mallen2023popqa",
+  "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+  "arxiv_id": "2212.10511",
+  "category": "adaptive",
+  "role": "dataset+method"
+ },
+ "arxiv": {
+  "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+  "authors": [
+   "Alex Mallen",
+   "Akari Asai",
+   "Victor Zhong",
+   "Rajarshi Das",
+   "Daniel Khashabi",
+   "Hannaneh Hajishirzi"
+  ],
+  "abstract": "Despite their impressive performance on diverse tasks, large language models (LMs) still struggle with tasks requiring rich world knowledge, implying the limitations of relying solely on their parameters to encode a wealth of world knowledge. This paper aims to understand LMs' strengths and limitations in memorizing factual knowledge, by conducting large-scale knowledge probing experiments of 10 models and 4 augmentation methods on PopQA, our new open-domain QA dataset with 14k questions. We find that LMs struggle with less popular factual knowledge, and that scaling fails to appreciably improve memorization of factual knowledge in the long tail. We then show that retrieval-augmented LMs largely outperform orders of magnitude larger LMs, while unassisted LMs remain competitive in questions about high-popularity entities. Based on those findings, we devise a simple, yet effective, method for powerful and efficient retrieval-augmented LMs, which retrieves non-parametric memories only when necessary. Experimental results show that this significantly improves models' performance while reducing the inference costs.",
+  "published": "2022-12-20",
+  "arxiv_id": "2212.10511",
+  "comment": "ACL 2023; Code and data available at https://github.com/AlexTMallen/adaptive-retrieval",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "c6ee979c2da4b55a8486abae4cd720422ab09b26",
+  "externalIds": {
+   "ArXiv": "2212.10511",
+   "DBLP": "conf/acl/MallenAZDKH23",
+   "ACL": "2023.acl-long.546",
+   "DOI": "10.18653/v1/2023.acl-long.546",
+   "CorpusId": 254877603
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2022,
+  "publicationDate": "2022-12-20",
+  "journal": {
+   "pages": "9802-9822"
+  },
+  "authors": [
+   {
+    "authorId": "2269472940",
+    "name": "Alex Troy Mallen"
+   },
+   {
+    "authorId": "35584853",
+    "name": "Akari Asai"
+   },
+   {
+    "authorId": "3428769",
+    "name": "Victor Zhong"
+   },
+   {
+    "authorId": "143863023",
+    "name": "Rajarshi Das"
+   },
+   {
+    "authorId": "1783281",
+    "name": "Daniel Khashabi"
+   },
+   {
+    "authorId": "2548384",
+    "name": "Hannaneh Hajishirzi"
+   }
+  ]
+ }
+}

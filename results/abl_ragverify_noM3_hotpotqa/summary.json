@@ -1,0 +1,22 @@
+{
+ "run_id": "abl_ragverify_noM3_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.36,
+ "match": 0.36,
+ "match_norm": 0.43,
+ "em": 0.394,
+ "f1": 0.49962386538192993,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.668,
+ "mean_prompt_tokens": 1022.078,
+ "mean_completion_tokens": 26.984,
+ "mean_llm_seconds": 5.908054527200853,
+ "mean_retrievals": 1.334,
+ "mean_verifier_pairs": 1.192,
+ "mean_seconds": 4.42984177320006,
+ "wall_s": 432.92820405960083
+}

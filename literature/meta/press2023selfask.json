@@ -1,0 +1,80 @@
+{
+ "seed": {
+  "key": "press2023selfask",
+  "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+  "arxiv_id": "2210.03350",
+  "category": "adaptive",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+  "authors": [
+   "Ofir Press",
+   "Muru Zhang",
+   "Sewon Min",
+   "Ludwig Schmidt",
+   "Noah A. Smith",
+   "Mike Lewis"
+  ],
+  "abstract": "We investigate the ability of language models to perform compositional reasoning tasks where the overall solution depends on correctly composing the answers to sub-problems. We measure how often models can correctly answer all sub-problems but not generate the overall solution, a ratio we call the compositionality gap. We evaluate this ratio by asking multi-hop questions with answers that require composing multiple facts unlikely to have been observed together during pretraining. In the GPT-3 family of models, as model size increases we show that the single-hop question answering performance improves faster than the multi-hop performance does, therefore the compositionality gap does not decrease. This surprising result suggests that while more powerful models memorize and recall more factual knowledge, they show no corresponding improvement in their ability to perform this kind of compositional reasoning. We then demonstrate how elicitive prompting (such as chain of thought) narrows the compositionality gap by reasoning explicitly. We present a new method, self-ask, that further improves on chain of thought. In our method, the model explicitly asks itself (and answers) follow-up questions before answering the initial question. We finally show that self-ask's structured prompting lets us easily plug in a search engine to answer the follow-up questions, which additionally improves accuracy.",
+  "published": "2022-10-07",
+  "arxiv_id": "2210.03350",
+  "comment": "To appear at Findings of EMNLP 2023",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "e070ff286709db28312e08b52b05539debe88146",
+  "externalIds": {
+   "ArXiv": "2210.03350",
+   "DBLP": "conf/emnlp/PressZMSSL23",
+   "DOI": "10.48550/arXiv.2210.03350",
+   "CorpusId": 252762102
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2022,
+  "publicationDate": "2022-10-07",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2210.03350"
+  },
+  "authors": [
+   {
+    "authorId": "40170001",
+    "name": "Ofir Press"
+   },
+   {
+    "authorId": "2116096584",
+    "name": "Muru Zhang"
+   },
+   {
+    "authorId": "48872685",
+    "name": "Sewon Min"
+   },
+   {
+    "authorId": "2073229454",
+    "name": "Ludwig Schmidt"
+   },
+   {
+    "authorId": "144365875",
+    "name": "Noah A. Smith"
+   },
+   {
+    "authorId": "35084211",
+    "name": "M. Lewis"
+   }
+  ]
+ }
+}

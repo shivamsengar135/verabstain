@@ -1,0 +1,31 @@
+{
+ "seed": {
+  "key": "cormack2009rrf",
+  "title": "Reciprocal rank fusion outperforms condorcet and individual rank learning methods",
+  "arxiv_id": "",
+  "category": "retrieval",
+  "role": "method-component"
+ },
+ "arxiv": null,
+ "s2": {
+  "title": "Reciprocal rank fusion outperforms condorcet and individual rank learning methods",
+  "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+  "year": 2009,
+  "externalIds": {
+   "DOI": "10.1145/1571941.1572114"
+  },
+  "authors": [
+   {
+    "name": "Gordon V. Cormack"
+   },
+   {
+    "name": "Charles L. A. Clarke"
+   },
+   {
+    "name": "Stefan Büttcher"
+   }
+  ],
+  "source": "openalex",
+  "openalex_id": "https://openalex.org/W2148972377"
+ }
+}

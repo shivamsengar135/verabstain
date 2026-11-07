@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_flare_popqa_lt",
+ "n": 500,
+ "n_expected": 500,
+ "method": "flare",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.458,
+ "match": 0.458,
+ "match_norm": 0.602,
+ "em": 0.534,
+ "f1": 0.6010598290598291,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.226,
+ "mean_prompt_tokens": 1191.174,
+ "mean_completion_tokens": 12.304,
+ "mean_llm_seconds": 2.250352873400108,
+ "mean_retrievals": 2.226,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.5180340614000523,
+ "wall_s": 164.04393601417542
+}

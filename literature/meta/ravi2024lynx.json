@@ -1,0 +1,72 @@
+{
+ "seed": {
+  "key": "ravi2024lynx",
+  "title": "Lynx: An Open Source Hallucination Evaluation Model",
+  "arxiv_id": "2407.08488",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Lynx: An Open Source Hallucination Evaluation Model",
+  "authors": [
+   "Selvan Sunitha Ravi",
+   "Bartosz Mielczarek",
+   "Anand Kannappan",
+   "Douwe Kiela",
+   "Rebecca Qian"
+  ],
+  "abstract": "Retrieval Augmented Generation (RAG) techniques aim to mitigate hallucinations in Large Language Models (LLMs). However, LLMs can still produce information that is unsupported or contradictory to the retrieved contexts. We introduce LYNX, a SOTA hallucination detection LLM that is capable of advanced reasoning on challenging real-world hallucination scenarios. To evaluate LYNX, we present HaluBench, a comprehensive hallucination evaluation benchmark, consisting of 15k samples sourced from various real-world domains. Our experiment results show that LYNX outperforms GPT-4o, Claude-3-Sonnet, and closed and open-source LLM-as-a-judge models on HaluBench. We release LYNX, HaluBench and our evaluation code for public access.",
+  "published": "2024-07-11",
+  "arxiv_id": "2407.08488",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "9de9fa60a786ca23f924f5521326b2a264c22228",
+  "externalIds": {
+   "ArXiv": "2407.08488",
+   "DBLP": "journals/corr/abs-2407-08488",
+   "DOI": "10.48550/arXiv.2407.08488",
+   "CorpusId": 271097527
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Lynx: An Open Source Hallucination Evaluation Model",
+  "venue": "arXiv.org",
+  "year": 2024,
+  "publicationDate": "2024-07-11",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2407.08488"
+  },
+  "authors": [
+   {
+    "authorId": "1749231011",
+    "name": "Selvan Sunitha Ravi"
+   },
+   {
+    "authorId": "2300406",
+    "name": "B. Mielczarek"
+   },
+   {
+    "authorId": "2266468273",
+    "name": "Anand Kannappan"
+   },
+   {
+    "authorId": "2111313627",
+    "name": "D. Kiela"
+   },
+   {
+    "authorId": "2266468744",
+    "name": "Rebecca Qian"
+   }
+  ]
+ }
+}

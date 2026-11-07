@@ -1,0 +1,227 @@
+{
+ "seed": {
+  "key": "kadavath2022know",
+  "title": "Language Models (Mostly) Know What They Know",
+  "arxiv_id": "2207.05221",
+  "category": "uncertainty",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Language Models (Mostly) Know What They Know",
+  "authors": [
+   "Saurav Kadavath",
+   "Tom Conerly",
+   "Amanda Askell",
+   "Tom Henighan",
+   "Dawn Drain",
+   "Ethan Perez",
+   "Nicholas Schiefer",
+   "Zac Hatfield-Dodds",
+   "Nova DasSarma",
+   "Eli Tran-Johnson",
+   "Scott Johnston",
+   "Sheer El-Showk",
+   "Andy Jones",
+   "Nelson Elhage",
+   "Tristan Hume",
+   "Anna Chen",
+   "Yuntao Bai",
+   "Sam Bowman",
+   "Stanislav Fort",
+   "Deep Ganguli",
+   "Danny Hernandez",
+   "Josh Jacobson",
+   "Jackson Kernion",
+   "Shauna Kravec",
+   "Liane Lovitt",
+   "Kamal Ndousse",
+   "Catherine Olsson",
+   "Sam Ringer",
+   "Dario Amodei",
+   "Tom Brown",
+   "Jack Clark",
+   "Nicholas Joseph",
+   "Ben Mann",
+   "Sam McCandlish",
+   "Chris Olah",
+   "Jared Kaplan"
+  ],
+  "abstract": "We study whether language models can evaluate the validity of their own claims and predict which questions they will be able to answer correctly. We first show that larger models are well-calibrated on diverse multiple choice and true/false questions when they are provided in the right format. Thus we can approach self-evaluation on open-ended sampling tasks by asking models to first propose answers, and then to evaluate the probability \"P(True)\" that their answers are correct. We find encouraging performance, calibration, and scaling for P(True) on a diverse array of tasks. Performance at self-evaluation further improves when we allow models to consider many of their own samples before predicting the validity of one specific possibility. Next, we investigate whether models can be trained to predict \"P(IK)\", the probability that \"I know\" the answer to a question, without reference to any particular proposed answer. Models perform well at predicting P(IK) and partially generalize across tasks, though they struggle with calibration of P(IK) on new tasks. The predicted P(IK) probabilities also increase appropriately in the presence of relevant source materials in the context, and in the presence of hints towards the solution of mathematical word problems. We hope these observations lay the groundwork for training more honest models, and for investigating how honesty generalizes to cases where models are trained on objectives other than the imitation of human writing.",
+  "published": "2022-07-11",
+  "arxiv_id": "2207.05221",
+  "comment": "23+17 pages; refs added, typos fixed",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "142ebbf4760145f591166bde2564ac70c001e927",
+  "externalIds": {
+   "ArXiv": "2207.05221",
+   "DBLP": "journals/corr/abs-2207-05221",
+   "DOI": "10.48550/arXiv.2207.05221",
+   "CorpusId": 250451161
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Language Models (Mostly) Know What They Know",
+  "venue": "arXiv.org",
+  "year": 2022,
+  "publicationDate": "2022-07-11",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2207.05221"
+  },
+  "authors": [
+   {
+    "authorId": "148070327",
+    "name": "Saurav Kadavath"
+   },
+   {
+    "authorId": "2154608209",
+    "name": "Tom Conerly"
+   },
+   {
+    "authorId": "119609682",
+    "name": "Amanda Askell"
+   },
+   {
+    "authorId": "103143311",
+    "name": "T. Henighan"
+   },
+   {
+    "authorId": "1943097969",
+    "name": "Dawn Drain"
+   },
+   {
+    "authorId": "3439053",
+    "name": "Ethan Perez"
+   },
+   {
+    "authorId": "2833768",
+    "name": "Nicholas Schiefer"
+   },
+   {
+    "authorId": "1573482302",
+    "name": "Zac Hatfield-Dodds"
+   },
+   {
+    "authorId": "2142833890",
+    "name": "Nova DasSarma"
+   },
+   {
+    "authorId": "2175781319",
+    "name": "Eli Tran-Johnson"
+   },
+   {
+    "authorId": "2154610174",
+    "name": "Scott Johnston"
+   },
+   {
+    "authorId": "2513113470",
+    "name": "Sheer El Showk"
+   },
+   {
+    "authorId": "2149890773",
+    "name": "Andy Jones"
+   },
+   {
+    "authorId": "2866708",
+    "name": "Nelson Elhage"
+   },
+   {
+    "authorId": "2162194147",
+    "name": "Tristan Hume"
+   },
+   {
+    "authorId": "2111073313",
+    "name": "Anna Chen"
+   },
+   {
+    "authorId": "1486307451",
+    "name": "Yuntao Bai"
+   },
+   {
+    "authorId": "1799822",
+    "name": "Sam Bowman"
+   },
+   {
+    "authorId": "30176974",
+    "name": "Stanislav Fort"
+   },
+   {
+    "authorId": "2081806483",
+    "name": "Deep Ganguli"
+   },
+   {
+    "authorId": "39182747",
+    "name": "Danny Hernandez"
+   },
+   {
+    "authorId": "1666368339",
+    "name": "Josh Jacobson"
+   },
+   {
+    "authorId": "1583434563",
+    "name": "John Kernion"
+   },
+   {
+    "authorId": "49604482",
+    "name": "S. Kravec"
+   },
+   {
+    "authorId": "2154608229",
+    "name": "Liane Lovitt"
+   },
+   {
+    "authorId": "1978097132",
+    "name": "Kamal Ndousse"
+   },
+   {
+    "authorId": "2061321863",
+    "name": "Catherine Olsson"
+   },
+   {
+    "authorId": "1380664820",
+    "name": "Sam Ringer"
+   },
+   {
+    "authorId": "2698777",
+    "name": "D. Amodei"
+   },
+   {
+    "authorId": "31035595",
+    "name": "Tom B. Brown"
+   },
+   {
+    "authorId": "2115193883",
+    "name": "Jack Clark"
+   },
+   {
+    "authorId": "2117706920",
+    "name": "Nicholas Joseph"
+   },
+   {
+    "authorId": "2056658938",
+    "name": "Benjamin Mann"
+   },
+   {
+    "authorId": "52238703",
+    "name": "Sam McCandlish"
+   },
+   {
+    "authorId": "2287268442",
+    "name": "Chris Olah"
+   },
+   {
+    "authorId": "2053807409",
+    "name": "J. Kaplan"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+2026-11-05 17:38:50,458 INFO START main_closed_book_pubhealth: 987/987 examples to run; projected 3 min
+2026-11-05 17:38:56,965 INFO main_closed_book_pubhealth: 25/987 done, 0 errors, 1s
+2026-11-05 17:38:57,546 INFO main_closed_book_pubhealth: 50/987 done, 0 errors, 1s
+2026-11-05 17:38:58,263 INFO main_closed_book_pubhealth: 75/987 done, 0 errors, 2s
+2026-11-05 17:38:58,865 INFO main_closed_book_pubhealth: 100/987 done, 0 errors, 3s
+2026-11-05 17:38:59,448 INFO main_closed_book_pubhealth: 125/987 done, 0 errors, 3s
+2026-11-05 17:38:59,965 INFO main_closed_book_pubhealth: 150/987 done, 0 errors, 4s
+2026-11-05 17:39:00,533 INFO main_closed_book_pubhealth: 175/987 done, 0 errors, 4s
+2026-11-05 17:39:01,095 INFO main_closed_book_pubhealth: 200/987 done, 0 errors, 5s
+2026-11-05 17:39:01,735 INFO main_closed_book_pubhealth: 225/987 done, 0 errors, 6s
+2026-11-05 17:39:02,440 INFO main_closed_book_pubhealth: 250/987 done, 0 errors, 6s
+2026-11-05 17:39:02,957 INFO main_closed_book_pubhealth: 275/987 done, 0 errors, 7s
+2026-11-05 17:39:03,558 INFO main_closed_book_pubhealth: 300/987 done, 0 errors, 7s
+2026-11-05 17:39:04,074 INFO main_closed_book_pubhealth: 325/987 done, 0 errors, 8s
+2026-11-05 17:39:04,627 INFO main_closed_book_pubhealth: 350/987 done, 0 errors, 8s
+2026-11-05 17:39:05,366 INFO main_closed_book_pubhealth: 375/987 done, 0 errors, 9s
+2026-11-05 17:39:05,962 INFO main_closed_book_pubhealth: 400/987 done, 0 errors, 10s
+2026-11-05 17:39:06,529 INFO main_closed_book_pubhealth: 425/987 done, 0 errors, 10s
+2026-11-05 17:39:07,113 INFO main_closed_book_pubhealth: 450/987 done, 0 errors, 11s
+2026-11-05 17:39:07,687 INFO main_closed_book_pubhealth: 475/987 done, 0 errors, 11s
+2026-11-05 17:39:08,249 INFO main_closed_book_pubhealth: 500/987 done, 0 errors, 12s
+2026-11-05 17:39:08,842 INFO main_closed_book_pubhealth: 525/987 done, 0 errors, 13s
+2026-11-05 17:39:09,465 INFO main_closed_book_pubhealth: 550/987 done, 0 errors, 13s
+2026-11-05 17:39:10,196 INFO main_closed_book_pubhealth: 575/987 done, 0 errors, 14s
+2026-11-05 17:39:10,800 INFO main_closed_book_pubhealth: 600/987 done, 0 errors, 15s
+2026-11-05 17:39:11,374 INFO main_closed_book_pubhealth: 625/987 done, 0 errors, 15s
+2026-11-05 17:39:11,953 INFO main_closed_book_pubhealth: 650/987 done, 0 errors, 16s
+2026-11-05 17:39:12,536 INFO main_closed_book_pubhealth: 675/987 done, 0 errors, 16s
+2026-11-05 17:39:13,115 INFO main_closed_book_pubhealth: 700/987 done, 0 errors, 17s
+2026-11-05 17:39:13,887 INFO main_closed_book_pubhealth: 725/987 done, 0 errors, 18s
+2026-11-05 17:39:13,977 WARNING PAUSE: gpu_temp=82 cpu_zone=86.9 cpu_load=11.6 on_battery=False
+2026-11-05 17:39:32,475 WARNING RESUME: gpu_temp=50 cpu_zone=49.9 cpu_load=1.2
+2026-11-05 17:39:33,055 INFO main_closed_book_pubhealth: 750/987 done, 0 errors, 37s
+2026-11-05 17:39:33,596 INFO main_closed_book_pubhealth: 775/987 done, 0 errors, 37s
+2026-11-05 17:39:34,132 INFO main_closed_book_pubhealth: 800/987 done, 0 errors, 38s
+2026-11-05 17:39:34,710 INFO main_closed_book_pubhealth: 825/987 done, 0 errors, 38s
+2026-11-05 17:39:35,307 INFO main_closed_book_pubhealth: 850/987 done, 0 errors, 39s
+2026-11-05 17:39:35,887 INFO main_closed_book_pubhealth: 875/987 done, 0 errors, 40s
+2026-11-05 17:39:36,618 INFO main_closed_book_pubhealth: 900/987 done, 0 errors, 40s
+2026-11-05 17:39:37,193 INFO main_closed_book_pubhealth: 925/987 done, 0 errors, 41s
+2026-11-05 17:39:37,757 INFO main_closed_book_pubhealth: 950/987 done, 0 errors, 42s
+2026-11-05 17:39:38,327 INFO main_closed_book_pubhealth: 975/987 done, 0 errors, 42s
+2026-11-05 17:39:38,691 INFO END main_closed_book_pubhealth: complete, wall 0.7 min, stats {'llm_calls': 987, 'cache_hits': 0, 'prompt_tokens': 71375, 'completion_tokens': 1974, 'llm_seconds': 187.0835852999826, 'retrievals': 0, 'verifier_pairs': 0}

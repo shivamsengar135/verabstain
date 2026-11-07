@@ -1,0 +1,44 @@
+2026-11-05 06:49:54,435 INFO START main_closed_book_triviaqa: 1000/1000 examples to run; projected 3 min
+2026-11-05 06:50:01,466 INFO main_closed_book_triviaqa: 25/1000 done, 0 errors, 1s
+2026-11-05 06:50:02,546 INFO main_closed_book_triviaqa: 50/1000 done, 0 errors, 2s
+2026-11-05 06:50:03,515 INFO main_closed_book_triviaqa: 75/1000 done, 0 errors, 3s
+2026-11-05 06:50:04,543 INFO main_closed_book_triviaqa: 100/1000 done, 0 errors, 4s
+2026-11-05 06:50:05,537 INFO main_closed_book_triviaqa: 125/1000 done, 0 errors, 5s
+2026-11-05 06:50:06,671 INFO main_closed_book_triviaqa: 150/1000 done, 0 errors, 6s
+2026-11-05 06:50:07,780 INFO main_closed_book_triviaqa: 175/1000 done, 0 errors, 8s
+2026-11-05 06:50:08,781 INFO main_closed_book_triviaqa: 200/1000 done, 0 errors, 9s
+2026-11-05 06:50:09,924 INFO main_closed_book_triviaqa: 225/1000 done, 0 errors, 10s
+2026-11-05 06:50:10,990 INFO main_closed_book_triviaqa: 250/1000 done, 0 errors, 11s
+2026-11-05 06:50:11,905 INFO main_closed_book_triviaqa: 275/1000 done, 0 errors, 12s
+2026-11-05 06:50:13,103 INFO main_closed_book_triviaqa: 300/1000 done, 0 errors, 13s
+2026-11-05 06:50:14,026 INFO main_closed_book_triviaqa: 325/1000 done, 0 errors, 14s
+2026-11-05 06:50:14,883 INFO main_closed_book_triviaqa: 350/1000 done, 0 errors, 15s
+2026-11-05 06:50:15,841 INFO main_closed_book_triviaqa: 375/1000 done, 0 errors, 16s
+2026-11-05 06:50:16,798 INFO main_closed_book_triviaqa: 400/1000 done, 0 errors, 17s
+2026-11-05 06:50:17,785 INFO main_closed_book_triviaqa: 425/1000 done, 0 errors, 18s
+2026-11-05 06:50:18,960 INFO main_closed_book_triviaqa: 450/1000 done, 0 errors, 19s
+2026-11-05 06:50:20,097 INFO main_closed_book_triviaqa: 475/1000 done, 0 errors, 20s
+2026-11-05 06:50:21,182 INFO main_closed_book_triviaqa: 500/1000 done, 0 errors, 21s
+2026-11-05 06:50:22,196 INFO main_closed_book_triviaqa: 525/1000 done, 0 errors, 22s
+2026-11-05 06:50:23,309 INFO main_closed_book_triviaqa: 550/1000 done, 0 errors, 23s
+2026-11-05 06:50:24,347 INFO main_closed_book_triviaqa: 575/1000 done, 0 errors, 24s
+2026-11-05 06:50:25,349 INFO main_closed_book_triviaqa: 600/1000 done, 0 errors, 25s
+2026-11-05 06:50:26,404 INFO main_closed_book_triviaqa: 625/1000 done, 0 errors, 26s
+2026-11-05 06:50:27,352 INFO main_closed_book_triviaqa: 650/1000 done, 0 errors, 27s
+2026-11-05 06:50:28,474 INFO main_closed_book_triviaqa: 675/1000 done, 0 errors, 28s
+2026-11-05 06:50:29,316 INFO main_closed_book_triviaqa: 700/1000 done, 0 errors, 29s
+2026-11-05 06:50:30,456 INFO main_closed_book_triviaqa: 725/1000 done, 0 errors, 30s
+2026-11-05 06:50:31,389 INFO main_closed_book_triviaqa: 750/1000 done, 0 errors, 31s
+2026-11-05 06:50:32,390 INFO main_closed_book_triviaqa: 775/1000 done, 0 errors, 32s
+2026-11-05 06:50:33,393 INFO main_closed_book_triviaqa: 800/1000 done, 0 errors, 33s
+2026-11-05 06:50:34,412 INFO main_closed_book_triviaqa: 825/1000 done, 0 errors, 34s
+2026-11-05 06:50:35,377 INFO main_closed_book_triviaqa: 850/1000 done, 0 errors, 35s
+2026-11-05 06:50:36,460 INFO main_closed_book_triviaqa: 875/1000 done, 0 errors, 36s
+2026-11-05 06:50:37,529 INFO main_closed_book_triviaqa: 900/1000 done, 0 errors, 37s
+2026-11-05 06:50:38,742 INFO main_closed_book_triviaqa: 925/1000 done, 0 errors, 38s
+2026-11-05 06:50:39,818 INFO main_closed_book_triviaqa: 950/1000 done, 0 errors, 40s
+2026-11-05 06:50:40,072 WARNING PAUSE: gpu_temp=81 cpu_zone=84.9 cpu_load=15.4 on_battery=False
+2026-11-05 06:50:58,588 WARNING RESUME: gpu_temp=47 cpu_zone=48.9 cpu_load=2.3
+2026-11-05 06:50:59,278 INFO main_closed_book_triviaqa: 975/1000 done, 0 errors, 59s
+2026-11-05 06:51:00,041 INFO main_closed_book_triviaqa: 1000/1000 done, 0 errors, 60s
+2026-11-05 06:51:00,249 INFO END main_closed_book_triviaqa: complete, wall 1.0 min, stats {'llm_calls': 1000, 'cache_hits': 0, 'prompt_tokens': 63856, 'completion_tokens': 4466, 'llm_seconds': 328.5894798998488, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,26 @@
+2026-11-06 23:43:05,697 INFO START sec3b_rag_selfcheck_popqa_lt: 500/500 examples to run; projected 5 min
+2026-11-06 23:43:15,055 INFO sec3b_rag_selfcheck_popqa_lt: 25/500 done, 0 errors, 9s
+2026-11-06 23:43:24,032 INFO sec3b_rag_selfcheck_popqa_lt: 50/500 done, 0 errors, 18s
+2026-11-06 23:43:32,490 INFO sec3b_rag_selfcheck_popqa_lt: 75/500 done, 0 errors, 27s
+2026-11-06 23:43:41,236 INFO sec3b_rag_selfcheck_popqa_lt: 100/500 done, 0 errors, 35s
+2026-11-06 23:43:43,348 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=16.6 on_battery=False
+2026-11-06 23:44:03,358 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.3
+2026-11-06 23:44:08,945 INFO sec3b_rag_selfcheck_popqa_lt: 125/500 done, 0 errors, 63s
+2026-11-06 23:44:18,338 INFO sec3b_rag_selfcheck_popqa_lt: 150/500 done, 0 errors, 73s
+2026-11-06 23:44:26,896 INFO sec3b_rag_selfcheck_popqa_lt: 175/500 done, 0 errors, 81s
+2026-11-06 23:44:35,937 INFO sec3b_rag_selfcheck_popqa_lt: 200/500 done, 0 errors, 90s
+2026-11-06 23:44:43,980 INFO sec3b_rag_selfcheck_popqa_lt: 225/500 done, 0 errors, 98s
+2026-11-06 23:44:52,348 INFO sec3b_rag_selfcheck_popqa_lt: 250/500 done, 0 errors, 107s
+2026-11-06 23:45:00,261 INFO sec3b_rag_selfcheck_popqa_lt: 275/500 done, 0 errors, 114s
+2026-11-06 23:45:08,910 INFO sec3b_rag_selfcheck_popqa_lt: 300/500 done, 0 errors, 123s
+2026-11-06 23:45:17,880 INFO sec3b_rag_selfcheck_popqa_lt: 325/500 done, 0 errors, 132s
+2026-11-06 23:45:25,896 INFO sec3b_rag_selfcheck_popqa_lt: 350/500 done, 0 errors, 140s
+2026-11-06 23:45:29,435 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=16.7 on_battery=False
+2026-11-06 23:45:49,448 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.2
+2026-11-06 23:45:54,859 INFO sec3b_rag_selfcheck_popqa_lt: 375/500 done, 0 errors, 169s
+2026-11-06 23:46:02,456 INFO sec3b_rag_selfcheck_popqa_lt: 400/500 done, 0 errors, 177s
+2026-11-06 23:46:11,190 INFO sec3b_rag_selfcheck_popqa_lt: 425/500 done, 0 errors, 185s
+2026-11-06 23:46:19,140 INFO sec3b_rag_selfcheck_popqa_lt: 450/500 done, 0 errors, 193s
+2026-11-06 23:46:27,202 INFO sec3b_rag_selfcheck_popqa_lt: 475/500 done, 0 errors, 201s
+2026-11-06 23:46:35,032 INFO sec3b_rag_selfcheck_popqa_lt: 500/500 done, 0 errors, 209s
+2026-11-06 23:46:35,234 INFO END sec3b_rag_selfcheck_popqa_lt: complete, wall 3.5 min, stats {'llm_calls': 2495, 'cache_hits': 505, 'prompt_tokens': 1571795, 'completion_tokens': 16528, 'llm_seconds': 1576.9375456999041, 'retrievals': 0, 'verifier_pairs': 0}

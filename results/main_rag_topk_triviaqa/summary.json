@@ -1,0 +1,22 @@
+{
+ "run_id": "main_rag_topk_triviaqa",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "rag_topk",
+ "dataset": "triviaqa",
+ "split": "test",
+ "correct": 0.648,
+ "match": 0.648,
+ "match_norm": 0.657,
+ "em": 0.588,
+ "f1": 0.6712381493176226,
+ "native_abstain_rate": 0.001,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 829.671,
+ "mean_completion_tokens": 4.572,
+ "mean_llm_seconds": 2.7924876716002762,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.795511389899737,
+ "wall_s": 509.8095769882202
+}

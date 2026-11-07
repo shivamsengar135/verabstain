@@ -1,0 +1,262 @@
+2026-11-06 01:00:33,407 INFO START main_chain_of_note_rgb: 1300/1300 examples to run; projected 42 min
+2026-11-06 01:00:51,039 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=10.2 on_battery=False
+2026-11-06 01:01:11,051 WARNING RESUME: gpu_temp=46 cpu_zone=44.9 cpu_load=1.9
+2026-11-06 01:01:25,060 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.1 on_battery=False
+2026-11-06 01:01:31,818 INFO main_chain_of_note_rgb: 25/1300 done, 0 errors, 58s
+2026-11-06 01:01:45,073 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.6
+2026-11-06 01:01:51,078 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=8.7 on_battery=False
+2026-11-06 01:02:11,101 WARNING RESUME: gpu_temp=46 cpu_zone=44.9 cpu_load=0.9
+2026-11-06 01:02:23,109 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.3 on_battery=False
+2026-11-06 01:02:43,124 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.9
+2026-11-06 01:02:53,130 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=11.5 on_battery=False
+2026-11-06 01:02:56,446 INFO main_chain_of_note_rgb: 50/1300 done, 0 errors, 143s
+2026-11-06 01:03:13,143 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.0
+2026-11-06 01:03:27,154 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.9 on_battery=False
+2026-11-06 01:03:47,168 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.9
+2026-11-06 01:03:57,175 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.3 on_battery=False
+2026-11-06 01:04:17,189 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.8
+2026-11-06 01:04:30,602 INFO main_chain_of_note_rgb: 75/1300 done, 0 errors, 237s
+2026-11-06 01:04:33,196 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=8.8 on_battery=False
+2026-11-06 01:04:53,210 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=2.4
+2026-11-06 01:05:05,216 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.4 on_battery=False
+2026-11-06 01:05:25,231 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.7
+2026-11-06 01:05:35,238 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=8.9 on_battery=False
+2026-11-06 01:05:37,371 INFO main_chain_of_note_rgb: 100/1300 done, 0 errors, 304s
+2026-11-06 01:05:55,253 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.7
+2026-11-06 01:06:11,260 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=12.0 on_battery=False
+2026-11-06 01:06:31,275 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=0.9
+2026-11-06 01:06:39,281 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.7 on_battery=False
+2026-11-06 01:06:43,764 INFO main_chain_of_note_rgb: 125/1300 done, 0 errors, 370s
+2026-11-06 01:06:59,295 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.6
+2026-11-06 01:07:09,301 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.5 on_battery=False
+2026-11-06 01:07:29,314 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.7
+2026-11-06 01:07:47,472 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.0 on_battery=False
+2026-11-06 01:07:53,241 INFO main_chain_of_note_rgb: 150/1300 done, 0 errors, 440s
+2026-11-06 01:08:07,484 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.3
+2026-11-06 01:08:25,494 WARNING PAUSE: gpu_temp=83 cpu_zone=49.9 cpu_load=15.9 on_battery=False
+2026-11-06 01:08:45,510 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.4
+2026-11-06 01:08:51,513 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=8.3 on_battery=False
+2026-11-06 01:08:58,103 INFO main_chain_of_note_rgb: 175/1300 done, 0 errors, 505s
+2026-11-06 01:09:11,525 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.5
+2026-11-06 01:09:21,531 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.5 on_battery=False
+2026-11-06 01:09:41,547 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=3.3
+2026-11-06 01:09:59,557 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=11.3 on_battery=False
+2026-11-06 01:10:19,573 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=0.9
+2026-11-06 01:10:29,578 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=8.6 on_battery=False
+2026-11-06 01:10:29,988 INFO main_chain_of_note_rgb: 200/1300 done, 0 errors, 596s
+2026-11-06 01:10:49,595 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.7
+2026-11-06 01:11:05,603 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.6 on_battery=False
+2026-11-06 01:11:25,616 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=4.2
+2026-11-06 01:11:39,625 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.3 on_battery=False
+2026-11-06 01:11:40,416 INFO main_chain_of_note_rgb: 225/1300 done, 0 errors, 667s
+2026-11-06 01:11:59,642 WARNING RESUME: gpu_temp=45 cpu_zone=43.9 cpu_load=2.4
+2026-11-06 01:12:17,651 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=12.5 on_battery=False
+2026-11-06 01:12:37,665 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.1
+2026-11-06 01:12:43,670 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.3 on_battery=False
+2026-11-06 01:12:48,991 INFO main_chain_of_note_rgb: 250/1300 done, 0 errors, 735s
+2026-11-06 01:13:03,684 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.6
+2026-11-06 01:13:09,688 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.0 on_battery=False
+2026-11-06 01:13:29,700 WARNING RESUME: gpu_temp=46 cpu_zone=44.9 cpu_load=1.9
+2026-11-06 01:13:41,707 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=11.2 on_battery=False
+2026-11-06 01:14:01,720 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.2
+2026-11-06 01:14:13,726 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.1 on_battery=False
+2026-11-06 01:14:13,894 INFO main_chain_of_note_rgb: 275/1300 done, 0 errors, 820s
+2026-11-06 01:14:33,743 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.6
+2026-11-06 01:14:47,751 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.0 on_battery=False
+2026-11-06 01:15:07,766 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.0
+2026-11-06 01:15:20,148 INFO main_chain_of_note_rgb: 300/1300 done, 0 errors, 887s
+2026-11-06 01:15:23,774 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.5 on_battery=False
+2026-11-06 01:15:43,789 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=0.7
+2026-11-06 01:15:49,792 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.3 on_battery=False
+2026-11-06 01:16:09,807 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.8
+2026-11-06 01:16:22,001 INFO main_chain_of_note_rgb: 325/1300 done, 0 errors, 948s
+2026-11-06 01:16:23,815 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.7 on_battery=False
+2026-11-06 01:16:43,831 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.1
+2026-11-06 01:16:57,838 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.3 on_battery=False
+2026-11-06 01:17:17,851 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.4
+2026-11-06 01:17:30,653 INFO main_chain_of_note_rgb: 350/1300 done, 0 errors, 1017s
+2026-11-06 01:17:33,891 WARNING PAUSE: gpu_temp=79 cpu_zone=48.9 cpu_load=21.6 on_battery=True
+2026-11-06 08:35:09,423 WARNING RESUME: gpu_temp=35 cpu_zone=60.9 cpu_load=27.6
+2026-11-06 08:35:15,431 WARNING PAUSE: gpu_temp=36 cpu_zone=85.9 cpu_load=39.2 on_battery=False
+2026-11-06 08:35:35,442 WARNING RESUME: gpu_temp=40 cpu_zone=51.9 cpu_load=5.2
+2026-11-06 08:35:52,422 INFO main_chain_of_note_rgb: 375/1300 done, 0 errors, 27319s
+2026-11-06 08:36:17,467 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=13.8 on_battery=False
+2026-11-06 08:36:24,703 INFO main_chain_of_note_rgb: 400/1300 done, 0 errors, 27351s
+2026-11-06 08:36:37,477 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=6.2
+2026-11-06 08:37:01,492 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=11.0 on_battery=False
+2026-11-06 08:37:21,505 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.0
+2026-11-06 08:37:33,524 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.1 on_battery=False
+2026-11-06 08:37:34,966 INFO main_chain_of_note_rgb: 425/1300 done, 0 errors, 27421s
+2026-11-06 08:37:53,536 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.1
+2026-11-06 08:38:03,542 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.8 on_battery=False
+2026-11-06 08:38:23,558 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=3.1
+2026-11-06 08:38:39,568 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=12.1 on_battery=False
+2026-11-06 08:38:45,829 INFO main_chain_of_note_rgb: 450/1300 done, 0 errors, 27492s
+2026-11-06 08:38:59,581 WARNING RESUME: gpu_temp=45 cpu_zone=48.9 cpu_load=6.1
+2026-11-06 08:39:17,592 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.6 on_battery=False
+2026-11-06 08:39:37,604 WARNING RESUME: gpu_temp=45 cpu_zone=46.9 cpu_load=9.5
+2026-11-06 08:39:55,614 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=10.4 on_battery=False
+2026-11-06 08:39:56,070 INFO main_chain_of_note_rgb: 475/1300 done, 0 errors, 27562s
+2026-11-06 08:40:15,626 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.1
+2026-11-06 08:40:41,640 WARNING PAUSE: gpu_temp=82 cpu_zone=49.9 cpu_load=10.3 on_battery=False
+2026-11-06 08:40:44,503 INFO main_chain_of_note_rgb: 500/1300 done, 0 errors, 27611s
+2026-11-06 08:41:01,653 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.7
+2026-11-06 08:41:13,663 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.9 on_battery=False
+2026-11-06 08:41:33,675 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.7
+2026-11-06 08:41:47,695 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.1 on_battery=False
+2026-11-06 08:42:07,709 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.9
+2026-11-06 08:42:19,030 INFO main_chain_of_note_rgb: 525/1300 done, 0 errors, 27705s
+2026-11-06 08:42:27,720 WARNING PAUSE: gpu_temp=82 cpu_zone=49.9 cpu_load=10.1 on_battery=False
+2026-11-06 08:42:47,736 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.2
+2026-11-06 08:42:53,739 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.0 on_battery=False
+2026-11-06 08:43:01,029 INFO main_chain_of_note_rgb: 550/1300 done, 0 errors, 27747s
+2026-11-06 08:43:13,752 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.2
+2026-11-06 08:43:31,793 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=16.1 on_battery=False
+2026-11-06 08:43:51,807 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=4.1
+2026-11-06 08:44:08,244 INFO main_chain_of_note_rgb: 575/1300 done, 0 errors, 27815s
+2026-11-06 08:44:09,816 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=9.6 on_battery=False
+2026-11-06 08:44:29,828 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=1.7
+2026-11-06 08:44:43,837 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=11.5 on_battery=False
+2026-11-06 08:45:03,849 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.7
+2026-11-06 08:45:09,852 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.0 on_battery=False
+2026-11-06 08:45:16,595 INFO main_chain_of_note_rgb: 600/1300 done, 0 errors, 27883s
+2026-11-06 08:45:29,867 WARNING RESUME: gpu_temp=46 cpu_zone=53.9 cpu_load=24.6
+2026-11-06 08:45:39,873 WARNING PAUSE: gpu_temp=80 cpu_zone=50.9 cpu_load=12.0 on_battery=False
+2026-11-06 08:45:59,887 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.6
+2026-11-06 08:46:13,895 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.7 on_battery=False
+2026-11-06 08:46:33,908 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.5
+2026-11-06 08:46:33,932 INFO main_chain_of_note_rgb: 625/1300 done, 0 errors, 27960s
+2026-11-06 08:46:47,916 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=17.1 on_battery=False
+2026-11-06 08:47:07,929 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.1
+2026-11-06 08:47:19,942 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=11.6 on_battery=False
+2026-11-06 08:47:39,956 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.0
+2026-11-06 08:47:54,520 INFO main_chain_of_note_rgb: 650/1300 done, 0 errors, 28041s
+2026-11-06 08:47:57,965 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=13.2 on_battery=False
+2026-11-06 08:48:17,978 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.1
+2026-11-06 08:48:33,987 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=9.8 on_battery=False
+2026-11-06 08:48:54,001 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.8
+2026-11-06 08:49:06,572 INFO main_chain_of_note_rgb: 675/1300 done, 0 errors, 28113s
+2026-11-06 08:49:12,014 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.9 on_battery=False
+2026-11-06 08:49:32,027 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=2.6
+2026-11-06 08:49:50,037 WARNING PAUSE: gpu_temp=82 cpu_zone=55.9 cpu_load=23.8 on_battery=False
+2026-11-06 08:49:57,135 INFO main_chain_of_note_rgb: 700/1300 done, 0 errors, 28164s
+2026-11-06 08:50:10,047 WARNING RESUME: gpu_temp=46 cpu_zone=51.9 cpu_load=14.2
+2026-11-06 08:50:16,052 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=22.1 on_battery=False
+2026-11-06 08:50:36,063 WARNING RESUME: gpu_temp=46 cpu_zone=50.9 cpu_load=7.4
+2026-11-06 08:50:52,074 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=10.6 on_battery=False
+2026-11-06 08:51:12,086 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.6
+2026-11-06 08:51:24,402 INFO main_chain_of_note_rgb: 725/1300 done, 0 errors, 28251s
+2026-11-06 08:51:26,095 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=12.7 on_battery=False
+2026-11-06 08:51:46,109 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.3
+2026-11-06 08:52:04,119 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=10.2 on_battery=False
+2026-11-06 08:52:24,131 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.0
+2026-11-06 08:52:34,747 INFO main_chain_of_note_rgb: 750/1300 done, 0 errors, 28321s
+2026-11-06 08:52:38,139 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=11.4 on_battery=False
+2026-11-06 08:52:58,155 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=4.5
+2026-11-06 08:53:12,164 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=10.0 on_battery=False
+2026-11-06 08:53:32,177 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.5
+2026-11-06 08:53:44,745 INFO main_chain_of_note_rgb: 775/1300 done, 0 errors, 28391s
+2026-11-06 08:53:48,185 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.9 on_battery=False
+2026-11-06 08:54:08,198 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.0
+2026-11-06 08:54:18,206 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.4 on_battery=False
+2026-11-06 08:54:38,219 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.9
+2026-11-06 08:54:55,251 INFO main_chain_of_note_rgb: 800/1300 done, 0 errors, 28462s
+2026-11-06 08:55:06,235 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=11.5 on_battery=False
+2026-11-06 08:55:26,247 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.5
+2026-11-06 08:55:32,250 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.6 on_battery=False
+2026-11-06 08:55:52,263 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.4
+2026-11-06 08:55:58,267 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.2 on_battery=False
+2026-11-06 08:56:03,633 INFO main_chain_of_note_rgb: 825/1300 done, 0 errors, 28530s
+2026-11-06 08:56:18,282 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.5
+2026-11-06 08:56:32,290 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=11.2 on_battery=False
+2026-11-06 08:56:52,302 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=4.1
+2026-11-06 08:57:04,309 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=10.9 on_battery=False
+2026-11-06 08:57:07,517 INFO main_chain_of_note_rgb: 850/1300 done, 0 errors, 28594s
+2026-11-06 08:57:24,321 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=14.7
+2026-11-06 08:57:34,328 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=8.7 on_battery=False
+2026-11-06 08:57:54,342 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.8
+2026-11-06 08:58:12,354 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.7 on_battery=False
+2026-11-06 08:58:18,621 INFO main_chain_of_note_rgb: 875/1300 done, 0 errors, 28665s
+2026-11-06 08:58:32,366 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.5
+2026-11-06 08:58:46,373 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=12.2 on_battery=False
+2026-11-06 08:59:06,384 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.4
+2026-11-06 08:59:18,391 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=8.4 on_battery=False
+2026-11-06 08:59:38,406 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.1
+2026-11-06 08:59:51,848 INFO main_chain_of_note_rgb: 900/1300 done, 0 errors, 28758s
+2026-11-06 09:00:08,423 WARNING PAUSE: gpu_temp=82 cpu_zone=49.9 cpu_load=9.9 on_battery=False
+2026-11-06 09:00:28,436 WARNING RESUME: gpu_temp=47 cpu_zone=46.9 cpu_load=3.8
+2026-11-06 09:00:34,441 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.1 on_battery=False
+2026-11-06 09:00:41,068 INFO main_chain_of_note_rgb: 925/1300 done, 0 errors, 28807s
+2026-11-06 09:00:54,456 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.6
+2026-11-06 09:01:08,463 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=10.2 on_battery=False
+2026-11-06 09:01:28,475 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.4
+2026-11-06 09:01:42,482 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=11.3 on_battery=False
+2026-11-06 09:01:47,749 INFO main_chain_of_note_rgb: 950/1300 done, 0 errors, 28874s
+2026-11-06 09:02:02,497 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.5
+2026-11-06 09:02:10,502 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.9 on_battery=False
+2026-11-06 09:02:30,516 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.0
+2026-11-06 09:02:48,526 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=11.2 on_battery=False
+2026-11-06 09:03:08,539 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.4
+2026-11-06 09:03:20,546 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.7 on_battery=False
+2026-11-06 09:03:21,482 INFO main_chain_of_note_rgb: 975/1300 done, 0 errors, 28968s
+2026-11-06 09:03:40,559 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.3
+2026-11-06 09:03:56,568 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.7 on_battery=False
+2026-11-06 09:04:16,582 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=2.8
+2026-11-06 09:04:32,588 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=10.8 on_battery=False
+2026-11-06 09:04:33,549 INFO main_chain_of_note_rgb: 1000/1300 done, 0 errors, 29040s
+2026-11-06 09:04:52,603 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.0
+2026-11-06 09:05:08,612 WARNING PAUSE: gpu_temp=82 cpu_zone=49.9 cpu_load=10.8 on_battery=False
+2026-11-06 09:05:28,624 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.6
+2026-11-06 09:05:38,630 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=15.2 on_battery=False
+2026-11-06 09:05:41,323 INFO main_chain_of_note_rgb: 1025/1300 done, 0 errors, 29108s
+2026-11-06 09:05:58,644 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.3
+2026-11-06 09:06:14,651 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=10.4 on_battery=False
+2026-11-06 09:06:34,664 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.9
+2026-11-06 09:06:46,669 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.4 on_battery=False
+2026-11-06 09:06:50,144 INFO main_chain_of_note_rgb: 1050/1300 done, 0 errors, 29177s
+2026-11-06 09:07:06,685 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.3
+2026-11-06 09:07:20,693 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=10.0 on_battery=False
+2026-11-06 09:07:40,707 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.7
+2026-11-06 09:07:56,913 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=10.2 on_battery=False
+2026-11-06 09:08:01,296 INFO main_chain_of_note_rgb: 1075/1300 done, 0 errors, 29248s
+2026-11-06 09:08:16,926 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.3
+2026-11-06 09:08:30,933 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.7 on_battery=False
+2026-11-06 09:08:50,950 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.0
+2026-11-06 09:09:04,957 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=10.6 on_battery=False
+2026-11-06 09:09:24,971 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.2
+2026-11-06 09:09:36,469 INFO main_chain_of_note_rgb: 1100/1300 done, 0 errors, 29343s
+2026-11-06 09:09:36,978 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.1 on_battery=False
+2026-11-06 09:09:56,991 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.2
+2026-11-06 09:10:19,004 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=10.4 on_battery=False
+2026-11-06 09:10:26,472 INFO main_chain_of_note_rgb: 1125/1300 done, 0 errors, 29393s
+2026-11-06 09:10:39,016 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.1
+2026-11-06 09:10:45,021 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.0 on_battery=False
+2026-11-06 09:11:05,034 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=3.4
+2026-11-06 09:11:23,043 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=9.3 on_battery=False
+2026-11-06 09:11:43,056 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.4
+2026-11-06 09:11:53,067 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.6 on_battery=False
+2026-11-06 09:11:54,136 INFO main_chain_of_note_rgb: 1150/1300 done, 0 errors, 29481s
+2026-11-06 09:12:13,082 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.9
+2026-11-06 09:12:27,090 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.0 on_battery=False
+2026-11-06 09:12:47,104 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=2.5
+2026-11-06 09:13:01,111 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=10.1 on_battery=False
+2026-11-06 09:13:03,720 INFO main_chain_of_note_rgb: 1175/1300 done, 0 errors, 29550s
+2026-11-06 09:13:21,124 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=1.9
+2026-11-06 09:13:35,132 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=11.6 on_battery=False
+2026-11-06 09:13:55,145 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=4.2
+2026-11-06 09:14:09,155 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=11.1 on_battery=False
+2026-11-06 09:14:14,529 INFO main_chain_of_note_rgb: 1200/1300 done, 0 errors, 29621s
+2026-11-06 09:14:29,169 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.0
+2026-11-06 09:14:41,175 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.6 on_battery=False
+2026-11-06 09:15:01,190 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.3
+2026-11-06 09:15:07,267 INFO main_chain_of_note_rgb: 1225/1300 done, 0 errors, 29674s
+2026-11-06 09:15:13,200 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=12.4 on_battery=False
+2026-11-06 09:15:33,214 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.1
+2026-11-06 09:15:42,248 INFO main_chain_of_note_rgb: 1250/1300 done, 0 errors, 29709s
+2026-11-06 09:15:53,224 WARNING PAUSE: gpu_temp=82 cpu_zone=49.9 cpu_load=9.2 on_battery=False
+2026-11-06 09:16:13,238 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.9
+2026-11-06 09:16:17,286 INFO main_chain_of_note_rgb: 1275/1300 done, 0 errors, 29744s
+2026-11-06 09:16:29,250 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=11.8 on_battery=False
+2026-11-06 09:16:49,432 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.7
+2026-11-06 09:16:53,451 INFO main_chain_of_note_rgb: 1300/1300 done, 0 errors, 29780s
+2026-11-06 09:16:53,645 INFO END main_chain_of_note_rgb: complete, wall 496.3 min, stats {'llm_calls': 1270, 'cache_hits': 30, 'prompt_tokens': 1839419, 'completion_tokens': 207471, 'llm_seconds': 14744.995074300023, 'retrievals': 0, 'verifier_pairs': 0}

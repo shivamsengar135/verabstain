@@ -1,0 +1,22 @@
+{
+ "run_id": "main_cove_popqa_lt",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "cove",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.552,
+ "match": 0.552,
+ "match_norm": 0.599,
+ "em": 0.506,
+ "f1": 0.5827248418248419,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.983,
+ "mean_prompt_tokens": 1831.9,
+ "mean_completion_tokens": 120.077,
+ "mean_llm_seconds": 8.978031480500592,
+ "mean_retrievals": 3.983,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 7.865959277999559,
+ "wall_s": 1366.3479115962982
+}

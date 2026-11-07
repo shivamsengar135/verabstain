@@ -1,0 +1,39 @@
+2026-11-05 00:51:56,522 INFO START pilot_selfrag_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-05 00:52:03,754 ERROR JOB FAILED pilot_selfrag_popqa_lt:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 272, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 171, in run_job
+    st = llm_server.start(job["server"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\llm_server.py", line 94, in start
+    raise RuntimeError(f"llama-server exited early (code {p.returncode}); see {log}")
+RuntimeError: llama-server exited early (code 1); see C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\logs\server\selfrag7b_q4-20261105-005159.log
+
+2026-11-05 00:56:14,477 INFO START pilot_selfrag_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-05 00:58:01,265 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: '[Utility:2]'
+
+2026-11-05 00:58:14,177 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: '[Utility:1]'
+
+2026-11-05 00:59:04,647 INFO START pilot_selfrag_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-05 00:59:13,111 INFO pilot_selfrag_popqa_lt: 25/100 done, 0 errors, 4s
+2026-11-05 00:59:35,033 INFO pilot_selfrag_popqa_lt: 50/100 done, 0 errors, 26s
+2026-11-05 00:59:56,960 INFO pilot_selfrag_popqa_lt: 75/100 done, 0 errors, 48s
+2026-11-05 01:00:19,850 INFO pilot_selfrag_popqa_lt: 100/100 done, 0 errors, 71s
+2026-11-05 01:00:19,944 INFO END pilot_selfrag_popqa_lt: complete, wall 1.2 min, stats {'llm_calls': 514, 'cache_hits': 186, 'prompt_tokens': 47750, 'completion_tokens': 10010, 'llm_seconds': 529.3173875999346, 'retrievals': 0, 'verifier_pairs': 0}

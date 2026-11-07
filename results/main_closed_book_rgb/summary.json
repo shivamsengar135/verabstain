@@ -1,0 +1,20 @@
+{
+ "run_id": "main_closed_book_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "closed_book",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.13,
+ "rejected": 0.0,
+ "fake_answer": 0.03,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 56.69,
+ "mean_completion_tokens": 6.263076923076923,
+ "mean_llm_seconds": 0.4384478858462255,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.13514997015374738,
+ "wall_s": 33.50829076766968
+}

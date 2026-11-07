@@ -1,0 +1,72 @@
+{
+ "seed": {
+  "key": "moskvoretskii2025adaptive",
+  "title": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home",
+  "arxiv_id": "",
+  "category": "adaptive",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home",
+  "authors": [
+   "Viktor Moskvoretskii",
+   "Maria Lysyuk",
+   "Mikhail Salnikov",
+   "Nikolay Ivanov",
+   "Sergey Pletenev",
+   "Daria Galimzianova",
+   "Nikita Krayko",
+   "Vasily Konovalov",
+   "Irina Nikishina",
+   "Alexander Panchenko"
+  ],
+  "abstract": "Retrieval Augmented Generation (RAG) improves correctness of Question Answering (QA) and addresses hallucinations in Large Language Models (LLMs), yet greatly increase computational costs. Besides, RAG is not always needed as may introduce irrelevant information. Recent adaptive retrieval methods integrate LLMs' intrinsic knowledge with external information appealing to LLM self-knowledge, but they often neglect efficiency evaluations and comparisons with uncertainty estimation techniques. We bridge this gap by conducting a comprehensive analysis of 35 adaptive retrieval methods, including 8 recent approaches and 27 uncertainty estimation techniques, across 6 datasets using 10 metrics for QA performance, self-knowledge, and efficiency. Our findings show that uncertainty estimation techniques often outperform complex pipelines in terms of efficiency and self-knowledge, while maintaining comparable QA performance.",
+  "published": "2025-01-22",
+  "arxiv_id": "2501.12835",
+  "comment": "The code and data are at https://github.com/s-nlp/AdaRAGUE",
+  "journal_ref": ""
+ },
+ "s2": {
+  "title": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home",
+  "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+  "year": 2025,
+  "externalIds": {
+   "DOI": "10.18653/v1/2025.acl-long.319",
+   "ACL": "2025.acl-long.319"
+  },
+  "authors": [
+   {
+    "name": "Viktor Moskvoretskii"
+   },
+   {
+    "name": "Maria Marina"
+   },
+   {
+    "name": "Mikhail Salnikov"
+   },
+   {
+    "name": "Nikolay Ivanov"
+   },
+   {
+    "name": "Sergey Pletenev"
+   },
+   {
+    "name": "Daria Galimzianova"
+   },
+   {
+    "name": "Nikita Krayko"
+   },
+   {
+    "name": "Vasily Konovalov"
+   },
+   {
+    "name": "Irina Nikishina"
+   },
+   {
+    "name": "Alexander Panchenko"
+   }
+  ],
+  "source": "openalex",
+  "openalex_id": "https://openalex.org/W4412945552"
+ }
+}

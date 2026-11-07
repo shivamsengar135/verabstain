@@ -1,0 +1,26 @@
+2026-11-07 01:31:32,241 INFO START rob_rag_topk_hotpotqa_dist25: 300/300 examples to run; projected 3 min
+2026-11-07 01:31:45,728 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.0 on_battery=False
+2026-11-07 01:31:46,791 INFO rob_rag_topk_hotpotqa_dist25: 25/300 done, 0 errors, 7s
+2026-11-07 01:32:05,743 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=3.1
+2026-11-07 01:32:14,344 INFO rob_rag_topk_hotpotqa_dist25: 50/300 done, 0 errors, 34s
+2026-11-07 01:32:17,751 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.4 on_battery=False
+2026-11-07 01:32:37,767 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=3.2
+2026-11-07 01:32:41,145 INFO rob_rag_topk_hotpotqa_dist25: 75/300 done, 0 errors, 61s
+2026-11-07 01:32:47,636 INFO rob_rag_topk_hotpotqa_dist25: 100/300 done, 0 errors, 68s
+2026-11-07 01:32:49,776 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=11.1 on_battery=False
+2026-11-07 01:33:09,789 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.3
+2026-11-07 01:33:13,992 INFO rob_rag_topk_hotpotqa_dist25: 125/300 done, 0 errors, 94s
+2026-11-07 01:33:20,906 INFO rob_rag_topk_hotpotqa_dist25: 150/300 done, 0 errors, 101s
+2026-11-07 01:33:23,800 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=11.0 on_battery=False
+2026-11-07 01:33:43,813 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=4.3
+2026-11-07 01:33:46,600 INFO rob_rag_topk_hotpotqa_dist25: 175/300 done, 0 errors, 126s
+2026-11-07 01:33:52,066 INFO rob_rag_topk_hotpotqa_dist25: 200/300 done, 0 errors, 132s
+2026-11-07 01:33:57,820 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.3 on_battery=False
+2026-11-07 01:33:58,613 INFO rob_rag_topk_hotpotqa_dist25: 225/300 done, 0 errors, 138s
+2026-11-07 01:34:17,838 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=3.7
+2026-11-07 01:34:27,545 INFO rob_rag_topk_hotpotqa_dist25: 250/300 done, 0 errors, 167s
+2026-11-07 01:34:29,846 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=8.8 on_battery=False
+2026-11-07 01:34:49,860 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=2.5
+2026-11-07 01:34:53,537 INFO rob_rag_topk_hotpotqa_dist25: 275/300 done, 0 errors, 193s
+2026-11-07 01:34:58,775 INFO rob_rag_topk_hotpotqa_dist25: 300/300 done, 0 errors, 199s
+2026-11-07 01:34:58,950 INFO END rob_rag_topk_hotpotqa_dist25: complete, wall 3.3 min, stats {'llm_calls': 288, 'cache_hits': 12, 'prompt_tokens': 186507, 'completion_tokens': 1458, 'llm_seconds': 656.8456105000732, 'retrievals': 0, 'verifier_pairs': 0}

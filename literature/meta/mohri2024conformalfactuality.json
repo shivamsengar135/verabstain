@@ -1,0 +1,58 @@
+{
+ "seed": {
+  "key": "mohri2024conformalfactuality",
+  "title": "Language Models with Conformal Factuality Guarantees",
+  "arxiv_id": "2402.10978",
+  "category": "conformal",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Language Models with Conformal Factuality Guarantees",
+  "authors": [
+   "Christopher Mohri",
+   "Tatsunori Hashimoto"
+  ],
+  "abstract": "Guaranteeing the correctness and factuality of language model (LM) outputs is a major open problem. In this work, we propose conformal factuality, a framework that can ensure high probability correctness guarantees for LMs by connecting language modeling and conformal prediction. We observe that the correctness of an LM output is equivalent to an uncertainty quantification problem, where the uncertainty sets are defined as the entailment set of an LM's output. Using this connection, we show that conformal prediction in language models corresponds to a back-off algorithm that provides high probability correctness guarantees by progressively making LM outputs less specific (and expanding the associated uncertainty sets). This approach applies to any black-box LM and requires very few human-annotated samples. Evaluations of our approach on closed book QA (FActScore, NaturalQuestions) and reasoning tasks (MATH) show that our approach can provide 80-90% correctness guarantees while retaining the majority of the LM's original output.",
+  "published": "2024-02-15",
+  "arxiv_id": "2402.10978",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "2495700b4303512784fbdbfccc58c6c4f7771ac2",
+  "externalIds": {
+   "DBLP": "conf/icml/MohriH24",
+   "ArXiv": "2402.10978",
+   "DOI": "10.48550/arXiv.2402.10978",
+   "CorpusId": 267750963
+  },
+  "publicationVenue": {
+   "id": "fc0a208c-acb7-47dc-a0d4-af8190e21d29",
+   "name": "International Conference on Machine Learning",
+   "type": "conference",
+   "alternate_names": [
+    "ICML",
+    "Int Conf Mach Learn"
+   ],
+   "url": "https://icml.cc/"
+  },
+  "title": "Language Models with Conformal Factuality Guarantees",
+  "venue": "International Conference on Machine Learning",
+  "year": 2024,
+  "publicationDate": "2024-02-15",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2402.10978"
+  },
+  "authors": [
+   {
+    "authorId": "2411415606",
+    "name": "Christopher Mohri"
+   },
+   {
+    "authorId": "2294362683",
+    "name": "Tatsunori Hashimoto"
+   }
+  ]
+ }
+}

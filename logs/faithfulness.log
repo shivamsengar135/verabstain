@@ -1,0 +1,86 @@
+alignscore-large popqa_lt ragverify {'n_answered': 848, 'unsupported_rate': 0.11556603773584906, 'mean_score': 0.8276695703892492, 'n_no_evidence': 0}
+alignscore-large popqa_lt rag_topk {'n_answered': 1000, 'unsupported_rate': 0.215, 'mean_score': 0.7486203782532054, 'n_no_evidence': 0}
+alignscore-large popqa_lt rag_rerank {'n_answered': 1000, 'unsupported_rate': 0.161, 'mean_score': 0.7910301313087654, 'n_no_evidence': 0}
+alignscore-large popqa_lt rag_largek {'n_answered': 1000, 'unsupported_rate': 0.244, 'mean_score': 0.7244400301787635, 'n_no_evidence': 0}
+alignscore-large popqa_lt crag {'n_answered': 1000, 'unsupported_rate': 0.168, 'mean_score': 0.7976325592556969, 'n_no_evidence': 0}
+alignscore-large popqa_lt chain_of_note {'n_answered': 682, 'unsupported_rate': 0.09090909090909091, 'mean_score': 0.8504384640417174, 'n_no_evidence': 0}
+alignscore-large popqa_lt flare {'n_answered': 1000, 'unsupported_rate': 0.189, 'mean_score': 0.7739572100393319, 'n_no_evidence': 0}
+alignscore-large popqa_lt selfrag {'n_answered': 1000, 'unsupported_rate': 0.16, 'mean_score': 0.810649647393878, 'n_no_evidence': 0}
+alignscore-large popqa_lt cove {'n_answered': 1000, 'unsupported_rate': 0.354, 'mean_score': 0.6280797145697797, 'n_no_evidence': 0}
+alignscore-large popqa_lt rarr {'n_answered': 1000, 'unsupported_rate': 0.173, 'mean_score': 0.8038178087952934, 'n_no_evidence': 0}
+alignscore-large triviaqa ragverify {'n_answered': 885, 'unsupported_rate': 0.16271186440677965, 'mean_score': 0.7857205859282828, 'n_no_evidence': 0}
+alignscore-large triviaqa rag_topk {'n_answered': 999, 'unsupported_rate': 0.2022022022022022, 'mean_score': 0.7461578572660866, 'n_no_evidence': 0}
+alignscore-large triviaqa rag_rerank {'n_answered': 999, 'unsupported_rate': 0.2012012012012012, 'mean_score': 0.7500641568416117, 'n_no_evidence': 0}
+alignscore-large triviaqa rag_largek {'n_answered': 999, 'unsupported_rate': 0.2172172172172172, 'mean_score': 0.7329462163392231, 'n_no_evidence': 0}
+alignscore-large triviaqa crag {'n_answered': 998, 'unsupported_rate': 0.21643286573146292, 'mean_score': 0.748240479052256, 'n_no_evidence': 0}
+alignscore-large triviaqa chain_of_note {'n_answered': 752, 'unsupported_rate': 0.125, 'mean_score': 0.8090404390602238, 'n_no_evidence': 0}
+alignscore-large triviaqa flare {'n_answered': 1000, 'unsupported_rate': 0.212, 'mean_score': 0.7370974961562704, 'n_no_evidence': 0}
+alignscore-large triviaqa selfrag {'n_answered': 1000, 'unsupported_rate': 0.449, 'mean_score': 0.5402879167693803, 'n_no_evidence': 0}
+alignscore-large triviaqa cove {'n_answered': 999, 'unsupported_rate': 0.2702702702702703, 'mean_score': 0.6979630765599604, 'n_no_evidence': 0}
+alignscore-large triviaqa rarr {'n_answered': 998, 'unsupported_rate': 0.22344689378757515, 'mean_score': 0.725454487609764, 'n_no_evidence': 0}
+alignscore-large hotpotqa ragverify {'n_answered': 836, 'unsupported_rate': 0.35287081339712917, 'mean_score': 0.6191039623588378, 'n_no_evidence': 0}
+alignscore-large hotpotqa rag_topk {'n_answered': 1000, 'unsupported_rate': 0.442, 'mean_score': 0.5598496939502811, 'n_no_evidence': 0}
+alignscore-large hotpotqa rag_rerank {'n_answered': 1000, 'unsupported_rate': 0.421, 'mean_score': 0.5676982479376484, 'n_no_evidence': 0}
+alignscore-large hotpotqa rag_largek {'n_answered': 999, 'unsupported_rate': 0.4494494494494494, 'mean_score': 0.5662448043572664, 'n_no_evidence': 0}
+alignscore-large hotpotqa crag {'n_answered': 1000, 'unsupported_rate': 0.451, 'mean_score': 0.554170908375946, 'n_no_evidence': 0}
+alignscore-large hotpotqa chain_of_note {'n_answered': 629, 'unsupported_rate': 0.34022257551669316, 'mean_score': 0.6324774595920419, 'n_no_evidence': 0}
+alignscore-large hotpotqa flare {'n_answered': 1000, 'unsupported_rate': 0.421, 'mean_score': 0.5733336014495541, 'n_no_evidence': 0}
+alignscore-large hotpotqa selfrag {'n_answered': 1000, 'unsupported_rate': 0.552, 'mean_score': 0.4629257158383436, 'n_no_evidence': 0}
+alignscore-large hotpotqa cove {'n_answered': 1000, 'unsupported_rate': 0.481, 'mean_score': 0.5310032318378605, 'n_no_evidence': 0}
+alignscore-large hotpotqa rarr {'n_answered': 1000, 'unsupported_rate': 0.427, 'mean_score': 0.5667327932695392, 'n_no_evidence': 0}
+alignscore-large rgb ragverify {'n_answered': 1241, 'unsupported_rate': 0.11845286059629331, 'mean_score': 0.8151321915541984, 'n_no_evidence': 0}
+thermal pause gpu=80 cpu_zone=50.9
+alignscore-large rgb rag_topk {'n_answered': 1300, 'unsupported_rate': 0.1576923076923077, 'mean_score': 0.7890392208219811, 'n_no_evidence': 0}
+alignscore-large rgb rag_rerank {'n_answered': 1299, 'unsupported_rate': 0.1462663587374904, 'mean_score': 0.7924245854694858, 'n_no_evidence': 0}
+alignscore-large rgb rag_largek {'n_answered': 1300, 'unsupported_rate': 0.1576923076923077, 'mean_score': 0.7890392208219811, 'n_no_evidence': 0}
+thermal pause gpu=80 cpu_zone=49.9
+alignscore-large rgb crag {'n_answered': 1300, 'unsupported_rate': 0.09076923076923077, 'mean_score': 0.8498316259370544, 'n_no_evidence': 0}
+alignscore-large rgb chain_of_note {'n_answered': 1148, 'unsupported_rate': 0.12282229965156795, 'mean_score': 0.8178759843836007, 'n_no_evidence': 0}
+alignscore-large rgb flare {'n_answered': 1300, 'unsupported_rate': 0.13153846153846155, 'mean_score': 0.8118208258592925, 'n_no_evidence': 0}
+alignscore-large rgb selfrag {'n_answered': 1300, 'unsupported_rate': 0.2846153846153846, 'mean_score': 0.688508684657647, 'n_no_evidence': 0}
+alignscore-large rgb cove {'n_answered': 1300, 'unsupported_rate': 0.27076923076923076, 'mean_score': 0.7055371801612544, 'n_no_evidence': 0}
+thermal pause gpu=80 cpu_zone=50.9
+alignscore-large rgb rarr {'n_answered': 1300, 'unsupported_rate': 0.17076923076923076, 'mean_score': 0.7787090843971087, 'n_no_evidence': 0}
+C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights:   8%|8         | 33/394 [00:00<00:01, 324.75it/s]Loading weights:  17%|#6        | 66/394 [00:00<00:01, 286.33it/s]Loading weights:  25%|##4       | 97/394 [00:00<00:01, 295.87it/s]Loading weights: 100%|##########| 394/394 [00:00<00:00, 1127.69it/s]
+deberta-v3-l-nli popqa_lt ragverify {'n_answered': 848, 'unsupported_rate': 0.12028301886792453, 'mean_score': 0.867243176643964, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt rag_topk {'n_answered': 1000, 'unsupported_rate': 0.238, 'mean_score': 0.7606788649724913, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt rag_rerank {'n_answered': 1000, 'unsupported_rate': 0.148, 'mean_score': 0.8387261286815919, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt rag_largek {'n_answered': 1000, 'unsupported_rate': 0.267, 'mean_score': 0.7316551112842572, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt crag {'n_answered': 1000, 'unsupported_rate': 0.271, 'mean_score': 0.7255694200990256, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt chain_of_note {'n_answered': 682, 'unsupported_rate': 0.14076246334310852, 'mean_score': 0.8507928640258708, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt flare {'n_answered': 1000, 'unsupported_rate': 0.17, 'mean_score': 0.8246902224169753, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt selfrag {'n_answered': 1000, 'unsupported_rate': 0.083, 'mean_score': 0.910613883099315, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt cove {'n_answered': 1000, 'unsupported_rate': 0.357, 'mean_score': 0.6495867547010712, 'n_no_evidence': 0}
+deberta-v3-l-nli popqa_lt rarr {'n_answered': 1000, 'unsupported_rate': 0.277, 'mean_score': 0.7188188857266359, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa ragverify {'n_answered': 885, 'unsupported_rate': 0.09717514124293786, 'mean_score': 0.8796082347244719, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa rag_topk {'n_answered': 999, 'unsupported_rate': 0.1981981981981982, 'mean_score': 0.7832307948053137, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa rag_rerank {'n_answered': 999, 'unsupported_rate': 0.13213213213213212, 'mean_score': 0.8466460625459258, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa rag_largek {'n_answered': 999, 'unsupported_rate': 0.22622622622622623, 'mean_score': 0.7641590427259101, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa crag {'n_answered': 998, 'unsupported_rate': 0.2725450901803607, 'mean_score': 0.7275422820053856, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa chain_of_note {'n_answered': 752, 'unsupported_rate': 0.11303191489361702, 'mean_score': 0.8541511440806914, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa flare {'n_answered': 1000, 'unsupported_rate': 0.181, 'mean_score': 0.8063307467130945, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa selfrag {'n_answered': 1000, 'unsupported_rate': 0.183, 'mean_score': 0.8104246264289541, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa cove {'n_answered': 999, 'unsupported_rate': 0.26326326326326327, 'mean_score': 0.7339115163395964, 'n_no_evidence': 0}
+deberta-v3-l-nli triviaqa rarr {'n_answered': 998, 'unsupported_rate': 0.28857715430861725, 'mean_score': 0.7100500748009853, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa ragverify {'n_answered': 836, 'unsupported_rate': 0.09090909090909091, 'mean_score': 0.894361128440432, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa rag_topk {'n_answered': 1000, 'unsupported_rate': 0.131, 'mean_score': 0.851576537549321, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa rag_rerank {'n_answered': 1000, 'unsupported_rate': 0.114, 'mean_score': 0.8686375651028938, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa rag_largek {'n_answered': 999, 'unsupported_rate': 0.16616616616616617, 'mean_score': 0.8124383570548535, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa crag {'n_answered': 1000, 'unsupported_rate': 0.157, 'mean_score': 0.8272092421299312, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa chain_of_note {'n_answered': 629, 'unsupported_rate': 0.06359300476947535, 'mean_score': 0.919741309349705, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa flare {'n_answered': 1000, 'unsupported_rate': 0.102, 'mean_score': 0.876496599514503, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa selfrag {'n_answered': 1000, 'unsupported_rate': 0.228, 'mean_score': 0.7592443108867155, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa cove {'n_answered': 1000, 'unsupported_rate': 0.183, 'mean_score': 0.8067426268657436, 'n_no_evidence': 0}
+deberta-v3-l-nli hotpotqa rarr {'n_answered': 1000, 'unsupported_rate': 0.186, 'mean_score': 0.8034423849750892, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb ragverify {'n_answered': 1241, 'unsupported_rate': 0.13537469782433523, 'mean_score': 0.8617092919626741, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb rag_topk {'n_answered': 1300, 'unsupported_rate': 0.29615384615384616, 'mean_score': 0.711211482812561, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb rag_rerank {'n_answered': 1299, 'unsupported_rate': 0.1424172440338722, 'mean_score': 0.851528845152447, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb rag_largek {'n_answered': 1300, 'unsupported_rate': 0.29615384615384616, 'mean_score': 0.711211482812561, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb crag {'n_answered': 1300, 'unsupported_rate': 0.3553846153846154, 'mean_score': 0.6601753741915365, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb chain_of_note {'n_answered': 1148, 'unsupported_rate': 0.27264808362369336, 'mean_score': 0.7356768404008127, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb flare {'n_answered': 1300, 'unsupported_rate': 0.24384615384615385, 'mean_score': 0.7591626337696709, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb selfrag {'n_answered': 1300, 'unsupported_rate': 0.19615384615384615, 'mean_score': 0.795294976718623, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb cove {'n_answered': 1300, 'unsupported_rate': 0.39615384615384613, 'mean_score': 0.6237321204469705, 'n_no_evidence': 0}
+deberta-v3-l-nli rgb rarr {'n_answered': 1300, 'unsupported_rate': 0.41615384615384615, 'mean_score': 0.6007267235491152, 'n_no_evidence': 0}

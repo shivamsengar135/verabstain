@@ -1,0 +1,64 @@
+{
+ "seed": {
+  "key": "yan2025rpo",
+  "title": "RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation",
+  "arxiv_id": "2501.13726",
+  "category": "corrective",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation",
+  "authors": [
+   "Shi-Qi Yan",
+   "Quan Liu",
+   "Zhen-Hua Ling"
+  ],
+  "abstract": "While Retrieval-Augmented Generation (RAG) has exhibited promise in utilizing external knowledge, its generation process heavily depends on the quality and accuracy of the retrieved context. Large language models (LLMs) struggle to evaluate the correctness of non-parametric knowledge retrieved externally when it differs from internal memorization, leading to knowledge conflicts during response generation. To this end, we introduce the Retrieval Preference Optimization (RPO), a lightweight and effective alignment method to adaptively leverage multi-source knowledge based on retrieval relevance. An implicit representation of retrieval relevance is derived and incorporated into the reward model to integrate retrieval evaluation and response generation into a single model, solving the problem that previous methods necessitate the additional procedure to assess the retrieval quality. Notably, RPO is the only RAG-dedicated alignment approach that quantifies the awareness of retrieval relevance in training, overcoming mathematical obstacles. Experiments on four datasets demonstrate that RPO outperforms RAG by 4-10% in accuracy without any extra component, exhibiting its robust generalization.",
+  "published": "2025-01-23",
+  "arxiv_id": "2501.13726",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "fc7143c7bc1830ef998419c1c708de42dd200840",
+  "externalIds": {
+   "ArXiv": "2501.13726",
+   "DBLP": "journals/corr/abs-2501-13726",
+   "DOI": "10.48550/arXiv.2501.13726",
+   "CorpusId": 275820313
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2025,
+  "publicationDate": "2025-01-23",
+  "journal": {
+   "pages": "5228-5240"
+  },
+  "authors": [
+   {
+    "authorId": "2281761331",
+    "name": "Shi-Qi Yan"
+   },
+   {
+    "authorId": "2115900552",
+    "name": "Quan Liu"
+   },
+   {
+    "authorId": "2325076499",
+    "name": "Zhen-Hua Ling"
+   }
+  ]
+ }
+}

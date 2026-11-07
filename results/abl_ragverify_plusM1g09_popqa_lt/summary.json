@@ -1,0 +1,22 @@
+{
+ "run_id": "abl_ragverify_plusM1g09_popqa_lt",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.596,
+ "match": 0.596,
+ "match_norm": 0.608,
+ "em": 0.542,
+ "f1": 0.6036125541125541,
+ "native_abstain_rate": 0.13,
+ "mean_llm_calls": 2.07,
+ "mean_prompt_tokens": 635.152,
+ "mean_completion_tokens": 33.526,
+ "mean_llm_seconds": 3.363525769399654,
+ "mean_retrievals": 0.828,
+ "mean_verifier_pairs": 0.76,
+ "mean_seconds": 0.04974204500000269,
+ "wall_s": 3.6866066455841064
+}

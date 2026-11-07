@@ -1,0 +1,37 @@
+.venv/
+.cache/
+tools/
+models/
+indexes/
+data/*
+!data/splits/
+**/__pycache__/
+*.pyc
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.faiss
+*.npy
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.bz2
+*.gz
+logs/server/
+literature/pdfs/
+cache/
+results/**/_tmp/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+# downloaded paper full texts (third-party copyright; re-fetch with scripts/fetch_cited_fulltext.py)
+literature/pdfs/
+# copies of third-party source files kept for reference only (various licences; not redistributed)
+literature/code_refs/

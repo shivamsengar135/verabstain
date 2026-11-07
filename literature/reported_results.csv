@@ -1,0 +1,37 @@
+paper_key,source,table,dataset,metric,method,backbone,retriever_corpus,value,notes
+asai2024selfrag,arXiv 2310.11511 (PDF fetched 2026-11-04),Table 2,PopQA (long-tail 1399),acc (Self-RAG match),Self-RAG 7B,Llama-2-7B (Self-RAG fine-tuned),Contriever-MS MARCO top-5 + web search top-5 (Sec 4.3),54.9,fp16 vLLM; adaptive retrieval threshold 0.2; full-vocab logprobs
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),Self-RAG 7B,Llama-2-7B (Self-RAG),Contriever-MS MARCO + web search,66.4,
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,Self-RAG 7B,Llama-2-7B (Self-RAG),Contriever-MS MARCO top-5,72.4,
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),Self-RAG 13B,Llama-2-13B (Self-RAG),Contriever-MS MARCO + web search,55.8,
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),Self-RAG 13B,Llama-2-13B (Self-RAG),Contriever-MS MARCO + web search,69.3,
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,Self-RAG 13B,Llama-2-13B (Self-RAG),Contriever-MS MARCO top-5,74.5,
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),No retrieval,Llama-2-7B,none,14.7,
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),No retrieval,Llama-2-7B,none,30.5,
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,No retrieval,Llama-2-7B,none,34.2,
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),Standard RAG,Llama-2-7B,Contriever-MS MARCO (+ web search),38.2,
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),Standard RAG,Llama-2-7B,Contriever-MS MARCO (+ web search),42.5,
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,Standard RAG,Llama-2-7B,Contriever-MS MARCO,30.0,
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),No retrieval,Alpaca-7B,none,23.6,
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),No retrieval,Alpaca-7B,none,54.5,
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,No retrieval,Alpaca-7B,none,49.8,
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),Standard RAG,Alpaca-7B,Contriever-MS MARCO (+ web search),46.7,
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),Standard RAG,Alpaca-7B,Contriever-MS MARCO (+ web search),64.1,
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,Standard RAG,Alpaca-7B,Contriever-MS MARCO,40.2,
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),No retrieval,ChatGPT,none,29.3,proprietary
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),No retrieval,ChatGPT,none,74.3,proprietary
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,No retrieval,ChatGPT,none,70.1,proprietary
+asai2024selfrag,arXiv 2310.11511,Table 2,PopQA (long-tail 1399),acc (Self-RAG match),Standard RAG,ChatGPT,Contriever-MS MARCO (+ web search),50.8,proprietary
+asai2024selfrag,arXiv 2310.11511,Table 2,TriviaQA (Self-RAG test file),acc (Self-RAG match),Standard RAG,ChatGPT,Contriever-MS MARCO (+ web search),65.7,proprietary
+asai2024selfrag,arXiv 2310.11511,Table 2,PubHealth (987),acc,Standard RAG,ChatGPT,Contriever-MS MARCO,54.7,proprietary
+yan2024crag,arXiv 2401.15884 (latest version, PDF fetched 2026-11-04),Table 1,PopQA (long-tail 1399),accuracy,Standard RAG,LLaMA2-hf-7b,Contriever-MS MARCO (Self-RAG files),50.5,
+yan2024crag,arXiv 2401.15884,Table 1,PubHealth (987),accuracy,Standard RAG,LLaMA2-hf-7b,Contriever-MS MARCO (Self-RAG files),48.9,
+yan2024crag,arXiv 2401.15884,Table 1,PopQA (long-tail 1399),accuracy,CRAG,LLaMA2-hf-7b,Self-RAG files + web search (Google API),54.9,
+yan2024crag,arXiv 2401.15884,Table 1,PubHealth (987),accuracy,CRAG,LLaMA2-hf-7b,Self-RAG files + web search,59.5,
+yan2024crag,arXiv 2401.15884,Table 1,PopQA (long-tail 1399),accuracy,Self-RAG (reproduced by CRAG authors),LLaMA2-hf-7b,Self-RAG files,29.0,marked * (reproduced)
+yan2024crag,arXiv 2401.15884,Table 1,PubHealth (987),accuracy,Self-RAG (reproduced by CRAG authors),LLaMA2-hf-7b,Self-RAG files,0.7,marked * (reproduced)
+yan2024crag,arXiv 2401.15884,Table 1,PopQA (long-tail 1399),accuracy,Standard RAG,SelfRAG-LLaMA2-7b,Self-RAG files,52.8,
+yan2024crag,arXiv 2401.15884,Table 1,PubHealth (987),accuracy,Standard RAG,SelfRAG-LLaMA2-7b,Self-RAG files,39.0,
+yan2024crag,arXiv 2401.15884,Table 1,PopQA (long-tail 1399),accuracy,CRAG,SelfRAG-LLaMA2-7b,Self-RAG files + web search,59.8,
+yan2024crag,arXiv 2401.15884,Table 1,PubHealth (987),accuracy,CRAG,SelfRAG-LLaMA2-7b,Self-RAG files + web search,75.6,
+yan2024crag,arXiv 2401.15884,Table 1,PopQA (long-tail 1399),accuracy,Self-CRAG,SelfRAG-LLaMA2-7b,Self-RAG files + web search,61.8,
+yan2024crag,arXiv 2401.15884,Table 1,PubHealth (987),accuracy,Self-CRAG,SelfRAG-LLaMA2-7b,Self-RAG files + web search,74.8,

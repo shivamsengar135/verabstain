@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rarr_popqa_lt",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rarr",
+ "dataset": "popqa_lt",
+ "split": "dev",
+ "correct": 0.43,
+ "match": 0.43,
+ "match_norm": 0.46,
+ "em": 0.4,
+ "f1": 0.45654761904761904,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 9.13,
+ "mean_prompt_tokens": 9235.18,
+ "mean_completion_tokens": 937.81,
+ "mean_llm_seconds": 58.3680443929974,
+ "mean_retrievals": 4.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 45.86899665900069,
+ "wall_s": 589.2831370830536
+}

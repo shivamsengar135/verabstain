@@ -1,0 +1,29 @@
+2026-11-05 02:50:31,866 ERROR JOB FAILED devB_ragverify_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 290, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 170, in run_job
+    examples = D.load(job["dataset"], job["split"], job.get("n"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in load
+    return [byid[i] for i in want]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in <listcomp>
+    return [byid[i] for i in want]
+            ~~~~^^^
+KeyError: 'pubdev:there'
+
+2026-11-05 02:55:29,976 INFO START devB_ragverify_pubhealth: 300/300 examples to run; projected 8 min
+2026-11-05 02:55:39,888 INFO devB_ragverify_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 02:55:40,068 INFO devB_ragverify_pubhealth: 50/300 done, 0 errors, 0s
+2026-11-05 02:55:40,188 INFO devB_ragverify_pubhealth: 75/300 done, 0 errors, 0s
+2026-11-05 02:55:40,279 INFO devB_ragverify_pubhealth: 100/300 done, 0 errors, 1s
+2026-11-05 02:56:19,067 INFO devB_ragverify_pubhealth: 125/300 done, 0 errors, 39s
+2026-11-05 02:56:27,009 INFO devB_ragverify_pubhealth: 150/300 done, 0 errors, 47s
+2026-11-05 02:56:39,236 INFO devB_ragverify_pubhealth: 175/300 done, 0 errors, 60s
+2026-11-05 02:56:50,512 INFO devB_ragverify_pubhealth: 200/300 done, 0 errors, 71s
+2026-11-05 02:57:00,526 INFO devB_ragverify_pubhealth: 225/300 done, 0 errors, 81s
+2026-11-05 02:57:06,869 INFO devB_ragverify_pubhealth: 250/300 done, 0 errors, 87s
+2026-11-05 02:57:15,099 INFO devB_ragverify_pubhealth: 275/300 done, 0 errors, 95s
+2026-11-05 02:57:21,567 INFO devB_ragverify_pubhealth: 300/300 done, 0 errors, 102s
+2026-11-05 02:57:22,237 INFO END devB_ragverify_pubhealth: complete, wall 1.7 min, stats {'llm_calls': 329, 'cache_hits': 165, 'prompt_tokens': 99022, 'completion_tokens': 4983, 'llm_seconds': 461.3505163997761, 'retrievals': 0, 'verifier_pairs': 0}

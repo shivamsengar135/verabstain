@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_flare_triviaqa",
+ "n": 300,
+ "n_expected": 300,
+ "method": "flare",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.52,
+ "match": 0.52,
+ "match_norm": 0.59,
+ "em": 0.5466666666666666,
+ "f1": 0.5991152232186714,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.3633333333333333,
+ "mean_prompt_tokens": 804.75,
+ "mean_completion_tokens": 7.0633333333333335,
+ "mean_llm_seconds": 2.784643736000435,
+ "mean_retrievals": 1.3633333333333333,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.7023899030005365,
+ "wall_s": 30.21876811981201
+}

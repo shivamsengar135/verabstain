@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_flare_pubhealth",
+ "n": 100,
+ "n_expected": 100,
+ "method": "flare",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.33,
+ "match": 0.33,
+ "match_norm": 0.33,
+ "em": 0.33,
+ "f1": 0.33,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 3.0,
+ "mean_prompt_tokens": 1810.77,
+ "mean_completion_tokens": 6.0,
+ "mean_llm_seconds": 4.666524078000512,
+ "mean_retrievals": 3.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 3.417942458000034,
+ "wall_s": 43.48277997970581
+}

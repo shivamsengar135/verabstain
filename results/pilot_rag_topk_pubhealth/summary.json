@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rag_topk_pubhealth",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rag_topk",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.33,
+ "match": 0.33,
+ "match_norm": 0.33,
+ "em": 0.33,
+ "f1": 0.33,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 617.69,
+ "mean_completion_tokens": 2.0,
+ "mean_llm_seconds": 1.6343306210006994,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.820999433000252,
+ "wall_s": 60.71996068954468
+}

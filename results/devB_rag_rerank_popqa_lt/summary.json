@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_rag_rerank_popqa_lt",
+ "n": 300,
+ "n_expected": 300,
+ "method": "rag_rerank",
+ "dataset": "popqa_lt",
+ "split": "dev",
+ "correct": 0.43333333333333335,
+ "match": 0.43333333333333335,
+ "match_norm": 0.44333333333333336,
+ "em": 0.39,
+ "f1": 0.44945238095238094,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 498.3433333333333,
+ "mean_completion_tokens": 4.86,
+ "mean_llm_seconds": 1.0298408513328954,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.8765482073327682,
+ "wall_s": 33.302154541015625
+}

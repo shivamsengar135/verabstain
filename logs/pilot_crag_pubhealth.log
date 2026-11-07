@@ -1,0 +1,6 @@
+2026-11-05 00:48:33,419 INFO START pilot_crag_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-05 00:49:38,320 INFO pilot_crag_pubhealth: 25/100 done, 0 errors, 65s
+2026-11-05 00:50:28,059 INFO pilot_crag_pubhealth: 50/100 done, 0 errors, 114s
+2026-11-05 00:51:15,405 INFO pilot_crag_pubhealth: 75/100 done, 0 errors, 162s
+2026-11-05 00:51:55,786 INFO pilot_crag_pubhealth: 100/100 done, 0 errors, 202s
+2026-11-05 00:51:55,799 INFO END pilot_crag_pubhealth: complete, wall 3.4 min, stats {'llm_calls': 400, 'cache_hits': 0, 'prompt_tokens': 184043, 'completion_tokens': 1844, 'llm_seconds': 837.9200248998095, 'retrievals': 0, 'verifier_pairs': 0}

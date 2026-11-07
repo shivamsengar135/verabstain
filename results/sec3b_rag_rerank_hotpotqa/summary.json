@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_rag_rerank_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rag_rerank",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.264,
+ "match": 0.264,
+ "match_norm": 0.368,
+ "em": 0.326,
+ "f1": 0.42589615975422423,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 578.306,
+ "mean_completion_tokens": 4.876,
+ "mean_llm_seconds": 1.1241495196000688,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.145314274999946,
+ "wall_s": 131.14282178878784
+}

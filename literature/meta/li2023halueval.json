@@ -1,0 +1,74 @@
+{
+ "seed": {
+  "key": "li2023halueval",
+  "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+  "arxiv_id": "2305.11747",
+  "category": "benchmark",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+  "authors": [
+   "Junyi Li",
+   "Xiaoxue Cheng",
+   "Wayne Xin Zhao",
+   "Jian-Yun Nie",
+   "Ji-Rong Wen"
+  ],
+  "abstract": "Large language models (LLMs), such as ChatGPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To understand what types of content and to which extent LLMs are apt to hallucinate, we introduce the Hallucination Evaluation benchmark for Large Language Models (HaluEval), a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination. To generate these samples, we propose a ChatGPT-based two-step framework, i.e., sampling-then-filtering. Besides, we also hire some human labelers to annotate the hallucinations in ChatGPT responses. The empirical results suggest that ChatGPT is likely to generate hallucinated content in specific topics by fabricating unverifiable information (i.e., about $19.5\\%$ responses). Moreover, existing LLMs face great challenges in recognizing the hallucinations in texts. However, our experiments also prove that providing external knowledge or adding reasoning steps can help LLMs recognize hallucinations. Our benchmark can be accessed at https://github.com/RUCAIBox/HaluEval.",
+  "published": "2023-05-19",
+  "arxiv_id": "2305.11747",
+  "comment": "Accepted to EMNLP 2023 Main Conference (Long Paper)",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "e0384ba36555232c587d4a80d527895a095a9001",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2305-11747",
+   "ArXiv": "2305.11747",
+   "DOI": "10.48550/arXiv.2305.11747",
+   "CorpusId": 258832847
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2023,
+  "publicationDate": "2023-05-19",
+  "journal": {
+   "pages": "6449-6464"
+  },
+  "authors": [
+   {
+    "authorId": "2018027",
+    "name": "Junyi Li"
+   },
+   {
+    "authorId": "2149479237",
+    "name": "Xiao-Xue Cheng"
+   },
+   {
+    "authorId": "2542603",
+    "name": "W. Zhao"
+   },
+   {
+    "authorId": "50204644",
+    "name": "Jian-Yun Nie"
+   },
+   {
+    "authorId": "153693432",
+    "name": "Ji-Rong Wen"
+   }
+  ]
+ }
+}

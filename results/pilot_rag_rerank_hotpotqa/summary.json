@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rag_rerank_hotpotqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rag_rerank",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.53,
+ "match": 0.53,
+ "match_norm": 0.62,
+ "em": 0.58,
+ "f1": 0.6536320346320346,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 590.52,
+ "mean_completion_tokens": 5.05,
+ "mean_llm_seconds": 0.35481089299966695,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 8.282084793998365,
+ "wall_s": 79.069020986557
+}

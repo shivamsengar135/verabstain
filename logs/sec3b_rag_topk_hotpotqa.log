@@ -1,0 +1,28 @@
+2026-11-06 23:58:20,429 INFO START sec3b_rag_topk_hotpotqa: 500/500 examples to run; projected 4 min
+2026-11-06 23:58:24,889 INFO sec3b_rag_topk_hotpotqa: 25/500 done, 0 errors, 4s
+2026-11-06 23:58:28,435 INFO sec3b_rag_topk_hotpotqa: 50/500 done, 0 errors, 8s
+2026-11-06 23:58:32,245 INFO sec3b_rag_topk_hotpotqa: 75/500 done, 0 errors, 12s
+2026-11-06 23:58:33,944 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=12.7 on_battery=False
+2026-11-06 23:58:53,955 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=3.7
+2026-11-06 23:58:55,987 INFO sec3b_rag_topk_hotpotqa: 100/500 done, 0 errors, 35s
+2026-11-06 23:58:59,785 INFO sec3b_rag_topk_hotpotqa: 125/500 done, 0 errors, 39s
+2026-11-06 23:59:03,374 INFO sec3b_rag_topk_hotpotqa: 150/500 done, 0 errors, 43s
+2026-11-06 23:59:07,369 INFO sec3b_rag_topk_hotpotqa: 175/500 done, 0 errors, 47s
+2026-11-06 23:59:10,773 INFO sec3b_rag_topk_hotpotqa: 200/500 done, 0 errors, 50s
+2026-11-06 23:59:14,644 INFO sec3b_rag_topk_hotpotqa: 225/500 done, 0 errors, 54s
+2026-11-06 23:59:18,878 INFO sec3b_rag_topk_hotpotqa: 250/500 done, 0 errors, 58s
+2026-11-06 23:59:21,980 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=14.1 on_battery=False
+2026-11-06 23:59:22,054 INFO sec3b_rag_topk_hotpotqa: 275/500 done, 0 errors, 61s
+2026-11-06 23:59:41,991 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=5.0
+2026-11-06 23:59:46,192 INFO sec3b_rag_topk_hotpotqa: 300/500 done, 0 errors, 86s
+2026-11-06 23:59:50,010 INFO sec3b_rag_topk_hotpotqa: 325/500 done, 0 errors, 89s
+2026-11-06 23:59:53,662 INFO sec3b_rag_topk_hotpotqa: 350/500 done, 0 errors, 93s
+2026-11-06 23:59:56,974 INFO sec3b_rag_topk_hotpotqa: 375/500 done, 0 errors, 96s
+2026-11-07 00:00:01,005 INFO sec3b_rag_topk_hotpotqa: 400/500 done, 0 errors, 100s
+2026-11-07 00:00:04,478 INFO sec3b_rag_topk_hotpotqa: 425/500 done, 0 errors, 104s
+2026-11-07 00:00:07,793 INFO sec3b_rag_topk_hotpotqa: 450/500 done, 0 errors, 107s
+2026-11-07 00:00:08,014 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=13.5 on_battery=False
+2026-11-07 00:00:28,024 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=3.0
+2026-11-07 00:00:31,635 INFO sec3b_rag_topk_hotpotqa: 475/500 done, 0 errors, 131s
+2026-11-07 00:00:34,650 INFO sec3b_rag_topk_hotpotqa: 500/500 done, 0 errors, 134s
+2026-11-07 00:00:34,904 INFO END sec3b_rag_topk_hotpotqa: complete, wall 2.2 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 300519, 'completion_tokens': 2458, 'llm_seconds': 591.214887899976, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,10 @@
+2026-11-07 01:07:14,094 INFO START quant3bq8_closed_book_popqa_lt: 200/200 examples to run; projected 3 min
+2026-11-07 01:07:24,006 INFO quant3bq8_closed_book_popqa_lt: 25/200 done, 0 errors, 1s
+2026-11-07 01:07:25,063 INFO quant3bq8_closed_book_popqa_lt: 50/200 done, 0 errors, 2s
+2026-11-07 01:07:26,185 INFO quant3bq8_closed_book_popqa_lt: 75/200 done, 0 errors, 3s
+2026-11-07 01:07:27,238 INFO quant3bq8_closed_book_popqa_lt: 100/200 done, 0 errors, 4s
+2026-11-07 01:07:28,472 INFO quant3bq8_closed_book_popqa_lt: 125/200 done, 0 errors, 6s
+2026-11-07 01:07:29,738 INFO quant3bq8_closed_book_popqa_lt: 150/200 done, 0 errors, 7s
+2026-11-07 01:07:30,756 INFO quant3bq8_closed_book_popqa_lt: 175/200 done, 0 errors, 8s
+2026-11-07 01:07:32,312 INFO quant3bq8_closed_book_popqa_lt: 200/200 done, 0 errors, 9s
+2026-11-07 01:07:32,557 INFO END quant3bq8_closed_book_popqa_lt: complete, wall 0.2 min, stats {'llm_calls': 200, 'cache_hits': 0, 'prompt_tokens': 15121, 'completion_tokens': 1357, 'llm_seconds': 72.96001059993432, 'retrievals': 0, 'verifier_pairs': 0}

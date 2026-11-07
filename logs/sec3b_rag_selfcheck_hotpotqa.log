@@ -1,0 +1,25 @@
+2026-11-07 00:15:42,975 INFO START sec3b_rag_selfcheck_hotpotqa: 500/500 examples to run; projected 5 min
+2026-11-07 00:16:02,342 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=3.8
+2026-11-07 00:16:11,393 INFO sec3b_rag_selfcheck_hotpotqa: 25/500 done, 0 errors, 28s
+2026-11-07 00:16:19,595 INFO sec3b_rag_selfcheck_hotpotqa: 50/500 done, 0 errors, 36s
+2026-11-07 00:16:27,315 INFO sec3b_rag_selfcheck_hotpotqa: 75/500 done, 0 errors, 44s
+2026-11-07 00:16:35,423 INFO sec3b_rag_selfcheck_hotpotqa: 100/500 done, 0 errors, 52s
+2026-11-07 00:16:43,683 INFO sec3b_rag_selfcheck_hotpotqa: 125/500 done, 0 errors, 61s
+2026-11-07 00:16:51,696 INFO sec3b_rag_selfcheck_hotpotqa: 150/500 done, 0 errors, 69s
+2026-11-07 00:17:00,442 INFO sec3b_rag_selfcheck_hotpotqa: 175/500 done, 0 errors, 77s
+2026-11-07 00:17:08,838 INFO sec3b_rag_selfcheck_hotpotqa: 200/500 done, 0 errors, 86s
+2026-11-07 00:17:17,027 INFO sec3b_rag_selfcheck_hotpotqa: 225/500 done, 0 errors, 94s
+2026-11-07 00:17:25,466 INFO sec3b_rag_selfcheck_hotpotqa: 250/500 done, 0 errors, 102s
+2026-11-07 00:17:32,778 INFO sec3b_rag_selfcheck_hotpotqa: 275/500 done, 0 errors, 110s
+2026-11-07 00:17:39,894 INFO sec3b_rag_selfcheck_hotpotqa: 300/500 done, 0 errors, 117s
+2026-11-07 00:17:44,409 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=17.5 on_battery=False
+2026-11-07 00:18:04,421 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.7
+2026-11-07 00:18:08,135 INFO sec3b_rag_selfcheck_hotpotqa: 325/500 done, 0 errors, 145s
+2026-11-07 00:18:15,750 INFO sec3b_rag_selfcheck_hotpotqa: 350/500 done, 0 errors, 153s
+2026-11-07 00:18:23,696 INFO sec3b_rag_selfcheck_hotpotqa: 375/500 done, 0 errors, 161s
+2026-11-07 00:18:31,101 INFO sec3b_rag_selfcheck_hotpotqa: 400/500 done, 0 errors, 168s
+2026-11-07 00:18:39,344 INFO sec3b_rag_selfcheck_hotpotqa: 425/500 done, 0 errors, 176s
+2026-11-07 00:18:46,411 INFO sec3b_rag_selfcheck_hotpotqa: 450/500 done, 0 errors, 183s
+2026-11-07 00:18:53,688 INFO sec3b_rag_selfcheck_hotpotqa: 475/500 done, 0 errors, 191s
+2026-11-07 00:19:00,175 INFO sec3b_rag_selfcheck_hotpotqa: 500/500 done, 0 errors, 197s
+2026-11-07 00:19:00,378 INFO END sec3b_rag_selfcheck_hotpotqa: complete, wall 3.3 min, stats {'llm_calls': 2500, 'cache_hits': 500, 'prompt_tokens': 1502595, 'completion_tokens': 14953, 'llm_seconds': 1406.443078899989, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,1012 @@
+2026-11-05 00:02:11,065 INFO START pilot_rarr_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-05 00:02:11,288 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,289 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,298 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,303 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,307 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,310 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,315 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,318 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,327 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,333 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,337 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,344 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,349 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,353 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,360 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,363 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,367 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,372 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,381 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,383 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,391 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,397 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,401 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,405 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,406 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,406 INFO pilot_rarr_hotpotqa: 25/100 done, 25 errors, 0s
+2026-11-05 00:02:11,407 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,408 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,409 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,409 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,410 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,411 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,412 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,412 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,413 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,414 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,416 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,416 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,417 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,417 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,418 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,418 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,419 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,419 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,420 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,421 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,422 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,423 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,423 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,424 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,424 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,425 INFO pilot_rarr_hotpotqa: 50/100 done, 50 errors, 0s
+2026-11-05 00:02:11,425 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,426 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,427 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,427 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,428 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,428 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,429 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,430 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,430 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,431 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,431 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,432 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,433 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,433 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,434 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,434 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,435 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,436 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,436 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,437 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,439 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,439 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,440 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,440 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,441 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,441 INFO pilot_rarr_hotpotqa: 75/100 done, 75 errors, 0s
+2026-11-05 00:02:11,441 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,442 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,442 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,443 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,444 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,444 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,446 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,446 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,447 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,447 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,448 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,449 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,450 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,451 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,451 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,453 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,453 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,454 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,455 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,455 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,457 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,458 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,458 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,459 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,459 ERROR Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 226, in run_job
+    f.result()
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+KeyError: 'CONTEXTUAL_QGEN_PROMPT'
+
+2026-11-05 00:02:11,460 INFO pilot_rarr_hotpotqa: 100/100 done, 100 errors, 0s
+2026-11-05 00:02:11,462 INFO END pilot_rarr_hotpotqa: partial 0/100, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 100, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}
+2026-11-05 01:25:38,000 INFO START pilot_rarr_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-05 01:28:40,809 INFO pilot_rarr_hotpotqa: 25/100 done, 0 errors, 183s
+2026-11-05 01:31:21,348 INFO pilot_rarr_hotpotqa: 50/100 done, 0 errors, 343s
+2026-11-05 01:33:50,070 INFO pilot_rarr_hotpotqa: 75/100 done, 0 errors, 492s
+2026-11-05 01:36:05,105 INFO pilot_rarr_hotpotqa: 100/100 done, 0 errors, 627s
+2026-11-05 01:36:05,720 INFO END pilot_rarr_hotpotqa: complete, wall 10.4 min, stats {'llm_calls': 763, 'cache_hits': 100, 'prompt_tokens': 850166, 'completion_tokens': 96282, 'llm_seconds': 4738.823533899966, 'retrievals': 0, 'verifier_pairs': 0}

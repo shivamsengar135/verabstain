@@ -1,0 +1,71 @@
+{
+ "seed": {
+  "key": "stelmakh2022asqa",
+  "title": "ASQA: Factoid Questions Meet Long-Form Answers",
+  "arxiv_id": "2204.06092",
+  "category": "benchmark",
+  "role": "optional-dataset"
+ },
+ "arxiv": {
+  "title": "ASQA: Factoid Questions Meet Long-Form Answers",
+  "authors": [
+   "Ivan Stelmakh",
+   "Yi Luan",
+   "Bhuwan Dhingra",
+   "Ming-Wei Chang"
+  ],
+  "abstract": "An abundance of datasets and availability of reliable evaluation metrics have resulted in strong progress in factoid question answering (QA). This progress, however, does not easily transfer to the task of long-form QA, where the goal is to answer questions that require in-depth explanations. The hurdles include (i) a lack of high-quality data, and (ii) the absence of a well-defined notion of the answer's quality. In this work, we address these problems by (i) releasing a novel dataset and a task that we call ASQA (Answer Summaries for Questions which are Ambiguous); and (ii) proposing a reliable metric for measuring performance on ASQA. Our task focuses on factoid questions that are ambiguous, that is, have different correct answers depending on interpretation. Answers to ambiguous questions should synthesize factual information from multiple sources into a long-form summary that resolves the ambiguity. In contrast to existing long-form QA tasks (such as ELI5), ASQA admits a clear notion of correctness: a user faced with a good summary should be able to answer different interpretations of the original ambiguous question. We use this notion of correctness to define an automated metric of performance for ASQA. Our analysis demonstrates an agreement between this metric and human judgments, and reveals a considerable gap between human performance and strong baselines.",
+  "published": "2022-04-12",
+  "arxiv_id": "2204.06092",
+  "comment": "A minor bug in computing the ROUGE score was fixed. The fix **did not** result in any changes in observations and conclusions",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "fcd7bdf37cec0845f6960aa1ab87685b73fcfd2f",
+  "externalIds": {
+   "ACL": "2022.emnlp-main.566",
+   "DBLP": "conf/emnlp/StelmakhLDC22",
+   "ArXiv": "2204.06092",
+   "DOI": "10.48550/arXiv.2204.06092",
+   "CorpusId": 248157463
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "ASQA: Factoid Questions Meet Long-Form Answers",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2022,
+  "publicationDate": "2022-04-12",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2204.06092"
+  },
+  "authors": [
+   {
+    "authorId": "50825200",
+    "name": "Ivan Stelmakh"
+   },
+   {
+    "authorId": "116300663",
+    "name": "Yi Luan"
+   },
+   {
+    "authorId": "2060730422",
+    "name": "Bhuwan Dhingra"
+   },
+   {
+    "authorId": "1744179",
+    "name": "Ming-Wei Chang"
+   }
+  ]
+ }
+}

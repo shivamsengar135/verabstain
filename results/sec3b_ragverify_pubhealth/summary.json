@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_ragverify_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.528,
+ "match": 0.528,
+ "match_norm": 0.528,
+ "em": 0.528,
+ "f1": 0.528,
+ "native_abstain_rate": 0.028,
+ "mean_llm_calls": 2.308,
+ "mean_prompt_tokens": 1109.674,
+ "mean_completion_tokens": 57.932,
+ "mean_llm_seconds": 4.1292932616000035,
+ "mean_retrievals": 1.14,
+ "mean_verifier_pairs": 1.132,
+ "mean_seconds": 3.9413664778001696,
+ "wall_s": 345.62592697143555
+}

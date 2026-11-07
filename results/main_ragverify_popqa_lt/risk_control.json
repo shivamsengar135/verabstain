@@ -1,0 +1,46 @@
+{
+ "run_id": "main_ragverify_popqa_lt",
+ "n": 1000,
+ "0.05": {
+  "crc": {
+   "risk_mean": 0.051500000000000004,
+   "risk_sd": 0.013333791658789335,
+   "frac_risk_gt_alpha": 0.55,
+   "coverage_mean": 0.43978
+  },
+  "ltt": {
+   "risk_mean": 0.004379309670575916,
+   "risk_sd": 0.01614677357540846,
+   "frac_risk_gt_alpha": 0.07,
+   "coverage_mean": 0.00992
+  }
+ },
+ "0.1": {
+  "crc": {
+   "risk_mean": 0.10142000000000001,
+   "risk_sd": 0.01779504425394891,
+   "frac_risk_gt_alpha": 0.51,
+   "coverage_mean": 0.60754
+  },
+  "ltt": {
+   "risk_mean": 0.024196346227848532,
+   "risk_sd": 0.032895920016076635,
+   "frac_risk_gt_alpha": 0.03,
+   "coverage_mean": 0.03622
+  }
+ },
+ "0.2": {
+  "crc": {
+   "risk_mean": 0.19982,
+   "risk_sd": 0.02305488234626236,
+   "frac_risk_gt_alpha": 0.48,
+   "coverage_mean": 0.7946
+  },
+  "ltt": {
+   "risk_mean": 0.09562985953481058,
+   "risk_sd": 0.08784452635574928,
+   "frac_risk_gt_alpha": 0.08,
+   "coverage_mean": 0.34047999999999995
+  }
+ }
+}

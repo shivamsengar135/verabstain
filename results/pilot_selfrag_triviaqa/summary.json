@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_selfrag_triviaqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "selfrag",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.47,
+ "match": 0.47,
+ "match_norm": 0.59,
+ "em": 0.2,
+ "f1": 0.358018670596144,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 839.59,
+ "mean_completion_tokens": 165.57,
+ "mean_llm_seconds": 9.251720422997897,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.284882266998757,
+ "wall_s": 119.18230938911438
+}

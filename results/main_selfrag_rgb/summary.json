@@ -1,0 +1,20 @@
+{
+ "run_id": "main_selfrag_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "selfrag",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.5892307692307692,
+ "rejected": 0.0,
+ "fake_answer": 0.69,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 6.876153846153846,
+ "mean_prompt_tokens": 1653.3123076923077,
+ "mean_completion_tokens": 163.3446153846154,
+ "mean_llm_seconds": 24.396572309536737,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 11.054557883461586,
+ "wall_s": 1813.4027917385101
+}

@@ -1,0 +1,22 @@
+2026-11-06 22:04:55,712 INFO START abl_ragverify_noM4_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-06 22:04:55,979 INFO abl_ragverify_noM4_popqa_lt: 25/500 done, 0 errors, 0s
+2026-11-06 22:04:56,050 INFO abl_ragverify_noM4_popqa_lt: 50/500 done, 0 errors, 0s
+2026-11-06 22:04:56,137 INFO abl_ragverify_noM4_popqa_lt: 75/500 done, 0 errors, 0s
+2026-11-06 22:04:56,216 INFO abl_ragverify_noM4_popqa_lt: 100/500 done, 0 errors, 0s
+2026-11-06 22:04:56,294 INFO abl_ragverify_noM4_popqa_lt: 125/500 done, 0 errors, 0s
+2026-11-06 22:04:56,383 INFO abl_ragverify_noM4_popqa_lt: 150/500 done, 0 errors, 1s
+2026-11-06 22:04:56,462 INFO abl_ragverify_noM4_popqa_lt: 175/500 done, 0 errors, 1s
+2026-11-06 22:04:56,531 INFO abl_ragverify_noM4_popqa_lt: 200/500 done, 0 errors, 1s
+2026-11-06 22:04:56,603 INFO abl_ragverify_noM4_popqa_lt: 225/500 done, 0 errors, 1s
+2026-11-06 22:04:56,666 INFO abl_ragverify_noM4_popqa_lt: 250/500 done, 0 errors, 1s
+2026-11-06 22:04:56,746 INFO abl_ragverify_noM4_popqa_lt: 275/500 done, 0 errors, 1s
+2026-11-06 22:04:56,823 INFO abl_ragverify_noM4_popqa_lt: 300/500 done, 0 errors, 1s
+2026-11-06 22:04:56,889 INFO abl_ragverify_noM4_popqa_lt: 325/500 done, 0 errors, 1s
+2026-11-06 22:04:56,988 INFO abl_ragverify_noM4_popqa_lt: 350/500 done, 0 errors, 1s
+2026-11-06 22:04:57,061 INFO abl_ragverify_noM4_popqa_lt: 375/500 done, 0 errors, 1s
+2026-11-06 22:04:57,131 INFO abl_ragverify_noM4_popqa_lt: 400/500 done, 0 errors, 1s
+2026-11-06 22:04:57,204 INFO abl_ragverify_noM4_popqa_lt: 425/500 done, 0 errors, 1s
+2026-11-06 22:04:57,267 INFO abl_ragverify_noM4_popqa_lt: 450/500 done, 0 errors, 1s
+2026-11-06 22:04:57,346 INFO abl_ragverify_noM4_popqa_lt: 475/500 done, 0 errors, 1s
+2026-11-06 22:04:57,408 INFO abl_ragverify_noM4_popqa_lt: 500/500 done, 0 errors, 2s
+2026-11-06 22:04:57,602 INFO END abl_ragverify_noM4_popqa_lt: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 1000, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

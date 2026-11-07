@@ -1,0 +1,1504 @@
+{
+ "crag": {
+  "best": {
+   "params": [
+    2.0,
+    -3.0
+   ],
+   "per_dataset": {
+    "hotpotqa": 0.52,
+    "popqa_lt": 0.49,
+    "pubhealth": 0.36,
+    "triviaqa": 0.49
+   },
+   "mean": 0.465
+  },
+  "grid": [
+   {
+    "params": [
+     -1.0,
+     -3.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.44,
+     "popqa_lt": 0.45,
+     "pubhealth": 0.31,
+     "triviaqa": 0.49
+    },
+    "mean": 0.4225
+   },
+   {
+    "params": [
+     -1.0,
+     -2.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.44,
+     "popqa_lt": 0.45,
+     "pubhealth": 0.31,
+     "triviaqa": 0.49
+    },
+    "mean": 0.4225
+   },
+   {
+    "params": [
+     -1.0,
+     -1.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.44,
+     "popqa_lt": 0.44,
+     "pubhealth": 0.31,
+     "triviaqa": 0.5
+    },
+    "mean": 0.4225
+   },
+   {
+    "params": [
+     0.0,
+     -3.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.46,
+     "pubhealth": 0.35,
+     "triviaqa": 0.49
+    },
+    "mean": 0.45249999999999996
+   },
+   {
+    "params": [
+     0.0,
+     -2.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.46,
+     "pubhealth": 0.35,
+     "triviaqa": 0.49
+    },
+    "mean": 0.45249999999999996
+   },
+   {
+    "params": [
+     0.0,
+     -1.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.45,
+     "pubhealth": 0.35,
+     "triviaqa": 0.5
+    },
+    "mean": 0.4525
+   },
+   {
+    "params": [
+     0.0,
+     0.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.42,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.32,
+     "triviaqa": 0.51
+    },
+    "mean": 0.41000000000000003
+   },
+   {
+    "params": [
+     0.5,
+     -3.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.47,
+     "pubhealth": 0.36,
+     "triviaqa": 0.49
+    },
+    "mean": 0.45749999999999996
+   },
+   {
+    "params": [
+     0.5,
+     -2.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.47,
+     "pubhealth": 0.36,
+     "triviaqa": 0.49
+    },
+    "mean": 0.45749999999999996
+   },
+   {
+    "params": [
+     0.5,
+     -1.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.46,
+     "pubhealth": 0.36,
+     "triviaqa": 0.5
+    },
+    "mean": 0.4575
+   },
+   {
+    "params": [
+     0.5,
+     0.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.42,
+     "popqa_lt": 0.4,
+     "pubhealth": 0.33,
+     "triviaqa": 0.51
+    },
+    "mean": 0.41500000000000004
+   },
+   {
+    "params": [
+     1.0,
+     -3.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.48,
+     "pubhealth": 0.36,
+     "triviaqa": 0.49
+    },
+    "mean": 0.46249999999999997
+   },
+   {
+    "params": [
+     1.0,
+     -2.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.48,
+     "pubhealth": 0.36,
+     "triviaqa": 0.49
+    },
+    "mean": 0.46249999999999997
+   },
+   {
+    "params": [
+     1.0,
+     -1.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.47,
+     "pubhealth": 0.36,
+     "triviaqa": 0.5
+    },
+    "mean": 0.4625
+   },
+   {
+    "params": [
+     1.0,
+     0.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.41,
+     "pubhealth": 0.33,
+     "triviaqa": 0.51
+    },
+    "mean": 0.42
+   },
+   {
+    "params": [
+     2.0,
+     -3.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.49,
+     "pubhealth": 0.36,
+     "triviaqa": 0.49
+    },
+    "mean": 0.465
+   },
+   {
+    "params": [
+     2.0,
+     -2.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.49,
+     "pubhealth": 0.36,
+     "triviaqa": 0.49
+    },
+    "mean": 0.465
+   },
+   {
+    "params": [
+     2.0,
+     -1.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.48,
+     "pubhealth": 0.36,
+     "triviaqa": 0.5
+    },
+    "mean": 0.46499999999999997
+   },
+   {
+    "params": [
+     2.0,
+     0.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.42,
+     "pubhealth": 0.33,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4225
+   }
+  ]
+ },
+ "flare": {
+  "best": {
+   "params": [
+    0.8
+   ],
+   "per_dataset": {
+    "hotpotqa": 0.55,
+    "popqa_lt": 0.44,
+    "pubhealth": 0.32,
+    "triviaqa": 0.53
+   },
+   "mean": 0.46
+  },
+  "grid": [
+   {
+    "params": [
+     0.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.53,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.33,
+     "triviaqa": 0.49
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.2
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.53,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.33,
+     "triviaqa": 0.49
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.3
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.53,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.33,
+     "triviaqa": 0.49
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.4
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.53,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.33,
+     "triviaqa": 0.49
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.5
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.32,
+     "triviaqa": 0.5
+    },
+    "mean": 0.4325
+   },
+   {
+    "params": [
+     0.6
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.54,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.32,
+     "triviaqa": 0.51
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.8
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.55,
+     "popqa_lt": 0.44,
+     "pubhealth": 0.32,
+     "triviaqa": 0.53
+    },
+    "mean": 0.46
+   },
+   {
+    "params": [
+     1.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.53,
+     "popqa_lt": 0.45,
+     "pubhealth": 0.33,
+     "triviaqa": 0.53
+    },
+    "mean": 0.46
+   }
+  ]
+ },
+ "ragverify": {
+  "best": {
+   "params": [
+    0.9,
+    0.1,
+    "rag"
+   ],
+   "per_dataset": {
+    "hotpotqa": 0.43,
+    "popqa_lt": 0.38,
+    "pubhealth": 0.44,
+    "triviaqa": 0.53
+   },
+   "mean": 0.445
+  },
+  "grid": [
+   {
+    "params": [
+     0.6,
+     0.1,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.34,
+     "popqa_lt": 0.27,
+     "pubhealth": 0.5,
+     "triviaqa": 0.47
+    },
+    "mean": 0.395
+   },
+   {
+    "params": [
+     0.6,
+     0.1,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.33,
+     "popqa_lt": 0.28,
+     "pubhealth": 0.5,
+     "triviaqa": 0.48
+    },
+    "mean": 0.3975
+   },
+   {
+    "params": [
+     0.6,
+     0.3,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.34,
+     "popqa_lt": 0.27,
+     "pubhealth": 0.5,
+     "triviaqa": 0.47
+    },
+    "mean": 0.395
+   },
+   {
+    "params": [
+     0.6,
+     0.3,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.33,
+     "popqa_lt": 0.28,
+     "pubhealth": 0.5,
+     "triviaqa": 0.48
+    },
+    "mean": 0.3975
+   },
+   {
+    "params": [
+     0.6,
+     0.5,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.34,
+     "popqa_lt": 0.27,
+     "pubhealth": 0.5,
+     "triviaqa": 0.47
+    },
+    "mean": 0.395
+   },
+   {
+    "params": [
+     0.6,
+     0.5,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.33,
+     "popqa_lt": 0.28,
+     "pubhealth": 0.5,
+     "triviaqa": 0.48
+    },
+    "mean": 0.3975
+   },
+   {
+    "params": [
+     0.6,
+     0.7,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.34,
+     "popqa_lt": 0.27,
+     "pubhealth": 0.5,
+     "triviaqa": 0.47
+    },
+    "mean": 0.395
+   },
+   {
+    "params": [
+     0.6,
+     0.7,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.33,
+     "popqa_lt": 0.28,
+     "pubhealth": 0.5,
+     "triviaqa": 0.48
+    },
+    "mean": 0.3975
+   },
+   {
+    "params": [
+     0.6,
+     0.9,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.34,
+     "popqa_lt": 0.27,
+     "pubhealth": 0.5,
+     "triviaqa": 0.47
+    },
+    "mean": 0.395
+   },
+   {
+    "params": [
+     0.6,
+     0.9,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.33,
+     "popqa_lt": 0.28,
+     "pubhealth": 0.5,
+     "triviaqa": 0.48
+    },
+    "mean": 0.3975
+   },
+   {
+    "params": [
+     0.6,
+     1.01,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.34,
+     "popqa_lt": 0.28,
+     "pubhealth": 0.5,
+     "triviaqa": 0.47
+    },
+    "mean": 0.3975
+   },
+   {
+    "params": [
+     0.6,
+     1.01,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.33,
+     "popqa_lt": 0.29,
+     "pubhealth": 0.5,
+     "triviaqa": 0.48
+    },
+    "mean": 0.4
+   },
+   {
+    "params": [
+     0.7,
+     0.1,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.37,
+     "popqa_lt": 0.31,
+     "pubhealth": 0.49,
+     "triviaqa": 0.48
+    },
+    "mean": 0.4125
+   },
+   {
+    "params": [
+     0.7,
+     0.1,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.35,
+     "popqa_lt": 0.33,
+     "pubhealth": 0.49,
+     "triviaqa": 0.49
+    },
+    "mean": 0.415
+   },
+   {
+    "params": [
+     0.7,
+     0.3,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.37,
+     "popqa_lt": 0.31,
+     "pubhealth": 0.49,
+     "triviaqa": 0.48
+    },
+    "mean": 0.4125
+   },
+   {
+    "params": [
+     0.7,
+     0.3,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.35,
+     "popqa_lt": 0.33,
+     "pubhealth": 0.49,
+     "triviaqa": 0.49
+    },
+    "mean": 0.415
+   },
+   {
+    "params": [
+     0.7,
+     0.5,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.37,
+     "popqa_lt": 0.31,
+     "pubhealth": 0.49,
+     "triviaqa": 0.48
+    },
+    "mean": 0.4125
+   },
+   {
+    "params": [
+     0.7,
+     0.5,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.35,
+     "popqa_lt": 0.33,
+     "pubhealth": 0.49,
+     "triviaqa": 0.49
+    },
+    "mean": 0.415
+   },
+   {
+    "params": [
+     0.7,
+     0.7,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.37,
+     "popqa_lt": 0.31,
+     "pubhealth": 0.49,
+     "triviaqa": 0.48
+    },
+    "mean": 0.4125
+   },
+   {
+    "params": [
+     0.7,
+     0.7,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.35,
+     "popqa_lt": 0.33,
+     "pubhealth": 0.49,
+     "triviaqa": 0.49
+    },
+    "mean": 0.415
+   },
+   {
+    "params": [
+     0.7,
+     0.9,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.37,
+     "popqa_lt": 0.31,
+     "pubhealth": 0.49,
+     "triviaqa": 0.48
+    },
+    "mean": 0.4125
+   },
+   {
+    "params": [
+     0.7,
+     0.9,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.35,
+     "popqa_lt": 0.33,
+     "pubhealth": 0.49,
+     "triviaqa": 0.49
+    },
+    "mean": 0.415
+   },
+   {
+    "params": [
+     0.7,
+     1.01,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.37,
+     "popqa_lt": 0.32,
+     "pubhealth": 0.49,
+     "triviaqa": 0.48
+    },
+    "mean": 0.415
+   },
+   {
+    "params": [
+     0.7,
+     1.01,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.35,
+     "popqa_lt": 0.34,
+     "pubhealth": 0.49,
+     "triviaqa": 0.49
+    },
+    "mean": 0.4175
+   },
+   {
+    "params": [
+     0.8,
+     0.1,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.4,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4275
+   },
+   {
+    "params": [
+     0.8,
+     0.1,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.38,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.44,
+     "triviaqa": 0.52
+    },
+    "mean": 0.43
+   },
+   {
+    "params": [
+     0.8,
+     0.3,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.4,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4275
+   },
+   {
+    "params": [
+     0.8,
+     0.3,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.38,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.44,
+     "triviaqa": 0.52
+    },
+    "mean": 0.43
+   },
+   {
+    "params": [
+     0.8,
+     0.5,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.4,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4275
+   },
+   {
+    "params": [
+     0.8,
+     0.5,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.38,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.44,
+     "triviaqa": 0.52
+    },
+    "mean": 0.43
+   },
+   {
+    "params": [
+     0.8,
+     0.7,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.4,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4275
+   },
+   {
+    "params": [
+     0.8,
+     0.7,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.38,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.44,
+     "triviaqa": 0.52
+    },
+    "mean": 0.43
+   },
+   {
+    "params": [
+     0.8,
+     0.9,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.4,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4275
+   },
+   {
+    "params": [
+     0.8,
+     0.9,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.38,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.44,
+     "triviaqa": 0.52
+    },
+    "mean": 0.43
+   },
+   {
+    "params": [
+     0.8,
+     1.01,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.4,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.43
+   },
+   {
+    "params": [
+     0.8,
+     1.01,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.38,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.44,
+     "triviaqa": 0.52
+    },
+    "mean": 0.4325
+   },
+   {
+    "params": [
+     0.9,
+     0.1,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.44,
+     "triviaqa": 0.51
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.9,
+     0.1,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.44,
+     "triviaqa": 0.53
+    },
+    "mean": 0.445
+   },
+   {
+    "params": [
+     0.9,
+     0.3,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.42,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.9,
+     0.3,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.42,
+     "triviaqa": 0.53
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.9,
+     0.5,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.42,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.9,
+     0.5,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.42,
+     "triviaqa": 0.53
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.9,
+     0.7,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.42,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.9,
+     0.7,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.42,
+     "triviaqa": 0.53
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.9,
+     0.9,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.42,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     0.9,
+     0.9,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.43,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.42,
+     "triviaqa": 0.53
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.9,
+     1.01,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.46,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.42,
+     "triviaqa": 0.51
+    },
+    "mean": 0.44
+   },
+   {
+    "params": [
+     0.9,
+     1.01,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.44,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.42,
+     "triviaqa": 0.53
+    },
+    "mean": 0.445
+   },
+   {
+    "params": [
+     0.95,
+     0.1,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.4,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4375
+   },
+   {
+    "params": [
+     0.95,
+     0.1,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.4,
+     "triviaqa": 0.53
+    },
+    "mean": 0.44250000000000006
+   },
+   {
+    "params": [
+     0.95,
+     0.3,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.38,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4325
+   },
+   {
+    "params": [
+     0.95,
+     0.3,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.38,
+     "triviaqa": 0.53
+    },
+    "mean": 0.43750000000000006
+   },
+   {
+    "params": [
+     0.95,
+     0.5,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.38,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4325
+   },
+   {
+    "params": [
+     0.95,
+     0.5,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.38,
+     "triviaqa": 0.53
+    },
+    "mean": 0.43750000000000006
+   },
+   {
+    "params": [
+     0.95,
+     0.7,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.38,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4325
+   },
+   {
+    "params": [
+     0.95,
+     0.7,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.38,
+     "triviaqa": 0.53
+    },
+    "mean": 0.43750000000000006
+   },
+   {
+    "params": [
+     0.95,
+     0.9,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.37,
+     "pubhealth": 0.38,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4325
+   },
+   {
+    "params": [
+     0.95,
+     0.9,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.45,
+     "popqa_lt": 0.39,
+     "pubhealth": 0.38,
+     "triviaqa": 0.53
+    },
+    "mean": 0.43750000000000006
+   },
+   {
+    "params": [
+     0.95,
+     1.01,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.48,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.38,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4375
+   },
+   {
+    "params": [
+     0.95,
+     1.01,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.46,
+     "popqa_lt": 0.4,
+     "pubhealth": 0.38,
+     "triviaqa": 0.53
+    },
+    "mean": 0.44250000000000006
+   },
+   {
+    "params": [
+     1.01,
+     0.1,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.37,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4375
+   },
+   {
+    "params": [
+     1.01,
+     0.1,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.49,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.37,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4375
+   },
+   {
+    "params": [
+     1.01,
+     0.3,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.3,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.49,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.5,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.5,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.49,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.7,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.7,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.49,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.9,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.51,
+     "popqa_lt": 0.36,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     0.9,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.49,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.435
+   },
+   {
+    "params": [
+     1.01,
+     1.01,
+     "closed_book"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.52,
+     "popqa_lt": 0.38,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4425
+   },
+   {
+    "params": [
+     1.01,
+     1.01,
+     "rag"
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.5,
+     "popqa_lt": 0.4,
+     "pubhealth": 0.36,
+     "triviaqa": 0.51
+    },
+    "mean": 0.4425
+   }
+  ]
+ },
+ "selfrag": {
+  "best": {
+   "params": [
+    0.0
+   ],
+   "per_dataset": {
+    "hotpotqa": 0.47,
+    "popqa_lt": 0.41,
+    "pubhealth": 0.69,
+    "triviaqa": 0.47
+   },
+   "mean": 0.51
+  },
+  "grid": [
+   {
+    "params": [
+     0.0
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.41,
+     "pubhealth": 0.69,
+     "triviaqa": 0.47
+    },
+    "mean": 0.51
+   },
+   {
+    "params": [
+     0.1
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.41,
+     "pubhealth": 0.69,
+     "triviaqa": 0.47
+    },
+    "mean": 0.51
+   },
+   {
+    "params": [
+     0.2
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.41,
+     "pubhealth": 0.69,
+     "triviaqa": 0.47
+    },
+    "mean": 0.51
+   },
+   {
+    "params": [
+     0.3
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.47,
+     "popqa_lt": 0.41,
+     "pubhealth": 0.7,
+     "triviaqa": 0.45
+    },
+    "mean": 0.5075
+   },
+   {
+    "params": [
+     0.5
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.48,
+     "popqa_lt": 0.41,
+     "pubhealth": 0.7,
+     "triviaqa": 0.44
+    },
+    "mean": 0.5075
+   },
+   {
+    "params": [
+     0.7
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.48,
+     "popqa_lt": 0.42,
+     "pubhealth": 0.71,
+     "triviaqa": 0.42
+    },
+    "mean": 0.5075
+   },
+   {
+    "params": [
+     1.01
+    ],
+    "per_dataset": {
+     "hotpotqa": 0.2,
+     "popqa_lt": 0.31,
+     "pubhealth": 0.74,
+     "triviaqa": 0.35
+    },
+    "mean": 0.4
+   }
+  ]
+ }
+}

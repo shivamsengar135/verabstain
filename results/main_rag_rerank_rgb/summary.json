@@ -1,0 +1,20 @@
+{
+ "run_id": "main_rag_rerank_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "rag_rerank",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6076923076923076,
+ "rejected": 0.0007692307692307692,
+ "fake_answer": 0.94,
+ "native_abstain_rate": 0.0007692307692307692,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1348.2969230769231,
+ "mean_completion_tokens": 6.400769230769231,
+ "mean_llm_seconds": 4.640760367230748,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.523797971077001,
+ "wall_s": 1649.5706539154053
+}

@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_cove_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "cove",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.388,
+ "match": 0.388,
+ "match_norm": 0.388,
+ "em": 0.388,
+ "f1": 0.388,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.738,
+ "mean_prompt_tokens": 2239.808,
+ "mean_completion_tokens": 137.768,
+ "mean_llm_seconds": 9.254211639999827,
+ "mean_retrievals": 3.738,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 10.223051070000118,
+ "wall_s": 650.9215393066406
+}

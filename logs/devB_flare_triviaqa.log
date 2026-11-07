@@ -1,0 +1,14 @@
+2026-11-05 02:21:53,770 INFO START devB_flare_triviaqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:21:53,983 INFO devB_flare_triviaqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:21:54,015 INFO devB_flare_triviaqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:21:54,084 INFO devB_flare_triviaqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:21:54,144 INFO devB_flare_triviaqa: 100/300 done, 0 errors, 0s
+2026-11-05 02:22:10,686 INFO devB_flare_triviaqa: 125/300 done, 0 errors, 17s
+2026-11-05 02:22:12,749 INFO devB_flare_triviaqa: 150/300 done, 0 errors, 19s
+2026-11-05 02:22:14,863 INFO devB_flare_triviaqa: 175/300 done, 0 errors, 21s
+2026-11-05 02:22:17,247 INFO devB_flare_triviaqa: 200/300 done, 0 errors, 23s
+2026-11-05 02:22:18,963 INFO devB_flare_triviaqa: 225/300 done, 0 errors, 25s
+2026-11-05 02:22:20,870 INFO devB_flare_triviaqa: 250/300 done, 0 errors, 27s
+2026-11-05 02:22:21,017 INFO devB_flare_triviaqa: 275/300 done, 0 errors, 27s
+2026-11-05 02:22:24,120 INFO devB_flare_triviaqa: 300/300 done, 0 errors, 30s
+2026-11-05 02:22:24,792 INFO END devB_flare_triviaqa: complete, wall 0.5 min, stats {'llm_calls': 55, 'cache_hits': 354, 'prompt_tokens': 30030, 'completion_tokens': 315, 'llm_seconds': 89.31072580005275, 'retrievals': 0, 'verifier_pairs': 0}

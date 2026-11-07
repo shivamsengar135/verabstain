@@ -1,0 +1,6 @@
+2026-11-05 00:45:08,839 INFO START pilot_crag_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-05 00:46:18,265 INFO pilot_crag_hotpotqa: 25/100 done, 0 errors, 69s
+2026-11-05 00:47:04,530 INFO pilot_crag_hotpotqa: 50/100 done, 0 errors, 116s
+2026-11-05 00:47:48,245 INFO pilot_crag_hotpotqa: 75/100 done, 0 errors, 159s
+2026-11-05 00:48:32,880 INFO pilot_crag_hotpotqa: 100/100 done, 0 errors, 204s
+2026-11-05 00:48:32,885 INFO END pilot_crag_hotpotqa: complete, wall 3.4 min, stats {'llm_calls': 400, 'cache_hits': 0, 'prompt_tokens': 186356, 'completion_tokens': 2922, 'llm_seconds': 944.4413281997258, 'retrievals': 0, 'verifier_pairs': 0}

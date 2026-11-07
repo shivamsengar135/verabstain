@@ -1,0 +1,22 @@
+{
+ "run_id": "main_rag_largek_triviaqa",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "rag_largek",
+ "dataset": "triviaqa",
+ "split": "test",
+ "correct": 0.699,
+ "match": 0.699,
+ "match_norm": 0.713,
+ "em": 0.633,
+ "f1": 0.7230211087931676,
+ "native_abstain_rate": 0.001,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1948.404,
+ "mean_completion_tokens": 4.443,
+ "mean_llm_seconds": 6.556757865699969,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 6.559904722499545,
+ "wall_s": 1162.5972430706024
+}

@@ -1,0 +1,57 @@
+{
+ "seed": {
+  "key": "kovacs2025lettucedetect",
+  "title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+  "arxiv_id": "2502.17125",
+  "category": "claimcheck",
+  "role": "candidate-verifier"
+ },
+ "arxiv": {
+  "title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+  "authors": [
+   "Ádám Kovács",
+   "Gábor Recski"
+  ],
+  "abstract": "Retrieval Augmented Generation (RAG) systems remain vulnerable to hallucinated answers despite incorporating external knowledge sources. We present LettuceDetect a framework that addresses two critical limitations in existing hallucination detection methods: (1) the context window constraints of traditional encoder-based methods, and (2) the computational inefficiency of LLM based approaches. Building on ModernBERT's extended context capabilities (up to 8k tokens) and trained on the RAGTruth benchmark dataset, our approach outperforms all previous encoder-based models and most prompt-based models, while being approximately 30 times smaller than the best models. LettuceDetect is a token-classification model that processes context-question-answer triples, allowing for the identification of unsupported claims at the token level. Evaluations on the RAGTruth corpus demonstrate an F1 score of 79.22% for example-level detection, which is a 14.8% improvement over Luna, the previous state-of-the-art encoder-based architecture. Additionally, the system can process 30 to 60 examples per second on a single GPU, making it more practical for real-world RAG applications.",
+  "published": "2025-02-24",
+  "arxiv_id": "2502.17125",
+  "comment": "6 pages",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "8646fd4f07ba61614119d6c8a08e7de693369cc6",
+  "externalIds": {
+   "ArXiv": "2502.17125",
+   "DBLP": "journals/corr/abs-2502-17125",
+   "DOI": "10.48550/arXiv.2502.17125",
+   "CorpusId": 276575203
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+  "venue": "arXiv.org",
+  "year": 2025,
+  "publicationDate": "2025-02-24",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2502.17125"
+  },
+  "authors": [
+   {
+    "authorId": "40061879",
+    "name": "Adam Kovacs"
+   },
+   {
+    "authorId": "2308478233",
+    "name": "Gábor Recski"
+   }
+  ]
+ }
+}

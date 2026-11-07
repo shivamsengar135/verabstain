@@ -1,0 +1,22 @@
+{
+ "run_id": "rob_selfrag_hotpotqa_dist25",
+ "n": 300,
+ "n_expected": 300,
+ "method": "selfrag",
+ "dataset": "hotpotqa_dist25",
+ "split": "test",
+ "correct": 0.35333333333333333,
+ "match": 0.35333333333333333,
+ "match_norm": 0.4166666666666667,
+ "em": 0.11,
+ "f1": 0.26203020483624767,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 895.86,
+ "mean_completion_tokens": 157.15333333333334,
+ "mean_llm_seconds": 9.065982842666768,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.5853745340000993,
+ "wall_s": 98.39871644973755
+}

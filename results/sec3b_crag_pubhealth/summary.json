@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_crag_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "crag",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.436,
+ "match": 0.436,
+ "match_norm": 0.436,
+ "em": 0.436,
+ "f1": 0.436,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 937.916,
+ "mean_completion_tokens": 16.502,
+ "mean_llm_seconds": 1.063950466599781,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 7.454981418600029,
+ "wall_s": 468.26979541778564
+}

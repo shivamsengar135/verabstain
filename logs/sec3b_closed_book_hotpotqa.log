@@ -1,0 +1,22 @@
+2026-11-06 23:57:56,460 INFO START sec3b_closed_book_hotpotqa: 500/500 examples to run; projected 3 min
+2026-11-06 23:57:57,932 INFO sec3b_closed_book_hotpotqa: 25/500 done, 0 errors, 1s
+2026-11-06 23:57:59,066 INFO sec3b_closed_book_hotpotqa: 50/500 done, 0 errors, 2s
+2026-11-06 23:58:00,239 INFO sec3b_closed_book_hotpotqa: 75/500 done, 0 errors, 4s
+2026-11-06 23:58:01,566 INFO sec3b_closed_book_hotpotqa: 100/500 done, 0 errors, 5s
+2026-11-06 23:58:02,644 INFO sec3b_closed_book_hotpotqa: 125/500 done, 0 errors, 6s
+2026-11-06 23:58:03,800 INFO sec3b_closed_book_hotpotqa: 150/500 done, 0 errors, 7s
+2026-11-06 23:58:04,812 INFO sec3b_closed_book_hotpotqa: 175/500 done, 0 errors, 8s
+2026-11-06 23:58:06,163 INFO sec3b_closed_book_hotpotqa: 200/500 done, 0 errors, 10s
+2026-11-06 23:58:07,163 INFO sec3b_closed_book_hotpotqa: 225/500 done, 0 errors, 11s
+2026-11-06 23:58:08,164 INFO sec3b_closed_book_hotpotqa: 250/500 done, 0 errors, 12s
+2026-11-06 23:58:09,417 INFO sec3b_closed_book_hotpotqa: 275/500 done, 0 errors, 13s
+2026-11-06 23:58:10,554 INFO sec3b_closed_book_hotpotqa: 300/500 done, 0 errors, 14s
+2026-11-06 23:58:11,601 INFO sec3b_closed_book_hotpotqa: 325/500 done, 0 errors, 15s
+2026-11-06 23:58:12,826 INFO sec3b_closed_book_hotpotqa: 350/500 done, 0 errors, 16s
+2026-11-06 23:58:13,840 INFO sec3b_closed_book_hotpotqa: 375/500 done, 0 errors, 17s
+2026-11-06 23:58:15,075 INFO sec3b_closed_book_hotpotqa: 400/500 done, 0 errors, 18s
+2026-11-06 23:58:16,028 INFO sec3b_closed_book_hotpotqa: 425/500 done, 0 errors, 19s
+2026-11-06 23:58:17,133 INFO sec3b_closed_book_hotpotqa: 450/500 done, 0 errors, 21s
+2026-11-06 23:58:18,465 INFO sec3b_closed_book_hotpotqa: 475/500 done, 0 errors, 22s
+2026-11-06 23:58:19,752 INFO sec3b_closed_book_hotpotqa: 500/500 done, 0 errors, 23s
+2026-11-06 23:58:19,934 INFO END sec3b_closed_book_hotpotqa: complete, wall 0.4 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 43258, 'completion_tokens': 3307, 'llm_seconds': 182.35515130001295, 'retrievals': 0, 'verifier_pairs': 0}

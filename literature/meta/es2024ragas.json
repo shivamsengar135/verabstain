@@ -1,0 +1,69 @@
+{
+ "seed": {
+  "key": "es2024ragas",
+  "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+  "arxiv_id": "2309.15217",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+  "authors": [
+   "Shahul Es",
+   "Jithin James",
+   "Luis Espinosa-Anke",
+   "Steven Schockaert"
+  ],
+  "abstract": "We introduce Ragas (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations. Evaluating RAG architectures is, however, challenging because there are several dimensions to consider: the ability of the retrieval system to identify relevant and focused context passages, the ability of the LLM to exploit such passages in a faithful way, or the quality of the generation itself. With Ragas, we put forward a suite of metrics which can be used to evaluate these different dimensions \\textit{without having to rely on ground truth human annotations}. We posit that such a framework can crucially contribute to faster evaluation cycles of RAG architectures, which is especially important given the fast adoption of LLMs.",
+  "published": "2023-09-26",
+  "arxiv_id": "2309.15217",
+  "comment": "Reference-free (not tied to having ground truth available) evaluation framework for retrieval agumented generation",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "f5e9e5bbe22f0263be1f1ce88c66978a2b927772",
+  "externalIds": {
+   "ArXiv": "2309.15217",
+   "DBLP": "journals/corr/abs-2309-15217",
+   "ACL": "2024.eacl-demo.16",
+   "DOI": "10.48550/arXiv.2309.15217",
+   "CorpusId": 263152733
+  },
+  "publicationVenue": {
+   "id": "8de18c35-6785-4e54-99f2-21ee961302c6",
+   "name": "Conference of the European Chapter of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Conf Eur Chapter Assoc Comput Linguistics",
+    "EACL"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/eacl/"
+  },
+  "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+  "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-09-26",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2309.15217"
+  },
+  "authors": [
+   {
+    "authorId": "2470958220",
+    "name": "Shahul Es"
+   },
+   {
+    "authorId": "145710009",
+    "name": "J. James"
+   },
+   {
+    "authorId": "1405384395",
+    "name": "Luis Espinosa-Anke"
+   },
+   {
+    "authorId": "2265382",
+    "name": "S. Schockaert"
+   }
+  ]
+ }
+}

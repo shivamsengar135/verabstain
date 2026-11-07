@@ -1,0 +1,23 @@
+{
+ "seed": {
+  "key": "koehn2004bootstrap",
+  "title": "Statistical Significance Tests for Machine Translation Evaluation",
+  "arxiv_id": "",
+  "category": "stats",
+  "role": "stats"
+ },
+ "arxiv": null,
+ "s2": {
+  "title": "Statistical Significance Tests for Machine Translation Evaluation.",
+  "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  "year": 2004,
+  "externalIds": {},
+  "authors": [
+   {
+    "name": "Philipp Koehn"
+   }
+  ],
+  "source": "openalex",
+  "openalex_id": "https://openalex.org/W222053410"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "seed": {
+  "key": "yu2024chainofnote",
+  "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+  "arxiv_id": "2311.09210",
+  "category": "corrective",
+  "role": "baseline"
+ },
+ "arxiv": {
+  "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+  "authors": [
+   "Wenhao Yu",
+   "Hongming Zhang",
+   "Xiaoman Pan",
+   "Kaixin Ma",
+   "Hongwei Wang",
+   "Dong Yu"
+  ],
+  "abstract": "Retrieval-augmented language models (RALMs) represent a substantial advancement in the capabilities of large language models, notably in reducing factual hallucination by leveraging external knowledge sources. However, the reliability of the retrieved information is not always guaranteed. The retrieval of irrelevant data can lead to misguided responses, and potentially causing the model to overlook its inherent knowledge, even when it possesses adequate information to address the query. Moreover, standard RALMs often struggle to assess whether they possess adequate knowledge, both intrinsic and retrieved, to provide an accurate answer. In situations where knowledge is lacking, these systems should ideally respond with \"unknown\" when the answer is unattainable. In response to these challenges, we introduces Chain-of-Noting (CoN), a novel approach aimed at improving the robustness of RALMs in facing noisy, irrelevant documents and in handling unknown scenarios. The core idea of CoN is to generate sequential reading notes for retrieved documents, enabling a thorough evaluation of their relevance to the given question and integrating this information to formulate the final answer. We employed ChatGPT to create training data for CoN, which was subsequently trained on an LLaMa-2 7B model. Our experiments across four open-domain QA benchmarks show that RALMs equipped with CoN significantly outperform standard RALMs. Notably, CoN achieves an average improvement of +7.9 in EM score given entirely noisy retrieved documents and +10.5 in rejection rates for real-time questions that fall outside the pre-training knowledge scope.",
+  "published": "2023-11-15",
+  "arxiv_id": "2311.09210",
+  "comment": "EMNLP 2024 (main conference)",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "6489640b1d30a8a3e7cb906bb6557f1ccd0d799d",
+  "externalIds": {
+   "ArXiv": "2311.09210",
+   "ACL": "2024.emnlp-main.813",
+   "DBLP": "journals/corr/abs-2311-09210",
+   "DOI": "10.48550/arXiv.2311.09210",
+   "CorpusId": 265212816
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2023,
+  "publicationDate": "2023-11-15",
+  "journal": {
+   "pages": "14672-14685"
+  },
+  "authors": [
+   {
+    "authorId": "38767143",
+    "name": "W. Yu"
+   },
+   {
+    "authorId": "2254831297",
+    "name": "Hong-Ming Zhang"
+   },
+   {
+    "authorId": "2243367575",
+    "name": "Xiaoman Pan"
+   },
+   {
+    "authorId": "2494319926",
+    "name": "Pei-Xin Cao"
+   },
+   {
+    "authorId": "22244290",
+    "name": "Kaixin Ma"
+   },
+   {
+    "authorId": "2500273197",
+    "name": "Jian Li"
+   },
+   {
+    "authorId": "2261392960",
+    "name": "Hong-Wei Wang"
+   },
+   {
+    "authorId": "2261392681",
+    "name": "Dong Yu"
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "seed": {
+  "key": "wen2025abstentionsurvey",
+  "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+  "arxiv_id": "2407.18418",
+  "category": "survey",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+  "authors": [
+   "Bingbing Wen",
+   "Jihan Yao",
+   "Shangbin Feng",
+   "Chenjun Xu",
+   "Yulia Tsvetkov",
+   "Bill Howe",
+   "Lucy Lu Wang"
+  ],
+  "abstract": "Abstention, the refusal of large language models (LLMs) to provide an answer, is increasingly recognized for its potential to mitigate hallucinations and enhance safety in LLM systems. In this survey, we introduce a framework to examine abstention from three perspectives: the query, the model, and human values. We organize the literature on abstention methods, benchmarks, and evaluation metrics using this framework, and discuss merits and limitations of prior work. We further identify and motivate areas for future research, such as whether abstention can be achieved as a meta-capability that transcends specific tasks or domains, and opportunities to optimize abstention abilities in specific contexts. In doing so, we aim to broaden the scope and impact of abstention methodologies in AI systems.",
+  "published": "2024-07-25",
+  "arxiv_id": "2407.18418",
+  "comment": "TACL 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "314a471e8fa6788054e98aca1a74622f90fccbb9",
+  "externalIds": {
+   "ArXiv": "2407.18418",
+   "DBLP": "journals/tacl/WenYFXTHW25",
+   "DOI": "10.1162/tacl_a_00754",
+   "CorpusId": 271516521
+  },
+  "publicationVenue": {
+   "id": "e0dbf116-86aa-418d-859f-a49952d7e44a",
+   "name": "Transactions of the Association for Computational Linguistics",
+   "type": "journal",
+   "alternate_names": [
+    "Trans Assoc Comput Linguistics",
+    "TACL"
+   ],
+   "issn": "2307-387X",
+   "url": "https://www.mitpressjournals.org/loi/tacl",
+   "alternate_urls": [
+    "http://www.transacl.org/"
+   ]
+  },
+  "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "year": 2024,
+  "publicationDate": "2024-07-25",
+  "journal": {
+   "name": "Trans. Assoc. Comput. Linguistics",
+   "pages": "529-556",
+   "volume": "13"
+  },
+  "authors": [
+   {
+    "authorId": "2275606374",
+    "name": "Bing-Bing Wen"
+   },
+   {
+    "authorId": "2313589667",
+    "name": "Ji-Han Yao"
+   },
+   {
+    "authorId": "2284701198",
+    "name": "Shang-Bin Feng"
+   },
+   {
+    "authorId": "2313566903",
+    "name": "Chenjun Xu"
+   },
+   {
+    "authorId": "2249583325",
+    "name": "Yulia Tsvetkov"
+   },
+   {
+    "authorId": "2275575830",
+    "name": "Bill Howe"
+   },
+   {
+    "authorId": "31860505",
+    "name": "Lucy Lu Wang"
+   }
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+2026-11-06 23:53:55,420 INFO START sec3b_ragverify_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-06 23:54:04,654 INFO sec3b_ragverify_popqa_lt: 25/500 done, 0 errors, 9s
+2026-11-06 23:54:16,886 INFO sec3b_ragverify_popqa_lt: 50/500 done, 0 errors, 21s
+2026-11-06 23:54:24,161 INFO sec3b_ragverify_popqa_lt: 75/500 done, 0 errors, 29s
+2026-11-06 23:54:27,190 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=13.5 on_battery=False
+2026-11-06 23:54:47,201 WARNING RESUME: gpu_temp=45 cpu_zone=46.9 cpu_load=14.8
+2026-11-06 23:54:50,168 INFO sec3b_ragverify_popqa_lt: 100/500 done, 0 errors, 55s
+2026-11-06 23:54:59,034 INFO sec3b_ragverify_popqa_lt: 125/500 done, 0 errors, 63s
+2026-11-06 23:55:06,368 INFO sec3b_ragverify_popqa_lt: 150/500 done, 0 errors, 71s
+2026-11-06 23:55:14,264 INFO sec3b_ragverify_popqa_lt: 175/500 done, 0 errors, 79s
+2026-11-06 23:55:24,136 INFO sec3b_ragverify_popqa_lt: 200/500 done, 0 errors, 89s
+2026-11-06 23:55:25,238 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=16.2 on_battery=False
+2026-11-06 23:55:45,249 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.7
+2026-11-06 23:55:51,039 INFO sec3b_ragverify_popqa_lt: 225/500 done, 0 errors, 115s
+2026-11-06 23:55:59,099 INFO sec3b_ragverify_popqa_lt: 250/500 done, 0 errors, 124s
+2026-11-06 23:56:07,330 INFO sec3b_ragverify_popqa_lt: 275/500 done, 0 errors, 132s
+2026-11-06 23:56:14,615 INFO sec3b_ragverify_popqa_lt: 300/500 done, 0 errors, 139s
+2026-11-06 23:56:23,284 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=15.1 on_battery=False
+2026-11-06 23:56:23,600 INFO sec3b_ragverify_popqa_lt: 325/500 done, 0 errors, 148s
+2026-11-06 23:56:43,295 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=2.7
+2026-11-06 23:56:50,843 INFO sec3b_ragverify_popqa_lt: 350/500 done, 0 errors, 175s
+2026-11-06 23:56:58,775 INFO sec3b_ragverify_popqa_lt: 375/500 done, 0 errors, 183s
+2026-11-06 23:57:05,512 INFO sec3b_ragverify_popqa_lt: 400/500 done, 0 errors, 190s
+2026-11-06 23:57:13,360 INFO sec3b_ragverify_popqa_lt: 425/500 done, 0 errors, 198s
+2026-11-06 23:57:20,851 INFO sec3b_ragverify_popqa_lt: 450/500 done, 0 errors, 205s
+2026-11-06 23:57:28,831 INFO sec3b_ragverify_popqa_lt: 475/500 done, 0 errors, 213s
+2026-11-06 23:57:33,334 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=13.9 on_battery=False
+2026-11-06 23:57:53,345 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.7
+2026-11-06 23:57:54,984 INFO sec3b_ragverify_popqa_lt: 500/500 done, 0 errors, 239s
+2026-11-06 23:57:55,878 INFO END sec3b_ragverify_popqa_lt: complete, wall 4.0 min, stats {'llm_calls': 609, 'cache_hits': 697, 'prompt_tokens': 336304, 'completion_tokens': 18190, 'llm_seconds': 1197.0117805000045, 'retrievals': 0, 'verifier_pairs': 0}

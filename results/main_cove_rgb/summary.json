@@ -1,0 +1,20 @@
+{
+ "run_id": "main_cove_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "cove",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6015384615384616,
+ "rejected": 0.0,
+ "fake_answer": 0.65,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.9884615384615385,
+ "mean_prompt_tokens": 3156.3038461538463,
+ "mean_completion_tokens": 127.3076923076923,
+ "mean_llm_seconds": 25.363823291460722,
+ "mean_retrievals": 3.9884615384615385,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 11.201694751999815,
+ "wall_s": 1923.5044791698456
+}

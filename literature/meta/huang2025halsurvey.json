@@ -1,0 +1,95 @@
+{
+ "seed": {
+  "key": "huang2025halsurvey",
+  "title": "A Survey on Hallucination in Large Language Models: Principles Taxonomy Challenges and Open Questions",
+  "arxiv_id": "2311.05232",
+  "category": "survey",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+  "authors": [
+   "Lei Huang",
+   "Weijiang Yu",
+   "Weitao Ma",
+   "Weihong Zhong",
+   "Zhangyin Feng",
+   "Haotian Wang",
+   "Qianglong Chen",
+   "Weihua Peng",
+   "Xiaocheng Feng",
+   "Bing Qin",
+   "Ting Liu"
+  ],
+  "abstract": "The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from prior task-specific models. This divergence highlights the urgency for a nuanced understanding and comprehensive overview of recent advances in LLM hallucinations. In this survey, we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations. Subsequently, we present a thorough overview of hallucination detection methods and benchmarks. Our discussion then transfers to representative methodologies for mitigating LLM hallucinations. Additionally, we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations, offering insights for developing more robust IR systems. Finally, we highlight the promising research directions on LLM hallucinations, including hallucination in large vision-language models and understanding of knowledge boundaries in LLM hallucinations.",
+  "published": "2023-11-09",
+  "arxiv_id": "2311.05232",
+  "comment": "Accepted by ACM Transactions on Information Systems (TOIS)",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "1e909e2a8cdacdcdff125ebcc566f37cb869a1c8",
+  "externalIds": {
+   "DBLP": "journals/tois/HuangYMZFWCPFQL25",
+   "ArXiv": "2311.05232",
+   "DOI": "10.1145/3703155",
+   "CorpusId": 265067168
+  },
+  "publicationVenue": null,
+  "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+  "venue": "ACM Trans. Inf. Syst.",
+  "year": 2023,
+  "publicationDate": "2023-11-09",
+  "journal": {
+   "name": "ACM Transactions on Information Systems",
+   "pages": "1 - 55",
+   "volume": "43"
+  },
+  "authors": [
+   {
+    "authorId": "2265930173",
+    "name": "Lei Huang"
+   },
+   {
+    "authorId": "2248673673",
+    "name": "Weijiang Yu"
+   },
+   {
+    "authorId": "2265878959",
+    "name": "Wei-Tao Ma"
+   },
+   {
+    "authorId": "2208739098",
+    "name": "Weihong Zhong"
+   },
+   {
+    "authorId": "51056532",
+    "name": "Zhang-Yin Feng"
+   },
+   {
+    "authorId": "2256768984",
+    "name": "Haotian Wang"
+   },
+   {
+    "authorId": "1500384901",
+    "name": "Qianglong Chen"
+   },
+   {
+    "authorId": "2247980601",
+    "name": "Weihua Peng"
+   },
+   {
+    "authorId": "2674998",
+    "name": "Xiao-Cheng Feng"
+   },
+   {
+    "authorId": "2257004102",
+    "name": "Bing Qin"
+   },
+   {
+    "authorId": "2238862997",
+    "name": "Ting Liu"
+   }
+  ]
+ }
+}

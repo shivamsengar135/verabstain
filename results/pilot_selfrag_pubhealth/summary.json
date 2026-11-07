@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_selfrag_pubhealth",
+ "n": 100,
+ "n_expected": 100,
+ "method": "selfrag",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.69,
+ "match": 0.69,
+ "match_norm": 0.69,
+ "em": 0.69,
+ "f1": 0.69,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 1059.85,
+ "mean_completion_tokens": 27.38,
+ "mean_llm_seconds": 4.427971955002577,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.670909906000597,
+ "wall_s": 59.075679540634155
+}

@@ -1,0 +1,22 @@
+2026-11-06 22:11:59,275 INFO START abl_ragverify_hhem_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-06 22:12:03,645 INFO abl_ragverify_hhem_popqa_lt: 25/500 done, 0 errors, 4s
+2026-11-06 22:12:04,562 INFO abl_ragverify_hhem_popqa_lt: 50/500 done, 0 errors, 5s
+2026-11-06 22:12:05,435 INFO abl_ragverify_hhem_popqa_lt: 75/500 done, 0 errors, 6s
+2026-11-06 22:12:06,185 INFO abl_ragverify_hhem_popqa_lt: 100/500 done, 0 errors, 7s
+2026-11-06 22:12:07,113 INFO abl_ragverify_hhem_popqa_lt: 125/500 done, 0 errors, 8s
+2026-11-06 22:12:08,026 INFO abl_ragverify_hhem_popqa_lt: 150/500 done, 0 errors, 9s
+2026-11-06 22:12:08,825 INFO abl_ragverify_hhem_popqa_lt: 175/500 done, 0 errors, 9s
+2026-11-06 22:12:09,647 INFO abl_ragverify_hhem_popqa_lt: 200/500 done, 0 errors, 10s
+2026-11-06 22:12:10,520 INFO abl_ragverify_hhem_popqa_lt: 225/500 done, 0 errors, 11s
+2026-11-06 22:12:11,409 INFO abl_ragverify_hhem_popqa_lt: 250/500 done, 0 errors, 12s
+2026-11-06 22:12:12,234 INFO abl_ragverify_hhem_popqa_lt: 275/500 done, 0 errors, 13s
+2026-11-06 22:12:13,076 INFO abl_ragverify_hhem_popqa_lt: 300/500 done, 0 errors, 14s
+2026-11-06 22:12:13,897 INFO abl_ragverify_hhem_popqa_lt: 325/500 done, 0 errors, 14s
+2026-11-06 22:12:14,738 INFO abl_ragverify_hhem_popqa_lt: 350/500 done, 0 errors, 15s
+2026-11-06 22:12:15,573 INFO abl_ragverify_hhem_popqa_lt: 375/500 done, 0 errors, 16s
+2026-11-06 22:12:16,360 INFO abl_ragverify_hhem_popqa_lt: 400/500 done, 0 errors, 17s
+2026-11-06 22:12:17,197 INFO abl_ragverify_hhem_popqa_lt: 425/500 done, 0 errors, 18s
+2026-11-06 22:12:18,017 INFO abl_ragverify_hhem_popqa_lt: 450/500 done, 0 errors, 19s
+2026-11-06 22:12:18,767 INFO abl_ragverify_hhem_popqa_lt: 475/500 done, 0 errors, 19s
+2026-11-06 22:12:19,664 INFO abl_ragverify_hhem_popqa_lt: 500/500 done, 0 errors, 20s
+2026-11-06 22:12:19,955 INFO END abl_ragverify_hhem_popqa_lt: complete, wall 0.3 min, stats {'llm_calls': 0, 'cache_hits': 1081, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

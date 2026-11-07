@@ -1,0 +1,18 @@
+2026-11-04 23:23:49,977 INFO START pilot_rag_rerank_triviaqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:23:54,010 ERROR JOB FAILED pilot_rag_rerank_triviaqa:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 259, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 158, in run_job
+    st = llm_server.start(job["server"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\llm_server.py", line 94, in start
+    raise RuntimeError(f"llama-server exited early (code {p.returncode}); see {log}")
+RuntimeError: llama-server exited early (code 1); see C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\logs\server\qwen7b_q4-20261104-232349.log
+
+2026-11-04 23:28:35,830 INFO START pilot_rag_rerank_triviaqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:29:09,076 INFO pilot_rag_rerank_triviaqa: 25/100 done, 0 errors, 33s
+2026-11-04 23:29:23,794 INFO pilot_rag_rerank_triviaqa: 50/100 done, 0 errors, 48s
+2026-11-04 23:29:39,266 INFO pilot_rag_rerank_triviaqa: 75/100 done, 0 errors, 63s
+2026-11-04 23:29:53,671 INFO pilot_rag_rerank_triviaqa: 100/100 done, 0 errors, 78s
+2026-11-04 23:29:53,680 INFO END pilot_rag_rerank_triviaqa: complete, wall 1.3 min, stats {'llm_calls': 100, 'cache_hits': 0, 'prompt_tokens': 59017, 'completion_tokens': 456, 'llm_seconds': 34.17624440001964, 'retrievals': 0, 'verifier_pairs': 0}

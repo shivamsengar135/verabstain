@@ -1,0 +1,117 @@
+﻿[model] Qwen/Qwen2.5-7B-Instruct-GGUF: gated=False license=apache-2.0 sha=bb5d59e06d95 files=22
+      qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf  3.99 GB
+      qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf  0.69 GB
+[model] Qwen/Qwen2.5-7B-Instruct: gated=False license=apache-2.0 sha=a09a35458c70 files=14
+      LICENSE  0.00 GB
+      config.json  0.00 GB
+      generation_config.json  0.00 GB
+      tokenizer_config.json  0.00 GB
+[model] bartowski/Llama-3.2-3B-Instruct-GGUF: gated=False license=llama3.2 sha=5ab33fa94d1d files=21
+      Llama-3.2-3B-Instruct-Q4_K_M.gguf  2.02 GB
+      Llama-3.2-3B-Instruct-Q8_0.gguf  3.42 GB
+      Llama-3.2-3B-Instruct-f16.gguf  6.43 GB
+[model] meta-llama/Llama-3.2-3B-Instruct: gated=manual license=llama3.2 sha=0cb88a4f764b files=16
+      config.json  0.00 GB
+      generation_config.json  0.00 GB
+      tokenizer_config.json  0.00 GB
+[model] selfrag/selfrag_llama2_7b: gated=False license=mit sha=190261383b07 files=11
+      added_tokens.json  0.00 GB
+      config.json  0.00 GB
+      generation_config.json  0.00 GB
+      pytorch_model-00001-of-00002.bin  9.98 GB
+      pytorch_model-00002-of-00002.bin  3.50 GB
+      pytorch_model.bin.index.json  0.00 GB
+      special_tokens_map.json  0.00 GB
+      tokenizer.model  0.00 GB
+      tokenizer_config.json  0.00 GB
+[model] lytang/MiniCheck-Flan-T5-Large: gated=False license=mit sha=96eafd01cee2 files=17
+      pytorch_model.bin  3.13 GB
+[model] lytang/MiniCheck-RoBERTa-Large: gated=False license=mit sha=74c8919647e6 files=12
+      pytorch_model.bin  1.42 GB
+[model] lytang/MiniCheck-DeBERTa-v3-Large: gated=False license=mit sha=2f2d01a54fa0 files=11
+      pytorch_model.bin  1.74 GB
+[model] bespokelabs/Bespoke-MiniCheck-7B: gated=False license=[] sha=1ed7786bcda3 files=22
+      model-00001-of-00004.safetensors  4.89 GB
+      model-00002-of-00004.safetensors  4.92 GB
+      model-00003-of-00004.safetensors  4.92 GB
+      model-00004-of-00004.safetensors  0.76 GB
+[model] yzha/AlignScore: gated=False license=mit sha=8509e78d25bb files=4
+      AlignScore-base.ckpt  1.97 GB
+      AlignScore-large.ckpt  4.90 GB
+[model] vectara/hallucination_evaluation_model: gated=False license=apache-2.0 sha=de9a5e6ba9ba files=7
+      configuration_hhem_v2.py  0.00 GB
+      model.safetensors  0.44 GB
+      modeling_hhem_v2.py  0.00 GB
+[model] MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli: gated=False license=mit sha=b3546ea6b034 files=12
+      model.safetensors  0.87 GB
+      pytorch_model.bin  0.87 GB
+[model] intfloat/e5-small-v2: gated=False license=mit sha=ffb93f3bd404 files=20
+      model.safetensors  0.13 GB
+      openvino/openvino_model.bin  0.13 GB
+      openvino/openvino_model_qint8_quantized.bin  0.03 GB
+      pytorch_model.bin  0.13 GB
+[model] BAAI/bge-small-en-v1.5: gated=False license=mit sha=5c38ec7c405e files=14
+      model.safetensors  0.13 GB
+      pytorch_model.bin  0.13 GB
+[model] BAAI/bge-reranker-base: gated=False license=mit sha=2cfc18c9415c files=10
+      model.safetensors  1.11 GB
+      pytorch_model.bin  1.11 GB
+[model] cross-encoder/ms-marco-MiniLM-L6-v2: gated=False license=apache-2.0 sha=233902d25c44 files=23
+      model.safetensors  0.09 GB
+      openvino/openvino_model.bin  0.09 GB
+      openvino/openvino_model_qint8_quantized.bin  0.02 GB
+      pytorch_model.bin  0.09 GB
+[dataset] BeIR/hotpotqa: gated=False license=['cc-by-sa-4.0'] sha=a7e8bab212f5 files=4
+      corpus/corpus-00000-of-00001.parquet  0.98 GB
+      queries/queries-00000-of-00001.parquet  0.01 GB
+[dataset] BeIR/fever: gated=False license=['cc-by-sa-4.0'] sha=426aea4d30c6 files=4
+      corpus/corpus-00000-of-00001.parquet  1.95 GB
+[dataset] hotpotqa/hotpot_qa: gated=False license=['cc-by-sa-4.0'] sha=1908d6afbbea files=9
+      distractor/train-00000-of-00002.parquet  0.17 GB
+      distractor/train-00001-of-00002.parquet  0.17 GB
+      distractor/validation-00000-of-00001.parquet  0.03 GB
+      fullwiki/test-00000-of-00001.parquet  0.03 GB
+      fullwiki/train-00000-of-00002.parquet  0.17 GB
+      fullwiki/train-00001-of-00002.parquet  0.17 GB
+      fullwiki/validation-00000-of-00001.parquet  0.03 GB
+[dataset] mandarjoshi/trivia_qa: gated=False license=['unknown'] sha=0f7faf33a390 files=142
+      rc.nocontext/test-00000-of-00001.parquet  0.00 GB
+      rc.nocontext/train-00000-of-00001.parquet  0.06 GB
+      rc.nocontext/validation-00000-of-00001.parquet  0.01 GB
+      unfiltered.nocontext/test-00000-of-00001.parquet  0.00 GB
+      unfiltered.nocontext/train-00000-of-00001.parquet  0.03 GB
+      unfiltered.nocontext/validation-00000-of-00001.parquet  0.00 GB
+[dataset] akariasai/PopQA: gated=False license=[] sha=098765c79ea1 files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      test.tsv  0.01 GB
+[dataset] lytang/LLM-AggreFact: gated=auto license=cc-by-nd-4.0 sha=981dfd0bd8e5 files=5
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      data/dev-00000-of-00001.parquet  0.04 GB
+      data/test-00000-of-00001.parquet  0.02 GB
+      performance.png  0.00 GB
+[dataset] Salesforce/FaithEval-unanswerable-v1.0: gated=False license=[] sha=4a14e0e9860e files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      data/test-00000-of-00001.parquet  0.00 GB
+[dataset] Salesforce/FaithEval-counterfactual-v1.0: gated=False license=[] sha=e655f7c8750a files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      data/test-00000-of-00001.parquet  0.00 GB
+[dataset] Salesforce/FaithEval-inconsistent-v1.0: gated=False license=[] sha=e29508db3955 files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      data/test-00000-of-00001.parquet  0.00 GB
+[dataset] ImperialCollegeLondon/health_fact: gated=False license=['mit'] sha=57995242674f files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      health_fact.py  0.00 GB
+[dataset] fever/fever: gated=False license=['cc-by-sa-3.0', 'gpl-3.0'] sha=2a74f2909caf files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      fever.py  0.00 GB
+[dataset] selfrag/selfrag_train_data: gated=False license=mit sha=cfa0c0f91d22 files=3
+      .gitattributes  0.00 GB
+      README.md  0.00 GB
+      train.jsonl  0.26 GB

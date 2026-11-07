@@ -1,0 +1,32 @@
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 3 files:  33%|###3      | 1/3 [00:00<00:00,  2.69it/s]Fetching 3 files:  67%|######6   | 2/3 [00:23<00:13, 13.47s/it]Fetching 3 files: 100%|##########| 3/3 [01:58<00:00, 51.02s/it]Fetching 3 files: 100%|##########| 3/3 [01:58<00:00, 39.57s/it]
+[data] hotpotqa/hotpot_qa -> data/raw/hotpotqa (119s)
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|###3      | 1/3 [00:01<00:02,  1.18s/it]Fetching 3 files:  67%|######6   | 2/3 [00:27<00:16, 16.08s/it]Fetching 3 files: 100%|##########| 3/3 [01:20<00:00, 33.07s/it]Fetching 3 files: 100%|##########| 3/3 [01:20<00:00, 26.99s/it]
+[data] mandarjoshi/trivia_qa -> data/raw/triviaqa (81s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.30it/s]Fetching 2 files: 100%|##########| 2/2 [00:01<00:00,  1.94it/s]Fetching 2 files: 100%|##########| 2/2 [00:01<00:00,  1.80it/s]
+[data] akariasai/PopQA -> data/raw/popqa (1s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.43it/s]Fetching 2 files: 100%|##########| 2/2 [00:02<00:00,  1.59s/it]Fetching 2 files: 100%|##########| 2/2 [00:02<00:00,  1.45s/it]
+[data] Salesforce/FaithEval-unanswerable-v1.0 -> data/raw/faitheval_unans (3s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.05it/s]Fetching 2 files: 100%|##########| 2/2 [00:03<00:00,  1.90s/it]Fetching 2 files: 100%|##########| 2/2 [00:03<00:00,  1.76s/it]
+[data] Salesforce/FaithEval-counterfactual-v1.0 -> data/raw/faitheval_cf (4s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.16it/s]Fetching 2 files: 100%|##########| 2/2 [00:03<00:00,  2.03s/it]Fetching 2 files: 100%|##########| 2/2 [00:03<00:00,  1.86s/it]
+[data] Salesforce/FaithEval-inconsistent-v1.0 -> data/raw/faitheval_inc (4s)
+[data] https://raw.githubusercontent.com/chen700564/RGB/master/data/en.json -> data/raw/rgb/en.json
+[data] https://raw.githubusercontent.com/chen700564/RGB/master/data/en_int.json -> data/raw/rgb/en_int.json
+[data] https://raw.githubusercontent.com/chen700564/RGB/master/data/en_fact.json -> data/raw/rgb/en_fact.json
+[data] FAILED https://raw.githubusercontent.com/chen700564/RGB/master/README.md: HTTP Error 404: Not Found
+[data] https://raw.githubusercontent.com/ParticleMedia/RAGTruth/main/dataset/response.jsonl -> data/raw/ragtruth/response.jsonl
+[data] https://raw.githubusercontent.com/ParticleMedia/RAGTruth/main/dataset/source_info.jsonl -> data/raw/ragtruth/source_info.jsonl
+[data] https://raw.githubusercontent.com/ParticleMedia/RAGTruth/main/README.md -> data/raw/ragtruth/README.md
+[data] FAILED gdrive 1TLKhWjez63H4uBtgCxyoyJsZi-IMgnDb: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1TLKhWjez63H4uBtgCxyoyJsZi-IMgnDb
+
+but Gdown can't. Please check connections and permissions.
+EXIT=0

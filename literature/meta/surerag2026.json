@@ -1,0 +1,62 @@
+{
+ "seed": {
+  "key": "surerag2026",
+  "title": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+  "arxiv_id": "2605.03534",
+  "category": "verification",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+  "authors": [
+   "Jingxi Qiu",
+   "Zeyu Han",
+   "Cheng Huang"
+  ],
+  "abstract": "Retrieval-augmented generation (RAG) grounds answers in retrieved passages, yet relevance does not guarantee sufficiency: a topical passage may still fail to justify the answer. We study evidence sufficiency verification for selective RAG answering, in which a verifier receives a question, a candidate answer, and retrieved evidence and decides whether the evidence supports, refutes, or is insufficient for the answer, answering only when support is established. We present SURE-RAG, an aggregation protocol that treats evidence sufficiency as a set-level property: missing hops and unresolved conflicts cannot be detected by scoring passages independently. A shared claim-evidence verifier produces a local relation distribution for each (claim, passage) pair, which SURE-RAG aggregates into four interpretable answer-level feature blocks (coverage, relation strength, uncertainty, and retrieval), producing a three-way decision and an auditable selective score. We evaluate on HotpotQA-RAG v3, a controlled multi-hop benchmark, under an artifact-aware protocol (shortcut baselines, counterfactual swaps, no-oracle checks, and GPT-4o audits). Calibrated SURE-RAG attains 0.9075 Macro-F1 (raw 0.8951 +/- 0.0069), well above DeBERTa mean-pooling (0.6516) and a GPT-4o judge (0.7284), and on par with a strong concat cross-encoder (0.8888 +/- 0.0109) while remaining fully auditable. At 30% coverage, risk falls from 0.2588 to 0.1642, a 37% relative reduction. As a boundary-mapping experiment, we contrast SURE-RAG with GPT-4o on HaluBench unsafe detection: the ranking reverses (0.3343 vs. 0.7389 unsafe-F1), indicating that controlled sufficiency verification and natural hallucination detection are distinct problems.",
+  "published": "2026-05-05",
+  "arxiv_id": "2605.03534",
+  "comment": "8 pages, 2 figures, 8 tables. Submitted to IEEE PRAI 2026",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "0d3cf473d55746dfc0bb20c58b1795399c2d4f2b",
+  "externalIds": {
+   "ArXiv": "2605.03534",
+   "DBLP": "journals/corr/abs-2605-03534",
+   "DOI": "10.48550/arXiv.2605.03534",
+   "CorpusId": 287963286
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+  "venue": "arXiv.org",
+  "year": 2026,
+  "publicationDate": "2026-05-05",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2605.03534"
+  },
+  "authors": [
+   {
+    "authorId": "2390570681",
+    "name": "Jing Qiu"
+   },
+   {
+    "authorId": "2385433388",
+    "name": "Ze-Yu Han"
+   },
+   {
+    "authorId": "2361217109",
+    "name": "Chengen Huang"
+   }
+  ]
+ }
+}

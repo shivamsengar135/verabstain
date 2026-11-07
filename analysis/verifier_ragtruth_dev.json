@@ -1,0 +1,38 @@
+{
+ "minicheck-ft5": {
+  "auroc": 0.846625458565757,
+  "best_threshold": 0.06536578387022018,
+  "f1_at_dev_threshold": 0.6919431279620853,
+  "threshold_used": 0.06536578387022018,
+  "n": 600,
+  "pairs": 4091,
+  "positive_rate": 0.33
+ },
+ "minicheck-deb": {
+  "auroc": 0.8399542690587467,
+  "best_threshold": 0.0696682333946228,
+  "f1_at_dev_threshold": 0.6866952789699571,
+  "threshold_used": 0.0696682333946228,
+  "n": 600,
+  "pairs": 4091,
+  "positive_rate": 0.33
+ },
+ "hhem-2.1-open": {
+  "auroc": 0.8805341976983767,
+  "best_threshold": 0.22873444855213165,
+  "f1_at_dev_threshold": 0.7189873417721518,
+  "threshold_used": 0.22873444855213165,
+  "n": 600,
+  "pairs": 4091,
+  "positive_rate": 0.33
+ },
+ "deberta-v3-l-nli": {
+  "auroc": 0.7414882657419972,
+  "best_threshold": 0.20621243119239807,
+  "f1_at_dev_threshold": 0.6067019400352733,
+  "threshold_used": 0.20621243119239807,
+  "n": 600,
+  "pairs": 4091,
+  "positive_rate": 0.33
+ }
+}

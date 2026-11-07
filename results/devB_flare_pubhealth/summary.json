@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_flare_pubhealth",
+ "n": 300,
+ "n_expected": 300,
+ "method": "flare",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.38,
+ "match": 0.38,
+ "match_norm": 0.38,
+ "em": 0.38,
+ "f1": 0.38,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0833333333333333,
+ "mean_prompt_tokens": 672.8866666666667,
+ "mean_completion_tokens": 2.1666666666666665,
+ "mean_llm_seconds": 1.962366624334245,
+ "mean_retrievals": 1.0833333333333333,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.21104181533436833,
+ "wall_s": 10.864244937896729
+}

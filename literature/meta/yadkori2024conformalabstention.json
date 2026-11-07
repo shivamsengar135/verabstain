@@ -1,0 +1,107 @@
+{
+ "seed": {
+  "key": "yadkori2024conformalabstention",
+  "title": "Mitigating LLM Hallucinations via Conformal Abstention",
+  "arxiv_id": "2405.01563",
+  "category": "conformal",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Mitigating LLM Hallucinations via Conformal Abstention",
+  "authors": [
+   "Yasin Abbasi Yadkori",
+   "Ilja Kuzborskij",
+   "David Stutz",
+   "András György",
+   "Adam Fisch",
+   "Arnaud Doucet",
+   "Iuliya Beloshapka",
+   "Wei-Hung Weng",
+   "Yao-Yuan Yang",
+   "Csaba Szepesvári",
+   "Ali Taylan Cemgil",
+   "Nenad Tomasev"
+  ],
+  "abstract": "We develop a principled procedure for determining when a large language model (LLM) should abstain from responding (e.g., by saying \"I don't know\") in a general domain, instead of resorting to possibly \"hallucinating\" a non-sensical or incorrect answer. Building on earlier approaches that use self-consistency as a more reliable measure of model confidence, we propose using the LLM itself to self-evaluate the similarity between each of its sampled responses for a given query. We then further leverage conformal prediction techniques to develop an abstention procedure that benefits from rigorous theoretical guarantees on the hallucination rate (error rate). Experimentally, our resulting conformal abstention method reliably bounds the hallucination rate on various closed-book, open-domain generative question answering datasets, while also maintaining a significantly less conservative abstention rate on a dataset with long responses (Temporal Sequences) compared to baselines using log-probability scores to quantify uncertainty, while achieveing comparable performance on a dataset with short answers (TriviaQA). To evaluate the experiments automatically, one needs to determine if two responses are equivalent given a question. Following standard practice, we use a thresholded similarity function to determine if two responses match, but also provide a method for calibrating the threshold based on conformal prediction, with theoretical guarantees on the accuracy of the match prediction, which might be of independent interest.",
+  "published": "2024-04-04",
+  "arxiv_id": "2405.01563",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "b5cd6bc53343f2ad8a7c7830555d8c744e626245",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2405-01563",
+   "ArXiv": "2405.01563",
+   "DOI": "10.48550/arXiv.2405.01563",
+   "CorpusId": 269588267
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Mitigating LLM Hallucinations via Conformal Abstention",
+  "venue": "arXiv.org",
+  "year": 2024,
+  "publicationDate": "2024-04-04",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2405.01563"
+  },
+  "authors": [
+   {
+    "authorId": "1388837087",
+    "name": "Yasin Abbasi-Yadkori"
+   },
+   {
+    "authorId": "3150458",
+    "name": "Ilja Kuzborskij"
+   },
+   {
+    "authorId": "2298902427",
+    "name": "David Stutz"
+   },
+   {
+    "authorId": "145350541",
+    "name": "A. György"
+   },
+   {
+    "authorId": "32763968",
+    "name": "Adam Fisch"
+   },
+   {
+    "authorId": "2299943677",
+    "name": "Arnaud Doucet"
+   },
+   {
+    "authorId": "102780410",
+    "name": "I. Beloshapka"
+   },
+   {
+    "authorId": "2239098855",
+    "name": "Wei-Hung Weng"
+   },
+   {
+    "authorId": "2325208195",
+    "name": "Yao Yang"
+   },
+   {
+    "authorId": "2275096257",
+    "name": "Csaba Szepesvári"
+   },
+   {
+    "authorId": "9235290",
+    "name": "Ali Taylan Cemgil"
+   },
+   {
+    "authorId": "2359197879",
+    "name": "Nenad Tomasev"
+   }
+  ]
+ }
+}

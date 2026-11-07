@@ -1,0 +1,16 @@
+2026-11-05 02:17:52,238 INFO START devB_rag_topk_triviaqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:17:58,143 INFO devB_rag_topk_triviaqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:17:58,169 INFO devB_rag_topk_triviaqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:17:58,194 INFO devB_rag_topk_triviaqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:17:58,221 INFO devB_rag_topk_triviaqa: 100/300 done, 0 errors, 0s
+2026-11-05 02:18:05,806 INFO devB_rag_topk_triviaqa: 125/300 done, 0 errors, 8s
+2026-11-05 02:18:13,481 INFO devB_rag_topk_triviaqa: 150/300 done, 0 errors, 15s
+2026-11-05 02:18:20,211 INFO devB_rag_topk_triviaqa: 175/300 done, 0 errors, 22s
+2026-11-05 02:18:26,575 INFO devB_rag_topk_triviaqa: 200/300 done, 0 errors, 28s
+2026-11-05 02:18:33,376 INFO devB_rag_topk_triviaqa: 225/300 done, 0 errors, 35s
+2026-11-05 02:18:40,674 INFO devB_rag_topk_triviaqa: 250/300 done, 0 errors, 43s
+2026-11-05 02:18:43,431 WARNING PAUSE: gpu_temp=84 cpu_zone=78.9 cpu_load=14.1 on_battery=False
+2026-11-05 02:19:02,035 WARNING RESUME: gpu_temp=48 cpu_zone=49.9 cpu_load=5.9
+2026-11-05 02:19:05,204 INFO devB_rag_topk_triviaqa: 275/300 done, 0 errors, 67s
+2026-11-05 02:19:10,085 INFO devB_rag_topk_triviaqa: 300/300 done, 0 errors, 72s
+2026-11-05 02:19:10,261 INFO END devB_rag_topk_triviaqa: complete, wall 1.2 min, stats {'llm_calls': 200, 'cache_hits': 100, 'prompt_tokens': 119337, 'completion_tokens': 979, 'llm_seconds': 425.894144400052, 'retrievals': 0, 'verifier_pairs': 0}

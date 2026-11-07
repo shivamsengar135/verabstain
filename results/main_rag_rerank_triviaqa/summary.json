@@ -1,0 +1,22 @@
+{
+ "run_id": "main_rag_rerank_triviaqa",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "rag_rerank",
+ "dataset": "triviaqa",
+ "split": "test",
+ "correct": 0.68,
+ "match": 0.68,
+ "match_norm": 0.692,
+ "em": 0.608,
+ "f1": 0.7028467247836443,
+ "native_abstain_rate": 0.001,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 735.708,
+ "mean_completion_tokens": 4.495,
+ "mean_llm_seconds": 2.2363955403993896,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.9456639425002504,
+ "wall_s": 521.3034374713898
+}

@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_closed_book_popqa_lt",
+ "n": 500,
+ "n_expected": 500,
+ "method": "closed_book",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.144,
+ "match": 0.144,
+ "match_norm": 0.166,
+ "em": 0.15,
+ "f1": 0.16046219336219333,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 75.54,
+ "mean_completion_tokens": 7.036,
+ "mean_llm_seconds": 0.34792351499995855,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.34913964239997586,
+ "wall_s": 22.008050441741943
+}

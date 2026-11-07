@@ -1,0 +1,22 @@
+{
+ "run_id": "abl_ragverify_rounds1_popqa_lt",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.678,
+ "match": 0.678,
+ "match_norm": 0.68,
+ "em": 0.606,
+ "f1": 0.677501443001443,
+ "native_abstain_rate": 0.142,
+ "mean_llm_calls": 2.286,
+ "mean_prompt_tokens": 750.224,
+ "mean_completion_tokens": 39.87,
+ "mean_llm_seconds": 4.0867661457996,
+ "mean_retrievals": 1.07,
+ "mean_verifier_pairs": 1.034,
+ "mean_seconds": 0.024564079999887325,
+ "wall_s": 1.7935352325439453
+}

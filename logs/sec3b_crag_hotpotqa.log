@@ -1,0 +1,28 @@
+2026-11-07 00:19:00,851 INFO START sec3b_crag_hotpotqa: 500/500 examples to run; projected 19 min
+2026-11-07 00:19:22,974 INFO sec3b_crag_hotpotqa: 25/500 done, 0 errors, 22s
+2026-11-07 00:19:40,593 INFO sec3b_crag_hotpotqa: 50/500 done, 0 errors, 40s
+2026-11-07 00:19:57,725 INFO sec3b_crag_hotpotqa: 75/500 done, 0 errors, 57s
+2026-11-07 00:20:14,107 INFO sec3b_crag_hotpotqa: 100/500 done, 0 errors, 73s
+2026-11-07 00:20:31,052 INFO sec3b_crag_hotpotqa: 125/500 done, 0 errors, 90s
+2026-11-07 00:20:48,947 INFO sec3b_crag_hotpotqa: 150/500 done, 0 errors, 108s
+2026-11-07 00:21:05,470 INFO sec3b_crag_hotpotqa: 175/500 done, 0 errors, 125s
+2026-11-07 00:21:21,890 INFO sec3b_crag_hotpotqa: 200/500 done, 0 errors, 141s
+2026-11-07 00:21:39,624 INFO sec3b_crag_hotpotqa: 225/500 done, 0 errors, 159s
+2026-11-07 00:21:56,571 INFO sec3b_crag_hotpotqa: 250/500 done, 0 errors, 176s
+2026-11-07 00:22:12,858 INFO sec3b_crag_hotpotqa: 275/500 done, 0 errors, 192s
+2026-11-07 00:22:30,522 INFO sec3b_crag_hotpotqa: 300/500 done, 0 errors, 210s
+2026-11-07 00:22:34,653 WARNING PAUSE: gpu_temp=81 cpu_zone=53.9 cpu_load=19.6 on_battery=False
+2026-11-07 00:22:54,666 WARNING RESUME: gpu_temp=48 cpu_zone=47.9 cpu_load=3.8
+2026-11-07 00:23:05,257 INFO sec3b_crag_hotpotqa: 325/500 done, 0 errors, 244s
+2026-11-07 00:23:22,027 INFO sec3b_crag_hotpotqa: 350/500 done, 0 errors, 261s
+2026-11-07 00:23:39,914 INFO sec3b_crag_hotpotqa: 375/500 done, 0 errors, 279s
+2026-11-07 00:23:56,315 INFO sec3b_crag_hotpotqa: 400/500 done, 0 errors, 295s
+2026-11-07 00:24:10,720 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=18.8 on_battery=False
+2026-11-07 00:24:30,733 WARNING RESUME: gpu_temp=47 cpu_zone=48.9 cpu_load=3.3
+2026-11-07 00:24:32,101 INFO sec3b_crag_hotpotqa: 425/500 done, 0 errors, 331s
+2026-11-07 00:24:47,286 INFO sec3b_crag_hotpotqa: 450/500 done, 0 errors, 346s
+2026-11-07 00:24:56,754 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=17.6 on_battery=False
+2026-11-07 00:25:16,765 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.5
+2026-11-07 00:25:22,090 INFO sec3b_crag_hotpotqa: 475/500 done, 0 errors, 381s
+2026-11-07 00:25:38,138 INFO sec3b_crag_hotpotqa: 500/500 done, 0 errors, 397s
+2026-11-07 00:25:38,401 INFO END sec3b_crag_hotpotqa: complete, wall 6.6 min, stats {'llm_calls': 1000, 'cache_hits': 0, 'prompt_tokens': 462999, 'completion_tokens': 18609, 'llm_seconds': 2298.9392539000146, 'retrievals': 0, 'verifier_pairs': 0}

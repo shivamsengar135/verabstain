@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_cove_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "cove",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.206,
+ "match": 0.206,
+ "match_norm": 0.29,
+ "em": 0.236,
+ "f1": 0.33246334812141265,
+ "native_abstain_rate": 0.01,
+ "mean_llm_calls": 5.856,
+ "mean_prompt_tokens": 2015.188,
+ "mean_completion_tokens": 136.024,
+ "mean_llm_seconds": 7.588443923800187,
+ "mean_retrievals": 3.856,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.190334002600073,
+ "wall_s": 581.7928898334503
+}

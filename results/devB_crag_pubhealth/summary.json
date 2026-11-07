@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_crag_pubhealth",
+ "n": 300,
+ "n_expected": 300,
+ "method": "crag",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.4066666666666667,
+ "match": 0.4066666666666667,
+ "match_norm": 0.4066666666666667,
+ "em": 0.4066666666666667,
+ "f1": 0.4066666666666667,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 1005.3066666666666,
+ "mean_completion_tokens": 14.89,
+ "mean_llm_seconds": 3.8783380046670692,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 8.450103646000013,
+ "wall_s": 403.0750148296356
+}

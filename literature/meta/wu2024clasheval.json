@@ -1,0 +1,63 @@
+{
+ "seed": {
+  "key": "wu2024clasheval",
+  "title": "ClashEval: Quantifying the tug-of-war between an LLM's internal prior and external evidence",
+  "arxiv_id": "2404.10198",
+  "category": "benchmark",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "ClashEval: Quantifying the tug-of-war between an LLM's internal prior and external evidence",
+  "authors": [
+   "Kevin Wu",
+   "Eric Wu",
+   "James Zou"
+  ],
+  "abstract": "Retrieval augmented generation (RAG) is frequently used to mitigate hallucinations and provide up-to-date knowledge for large language models (LLMs). However, given that document retrieval is an imprecise task and sometimes results in erroneous or even harmful content being presented in context, this raises the question of how LLMs handle retrieved information: If the provided content is incorrect, does the model know to ignore it, or does it recapitulate the error? Conversely, when the model's initial response is incorrect, does it always know to use the retrieved information to correct itself, or does it insist on its wrong prior response? To answer this, we curate a dataset of over 1200 questions across six domains (e.g., drug dosages, Olympic records, locations) along with content relevant to answering each question. We further apply precise perturbations to the answers in the content that range from subtle to blatant errors. We benchmark six top-performing LLMs, including GPT-4o, on this dataset and find that LLMs are susceptible to adopting incorrect retrieved content, overriding their own correct prior knowledge over 60% of the time. However, the more unrealistic the retrieved content is (i.e. more deviated from truth), the less likely the model is to adopt it. Also, the less confident a model is in its initial response (via measuring token probabilities), the more likely it is to adopt the information in the retrieved content. We exploit this finding and demonstrate simple methods for improving model accuracy where there is conflicting retrieved content. Our results highlight a difficult task and benchmark for LLMs -- namely, their ability to correctly discern when it is wrong in light of correct retrieved content and to reject cases when the provided content is incorrect.",
+  "published": "2024-04-16",
+  "arxiv_id": "2404.10198",
+  "comment": "Revised June 9 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "0a962d107e8fee1cc97ecca2ae777b2bb48a031f",
+  "externalIds": {
+   "DBLP": "conf/nips/WuWZ24",
+   "ArXiv": "2404.10198",
+   "DOI": "10.52202/079017-1053",
+   "CorpusId": 269157310
+  },
+  "publicationVenue": {
+   "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+   "name": "Neural Information Processing Systems",
+   "type": "conference",
+   "alternate_names": [
+    "Neural Inf Process Syst",
+    "NeurIPS",
+    "NIPS"
+   ],
+   "url": "http://neurips.cc/"
+  },
+  "title": "ClashEval: Quantifying the tug-of-war between an LLM's internal prior and external evidence",
+  "venue": "Neural Information Processing Systems",
+  "year": 2024,
+  "publicationDate": "2024-04-16",
+  "journal": {
+   "name": "Advances in Neural Information Processing Systems 37"
+  },
+  "authors": [
+   {
+    "authorId": "2266355762",
+    "name": "Kevin Wu"
+   },
+   {
+    "authorId": "2253396752",
+    "name": "Eric Wu"
+   },
+   {
+    "authorId": "2293663109",
+    "name": "James Zou"
+   }
+  ]
+ }
+}

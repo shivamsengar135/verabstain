@@ -1,0 +1,41 @@
+# Global configuration shared by every method and dataset (one configuration across datasets).
+# Values marked DEV are chosen on dev data during Phase 2 and frozen with PROTOCOL.md.
+k: 5                     # passages given to every static method and to RAG-Verify's first draft
+k_large: 10              # 'larger k' baseline
+k_sub: 3                 # passages per follow-up query (FLARE, CoVe, RARR, CRAG web step uses k)
+pool_each: 20            # candidates per list before reciprocal rank fusion
+pool_size: 30            # fused candidates passed to the cross-encoder
+max_answer_tokens: 48
+max_draft_tokens: 96
+max_reasoning_tokens: 384
+max_plan_tokens: 96
+max_query_tokens: 32
+max_evidence: 10         # cap on passages in a revision prompt
+retrieval_device: cuda   # moved off the CPU after the CPU reached ~97 C (2026-11-04 23:31)
+verifier_device: cuda
+# RAG-Verify
+gate_tau: 1.01          # DEV  M1 confidence gate (>= tau -> answer closed-book); 1.01 = gate off
+rel_tau: -99.0           # DEV  M2 cross-encoder relevance filter (logit)
+sup_tau: 0.1             # DEV  M4/M5 support threshold that triggers revision
+rounds: 2                # M5 maximum revision rounds
+# baselines
+selfcheck_samples: 5
+flare_theta: 0.8         # DEV  FLARE token-probability threshold
+flare_beta: 0.4          # tokens below beta are masked out of the FLARE query
+flare_rounds: 2
+crag_upper: 2.0          # DEV  CRAG evaluator thresholds (logit scale)
+crag_lower: -3.0         # DEV
+selfrag_threshold: 0.0   # DEV-tuned (README value 0.2); 0 = always retrieve
+selfrag_ret_rule: prob   # DEV  'prob' (paper) or 'logprob_ratio' (released code)
+selfrag_nprobs: 20
+selfrag_max_tokens_qa: 100     # Self-RAG README value for PopQA
+selfrag_max_tokens_claim: 50   # Self-RAG README value for PubHealth
+selfrag_w_rel: 1.0
+selfrag_w_sup: 1.0
+selfrag_w_use: 0.5
+rarr_qgen_rounds: 1        # adaptation approved at Gate 1 (budget): one greedy round instead of 3 sampled
+rarr_max_questions: 3      # cap (adaptation) to bound cost
+static_retriever: hybrid   # DEV  first-stage retriever when no released passages exist (dense|bm25|hybrid)
+rv_fallback: rag   # DEV  RAG-Verify answer when the grounded draft says 'insufficient evidence' (closed_book|rag)
+rv_claim: template   # DEV (11-05, option B) claim verified by M4: 'template' ('The answer to <q> is <a>.') or the model's statement
+rarr_qgen_temperature: 0.0  # greedy (see rarr_qgen_rounds)

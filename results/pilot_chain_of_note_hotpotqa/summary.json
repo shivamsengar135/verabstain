@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_chain_of_note_hotpotqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "chain_of_note",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.46,
+ "match": 0.46,
+ "match_norm": 0.52,
+ "em": 0.48,
+ "f1": 0.5467272727272727,
+ "native_abstain_rate": 0.29,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 713.37,
+ "mean_completion_tokens": 165.06,
+ "mean_llm_seconds": 9.87896450799948,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.882970409000846,
+ "wall_s": 125.36930918693542
+}

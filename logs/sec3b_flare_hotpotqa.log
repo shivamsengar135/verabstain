@@ -1,0 +1,24 @@
+2026-11-07 00:02:47,555 INFO START sec3b_flare_hotpotqa: 500/500 examples to run; projected 7 min
+2026-11-07 00:03:14,427 INFO sec3b_flare_hotpotqa: 25/500 done, 0 errors, 27s
+2026-11-07 00:03:23,554 INFO sec3b_flare_hotpotqa: 50/500 done, 0 errors, 36s
+2026-11-07 00:03:30,087 INFO sec3b_flare_hotpotqa: 75/500 done, 0 errors, 42s
+2026-11-07 00:03:40,038 INFO sec3b_flare_hotpotqa: 100/500 done, 0 errors, 52s
+2026-11-07 00:03:48,745 INFO sec3b_flare_hotpotqa: 125/500 done, 0 errors, 61s
+2026-11-07 00:03:54,863 INFO sec3b_flare_hotpotqa: 150/500 done, 0 errors, 67s
+2026-11-07 00:04:02,774 INFO sec3b_flare_hotpotqa: 175/500 done, 0 errors, 75s
+2026-11-07 00:04:09,074 INFO sec3b_flare_hotpotqa: 200/500 done, 0 errors, 81s
+2026-11-07 00:04:16,398 INFO sec3b_flare_hotpotqa: 225/500 done, 0 errors, 89s
+2026-11-07 00:04:25,183 INFO sec3b_flare_hotpotqa: 250/500 done, 0 errors, 97s
+2026-11-07 00:04:31,514 INFO sec3b_flare_hotpotqa: 275/500 done, 0 errors, 104s
+2026-11-07 00:04:41,136 INFO sec3b_flare_hotpotqa: 300/500 done, 0 errors, 113s
+2026-11-07 00:04:48,026 INFO sec3b_flare_hotpotqa: 325/500 done, 0 errors, 120s
+2026-11-07 00:04:56,142 INFO sec3b_flare_hotpotqa: 350/500 done, 0 errors, 128s
+2026-11-07 00:05:02,281 INFO sec3b_flare_hotpotqa: 375/500 done, 0 errors, 135s
+2026-11-07 00:05:11,369 INFO sec3b_flare_hotpotqa: 400/500 done, 0 errors, 144s
+2026-11-07 00:05:18,177 INFO sec3b_flare_hotpotqa: 425/500 done, 0 errors, 150s
+2026-11-07 00:05:23,950 INFO sec3b_flare_hotpotqa: 450/500 done, 0 errors, 156s
+2026-11-07 00:05:30,776 INFO sec3b_flare_hotpotqa: 475/500 done, 0 errors, 163s
+2026-11-07 00:05:32,053 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=28.3 on_battery=False
+2026-11-07 00:05:52,067 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.4
+2026-11-07 00:05:58,004 INFO sec3b_flare_hotpotqa: 500/500 done, 0 errors, 190s
+2026-11-07 00:05:59,046 INFO END sec3b_flare_hotpotqa: complete, wall 3.2 min, stats {'llm_calls': 515, 'cache_hits': 730, 'prompt_tokens': 305357, 'completion_tokens': 2663, 'llm_seconds': 459.6317153999662, 'retrievals': 0, 'verifier_pairs': 0}

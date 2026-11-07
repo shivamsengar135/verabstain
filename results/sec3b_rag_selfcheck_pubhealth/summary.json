@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_rag_selfcheck_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rag_selfcheck",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.492,
+ "match": 0.492,
+ "match_norm": 0.492,
+ "em": 0.492,
+ "f1": 0.492,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 6.0,
+ "mean_prompt_tokens": 4828.488,
+ "mean_completion_tokens": 15.21,
+ "mean_llm_seconds": 4.408638926000211,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 3.022400458999982,
+ "wall_s": 199.1696741580963
+}

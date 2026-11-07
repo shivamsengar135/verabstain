@@ -1,0 +1,22 @@
+2026-11-06 23:27:42,929 INFO START sec3b_closed_book_popqa_lt: 500/500 examples to run; projected 3 min
+2026-11-06 23:27:54,384 INFO sec3b_closed_book_popqa_lt: 25/500 done, 0 errors, 1s
+2026-11-06 23:27:55,270 INFO sec3b_closed_book_popqa_lt: 50/500 done, 0 errors, 2s
+2026-11-06 23:27:56,426 INFO sec3b_closed_book_popqa_lt: 75/500 done, 0 errors, 3s
+2026-11-06 23:27:57,432 INFO sec3b_closed_book_popqa_lt: 100/500 done, 0 errors, 4s
+2026-11-06 23:27:58,465 INFO sec3b_closed_book_popqa_lt: 125/500 done, 0 errors, 5s
+2026-11-06 23:27:59,407 INFO sec3b_closed_book_popqa_lt: 150/500 done, 0 errors, 6s
+2026-11-06 23:28:00,517 INFO sec3b_closed_book_popqa_lt: 175/500 done, 0 errors, 7s
+2026-11-06 23:28:01,894 INFO sec3b_closed_book_popqa_lt: 200/500 done, 0 errors, 8s
+2026-11-06 23:28:03,275 INFO sec3b_closed_book_popqa_lt: 225/500 done, 0 errors, 10s
+2026-11-06 23:28:04,310 INFO sec3b_closed_book_popqa_lt: 250/500 done, 0 errors, 11s
+2026-11-06 23:28:05,310 INFO sec3b_closed_book_popqa_lt: 275/500 done, 0 errors, 12s
+2026-11-06 23:28:06,384 INFO sec3b_closed_book_popqa_lt: 300/500 done, 0 errors, 13s
+2026-11-06 23:28:07,614 INFO sec3b_closed_book_popqa_lt: 325/500 done, 0 errors, 14s
+2026-11-06 23:28:08,585 INFO sec3b_closed_book_popqa_lt: 350/500 done, 0 errors, 15s
+2026-11-06 23:28:09,701 INFO sec3b_closed_book_popqa_lt: 375/500 done, 0 errors, 16s
+2026-11-06 23:28:10,940 INFO sec3b_closed_book_popqa_lt: 400/500 done, 0 errors, 17s
+2026-11-06 23:28:12,069 INFO sec3b_closed_book_popqa_lt: 425/500 done, 0 errors, 19s
+2026-11-06 23:28:13,300 INFO sec3b_closed_book_popqa_lt: 450/500 done, 0 errors, 20s
+2026-11-06 23:28:14,270 INFO sec3b_closed_book_popqa_lt: 475/500 done, 0 errors, 21s
+2026-11-06 23:28:15,443 INFO sec3b_closed_book_popqa_lt: 500/500 done, 0 errors, 22s
+2026-11-06 23:28:15,635 INFO END sec3b_closed_book_popqa_lt: complete, wall 0.4 min, stats {'llm_calls': 499, 'cache_hits': 1, 'prompt_tokens': 37697, 'completion_tokens': 3514, 'llm_seconds': 173.67501279998032, 'retrievals': 0, 'verifier_pairs': 0}

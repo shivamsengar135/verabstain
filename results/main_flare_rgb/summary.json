@@ -1,0 +1,20 @@
+{
+ "run_id": "main_flare_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "flare",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6161538461538462,
+ "rejected": 0.0,
+ "fake_answer": 0.94,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.2046153846153846,
+ "mean_prompt_tokens": 1544.8853846153845,
+ "mean_completion_tokens": 7.9653846153846155,
+ "mean_llm_seconds": 5.454721712923285,
+ "mean_retrievals": 1.2046153846153846,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.7085772765385852,
+ "wall_s": 211.51683712005615
+}

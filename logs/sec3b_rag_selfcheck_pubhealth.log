@@ -1,0 +1,26 @@
+2026-11-07 00:50:16,432 INFO START sec3b_rag_selfcheck_pubhealth: 500/500 examples to run; projected 5 min
+2026-11-07 00:50:26,063 INFO sec3b_rag_selfcheck_pubhealth: 25/500 done, 0 errors, 9s
+2026-11-07 00:50:33,925 INFO sec3b_rag_selfcheck_pubhealth: 50/500 done, 0 errors, 17s
+2026-11-07 00:50:42,735 INFO sec3b_rag_selfcheck_pubhealth: 75/500 done, 0 errors, 26s
+2026-11-07 00:50:50,308 INFO sec3b_rag_selfcheck_pubhealth: 100/500 done, 0 errors, 34s
+2026-11-07 00:50:58,061 INFO sec3b_rag_selfcheck_pubhealth: 125/500 done, 0 errors, 41s
+2026-11-07 00:51:01,161 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=18.5 on_battery=False
+2026-11-07 00:51:21,173 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=10.2
+2026-11-07 00:51:26,135 INFO sec3b_rag_selfcheck_pubhealth: 150/500 done, 0 errors, 70s
+2026-11-07 00:51:34,105 INFO sec3b_rag_selfcheck_pubhealth: 175/500 done, 0 errors, 78s
+2026-11-07 00:51:41,788 INFO sec3b_rag_selfcheck_pubhealth: 200/500 done, 0 errors, 85s
+2026-11-07 00:51:49,797 INFO sec3b_rag_selfcheck_pubhealth: 225/500 done, 0 errors, 93s
+2026-11-07 00:51:57,676 INFO sec3b_rag_selfcheck_pubhealth: 250/500 done, 0 errors, 101s
+2026-11-07 00:52:05,299 INFO sec3b_rag_selfcheck_pubhealth: 275/500 done, 0 errors, 109s
+2026-11-07 00:52:13,398 INFO sec3b_rag_selfcheck_pubhealth: 300/500 done, 0 errors, 117s
+2026-11-07 00:52:21,507 INFO sec3b_rag_selfcheck_pubhealth: 325/500 done, 0 errors, 125s
+2026-11-07 00:52:29,328 INFO sec3b_rag_selfcheck_pubhealth: 350/500 done, 0 errors, 133s
+2026-11-07 00:52:37,231 WARNING PAUSE: gpu_temp=80 cpu_zone=50.9 cpu_load=15.5 on_battery=False
+2026-11-07 00:52:37,670 INFO sec3b_rag_selfcheck_pubhealth: 375/500 done, 0 errors, 141s
+2026-11-07 00:52:57,243 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=4.6
+2026-11-07 00:53:05,313 INFO sec3b_rag_selfcheck_pubhealth: 400/500 done, 0 errors, 169s
+2026-11-07 00:53:13,565 INFO sec3b_rag_selfcheck_pubhealth: 425/500 done, 0 errors, 177s
+2026-11-07 00:53:21,554 INFO sec3b_rag_selfcheck_pubhealth: 450/500 done, 0 errors, 185s
+2026-11-07 00:53:28,919 INFO sec3b_rag_selfcheck_pubhealth: 475/500 done, 0 errors, 192s
+2026-11-07 00:53:35,741 INFO sec3b_rag_selfcheck_pubhealth: 500/500 done, 0 errors, 199s
+2026-11-07 00:53:35,960 INFO END sec3b_rag_selfcheck_pubhealth: complete, wall 3.3 min, stats {'llm_calls': 2500, 'cache_hits': 500, 'prompt_tokens': 2011870, 'completion_tokens': 6417, 'llm_seconds': 1483.231988400119, 'retrievals': 0, 'verifier_pairs': 0}

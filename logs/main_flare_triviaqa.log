@@ -1,0 +1,46 @@
+2026-11-05 08:08:19,958 INFO START main_flare_triviaqa: 1000/1000 examples to run; projected 14 min
+2026-11-05 08:08:20,152 INFO main_flare_triviaqa: 25/1000 done, 0 errors, 0s
+2026-11-05 08:08:38,116 INFO main_flare_triviaqa: 50/1000 done, 0 errors, 18s
+2026-11-05 08:08:38,949 WARNING PAUSE: gpu_temp=47 cpu_zone=82.9 cpu_load=21.1 on_battery=False
+2026-11-05 08:08:41,237 INFO main_flare_triviaqa: 75/1000 done, 0 errors, 21s
+2026-11-05 08:08:57,444 WARNING RESUME: gpu_temp=45 cpu_zone=50.9 cpu_load=2.2
+2026-11-05 08:08:57,490 INFO main_flare_triviaqa: 100/1000 done, 0 errors, 37s
+2026-11-05 08:09:00,018 INFO main_flare_triviaqa: 125/1000 done, 0 errors, 40s
+2026-11-05 08:09:04,207 INFO main_flare_triviaqa: 150/1000 done, 0 errors, 44s
+2026-11-05 08:09:06,197 INFO main_flare_triviaqa: 175/1000 done, 0 errors, 46s
+2026-11-05 08:09:07,528 INFO main_flare_triviaqa: 200/1000 done, 0 errors, 47s
+2026-11-05 08:09:08,796 INFO main_flare_triviaqa: 225/1000 done, 0 errors, 49s
+2026-11-05 08:09:08,907 INFO main_flare_triviaqa: 250/1000 done, 0 errors, 49s
+2026-11-05 08:09:08,954 INFO main_flare_triviaqa: 275/1000 done, 0 errors, 49s
+2026-11-05 08:09:12,684 INFO main_flare_triviaqa: 300/1000 done, 0 errors, 53s
+2026-11-05 08:09:14,858 INFO main_flare_triviaqa: 325/1000 done, 0 errors, 55s
+2026-11-05 08:09:14,941 INFO main_flare_triviaqa: 350/1000 done, 0 errors, 55s
+2026-11-05 08:09:17,557 INFO main_flare_triviaqa: 375/1000 done, 0 errors, 57s
+2026-11-05 08:09:19,165 INFO main_flare_triviaqa: 400/1000 done, 0 errors, 59s
+2026-11-05 08:09:21,029 INFO main_flare_triviaqa: 425/1000 done, 0 errors, 61s
+2026-11-05 08:09:23,272 INFO main_flare_triviaqa: 450/1000 done, 0 errors, 63s
+2026-11-05 08:09:23,407 INFO main_flare_triviaqa: 475/1000 done, 0 errors, 63s
+2026-11-05 08:09:25,714 INFO main_flare_triviaqa: 500/1000 done, 0 errors, 66s
+2026-11-05 08:09:27,474 INFO main_flare_triviaqa: 525/1000 done, 0 errors, 67s
+2026-11-05 08:09:29,503 INFO main_flare_triviaqa: 550/1000 done, 0 errors, 69s
+2026-11-05 08:09:30,247 INFO main_flare_triviaqa: 575/1000 done, 0 errors, 70s
+2026-11-05 08:09:30,946 INFO main_flare_triviaqa: 600/1000 done, 0 errors, 71s
+2026-11-05 08:09:33,050 INFO main_flare_triviaqa: 625/1000 done, 0 errors, 73s
+2026-11-05 08:09:34,741 WARNING PAUSE: gpu_temp=83 cpu_zone=91.9 cpu_load=23.2 on_battery=False
+2026-11-05 08:09:53,225 WARNING RESUME: gpu_temp=47 cpu_zone=55.9 cpu_load=4.0
+2026-11-05 08:09:53,238 INFO main_flare_triviaqa: 650/1000 done, 0 errors, 93s
+2026-11-05 08:09:53,255 INFO main_flare_triviaqa: 675/1000 done, 0 errors, 93s
+2026-11-05 08:09:57,597 INFO main_flare_triviaqa: 700/1000 done, 0 errors, 97s
+2026-11-05 08:09:57,688 INFO main_flare_triviaqa: 725/1000 done, 0 errors, 98s
+2026-11-05 08:10:00,587 INFO main_flare_triviaqa: 750/1000 done, 0 errors, 100s
+2026-11-05 08:10:03,116 INFO main_flare_triviaqa: 775/1000 done, 0 errors, 103s
+2026-11-05 08:10:04,931 INFO main_flare_triviaqa: 800/1000 done, 0 errors, 105s
+2026-11-05 08:10:06,726 INFO main_flare_triviaqa: 825/1000 done, 0 errors, 107s
+2026-11-05 08:10:08,846 INFO main_flare_triviaqa: 850/1000 done, 0 errors, 109s
+2026-11-05 08:10:10,737 INFO main_flare_triviaqa: 875/1000 done, 0 errors, 111s
+2026-11-05 08:10:10,768 INFO main_flare_triviaqa: 900/1000 done, 0 errors, 111s
+2026-11-05 08:10:10,898 INFO main_flare_triviaqa: 925/1000 done, 0 errors, 111s
+2026-11-05 08:10:15,826 INFO main_flare_triviaqa: 950/1000 done, 0 errors, 116s
+2026-11-05 08:10:15,938 INFO main_flare_triviaqa: 975/1000 done, 0 errors, 116s
+2026-11-05 08:10:19,968 INFO main_flare_triviaqa: 1000/1000 done, 0 errors, 120s
+2026-11-05 08:10:20,711 INFO END main_flare_triviaqa: complete, wall 2.0 min, stats {'llm_calls': 256, 'cache_hits': 1019, 'prompt_tokens': 145140, 'completion_tokens': 1535, 'llm_seconds': 418.8349216998322, 'retrievals': 0, 'verifier_pairs': 0}

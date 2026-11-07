@@ -1,0 +1,65 @@
+{
+ "seed": {
+  "key": "song2024veriscore",
+  "title": "VeriScore: Evaluating the factuality of verifiable claims in long-form text generation",
+  "arxiv_id": "2406.19276",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "VERISCORE: Evaluating the factuality of verifiable claims in long-form text generation",
+  "authors": [
+   "Yixiao Song",
+   "Yekyung Kim",
+   "Mohit Iyyer"
+  ],
+  "abstract": "Existing metrics for evaluating the factuality of long-form text, such as FACTSCORE (Min et al., 2023) and SAFE (Wei et al., 2024), decompose an input text into \"atomic claims\" and verify each against a knowledge base like Wikipedia. These metrics are not suitable for most generation tasks because they assume that every claim is verifiable (i.e., can plausibly be proven true or false). We address this issue with VERISCORE, a metric for diverse long-form generation tasks that contain both verifiable and unverifiable content. VERISCORE can be effectively implemented with either closed or fine-tuned open-weight language models, and human evaluation confirms that VERISCORE's extracted claims are more sensible than those from competing methods across eight different long-form tasks. We use VERISCORE to evaluate generations from 16 different models across multiple long-form tasks and find that while GPT-4o is the best-performing model overall, open-weight models such as Mixtral-8x22 are closing the gap. We show that an LM's VERISCORE on one task (e.g., biography generation) does not necessarily correlate to its VERISCORE on a different task (e.g., long-form QA), highlighting the need for expanding factuality evaluation across tasks with varying fact density.",
+  "published": "2024-06-27",
+  "arxiv_id": "2406.19276",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "32d8df3dddfeb5d04326a17c0d506b1304aa8dc1",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2406-19276",
+   "ArXiv": "2406.19276",
+   "DOI": "10.48550/arXiv.2406.19276",
+   "CorpusId": 270765002
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "VERISCORE: Evaluating the factuality of verifiable claims in long-form text generation",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2024,
+  "publicationDate": "2024-06-27",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2406.19276"
+  },
+  "authors": [
+   {
+    "authorId": "8280888",
+    "name": "Yixiao Song"
+   },
+   {
+    "authorId": "2294805305",
+    "name": "Yekyung Kim"
+   },
+   {
+    "authorId": "2136562",
+    "name": "M. Iyyer"
+   }
+  ]
+ }
+}

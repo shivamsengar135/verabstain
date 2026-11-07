@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rag_topk_hotpotqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rag_topk",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.53,
+ "match": 0.53,
+ "match_norm": 0.58,
+ "em": 0.55,
+ "f1": 0.6362987012987013,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 614.37,
+ "mean_completion_tokens": 4.95,
+ "mean_llm_seconds": 2.1899241150003217,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.198351692000724,
+ "wall_s": 27.576136827468872
+}

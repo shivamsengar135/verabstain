@@ -1,0 +1,87 @@
+{
+ "seed": {
+  "key": "yang2018hotpotqa",
+  "title": "HotpotQA: A Dataset for Diverse Explainable Multi-hop Question Answering",
+  "arxiv_id": "1809.09600",
+  "category": "dataset",
+  "role": "dataset"
+ },
+ "arxiv": {
+  "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+  "authors": [
+   "Zhilin Yang",
+   "Peng Qi",
+   "Saizheng Zhang",
+   "Yoshua Bengio",
+   "William W. Cohen",
+   "Ruslan Salakhutdinov",
+   "Christopher D. Manning"
+  ],
+  "abstract": "Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions; (4) we offer a new type of factoid comparison questions to test QA systems' ability to extract relevant facts and perform necessary comparison. We show that HotpotQA is challenging for the latest QA systems, and the supporting facts enable models to improve performance and make explainable predictions.",
+  "published": "2018-09-25",
+  "arxiv_id": "1809.09600",
+  "comment": "EMNLP 2018 long paper. The first three authors contribute equally. Data, code, and blog posts available at https://hotpotqa.github.io/",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "22655979df781d222eaf812b0d325fa9adf11594",
+  "externalIds": {
+   "ACL": "D18-1259",
+   "MAG": "2952862139",
+   "DBLP": "conf/emnlp/Yang0ZBCSM18",
+   "ArXiv": "1809.09600",
+   "DOI": "10.18653/v1/D18-1259",
+   "CorpusId": 52822214
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2018,
+  "publicationDate": "2018-09-25",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/1809.09600"
+  },
+  "authors": [
+   {
+    "authorId": "2109512754",
+    "name": "Zhi-Lin Yang"
+   },
+   {
+    "authorId": "50531624",
+    "name": "Peng Qi"
+   },
+   {
+    "authorId": "35097114",
+    "name": "Sai-Zheng Zhang"
+   },
+   {
+    "authorId": "1751762",
+    "name": "Yoshua Bengio"
+   },
+   {
+    "authorId": "50056360",
+    "name": "William W. Cohen"
+   },
+   {
+    "authorId": "145124475",
+    "name": "R. Salakhutdinov"
+   },
+   {
+    "authorId": "144783904",
+    "name": "Christopher D. Manning"
+   }
+  ]
+ }
+}

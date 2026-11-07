@@ -1,0 +1,53 @@
+{
+ "seed": {
+  "key": "targ2026",
+  "title": "?",
+  "arxiv_id": "2511.09803",
+  "category": "adaptive",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Retrieval as a Decision: Training-Free Adaptive Gating for Efficient RAG",
+  "authors": [
+   "Yufeng Wang",
+   "Lu wei",
+   "Haibin Ling"
+  ],
+  "abstract": "Retrieval-Augmented Generation (RAG) improves factuality but retrieving for every query often hurts quality while inflating tokens and latency. We propose Training-free Adaptive Retrieval Gating (TARG), a single-shot policy that decides when to retrieve using only a short, no-context draft from the base model. From the draft's prefix logits, TARG computes lightweight uncertainty scores-mean token entropy, a margin signal derived from the top-1/top-2 logit gap via a monotone link, or small-N variance across a handful of stochastic prefixes-and triggers retrieval only when the score exceeds a threshold. The gate is model-agnostic, adds only tens to hundreds of draft tokens, and requires no additional training or auxiliary heads. On five QA benchmarks spanning short-answer (NQ-Open, TriviaQA, PopQA), multi-hop (MuSiQue), and long-form (ASQA) tasks, TARG consistently pushes the accuracy-efficiency frontier: compared with Alway-RAG, TARG matches or improves EM/F1 while reducing retrieval by 70-90% and cutting end-to-end latency, and it remains close to Never-RAG in overhead. A central empirical finding is that under modern instruction-tuned LLMs the margin signal is a robust default (entropy compresses as backbones sharpen), with small-N variance offering a conservative, budget-first alternative. We provide ablations over gate type and prefix length and use a $Δ$-latency view to make budget trade-offs explicit.",
+  "published": "2025-11-12",
+  "arxiv_id": "2511.09803",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "6e9e64c0cd5e5a588a902ee594d39a00e38da7b8",
+  "externalIds": {
+   "DBLP": "journals/tmlr/WangWL26",
+   "ArXiv": "2511.09803",
+   "CorpusId": 282991812
+  },
+  "publicationVenue": null,
+  "title": "Retrieval as a Decision: Training-Free Adaptive Gating for Efficient RAG",
+  "venue": "Trans. Mach. Learn. Res.",
+  "year": 2025,
+  "publicationDate": "2025-11-12",
+  "journal": {
+   "name": "Trans. Mach. Learn. Res.",
+   "volume": "2026"
+  },
+  "authors": [
+   {
+    "authorId": "2358191035",
+    "name": "Yu-Feng Wang"
+   },
+   {
+    "authorId": "2348130572",
+    "name": "Lu Wei"
+   },
+   {
+    "authorId": "2348099381",
+    "name": "Hai-Bin Ling"
+   }
+  ]
+ }
+}

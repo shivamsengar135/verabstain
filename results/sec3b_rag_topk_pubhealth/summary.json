@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_rag_topk_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rag_topk",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.492,
+ "match": 0.492,
+ "match_norm": 0.492,
+ "em": 0.492,
+ "f1": 0.492,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 804.748,
+ "mean_completion_tokens": 2.376,
+ "mean_llm_seconds": 1.4421749491999727,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.4479888686000122,
+ "wall_s": 168.9463562965393
+}

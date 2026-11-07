@@ -1,0 +1,31 @@
+2026-11-05 02:50:31,894 ERROR JOB FAILED devB_selfrag_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 290, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 170, in run_job
+    examples = D.load(job["dataset"], job["split"], job.get("n"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in load
+    return [byid[i] for i in want]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in <listcomp>
+    return [byid[i] for i in want]
+            ~~~~^^^
+KeyError: 'pubdev:there'
+
+2026-11-05 03:08:20,920 INFO START devB_selfrag_pubhealth: 300/300 examples to run; projected 8 min
+2026-11-05 03:08:26,823 INFO devB_selfrag_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 03:08:26,861 INFO devB_selfrag_pubhealth: 50/300 done, 0 errors, 0s
+2026-11-05 03:08:26,895 INFO devB_selfrag_pubhealth: 75/300 done, 0 errors, 0s
+2026-11-05 03:08:26,931 INFO devB_selfrag_pubhealth: 100/300 done, 0 errors, 0s
+2026-11-05 03:08:44,185 INFO devB_selfrag_pubhealth: 125/300 done, 0 errors, 17s
+2026-11-05 03:08:58,017 INFO devB_selfrag_pubhealth: 150/300 done, 0 errors, 31s
+2026-11-05 03:09:12,196 INFO devB_selfrag_pubhealth: 175/300 done, 0 errors, 45s
+2026-11-05 03:09:26,174 INFO devB_selfrag_pubhealth: 200/300 done, 0 errors, 59s
+2026-11-05 03:09:39,523 INFO devB_selfrag_pubhealth: 225/300 done, 0 errors, 73s
+2026-11-05 03:09:52,610 WARNING PAUSE: gpu_temp=78 cpu_zone=82.9 cpu_load=23.2 on_battery=False
+2026-11-05 03:09:53,829 INFO devB_selfrag_pubhealth: 250/300 done, 0 errors, 87s
+2026-11-05 03:10:11,180 WARNING RESUME: gpu_temp=48 cpu_zone=50.9 cpu_load=5.0
+2026-11-05 03:10:25,880 INFO devB_selfrag_pubhealth: 275/300 done, 0 errors, 119s
+2026-11-05 03:10:38,362 INFO devB_selfrag_pubhealth: 300/300 done, 0 errors, 132s
+2026-11-05 03:10:38,540 INFO END devB_selfrag_pubhealth: complete, wall 2.2 min, stats {'llm_calls': 1400, 'cache_hits': 700, 'prompt_tokens': 216091, 'completion_tokens': 5454, 'llm_seconds': 877.8415180000011, 'retrievals': 0, 'verifier_pairs': 0}

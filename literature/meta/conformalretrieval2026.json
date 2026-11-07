@@ -1,0 +1,67 @@
+{
+ "seed": {
+  "key": "conformalretrieval2026",
+  "title": "?",
+  "arxiv_id": "2605.05244",
+  "category": "conformal",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Towards Dependable Retrieval-Augmented Generation Using Factual Confidence Prediction",
+  "authors": [
+   "Florian Geissler",
+   "Francesco Carella",
+   "Laura Fieback",
+   "Jakob Spiegelberg"
+  ],
+  "abstract": "Incorporating specific knowledge into large language models via retrieval-augmented generation (RAG) is a widespread technique that fuels many of today's industry AI applications. A fundamental problem is to assess if the context retrieved by some similarity search provides indeed supporting facts, or instead misguides the generator with irrelevant information. It is critical to associate meaningful confidence measures about the factuality of the retrieval process with the generated answers. We present a new, two-staged approach to predict fact faithfulness of the output of retrieval-augmented generations. First, we employ conformal prediction to select only those retrieved chunks who have a high chance to come from the correct source. This approach in itself can improve answer quality by up to 6% in some of the studied datasets, however, the associated statistical guarantees do not hold generally, since the assumption of sample exchangeability depends on the retriever setup. We present diagnostic metrics to assess whether a setup is suitable. Second, we quantify confidence in the consistency of a generated final answer with a given retrieved context, using an attention-based factuality classifier. This approach can detect inconsistent answers with a chance of up to 77%. Our work helps to establish a novel type of certified RAG systems for a broad range of natural language industry applications.",
+  "published": "2026-05-04",
+  "arxiv_id": "2605.05244",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "37216acd9b22c14dedffebedf12a2c5e02378a25",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2605-05244",
+   "ArXiv": "2605.05244",
+   "DOI": "10.48550/arXiv.2605.05244",
+   "CorpusId": 288013636
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Towards Dependable Retrieval-Augmented Generation Using Factual Confidence Prediction",
+  "venue": "arXiv.org",
+  "year": 2026,
+  "publicationDate": "2026-05-04",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2605.05244"
+  },
+  "authors": [
+   {
+    "authorId": "2064363424",
+    "name": "Florian Geissler"
+   },
+   {
+    "authorId": "2198433271",
+    "name": "Francesco Carella"
+   },
+   {
+    "authorId": "2266394651",
+    "name": "Laura Fieback"
+   },
+   {
+    "authorId": "2266394824",
+    "name": "Jakob Spiegelberg"
+   }
+  ]
+ }
+}

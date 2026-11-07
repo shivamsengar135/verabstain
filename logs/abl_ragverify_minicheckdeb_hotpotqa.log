@@ -1,0 +1,40 @@
+2026-11-06 23:01:54,865 INFO START abl_ragverify_minicheckdeb_hotpotqa: 500/500 examples to run; projected 25 min
+2026-11-06 23:01:54,906 ERROR JOB FAILED abl_ragverify_minicheckdeb_hotpotqa:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 339, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 239, in run_job
+    verifier = make(job["verifier"], device=cfg.get("verifier_device", "cuda"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\verifier.py", line 214, in make
+    return MiniCheck(name.split("-", 1)[1], **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\verifier.py", line 74, in __init__
+    self.family = MiniCheck.family[variant]
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'deb-l'
+
+2026-11-07 01:15:11,812 INFO START abl_ragverify_minicheckdeb_hotpotqa: 500/500 examples to run; projected 25 min
+2026-11-07 01:15:21,118 INFO abl_ragverify_minicheckdeb_hotpotqa: 25/500 done, 0 errors, 9s
+2026-11-07 01:15:26,171 INFO abl_ragverify_minicheckdeb_hotpotqa: 50/500 done, 0 errors, 14s
+2026-11-07 01:15:29,905 INFO abl_ragverify_minicheckdeb_hotpotqa: 75/500 done, 0 errors, 18s
+2026-11-07 01:15:32,765 INFO abl_ragverify_minicheckdeb_hotpotqa: 100/500 done, 0 errors, 21s
+2026-11-07 01:15:36,621 INFO abl_ragverify_minicheckdeb_hotpotqa: 125/500 done, 0 errors, 25s
+2026-11-07 01:15:40,906 INFO abl_ragverify_minicheckdeb_hotpotqa: 150/500 done, 0 errors, 29s
+2026-11-07 01:15:43,668 INFO abl_ragverify_minicheckdeb_hotpotqa: 175/500 done, 0 errors, 32s
+2026-11-07 01:15:47,532 INFO abl_ragverify_minicheckdeb_hotpotqa: 200/500 done, 0 errors, 36s
+2026-11-07 01:15:52,147 INFO abl_ragverify_minicheckdeb_hotpotqa: 225/500 done, 0 errors, 40s
+2026-11-07 01:15:56,207 INFO abl_ragverify_minicheckdeb_hotpotqa: 250/500 done, 0 errors, 44s
+2026-11-07 01:16:01,216 INFO abl_ragverify_minicheckdeb_hotpotqa: 275/500 done, 0 errors, 49s
+2026-11-07 01:16:05,504 INFO abl_ragverify_minicheckdeb_hotpotqa: 300/500 done, 0 errors, 54s
+2026-11-07 01:16:10,855 INFO abl_ragverify_minicheckdeb_hotpotqa: 325/500 done, 0 errors, 59s
+2026-11-07 01:16:15,007 INFO abl_ragverify_minicheckdeb_hotpotqa: 350/500 done, 0 errors, 63s
+2026-11-07 01:16:18,939 INFO abl_ragverify_minicheckdeb_hotpotqa: 375/500 done, 0 errors, 67s
+2026-11-07 01:16:22,578 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=22.0 on_battery=False
+2026-11-07 01:16:22,965 INFO abl_ragverify_minicheckdeb_hotpotqa: 400/500 done, 0 errors, 71s
+2026-11-07 01:16:42,588 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=3.4
+2026-11-07 01:16:46,940 INFO abl_ragverify_minicheckdeb_hotpotqa: 425/500 done, 0 errors, 95s
+2026-11-07 01:16:50,438 INFO abl_ragverify_minicheckdeb_hotpotqa: 450/500 done, 0 errors, 98s
+2026-11-07 01:16:54,077 INFO abl_ragverify_minicheckdeb_hotpotqa: 475/500 done, 0 errors, 102s
+2026-11-07 01:17:01,411 INFO abl_ragverify_minicheckdeb_hotpotqa: 500/500 done, 0 errors, 109s
+2026-11-07 01:17:02,374 INFO END abl_ragverify_minicheckdeb_hotpotqa: complete, wall 1.8 min, stats {'llm_calls': 77, 'cache_hits': 1381, 'prompt_tokens': 52608, 'completion_tokens': 2279, 'llm_seconds': 337.673392100005, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,28 @@
+2026-11-06 23:46:35,536 INFO START sec3b_crag_popqa_lt: 500/500 examples to run; projected 19 min
+2026-11-06 23:47:20,602 INFO sec3b_crag_popqa_lt: 25/500 done, 0 errors, 45s
+2026-11-06 23:47:38,637 INFO sec3b_crag_popqa_lt: 50/500 done, 0 errors, 63s
+2026-11-06 23:47:56,774 INFO sec3b_crag_popqa_lt: 75/500 done, 0 errors, 81s
+2026-11-06 23:48:14,913 INFO sec3b_crag_popqa_lt: 100/500 done, 0 errors, 99s
+2026-11-06 23:48:33,273 INFO sec3b_crag_popqa_lt: 125/500 done, 0 errors, 118s
+2026-11-06 23:48:50,865 INFO sec3b_crag_popqa_lt: 150/500 done, 0 errors, 135s
+2026-11-06 23:49:08,932 INFO sec3b_crag_popqa_lt: 175/500 done, 0 errors, 153s
+2026-11-06 23:49:23,598 WARNING PAUSE: gpu_temp=81 cpu_zone=53.9 cpu_load=20.9 on_battery=False
+2026-11-06 23:49:43,610 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=4.1
+2026-11-06 23:49:45,378 INFO sec3b_crag_popqa_lt: 200/500 done, 0 errors, 190s
+2026-11-06 23:50:01,783 INFO sec3b_crag_popqa_lt: 225/500 done, 0 errors, 206s
+2026-11-06 23:50:20,635 INFO sec3b_crag_popqa_lt: 250/500 done, 0 errors, 225s
+2026-11-06 23:50:37,848 INFO sec3b_crag_popqa_lt: 275/500 done, 0 errors, 242s
+2026-11-06 23:50:55,838 INFO sec3b_crag_popqa_lt: 300/500 done, 0 errors, 260s
+2026-11-06 23:51:13,941 INFO sec3b_crag_popqa_lt: 325/500 done, 0 errors, 278s
+2026-11-06 23:51:31,934 INFO sec3b_crag_popqa_lt: 350/500 done, 0 errors, 296s
+2026-11-06 23:51:33,691 WARNING PAUSE: gpu_temp=82 cpu_zone=53.9 cpu_load=18.9 on_battery=False
+2026-11-06 23:51:53,704 WARNING RESUME: gpu_temp=47 cpu_zone=48.9 cpu_load=4.0
+2026-11-06 23:52:08,473 INFO sec3b_crag_popqa_lt: 375/500 done, 0 errors, 333s
+2026-11-06 23:52:26,070 INFO sec3b_crag_popqa_lt: 400/500 done, 0 errors, 350s
+2026-11-06 23:52:44,190 INFO sec3b_crag_popqa_lt: 425/500 done, 0 errors, 369s
+2026-11-06 23:53:02,250 INFO sec3b_crag_popqa_lt: 450/500 done, 0 errors, 387s
+2026-11-06 23:53:20,126 INFO sec3b_crag_popqa_lt: 475/500 done, 0 errors, 404s
+2026-11-06 23:53:29,768 WARNING PAUSE: gpu_temp=82 cpu_zone=54.9 cpu_load=20.8 on_battery=False
+2026-11-06 23:53:49,780 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=3.6
+2026-11-06 23:53:54,376 INFO sec3b_crag_popqa_lt: 500/500 done, 0 errors, 439s
+2026-11-06 23:53:55,052 INFO END sec3b_crag_popqa_lt: complete, wall 7.3 min, stats {'llm_calls': 998, 'cache_hits': 2, 'prompt_tokens': 484855, 'completion_tokens': 18196, 'llm_seconds': 2412.204512299966, 'retrievals': 0, 'verifier_pairs': 0}

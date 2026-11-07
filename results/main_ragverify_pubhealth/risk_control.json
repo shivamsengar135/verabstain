@@ -1,0 +1,46 @@
+{
+ "run_id": "main_ragverify_pubhealth",
+ "n": 987,
+ "0.05": {
+  "crc": {
+   "risk_mean": 0.047935222672064765,
+   "risk_sd": 0.014706112018323239,
+   "frac_risk_gt_alpha": 0.36,
+   "coverage_mean": 0.13730769230769233
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ },
+ "0.1": {
+  "crc": {
+   "risk_mean": 0.1016599190283401,
+   "risk_sd": 0.020962083380824524,
+   "frac_risk_gt_alpha": 0.48,
+   "coverage_mean": 0.262246963562753
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ },
+ "0.2": {
+  "crc": {
+   "risk_mean": 0.20277327935222667,
+   "risk_sd": 0.026594683773313425,
+   "frac_risk_gt_alpha": 0.47,
+   "coverage_mean": 0.48301619433198384
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ }
+}

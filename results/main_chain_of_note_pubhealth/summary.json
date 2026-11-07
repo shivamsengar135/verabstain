@@ -1,0 +1,22 @@
+{
+ "run_id": "main_chain_of_note_pubhealth",
+ "n": 987,
+ "n_expected": 987,
+ "method": "chain_of_note",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.47416413373860183,
+ "match": 0.47416413373860183,
+ "match_norm": 0.47416413373860183,
+ "em": 0.47416413373860183,
+ "f1": 0.47416413373860183,
+ "native_abstain_rate": 0.011144883485309016,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 909.7821681864235,
+ "mean_completion_tokens": 215.84295845997974,
+ "mean_llm_seconds": 11.945387022593716,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 11.949593982573395,
+ "wall_s": 3337.2145702838898
+}

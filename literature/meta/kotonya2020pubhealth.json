@@ -1,0 +1,62 @@
+{
+ "seed": {
+  "key": "kotonya2020pubhealth",
+  "title": "Explainable Automated Fact-Checking for Public Health Claims",
+  "arxiv_id": "2010.09926",
+  "category": "dataset",
+  "role": "dataset"
+ },
+ "arxiv": {
+  "title": "Explainable Automated Fact-Checking for Public Health Claims",
+  "authors": [
+   "Neema Kotonya",
+   "Francesca Toni"
+  ],
+  "abstract": "Fact-checking is the task of verifying the veracity of claims by assessing their assertions against credible evidence. The vast majority of fact-checking studies focus exclusively on political claims. Very little research explores fact-checking for other topics, specifically subject matters for which expertise is required. We present the first study of explainable fact-checking for claims which require specific expertise. For our case study we choose the setting of public health. To support this case study we construct a new dataset PUBHEALTH of 11.8K claims accompanied by journalist crafted, gold standard explanations (i.e., judgments) to support the fact-check labels for claims. We explore two tasks: veracity prediction and explanation generation. We also define and evaluate, with humans and computationally, three coherence properties of explanation quality. Our results indicate that, by training on in-domain data, gains can be made in explainable, automated fact-checking for claims which require specific expertise.",
+  "published": "2020-10-19",
+  "arxiv_id": "2010.09926",
+  "comment": "Accepted to EMNLP 2020. 15 pages, 7 figures, 9 tables. The dataset is available at https://github.com/neemakot/Health-Fact-Checking",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "5aa2474efae299af6550a23bb71793ab0d1ac97b",
+  "externalIds": {
+   "MAG": "3101757358",
+   "ArXiv": "2010.09926",
+   "ACL": "2020.emnlp-main.623",
+   "DBLP": "conf/emnlp/KotonyaT20",
+   "DOI": "10.48550/arXiv.2010.09926",
+   "CorpusId": 224802782
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "Explainable Automated Fact-Checking for Public Health Claims",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2020,
+  "publicationDate": "2020-10-19",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2010.09926"
+  },
+  "authors": [
+   {
+    "authorId": "41019457",
+    "name": "Neema Kotonya"
+   },
+   {
+    "authorId": "49973505",
+    "name": "Francesca Toni"
+   }
+  ]
+ }
+}

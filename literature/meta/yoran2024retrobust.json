@@ -1,0 +1,68 @@
+{
+ "seed": {
+  "key": "yoran2024retrobust",
+  "title": "Making Retrieval-Augmented Language Models Robust to Irrelevant Context",
+  "arxiv_id": "2310.01558",
+  "category": "corrective",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Making Retrieval-Augmented Language Models Robust to Irrelevant Context",
+  "authors": [
+   "Ori Yoran",
+   "Tomer Wolfson",
+   "Ori Ram",
+   "Jonathan Berant"
+  ],
+  "abstract": "Retrieval-augmented language models (RALMs) hold promise to produce language understanding systems that are are factual, efficient, and up-to-date. An important desideratum of RALMs, is that retrieved information helps model performance when it is relevant, and does not harm performance when it is not. This is particularly important in multi-hop reasoning scenarios, where misuse of irrelevant evidence can lead to cascading errors. However, recent work has shown that retrieval augmentation can sometimes have a negative effect on performance. In this work, we present a thorough analysis on five open-domain question answering benchmarks, characterizing cases when retrieval reduces accuracy. We then propose two methods to mitigate this issue. First, a simple baseline that filters out retrieved passages that do not entail question-answer pairs according to a natural language inference (NLI) model. This is effective in preventing performance reduction, but at a cost of also discarding relevant passages. Thus, we propose a method for automatically generating data to fine-tune the language model to properly leverage retrieved passages, using a mix of relevant and irrelevant contexts at training time. We empirically show that even 1,000 examples suffice to train the model to be robust to irrelevant contexts while maintaining high performance on examples with relevant ones.",
+  "published": "2023-10-02",
+  "arxiv_id": "2310.01558",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "3aee33831e0bdea1a1eaae21c7586e4f7c0396d6",
+  "externalIds": {
+   "ArXiv": "2310.01558",
+   "DBLP": "conf/iclr/YoranWRB24",
+   "DOI": "10.48550/arXiv.2310.01558",
+   "CorpusId": 263608822
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Making Retrieval-Augmented Language Models Robust to Irrelevant Context",
+  "venue": "International Conference on Learning Representations",
+  "year": 2023,
+  "publicationDate": "2023-10-02",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2310.01558"
+  },
+  "authors": [
+   {
+    "authorId": "2074100429",
+    "name": "Ori Yoran"
+   },
+   {
+    "authorId": "51174907",
+    "name": "Tomer Wolfson"
+   },
+   {
+    "authorId": "73775461",
+    "name": "Ori Ram"
+   },
+   {
+    "authorId": "1750652",
+    "name": "Jonathan Berant"
+   }
+  ]
+ }
+}

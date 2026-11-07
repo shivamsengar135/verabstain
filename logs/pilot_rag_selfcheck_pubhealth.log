@@ -1,0 +1,6 @@
+2026-11-04 23:40:08,420 INFO START pilot_rag_selfcheck_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:40:19,909 INFO pilot_rag_selfcheck_pubhealth: 25/100 done, 0 errors, 11s
+2026-11-04 23:40:27,799 INFO pilot_rag_selfcheck_pubhealth: 50/100 done, 0 errors, 19s
+2026-11-04 23:40:36,158 INFO pilot_rag_selfcheck_pubhealth: 75/100 done, 0 errors, 28s
+2026-11-04 23:40:43,758 INFO pilot_rag_selfcheck_pubhealth: 100/100 done, 0 errors, 35s
+2026-11-04 23:40:43,770 INFO END pilot_rag_selfcheck_pubhealth: complete, wall 0.6 min, stats {'llm_calls': 500, 'cache_hits': 100, 'prompt_tokens': 308845, 'completion_tokens': 1000, 'llm_seconds': 268.5475420001312, 'retrievals': 0, 'verifier_pairs': 0}

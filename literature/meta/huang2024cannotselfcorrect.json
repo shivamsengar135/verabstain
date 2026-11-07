@@ -1,0 +1,83 @@
+{
+ "seed": {
+  "key": "huang2024cannotselfcorrect",
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "arxiv_id": "2310.01798",
+  "category": "verification",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "authors": [
+   "Jie Huang",
+   "Xinyun Chen",
+   "Swaroop Mishra",
+   "Huaixiu Steven Zheng",
+   "Adams Wei Yu",
+   "Xinying Song",
+   "Denny Zhou"
+  ],
+  "abstract": "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field.",
+  "published": "2023-10-03",
+  "arxiv_id": "2310.01798",
+  "comment": "ICLR 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "6d4bacb69923e1e94fb4de468b939ce6db32fb51",
+  "externalIds": {
+   "DBLP": "conf/iclr/0009CMZYSZ24",
+   "ArXiv": "2310.01798",
+   "DOI": "10.48550/arXiv.2310.01798",
+   "CorpusId": 263609132
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "venue": "International Conference on Learning Representations",
+  "year": 2023,
+  "publicationDate": "2023-10-03",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2310.01798"
+  },
+  "authors": [
+   {
+    "authorId": "1490651934",
+    "name": "Jie Huang"
+   },
+   {
+    "authorId": "2238263119",
+    "name": "Xin-Yun Chen"
+   },
+   {
+    "authorId": "1817207",
+    "name": "Swaroop Mishra"
+   },
+   {
+    "authorId": "2253804927",
+    "name": "Huaixiu Steven Zheng"
+   },
+   {
+    "authorId": "40625240",
+    "name": "Adams Wei Yu"
+   },
+   {
+    "authorId": "2293658042",
+    "name": "Xinying Song"
+   },
+   {
+    "authorId": "2256313467",
+    "name": "Denny Zhou"
+   }
+  ]
+ }
+}

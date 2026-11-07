@@ -1,0 +1,22 @@
+{
+ "run_id": "main_chain_of_note_popqa_lt",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "chain_of_note",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.461,
+ "match": 0.461,
+ "match_norm": 0.477,
+ "em": 0.417,
+ "f1": 0.46741980145458406,
+ "native_abstain_rate": 0.318,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 743.057,
+ "mean_completion_tokens": 158.817,
+ "mean_llm_seconds": 8.71495241040067,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 8.640288893699733,
+ "wall_s": 1503.112610578537
+}

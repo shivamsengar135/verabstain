@@ -1,0 +1,22 @@
+{
+ "run_id": "main_crag_popqa_lt",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "crag",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.592,
+ "match": 0.592,
+ "match_norm": 0.641,
+ "em": 0.551,
+ "f1": 0.625738888888889,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 936.13,
+ "mean_completion_tokens": 12.538,
+ "mean_llm_seconds": 2.910731955800249,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 12.143657756200584,
+ "wall_s": 2010.8785815238953
+}

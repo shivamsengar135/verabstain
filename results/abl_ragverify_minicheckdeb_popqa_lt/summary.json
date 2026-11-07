@@ -1,0 +1,22 @@
+{
+ "run_id": "abl_ragverify_minicheckdeb_popqa_lt",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.678,
+ "match": 0.678,
+ "match_norm": 0.682,
+ "em": 0.608,
+ "f1": 0.6784125541125542,
+ "native_abstain_rate": 0.144,
+ "mean_llm_calls": 2.27,
+ "mean_prompt_tokens": 747.488,
+ "mean_completion_tokens": 38.97,
+ "mean_llm_seconds": 4.201344373999811,
+ "mean_retrievals": 1.062,
+ "mean_verifier_pairs": 1.03,
+ "mean_seconds": 0.990536072999792,
+ "wall_s": 62.23322057723999
+}

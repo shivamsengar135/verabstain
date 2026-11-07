@@ -1,0 +1,14 @@
+2026-11-07 01:09:46,121 INFO START quant3bq8_rag_topk_hotpotqa: 200/200 examples to run; projected 3 min
+2026-11-07 01:09:49,335 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=13.4 on_battery=False
+2026-11-07 01:10:09,348 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.4
+2026-11-07 01:10:10,692 INFO quant3bq8_rag_topk_hotpotqa: 25/200 done, 0 errors, 24s
+2026-11-07 01:10:14,463 INFO quant3bq8_rag_topk_hotpotqa: 50/200 done, 0 errors, 28s
+2026-11-07 01:10:17,636 INFO quant3bq8_rag_topk_hotpotqa: 75/200 done, 0 errors, 31s
+2026-11-07 01:10:21,210 INFO quant3bq8_rag_topk_hotpotqa: 100/200 done, 0 errors, 35s
+2026-11-07 01:10:25,065 INFO quant3bq8_rag_topk_hotpotqa: 125/200 done, 0 errors, 39s
+2026-11-07 01:10:28,577 INFO quant3bq8_rag_topk_hotpotqa: 150/200 done, 0 errors, 42s
+2026-11-07 01:10:32,234 INFO quant3bq8_rag_topk_hotpotqa: 175/200 done, 0 errors, 46s
+2026-11-07 01:10:33,366 WARNING PAUSE: gpu_temp=80 cpu_zone=50.9 cpu_load=14.3 on_battery=False
+2026-11-07 01:10:53,378 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.0
+2026-11-07 01:10:55,244 INFO quant3bq8_rag_topk_hotpotqa: 200/200 done, 0 errors, 69s
+2026-11-07 01:10:55,426 INFO END quant3bq8_rag_topk_hotpotqa: complete, wall 1.1 min, stats {'llm_calls': 200, 'cache_hits': 0, 'prompt_tokens': 119215, 'completion_tokens': 1174, 'llm_seconds': 233.50123079997138, 'retrievals': 0, 'verifier_pairs': 0}

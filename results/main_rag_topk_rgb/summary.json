@@ -1,0 +1,20 @@
+{
+ "run_id": "main_rag_topk_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "rag_topk",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6061538461538462,
+ "rejected": 0.0,
+ "fake_answer": 0.94,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1348.9915384615385,
+ "mean_completion_tokens": 6.390769230769231,
+ "mean_llm_seconds": 4.66770649669252,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.5171109616924126,
+ "wall_s": 1660.1059579849243
+}

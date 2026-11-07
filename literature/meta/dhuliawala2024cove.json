@@ -1,0 +1,84 @@
+{
+ "seed": {
+  "key": "dhuliawala2024cove",
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "arxiv_id": "2309.11495",
+  "category": "verification",
+  "role": "baseline"
+ },
+ "arxiv": {
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "authors": [
+   "Shehzaad Dhuliawala",
+   "Mojtaba Komeili",
+   "Jing Xu",
+   "Roberta Raileanu",
+   "Xian Li",
+   "Asli Celikyilmaz",
+   "Jason Weston"
+  ],
+  "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models. We study the ability of language models to deliberate on the responses they give in order to correct their mistakes. We develop the Chain-of-Verification (CoVe) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response. In experiments, we show CoVe decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book MultiSpanQA and longform text generation.",
+  "published": "2023-09-20",
+  "arxiv_id": "2309.11495",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "4b0b56be0ae9479d2bd5c2f0943db1906343c10f",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2309-11495",
+   "ArXiv": "2309.11495",
+   "DOI": "10.48550/arXiv.2309.11495",
+   "CorpusId": 262062565
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-09-20",
+  "journal": {
+   "pages": "3563-3578"
+  },
+  "authors": [
+   {
+    "authorId": "3448411",
+    "name": "S. Dhuliawala"
+   },
+   {
+    "authorId": "100653935",
+    "name": "M. Komeili"
+   },
+   {
+    "authorId": "2276766957",
+    "name": "Jing Xu"
+   },
+   {
+    "authorId": "48647153",
+    "name": "R. Raileanu"
+   },
+   {
+    "authorId": "2243015223",
+    "name": "Xian Li"
+   },
+   {
+    "authorId": "1709797",
+    "name": "Asli Celikyilmaz"
+   },
+   {
+    "authorId": "2243265350",
+    "name": "Jason E. Weston"
+   }
+  ]
+ }
+}

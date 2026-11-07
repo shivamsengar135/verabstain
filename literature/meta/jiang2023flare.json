@@ -1,0 +1,94 @@
+{
+ "seed": {
+  "key": "jiang2023flare",
+  "title": "Active Retrieval Augmented Generation",
+  "arxiv_id": "2305.06983",
+  "category": "adaptive",
+  "role": "baseline"
+ },
+ "arxiv": {
+  "title": "Active Retrieval Augmented Generation",
+  "authors": [
+   "Zhengbao Jiang",
+   "Frank F. Xu",
+   "Luyu Gao",
+   "Zhiqing Sun",
+   "Qian Liu",
+   "Jane Dwivedi-Yu",
+   "Yiming Yang",
+   "Jamie Callan",
+   "Graham Neubig"
+  ],
+  "abstract": "Despite the remarkable ability of large language models (LMs) to comprehend and generate language, they have a tendency to hallucinate and create factually inaccurate output. Augmenting LMs by retrieving information from external knowledge resources is one promising solution. Most existing retrieval augmented LMs employ a retrieve-and-generate setup that only retrieves information once based on the input. This is limiting, however, in more general scenarios involving generation of long texts, where continually gathering information throughout generation is essential. In this work, we provide a generalized view of active retrieval augmented generation, methods that actively decide when and what to retrieve across the course of the generation. We propose Forward-Looking Active REtrieval augmented generation (FLARE), a generic method which iteratively uses a prediction of the upcoming sentence to anticipate future content, which is then utilized as a query to retrieve relevant documents to regenerate the sentence if it contains low-confidence tokens. We test FLARE along with baselines comprehensively over 4 long-form knowledge-intensive generation tasks/datasets. FLARE achieves superior or competitive performance on all tasks, demonstrating the effectiveness of our method. Code and datasets are available at https://github.com/jzbjyb/FLARE.",
+  "published": "2023-05-11",
+  "arxiv_id": "2305.06983",
+  "comment": "EMNLP 2023",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "88884b8806262a4095036041e3567d450dba39f7",
+  "externalIds": {
+   "ArXiv": "2305.06983",
+   "DBLP": "journals/corr/abs-2305-06983",
+   "DOI": "10.48550/arXiv.2305.06983",
+   "CorpusId": 258615731
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "Active Retrieval Augmented Generation",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2023,
+  "publicationDate": "2023-05-11",
+  "journal": {
+   "pages": "7969-7992"
+  },
+  "authors": [
+   {
+    "authorId": "2669515",
+    "name": "Zhengbao Jiang"
+   },
+   {
+    "authorId": "40027632",
+    "name": "Frank F. Xu"
+   },
+   {
+    "authorId": "49715441",
+    "name": "Luyu Gao"
+   },
+   {
+    "authorId": "48064856",
+    "name": "Zhiqing Sun"
+   },
+   {
+    "authorId": "1409707585",
+    "name": "Qian Liu"
+   },
+   {
+    "authorId": "2173509991",
+    "name": "Jane Dwivedi-Yu"
+   },
+   {
+    "authorId": "2257099254",
+    "name": "Yiming Yang"
+   },
+   {
+    "authorId": "2310820252",
+    "name": "James P. Callan"
+   },
+   {
+    "authorId": "1700325",
+    "name": "Graham Neubig"
+   }
+  ]
+ }
+}

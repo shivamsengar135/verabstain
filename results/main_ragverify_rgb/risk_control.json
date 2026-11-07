@@ -1,0 +1,46 @@
+{
+ "run_id": "main_ragverify_rgb",
+ "n": 1300,
+ "0.05": {
+  "crc": {
+   "risk_mean": 0.04856923076923077,
+   "risk_sd": 0.0120457805227543,
+   "frac_risk_gt_alpha": 0.41,
+   "coverage_mean": 0.12416923076923077
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ },
+ "0.1": {
+  "crc": {
+   "risk_mean": 0.09978461538461536,
+   "risk_sd": 0.016820697309807512,
+   "frac_risk_gt_alpha": 0.42,
+   "coverage_mean": 0.3233846153846154
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ },
+ "0.2": {
+  "crc": {
+   "risk_mean": 0.1982923076923077,
+   "risk_sd": 0.01882324510314355,
+   "frac_risk_gt_alpha": 0.41,
+   "coverage_mean": 0.6540461538461538
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ }
+}

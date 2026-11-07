@@ -1,0 +1,6 @@
+2026-11-04 23:49:17,323 INFO START pilot_flare_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-04 23:49:48,054 INFO pilot_flare_popqa_lt: 25/100 done, 0 errors, 31s
+2026-11-04 23:49:57,877 INFO pilot_flare_popqa_lt: 50/100 done, 0 errors, 40s
+2026-11-04 23:50:06,437 INFO pilot_flare_popqa_lt: 75/100 done, 0 errors, 49s
+2026-11-04 23:50:13,709 INFO pilot_flare_popqa_lt: 100/100 done, 0 errors, 56s
+2026-11-04 23:50:13,713 INFO END pilot_flare_popqa_lt: complete, wall 0.9 min, stats {'llm_calls': 137, 'cache_hits': 163, 'prompt_tokens': 70369, 'completion_tokens': 687, 'llm_seconds': 218.953365000154, 'retrievals': 0, 'verifier_pairs': 0}

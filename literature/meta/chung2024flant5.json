@@ -1,0 +1,221 @@
+{
+ "seed": {
+  "key": "chung2024flant5",
+  "title": "Scaling Instruction-Finetuned Language Models",
+  "arxiv_id": "2210.11416",
+  "category": "model",
+  "role": "verifier-base"
+ },
+ "arxiv": {
+  "title": "Scaling Instruction-Finetuned Language Models",
+  "authors": [
+   "Hyung Won Chung",
+   "Le Hou",
+   "Shayne Longpre",
+   "Barret Zoph",
+   "Yi Tay",
+   "William Fedus",
+   "Yunxuan Li",
+   "Xuezhi Wang",
+   "Mostafa Dehghani",
+   "Siddhartha Brahma",
+   "Albert Webson",
+   "Shixiang Shane Gu",
+   "Zhuyun Dai",
+   "Mirac Suzgun",
+   "Xinyun Chen",
+   "Aakanksha Chowdhery",
+   "Alex Castro-Ros",
+   "Marie Pellat",
+   "Kevin Robinson",
+   "Dasha Valter",
+   "Sharan Narang",
+   "Gaurav Mishra",
+   "Adams Yu",
+   "Vincent Zhao",
+   "Yanping Huang",
+   "Andrew Dai",
+   "Hongkun Yu",
+   "Slav Petrov",
+   "Ed H. Chi",
+   "Jeff Dean",
+   "Jacob Devlin",
+   "Adam Roberts",
+   "Denny Zhou",
+   "Quoc V. Le",
+   "Jason Wei"
+  ],
+  "abstract": "Finetuning language models on a collection of datasets phrased as instructions has been shown to improve model performance and generalization to unseen tasks. In this paper we explore instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data. We find that instruction finetuning with the above aspects dramatically improves performance on a variety of model classes (PaLM, T5, U-PaLM), prompting setups (zero-shot, few-shot, CoT), and evaluation benchmarks (MMLU, BBH, TyDiQA, MGSM, open-ended generation). For instance, Flan-PaLM 540B instruction-finetuned on 1.8K tasks outperforms PALM 540B by a large margin (+9.4% on average). Flan-PaLM 540B achieves state-of-the-art performance on several benchmarks, such as 75.2% on five-shot MMLU. We also publicly release Flan-T5 checkpoints, which achieve strong few-shot performance even compared to much larger models, such as PaLM 62B. Overall, instruction finetuning is a general method for improving the performance and usability of pretrained language models.",
+  "published": "2022-10-20",
+  "arxiv_id": "2210.11416",
+  "comment": "Public checkpoints: https://huggingface.co/docs/transformers/model_doc/flan-t5",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "cdbd4f9b6ab2e2fd1ddf5400d5ed2c18960635d1",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2210-11416",
+   "ArXiv": "2210.11416",
+   "DOI": "10.48550/arXiv.2210.11416",
+   "CorpusId": 253018554
+  },
+  "publicationVenue": {
+   "id": "c22e7c36-3bfa-43e1-bb7b-edccdea2a780",
+   "name": "Journal of machine learning research",
+   "type": "journal",
+   "alternate_names": [
+    "Journal of Machine Learning Research",
+    "J mach learn res",
+    "J Mach Learn Res"
+   ],
+   "issn": "1532-4435",
+   "alternate_issns": [
+    "1533-7928"
+   ],
+   "url": "http://www.ai.mit.edu/projects/jmlr/",
+   "alternate_urls": [
+    "http://jmlr.csail.mit.edu/",
+    "http://www.jmlr.org/",
+    "http://portal.acm.org/affiliated/jmlr"
+   ]
+  },
+  "title": "Scaling Instruction-Finetuned Language Models",
+  "venue": "Journal of machine learning research",
+  "year": 2022,
+  "publicationDate": "2022-10-20",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2210.11416"
+  },
+  "authors": [
+   {
+    "authorId": "3351938",
+    "name": "Hyung Won Chung"
+   },
+   {
+    "authorId": "2153400663",
+    "name": "Le Hou"
+   },
+   {
+    "authorId": "29909347",
+    "name": "S. Longpre"
+   },
+   {
+    "authorId": "2368067",
+    "name": "Barret Zoph"
+   },
+   {
+    "authorId": "144447820",
+    "name": "Yi Tay"
+   },
+   {
+    "authorId": "26958176",
+    "name": "W. Fedus"
+   },
+   {
+    "authorId": "2053810539",
+    "name": "Eric Li"
+   },
+   {
+    "authorId": "2275277634",
+    "name": "Xue-Zhi Wang"
+   },
+   {
+    "authorId": "3226635",
+    "name": "Mostafa Dehghani"
+   },
+   {
+    "authorId": "1791585",
+    "name": "Siddhartha Brahma"
+   },
+   {
+    "authorId": "1991019030",
+    "name": "Albert Webson"
+   },
+   {
+    "authorId": "2046135",
+    "name": "S. Gu"
+   },
+   {
+    "authorId": "2475437",
+    "name": "Zhuyun Dai"
+   },
+   {
+    "authorId": "51903517",
+    "name": "M. Suzgun"
+   },
+   {
+    "authorId": "1425082935",
+    "name": "Xin-Yun Chen"
+   },
+   {
+    "authorId": "2841893",
+    "name": "A. Chowdhery"
+   },
+   {
+    "authorId": "2085587569",
+    "name": "Dasha Valter"
+   },
+   {
+    "authorId": "46617804",
+    "name": "Sharan Narang"
+   },
+   {
+    "authorId": "2159632445",
+    "name": "Gaurav Mishra"
+   },
+   {
+    "authorId": "40625240",
+    "name": "Adams Wei Yu"
+   },
+   {
+    "authorId": "2286156826",
+    "name": "Vincent Y. Zhao"
+   },
+   {
+    "authorId": "2145438541",
+    "name": "Yan-Ping Huang"
+   },
+   {
+    "authorId": "2555924",
+    "name": "Andrew M. Dai"
+   },
+   {
+    "authorId": "40244451",
+    "name": "Hongkun Yu"
+   },
+   {
+    "authorId": "1754497",
+    "name": "Slav Petrov"
+   },
+   {
+    "authorId": "2226805",
+    "name": "Ed H. Chi"
+   },
+   {
+    "authorId": "48448318",
+    "name": "J. Dean"
+   },
+   {
+    "authorId": "39172707",
+    "name": "J. Devlin"
+   },
+   {
+    "authorId": "145625142",
+    "name": "Adam Roberts"
+   },
+   {
+    "authorId": "65855107",
+    "name": "Denny Zhou"
+   },
+   {
+    "authorId": "2151097303",
+    "name": "Quoc V. Le"
+   },
+   {
+    "authorId": "119640649",
+    "name": "Jason Wei"
+   }
+  ]
+ }
+}

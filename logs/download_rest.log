@@ -1,0 +1,25 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 9 files: 100%|##########| 9/9 [17:35<00:00, 117.26s/it]Fetching 9 files: 100%|##########| 9/9 [17:35<00:00, 117.26s/it]
+[verifiers] lytang/MiniCheck-Flan-T5-Large -> models/minicheck-ft5-l (1058s)
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|#2        | 1/8 [00:00<00:02,  3.40it/s]Fetching 8 files:  38%|###7      | 3/8 [00:00<00:00,  7.03it/s]Fetching 8 files:  62%|######2   | 5/8 [00:00<00:00,  6.06it/s]Fetching 8 files:  88%|########7 | 7/8 [00:03<00:00,  1.69it/s]Fetching 8 files: 100%|##########| 8/8 [09:05<00:00, 126.46s/it]Fetching 8 files: 100%|##########| 8/8 [09:05<00:00, 68.22s/it] 
+[verifiers] lytang/MiniCheck-DeBERTa-v3-Large -> models/minicheck-deb-l (548s)
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|##        | 1/5 [00:00<00:01,  2.57it/s]Fetching 5 files: 100%|##########| 5/5 [02:19<00:00, 29.73s/it]Fetching 5 files: 100%|##########| 5/5 [02:19<00:00, 27.97s/it]
+[verifiers] vectara/hallucination_evaluation_model -> models/hhem-2.1-open (141s)
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|#2        | 1/8 [00:00<00:02,  3.31it/s]Fetching 8 files:  25%|##5       | 2/8 [00:00<00:01,  5.19it/s]Fetching 8 files:  38%|###7      | 3/8 [00:00<00:01,  4.85it/s]Fetching 8 files:  62%|######2   | 5/8 [00:00<00:00,  8.39it/s]Fetching 8 files:  88%|########7 | 7/8 [00:12<00:02,  2.76s/it]Fetching 8 files: 100%|##########| 8/8 [04:20<00:00, 62.15s/it]Fetching 8 files: 100%|##########| 8/8 [04:20<00:00, 32.61s/it]
+[verifiers] MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli -> models/deberta-v3-l-nli (262s)
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|#4        | 1/7 [00:00<00:02,  2.92it/s]Fetching 7 files:  86%|########5 | 6/7 [00:00<00:00, 16.15it/s]Fetching 7 files: 100%|##########| 7/7 [00:01<00:00,  4.99it/s]
+[verifiers] google/flan-t5-base -> models/flan-t5-base-tok (2s)
+[crag] gdrive 1CRFGsyNguXJwKSvFvJm_82GOOlkWSkW7 -> models/crag-evaluator
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|#2        | 1/8 [00:00<00:04,  1.71it/s]Fetching 8 files:  50%|#####     | 4/8 [00:00<00:00,  7.19it/s]Fetching 8 files: 100%|##########| 8/8 [00:01<00:00,  4.21it/s]Fetching 8 files: 100%|##########| 8/8 [00:01<00:00,  4.21it/s]
+[selfrag] selfrag/selfrag_llama2_7b -> models/selfrag-7b-hf (2s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.28it/s]Fetching 2 files: 100%|##########| 2/2 [20:30<00:00, 723.56s/it]Fetching 2 files: 100%|##########| 2/2 [20:30<00:00, 615.14s/it]
+[selfrag] QuantFactory/selfrag_llama2_7b-GGUF -> models/selfrag-7b-gguf (1234s)
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|#6        | 1/6 [00:00<00:01,  3.04it/s]Fetching 6 files:  67%|######6   | 4/6 [00:00<00:00,  9.48it/s]Fetching 6 files: 100%|##########| 6/6 [00:00<00:00,  8.72it/s]Fetching 6 files: 100%|##########| 6/6 [00:00<00:00,  8.08it/s]
+[verifiers_late] FacebookAI/roberta-large -> models/roberta-large-tok (1s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.31it/s]Fetching 2 files: 100%|##########| 2/2 [24:21<00:00, 859.43s/it]Fetching 2 files: 100%|##########| 2/2 [24:21<00:00, 730.63s/it]
+[verifiers_late] yzha/AlignScore -> models/alignscore (1466s)
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  11%|#1        | 1/9 [00:00<00:02,  3.42it/s]Fetching 9 files:  33%|###3      | 3/9 [00:00<00:00,  8.79it/s]Fetching 9 files:  56%|#####5    | 5/9 [00:00<00:00, 10.86it/s]Fetching 9 files:  78%|#######7  | 7/9 [00:00<00:00, 11.51it/s]Fetching 9 files:  89%|########8 | 8/9 [00:18<00:00, 11.51it/s]Fetching 9 files: 100%|##########| 9/9 [07:16<00:00, 82.19s/it]Fetching 9 files: 100%|##########| 9/9 [07:16<00:00, 48.50s/it]
+[verifiers_late] lytang/MiniCheck-RoBERTa-Large -> models/minicheck-rbt-l (439s)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [00:00<00:00,  1.62it/s]Fetching 2 files: 100%|##########| 2/2 [10:10<00:00, 359.02s/it]Fetching 2 files: 100%|##########| 2/2 [10:10<00:00, 305.26s/it]
+[secondary] bartowski/Llama-3.2-3B-Instruct-GGUF -> models/llama3.2-3b-it-gguf (613s)
+EXIT=0

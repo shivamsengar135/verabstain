@@ -1,0 +1,69 @@
+{
+ "seed": {
+  "key": "chen2024rgb",
+  "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+  "arxiv_id": "2309.01431",
+  "category": "benchmark",
+  "role": "dataset"
+ },
+ "arxiv": {
+  "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+  "authors": [
+   "Jiawei Chen",
+   "Hongyu Lin",
+   "Xianpei Han",
+   "Le Sun"
+  ],
+  "abstract": "Retrieval-Augmented Generation (RAG) is a promising approach for mitigating the hallucination of large language models (LLMs). However, existing research lacks rigorous evaluation of the impact of retrieval-augmented generation on different large language models, which make it challenging to identify the potential bottlenecks in the capabilities of RAG for different LLMs. In this paper, we systematically investigate the impact of Retrieval-Augmented Generation on large language models. We analyze the performance of different large language models in 4 fundamental abilities required for RAG, including noise robustness, negative rejection, information integration, and counterfactual robustness. To this end, we establish Retrieval-Augmented Generation Benchmark (RGB), a new corpus for RAG evaluation in both English and Chinese. RGB divides the instances within the benchmark into 4 separate testbeds based on the aforementioned fundamental abilities required to resolve the case. Then we evaluate 6 representative LLMs on RGB to diagnose the challenges of current LLMs when applying RAG. Evaluation reveals that while LLMs exhibit a certain degree of noise robustness, they still struggle significantly in terms of negative rejection, information integration, and dealing with false information. The aforementioned assessment outcomes indicate that there is still a considerable journey ahead to effectively apply RAG to LLMs.",
+  "published": "2023-09-04",
+  "arxiv_id": "2309.01431",
+  "comment": "Accepted to AAAI 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "28e2ecb4183ebc0eec504b12dddc677f8aef8745",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2309-01431",
+   "ArXiv": "2309.01431",
+   "DOI": "10.48550/arXiv.2309.01431",
+   "CorpusId": 261530434
+  },
+  "publicationVenue": {
+   "id": "bdc2e585-4e48-4e36-8af1-6d859763d405",
+   "name": "AAAI Conference on Artificial Intelligence",
+   "type": "conference",
+   "alternate_names": [
+    "National Conference on Artificial Intelligence",
+    "National Conf Artif Intell",
+    "AAAI Conf Artif Intell",
+    "AAAI"
+   ],
+   "url": "http://www.aaai.org/"
+  },
+  "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+  "venue": "AAAI Conference on Artificial Intelligence",
+  "year": 2023,
+  "publicationDate": "2023-09-04",
+  "journal": {
+   "pages": "17754-17762"
+  },
+  "authors": [
+   {
+    "authorId": "2115448879",
+    "name": "Jiawei Chen"
+   },
+   {
+    "authorId": "2116455765",
+    "name": "Hong-Yu Lin"
+   },
+   {
+    "authorId": "2118233348",
+    "name": "Xian-Pei Han"
+   },
+   {
+    "authorId": "2110832778",
+    "name": "Le Sun"
+   }
+  ]
+ }
+}

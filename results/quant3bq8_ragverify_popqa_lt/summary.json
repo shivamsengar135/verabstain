@@ -1,0 +1,22 @@
+{
+ "run_id": "quant3bq8_ragverify_popqa_lt",
+ "n": 200,
+ "n_expected": 200,
+ "method": "ragverify",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.565,
+ "match": 0.565,
+ "match_norm": 0.645,
+ "em": 0.5,
+ "f1": 0.6029264069264069,
+ "native_abstain_rate": 0.215,
+ "mean_llm_calls": 2.41,
+ "mean_prompt_tokens": 835.45,
+ "mean_completion_tokens": 45.2,
+ "mean_llm_seconds": 2.8248779204998935,
+ "mean_retrievals": 1.085,
+ "mean_verifier_pairs": 1.055,
+ "mean_seconds": 2.663103927999873,
+ "wall_s": 67.95863008499146
+}

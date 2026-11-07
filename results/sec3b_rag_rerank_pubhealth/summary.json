@@ -1,0 +1,22 @@
+{
+ "run_id": "sec3b_rag_rerank_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rag_rerank",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.496,
+ "match": 0.496,
+ "match_norm": 0.496,
+ "em": 0.496,
+ "f1": 0.496,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 766.312,
+ "mean_completion_tokens": 2.39,
+ "mean_llm_seconds": 1.3690663703999235,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.384096489600044,
+ "wall_s": 164.92719149589539
+}

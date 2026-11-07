@@ -1,0 +1,14 @@
+[23:08:55] training IVF-SQ8
+WARNING clustering 400000 points to 16384 centroids: please provide at least 638976 training points
+[23:11:19] faiss added 500,000/5,302,804
+[23:11:35] faiss added 1,000,000/5,302,804
+[23:11:52] faiss added 1,500,000/5,302,804
+[23:12:08] faiss added 2,000,000/5,302,804
+[23:12:25] faiss added 2,500,000/5,302,804
+[23:12:43] faiss added 3,000,000/5,302,804
+[23:13:01] faiss added 3,500,000/5,302,804
+[23:13:20] faiss added 4,000,000/5,302,804
+[23:13:38] faiss added 4,500,000/5,302,804
+[23:13:57] faiss added 5,000,000/5,302,804
+[23:14:09] faiss added 5,302,804/5,302,804
+EXIT=0

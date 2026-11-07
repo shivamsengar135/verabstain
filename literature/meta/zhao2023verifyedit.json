@@ -1,0 +1,76 @@
+{
+ "seed": {
+  "key": "zhao2023verifyedit",
+  "title": "Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework",
+  "arxiv_id": "2305.03268",
+  "category": "verification",
+  "role": "candidate-baseline"
+ },
+ "arxiv": {
+  "title": "Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework",
+  "authors": [
+   "Ruochen Zhao",
+   "Xingxuan Li",
+   "Shafiq Joty",
+   "Chengwei Qin",
+   "Lidong Bing"
+  ],
+  "abstract": "As large language models (LLMs) have become the norm in NLP, demonstrating good performance in generation and reasoning tasks, one of its most fatal disadvantages is the lack of factual correctness. Generating unfactual texts not only leads to lower performances but also degrades the trust and validity of their applications. Chain-of-Thought (CoT) prompting improves trust and model performance on complex reasoning tasks by generating interpretable reasoning chains, but still suffers from factuality concerns in knowledge-intensive tasks. In this paper, we propose the Verify-and-Edit framework for CoT prompting, which seeks to increase prediction factuality by post-editing reasoning chains according to external knowledge. Building on top of GPT-3, our framework lead to accuracy improvements in multiple open-domain question-answering tasks.",
+  "published": "2023-05-05",
+  "arxiv_id": "2305.03268",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "629c441076da3f8185b1cf85e8036064b714e249",
+  "externalIds": {
+   "DBLP": "conf/acl/ZhaoLJQB23",
+   "ArXiv": "2305.03268",
+   "ACL": "2023.acl-long.320",
+   "DOI": "10.48550/arXiv.2305.03268",
+   "CorpusId": 258547173
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-05-05",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2305.03268"
+  },
+  "authors": [
+   {
+    "authorId": "2091437375",
+    "name": "Ruochen Zhao"
+   },
+   {
+    "authorId": "2155447436",
+    "name": "Xingxuan Li"
+   },
+   {
+    "authorId": "2708940",
+    "name": "Shafiq R. Joty"
+   },
+   {
+    "authorId": "2084609980",
+    "name": "Chengwei Qin"
+   },
+   {
+    "authorId": "1996394",
+    "name": "Lidong Bing"
+   }
+  ]
+ }
+}

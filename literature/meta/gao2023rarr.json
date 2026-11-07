@@ -1,0 +1,105 @@
+{
+ "seed": {
+  "key": "gao2023rarr",
+  "title": "RARR: Researching and Revising What Language Models Say Using Language Models",
+  "arxiv_id": "2210.08726",
+  "category": "verification",
+  "role": "baseline"
+ },
+ "arxiv": {
+  "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+  "authors": [
+   "Luyu Gao",
+   "Zhuyun Dai",
+   "Panupong Pasupat",
+   "Anthony Chen",
+   "Arun Tejasvi Chaganty",
+   "Yicheng Fan",
+   "Vincent Y. Zhao",
+   "Ni Lao",
+   "Hongrae Lee",
+   "Da-Cheng Juan",
+   "Kelvin Guu"
+  ],
+  "abstract": "Language models (LMs) now excel at many tasks such as few-shot learning, question answering, reasoning, and dialog. However, they sometimes generate unsupported or misleading content. A user cannot easily determine whether their outputs are trustworthy or not, because most LMs do not have any built-in mechanism for attribution to external evidence. To enable attribution while still preserving all the powerful advantages of recent generation models, we propose RARR (Retrofit Attribution using Research and Revision), a system that 1) automatically finds attribution for the output of any text generation model and 2) post-edits the output to fix unsupported content while preserving the original output as much as possible. When applied to the output of several state-of-the-art LMs on a diverse set of generation tasks, we find that RARR significantly improves attribution while otherwise preserving the original input to a much greater degree than previously explored edit models. Furthermore, the implementation of RARR requires only a handful of training examples, a large language model, and standard web search.",
+  "published": "2022-10-17",
+  "arxiv_id": "2210.08726",
+  "comment": "ACL 2023",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "66242baf48b0f6b828e7547ac39ffaa5e1b2cb3e",
+  "externalIds": {
+   "ArXiv": "2210.08726",
+   "DBLP": "conf/acl/GaoDPCCFZLLJG23",
+   "ACL": "2023.acl-long.910",
+   "DOI": "10.18653/v1/2023.acl-long.910",
+   "CorpusId": 254247260
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2022,
+  "publicationDate": "2022-10-17",
+  "journal": {
+   "pages": "16477-16508"
+  },
+  "authors": [
+   {
+    "authorId": "49715441",
+    "name": "Luyu Gao"
+   },
+   {
+    "authorId": "2475437",
+    "name": "Zhuyun Dai"
+   },
+   {
+    "authorId": "2616463",
+    "name": "Panupong Pasupat"
+   },
+   {
+    "authorId": "52151521",
+    "name": "Anthony Chen"
+   },
+   {
+    "authorId": "2719924",
+    "name": "Arun Tejasvi Chaganty"
+   },
+   {
+    "authorId": "2051969653",
+    "name": "Yicheng Fan"
+   },
+   {
+    "authorId": "2664737",
+    "name": "Vincent Zhao"
+   },
+   {
+    "authorId": "1914797",
+    "name": "N. Lao"
+   },
+   {
+    "authorId": "8386466",
+    "name": "Hongrae Lee"
+   },
+   {
+    "authorId": "50270386",
+    "name": "Da-Cheng Juan"
+   },
+   {
+    "authorId": "2091768",
+    "name": "Kelvin Guu"
+   }
+  ]
+ }
+}

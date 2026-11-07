@@ -1,0 +1,22 @@
+{
+ "run_id": "quant3bq8_closed_book_popqa_lt",
+ "n": 200,
+ "n_expected": 200,
+ "method": "closed_book",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.215,
+ "match": 0.215,
+ "match_norm": 0.22,
+ "em": 0.205,
+ "f1": 0.22366666666666668,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 75.605,
+ "mean_completion_tokens": 6.785,
+ "mean_llm_seconds": 0.3648000529996716,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.3664213915000801,
+ "wall_s": 9.351386785507202
+}

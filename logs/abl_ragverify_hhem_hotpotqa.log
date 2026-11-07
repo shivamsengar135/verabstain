@@ -1,0 +1,22 @@
+2026-11-06 23:01:24,590 INFO START abl_ragverify_hhem_hotpotqa: 500/500 examples to run; projected 25 min
+2026-11-06 23:01:27,831 INFO abl_ragverify_hhem_hotpotqa: 25/500 done, 0 errors, 3s
+2026-11-06 23:01:28,737 INFO abl_ragverify_hhem_hotpotqa: 50/500 done, 0 errors, 4s
+2026-11-06 23:01:29,622 INFO abl_ragverify_hhem_hotpotqa: 75/500 done, 0 errors, 5s
+2026-11-06 23:01:30,564 INFO abl_ragverify_hhem_hotpotqa: 100/500 done, 0 errors, 6s
+2026-11-06 23:01:31,567 INFO abl_ragverify_hhem_hotpotqa: 125/500 done, 0 errors, 7s
+2026-11-06 23:01:32,507 INFO abl_ragverify_hhem_hotpotqa: 150/500 done, 0 errors, 8s
+2026-11-06 23:01:33,367 INFO abl_ragverify_hhem_hotpotqa: 175/500 done, 0 errors, 9s
+2026-11-06 23:01:34,289 INFO abl_ragverify_hhem_hotpotqa: 200/500 done, 0 errors, 10s
+2026-11-06 23:01:35,327 INFO abl_ragverify_hhem_hotpotqa: 225/500 done, 0 errors, 11s
+2026-11-06 23:01:36,258 INFO abl_ragverify_hhem_hotpotqa: 250/500 done, 0 errors, 12s
+2026-11-06 23:01:37,145 INFO abl_ragverify_hhem_hotpotqa: 275/500 done, 0 errors, 12s
+2026-11-06 23:01:38,070 INFO abl_ragverify_hhem_hotpotqa: 300/500 done, 0 errors, 13s
+2026-11-06 23:01:39,049 INFO abl_ragverify_hhem_hotpotqa: 325/500 done, 0 errors, 14s
+2026-11-06 23:01:39,902 INFO abl_ragverify_hhem_hotpotqa: 350/500 done, 0 errors, 15s
+2026-11-06 23:01:40,735 INFO abl_ragverify_hhem_hotpotqa: 375/500 done, 0 errors, 16s
+2026-11-06 23:01:41,755 INFO abl_ragverify_hhem_hotpotqa: 400/500 done, 0 errors, 17s
+2026-11-06 23:01:45,655 INFO abl_ragverify_hhem_hotpotqa: 425/500 done, 0 errors, 21s
+2026-11-06 23:01:47,123 INFO abl_ragverify_hhem_hotpotqa: 450/500 done, 0 errors, 22s
+2026-11-06 23:01:49,314 INFO abl_ragverify_hhem_hotpotqa: 475/500 done, 0 errors, 25s
+2026-11-06 23:01:53,639 INFO abl_ragverify_hhem_hotpotqa: 500/500 done, 0 errors, 29s
+2026-11-06 23:01:54,330 INFO END abl_ragverify_hhem_hotpotqa: complete, wall 0.5 min, stats {'llm_calls': 8, 'cache_hits': 1182, 'prompt_tokens': 5011, 'completion_tokens': 230, 'llm_seconds': 14.459955800000898, 'retrievals': 0, 'verifier_pairs': 0}

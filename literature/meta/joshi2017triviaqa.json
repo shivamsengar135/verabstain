@@ -1,0 +1,72 @@
+{
+ "seed": {
+  "key": "joshi2017triviaqa",
+  "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+  "arxiv_id": "1705.03551",
+  "category": "dataset",
+  "role": "dataset"
+ },
+ "arxiv": {
+  "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+  "authors": [
+   "Mandar Joshi",
+   "Eunsol Choi",
+   "Daniel S. Weld",
+   "Luke Zettlemoyer"
+  ],
+  "abstract": "We present TriviaQA, a challenging reading comprehension dataset containing over 650K question-answer-evidence triples. TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. We show that, in comparison to other recently introduced large-scale datasets, TriviaQA (1) has relatively complex, compositional questions, (2) has considerable syntactic and lexical variability between questions and corresponding answer-evidence sentences, and (3) requires more cross sentence reasoning to find answers. We also present two baseline algorithms: a feature-based classifier and a state-of-the-art neural network, that performs well on SQuAD reading comprehension. Neither approach comes close to human performance (23% and 40% vs. 80%), suggesting that TriviaQA is a challenging testbed that is worth significant future study. Data and code available at -- http://nlp.cs.washington.edu/triviaqa/",
+  "published": "2017-05-09",
+  "arxiv_id": "1705.03551",
+  "comment": "Added references, fixed typos, minor baseline update",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "f010affab57b5fcf1cd6be23df79d8ec98c7289c",
+  "externalIds": {
+   "ACL": "P17-1147",
+   "ArXiv": "1705.03551",
+   "MAG": "2949136194",
+   "DBLP": "conf/acl/JoshiCWZ17",
+   "DOI": "10.18653/v1/P17-1147",
+   "CorpusId": 26501419
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2017,
+  "publicationDate": "2017-05-01",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/1705.03551"
+  },
+  "authors": [
+   {
+    "authorId": "144863691",
+    "name": "Mandar Joshi"
+   },
+   {
+    "authorId": "2890423",
+    "name": "Eunsol Choi"
+   },
+   {
+    "authorId": "1780531",
+    "name": "Daniel S. Weld"
+   },
+   {
+    "authorId": "1982950",
+    "name": "Luke Zettlemoyer"
+   }
+  ]
+ }
+}

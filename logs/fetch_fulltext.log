@@ -1,0 +1,57 @@
+angelopoulos2021ltt 2110.01052 ok 101144
+angelopoulos2024crc 2208.02814 ok 51545
+asai2024selfrag 2310.11511 ok 107735
+chen2024rgb 2309.01431 ok 54817
+cormack2009rrf no arXiv id (check by DOI)
+dhuliawala2024cove 2309.11495 ok 51542
+douze2024faiss 2401.08281 ok 114448
+gao2023ragsurvey 2312.10997 ok 112976
+gao2023rarr 2210.08726 ok 126228
+geifman2017selective 1705.08500 ok 31397
+geifman2019aurc 1805.08206 ok 49360
+gou2024critic 2305.11738 ok 228949
+grattafiori2024llama3 2407.21783 ok 362718
+he2023debertav3 2111.09543 ok 56534
+huang2024cannotselfcorrect 2310.01798 ok 58884
+huang2025halsurvey 2311.05232 ok 281265
+jeong2024adaptiverag 2403.14403 ok 72934
+ji2023halsurvey 2202.03629 ok 260474
+jiang2023flare 2305.06983 ok 92280
+joshi2017triviaqa 1705.03551 ok 47477
+kamath2020selective 2006.09462 ok 53378
+kang2024cragcert 2402.03181 ok 143341
+kang2024ever 2311.09114 ok 65561
+koehn2004bootstrap no arXiv id (check by DOI)
+kotonya2020pubhealth 2010.09926 ok 60793
+lewis2020rag 2005.11401 ok 70653
+li2024traq 2307.04642 ok 71998
+liu2024lost 2307.03172 ok 67175
+mallen2023popqa 2212.10511 ok 67364
+manakul2023selfcheckgpt 2303.08896 ok 55205
+min2023factscore 2305.14251 ok 99846
+mohri2024conformalfactuality 2402.10978 ok 74761
+moskvoretskii2025adaptive 2501.12835 ok 105457
+niu2024ragtruth 2401.00396 ok 55286
+nogueira2019monobert 1901.04085 ok 13745
+pave2026 2603.20673 ok 28488
+qwen2025qwen25 2412.15115 ok 96487
+rhrag2026 2608.01311 ok 79390
+robertson2009bm25 no arXiv id (check by DOI)
+su2024dragin 2403.10081 ok 80652
+surerag2026 2605.03534 text extraction failed: UnicodeEncodeError
+tang2024minicheck 2404.10774 ok 131130
+thakur2021beir 2104.08663 ok 96879
+Exceeded 5000 form XObject invocations while extracting text; further form content is skipped.
+touvron2023llama2 2307.09288 ok 265706
+wang2020minilm 2002.10957 ok 69136
+wang2023skr 2310.05002 ok 52573
+wei2024safe 2403.18802 ok 226902
+xiao2024cpack 2309.07597 ok 58705
+yadkori2024conformalabstention 2405.01563 ok 101885
+yan2024crag 2401.15884 ok 62872
+yang2018hotpotqa 1809.09600 ok 49725
+yao2024seakr 2406.19215 ok 77739
+yoran2024retrobust 2310.01558 ok 80541
+yu2024chainofnote 2311.09210 ok 58761
+zha2023alignscore 2305.16739 ok 81177
+zhao2023verifyedit 2305.03268 ok 65431

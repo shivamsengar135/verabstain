@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_selfrag_pubhealth",
+ "n": 300,
+ "n_expected": 300,
+ "method": "selfrag",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.6966666666666667,
+ "match": 0.6966666666666667,
+ "match_norm": 0.6966666666666667,
+ "em": 0.6966666666666667,
+ "f1": 0.6966666666666667,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 1073.5866666666666,
+ "mean_completion_tokens": 27.30666666666667,
+ "mean_llm_seconds": 4.402129045000862,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 3.030812954666811,
+ "wall_s": 131.58983850479126
+}

@@ -1,0 +1,22 @@
+{
+ "run_id": "devB2_ragverify_hotpotqa",
+ "n": 300,
+ "n_expected": 300,
+ "method": "ragverify",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.48333333333333334,
+ "match": 0.48333333333333334,
+ "match_norm": 0.5433333333333333,
+ "em": 0.5133333333333333,
+ "f1": 0.6027183362446521,
+ "native_abstain_rate": 0.14333333333333334,
+ "mean_llm_calls": 2.8933333333333335,
+ "mean_prompt_tokens": 1200.1,
+ "mean_completion_tokens": 65.01666666666667,
+ "mean_llm_seconds": 6.878226627333303,
+ "mean_retrievals": 1.36,
+ "mean_verifier_pairs": 1.2466666666666666,
+ "mean_seconds": 1.8331926673331569,
+ "wall_s": 85.58296275138855
+}

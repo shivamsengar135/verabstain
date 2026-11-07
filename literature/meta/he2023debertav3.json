@@ -1,0 +1,63 @@
+{
+ "seed": {
+  "key": "he2023debertav3",
+  "title": "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+  "arxiv_id": "2111.09543",
+  "category": "model",
+  "role": "verifier"
+ },
+ "arxiv": {
+  "title": "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+  "authors": [
+   "Pengcheng He",
+   "Jianfeng Gao",
+   "Weizhu Chen"
+  ],
+  "abstract": "This paper presents a new pre-trained language model, DeBERTaV3, which improves the original DeBERTa model by replacing mask language modeling (MLM) with replaced token detection (RTD), a more sample-efficient pre-training task. Our analysis shows that vanilla embedding sharing in ELECTRA hurts training efficiency and model performance. This is because the training losses of the discriminator and the generator pull token embeddings in different directions, creating the \"tug-of-war\" dynamics. We thus propose a new gradient-disentangled embedding sharing method that avoids the tug-of-war dynamics, improving both training efficiency and the quality of the pre-trained model. We have pre-trained DeBERTaV3 using the same settings as DeBERTa to demonstrate its exceptional performance on a wide range of downstream natural language understanding (NLU) tasks. Taking the GLUE benchmark with eight tasks as an example, the DeBERTaV3 Large model achieves a 91.37% average score, which is 1.37% over DeBERTa and 1.91% over ELECTRA, setting a new state-of-the-art (SOTA) among the models with a similar structure. Furthermore, we have pre-trained a multi-lingual model mDeBERTa and observed a larger improvement over strong baselines compared to English models. For example, the mDeBERTa Base achieves a 79.8% zero-shot cross-lingual accuracy on XNLI and a 3.6% improvement over XLM-R Base, creating a new SOTA on this benchmark. We have made our pre-trained models and inference code publicly available at https://github.com/microsoft/DeBERTa.",
+  "published": "2021-11-18",
+  "arxiv_id": "2111.09543",
+  "comment": "16 pages, 10 tables, 2 Figures. The DeBERTaV3 model significantly improves performance of the downstream NLU tasks over models with a similar structure, e.g. DeBERTaV3 large achieves 91.37% average GLUE score which is 1.37% over DeBERTa large. XSmall has only 22M backbone parameters, but significantly outperforms RoBERTa/XLNet-base. Paper is published as a conference paper at ICLR 2023",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "972706306f85b1bfb40c7d35c796ad5174eb0c9c",
+  "externalIds": {
+   "ArXiv": "2111.09543",
+   "DBLP": "journals/corr/abs-2111-09543",
+   "DOI": "10.48550/arXiv.2111.09543",
+   "CorpusId": 244346093
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+  "venue": "International Conference on Learning Representations",
+  "year": 2021,
+  "publicationDate": "2021-11-18",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2111.09543"
+  },
+  "authors": [
+   {
+    "authorId": "50462546",
+    "name": "Pengcheng He"
+   },
+   {
+    "authorId": "48441311",
+    "name": "Jian-Feng Gao"
+   },
+   {
+    "authorId": "2109136147",
+    "name": "Wei-Zhu Chen"
+   }
+  ]
+ }
+}

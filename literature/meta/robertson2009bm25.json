@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "key": "robertson2009bm25",
+  "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+  "arxiv_id": "",
+  "category": "retrieval",
+  "role": "method-component"
+ },
+ "arxiv": null,
+ "s2": {
+  "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+  "venue": "Foundations and Trends® in Information Retrieval",
+  "year": 2009,
+  "externalIds": {
+   "DOI": "10.1561/1500000019"
+  },
+  "authors": [
+   {
+    "name": "Stephen E. Robertson"
+   },
+   {
+    "name": "Hugo Zaragoza"
+   }
+  ],
+  "source": "openalex",
+  "openalex_id": "https://openalex.org/W4252076394"
+ }
+}

@@ -1,0 +1,23 @@
+2026-11-05 02:40:24,676 INFO START devB_crag_hotpotqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:40:43,214 WARNING RESUME: gpu_temp=46 cpu_zone=52.9 cpu_load=3.3
+2026-11-05 02:40:43,475 INFO devB_crag_hotpotqa: 25/300 done, 0 errors, 13s
+2026-11-05 02:40:43,681 INFO devB_crag_hotpotqa: 50/300 done, 0 errors, 13s
+2026-11-05 02:40:43,869 INFO devB_crag_hotpotqa: 75/300 done, 0 errors, 13s
+2026-11-05 02:40:44,077 INFO devB_crag_hotpotqa: 100/300 done, 0 errors, 14s
+2026-11-05 02:41:32,401 INFO devB_crag_hotpotqa: 125/300 done, 0 errors, 62s
+2026-11-05 02:42:14,154 INFO devB_crag_hotpotqa: 150/300 done, 0 errors, 104s
+2026-11-05 02:42:16,413 WARNING PAUSE: gpu_temp=77 cpu_zone=83.9 cpu_load=21.1 on_battery=False
+2026-11-05 02:42:35,021 WARNING RESUME: gpu_temp=50 cpu_zone=58.9 cpu_load=3.8
+2026-11-05 02:43:07,127 INFO devB_crag_hotpotqa: 175/300 done, 0 errors, 157s
+2026-11-05 02:43:44,233 INFO devB_crag_hotpotqa: 200/300 done, 0 errors, 194s
+2026-11-05 02:43:49,460 WARNING PAUSE: gpu_temp=75 cpu_zone=85.9 cpu_load=22.0 on_battery=False
+2026-11-05 02:44:08,036 WARNING RESUME: gpu_temp=51 cpu_zone=58.9 cpu_load=5.3
+2026-11-05 02:44:34,676 INFO devB_crag_hotpotqa: 225/300 done, 0 errors, 244s
+2026-11-05 02:45:03,842 WARNING PAUSE: gpu_temp=77 cpu_zone=84.9 cpu_load=23.9 on_battery=False
+2026-11-05 02:45:13,262 INFO devB_crag_hotpotqa: 250/300 done, 0 errors, 283s
+2026-11-05 02:45:22,423 WARNING RESUME: gpu_temp=54 cpu_zone=61.9 cpu_load=5.9
+2026-11-05 02:46:03,102 INFO devB_crag_hotpotqa: 275/300 done, 0 errors, 333s
+2026-11-05 02:46:18,217 WARNING PAUSE: gpu_temp=77 cpu_zone=82.9 cpu_load=21.8 on_battery=False
+2026-11-05 02:46:36,799 WARNING RESUME: gpu_temp=50 cpu_zone=56.9 cpu_load=10.1
+2026-11-05 02:46:47,247 INFO devB_crag_hotpotqa: 300/300 done, 0 errors, 377s
+2026-11-05 02:46:48,055 INFO END devB_crag_hotpotqa: complete, wall 6.3 min, stats {'llm_calls': 400, 'cache_hits': 200, 'prompt_tokens': 196297, 'completion_tokens': 3658, 'llm_seconds': 832.2125862994872, 'retrievals': 0, 'verifier_pairs': 0}

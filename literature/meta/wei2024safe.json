@@ -1,0 +1,109 @@
+{
+ "seed": {
+  "key": "wei2024safe",
+  "title": "Long-form factuality in large language models",
+  "arxiv_id": "2403.18802",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Long-form factuality in large language models",
+  "authors": [
+   "Jerry Wei",
+   "Chengrun Yang",
+   "Xinying Song",
+   "Yifeng Lu",
+   "Nathan Hu",
+   "Jie Huang",
+   "Dustin Tran",
+   "Daiyi Peng",
+   "Ruibo Liu",
+   "Da Huang",
+   "Cosmo Du",
+   "Quoc V. Le"
+  ],
+  "abstract": "Large language models (LLMs) often generate content that contains factual errors when responding to fact-seeking prompts on open-ended topics. To benchmark a model's long-form factuality in open domains, we first use GPT-4 to generate LongFact, a prompt set comprising thousands of questions spanning 38 topics. We then propose that LLM agents can be used as automated evaluators for long-form factuality through a method which we call Search-Augmented Factuality Evaluator (SAFE). SAFE utilizes an LLM to break down a long-form response into a set of individual facts and to evaluate the accuracy of each fact using a multi-step reasoning process comprising sending search queries to Google Search and determining whether a fact is supported by the search results. Furthermore, we propose extending F1 score as an aggregated metric for long-form factuality. To do so, we balance the percentage of supported facts in a response (precision) with the percentage of provided facts relative to a hyperparameter representing a user's preferred response length (recall). Empirically, we demonstrate that LLM agents can outperform crowdsourced human annotators - on a set of ~16k individual facts, SAFE agrees with crowdsourced human annotators 72% of the time, and on a random subset of 100 disagreement cases, SAFE wins 76% of the time. At the same time, SAFE is more than 20 times cheaper than human annotators. We also benchmark thirteen language models on LongFact across four model families (Gemini, GPT, Claude, and PaLM-2), finding that larger language models generally achieve better long-form factuality. LongFact, SAFE, and all experimental code are available at https://github.com/google-deepmind/long-form-factuality.",
+  "published": "2024-03-27",
+  "arxiv_id": "2403.18802",
+  "comment": "NeurIPS 2024; 72 pages, 18 figures, 30 tables. Code at https://github.com/google-deepmind/long-form-factuality",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "58e194695187fe4daeb04ea694e0f59af2441177",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2403-18802",
+   "ArXiv": "2403.18802",
+   "DOI": "10.48550/arXiv.2403.18802",
+   "CorpusId": 268724304
+  },
+  "publicationVenue": {
+   "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+   "name": "Neural Information Processing Systems",
+   "type": "conference",
+   "alternate_names": [
+    "Neural Inf Process Syst",
+    "NeurIPS",
+    "NIPS"
+   ],
+   "url": "http://neurips.cc/"
+  },
+  "title": "Long-form factuality in large language models",
+  "venue": "Neural Information Processing Systems",
+  "year": 2024,
+  "publicationDate": "2024-03-27",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2403.18802"
+  },
+  "authors": [
+   {
+    "authorId": "47807379",
+    "name": "Jerry W. Wei"
+   },
+   {
+    "authorId": "2238207777",
+    "name": "Chengrun Yang"
+   },
+   {
+    "authorId": "2293658042",
+    "name": "Xinying Song"
+   },
+   {
+    "authorId": "2141538599",
+    "name": "Yifeng Lu"
+   },
+   {
+    "authorId": "2293615665",
+    "name": "Nathan Hu"
+   },
+   {
+    "authorId": "1490651934",
+    "name": "Jie Huang"
+   },
+   {
+    "authorId": "2292433269",
+    "name": "Dustin Tran"
+   },
+   {
+    "authorId": "2283933546",
+    "name": "Daiyi Peng"
+   },
+   {
+    "authorId": "2307497329",
+    "name": "Ruibo Liu"
+   },
+   {
+    "authorId": "2110408964",
+    "name": "Da Huang"
+   },
+   {
+    "authorId": "2042634588",
+    "name": "Cosmo Du"
+   },
+   {
+    "authorId": "1397917613",
+    "name": "Quoc V. Le"
+   }
+  ]
+ }
+}

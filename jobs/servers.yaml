@@ -1,0 +1,32 @@
+# llama-server launch profiles. `tag` identifies the profile in the LLM cache key, so any change
+# to model file, quantization or KV-cache type must get a new tag.
+qwen7b_q4:
+  tag: qwen2.5-7b-instruct-q4_k_m|kvq8|b12110
+  model: models/qwen2.5-7b-it-gguf/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
+  ctx: 32768          # total KV cells, shared across slots (--kv-unified)
+  parallel: 8
+  args: ["-t", "2", "-tb", "2", "-ngl", "99", "-fa", "on", "--cache-type-k", "q8_0", "--cache-type-v", "q8_0", "--kv-unified", "--cache-ram", "2048", "--no-webui", "--metrics", "--fit", "off", "--load-mode", "none", "--jinja", "-b", "2048", "-ub", "512"]
+llama3b_q4:
+  tag: llama-3.2-3b-instruct-q4_k_m|kvq8|b12110
+  model: models/llama3.2-3b-it-gguf/Llama-3.2-3B-Instruct-Q4_K_M.gguf
+  ctx: 32768
+  parallel: 8
+  args: ["-t", "2", "-tb", "2", "-ngl", "99", "-fa", "on", "--cache-type-k", "q8_0", "--cache-type-v", "q8_0", "--kv-unified", "--cache-ram", "2048", "--no-webui", "--metrics", "--fit", "off", "--load-mode", "none", "--jinja", "-b", "2048", "-ub", "512"]
+selfrag7b_q4:
+  tag: selfrag-llama2-7b-q4_k_m|kvq8|b12110
+  model: models/selfrag-7b-gguf/selfrag_llama2_7b.Q4_K_M.gguf
+  ctx: 8192
+  parallel: 8
+  args: ["-t", "2", "-tb", "2", "-ngl", "99", "-fa", "on", "--cache-type-k", "q8_0", "--cache-type-v", "q8_0", "--kv-unified", "--cache-ram", "2048", "--no-webui", "--metrics", "--fit", "off", "--load-mode", "none", "-b", "2048", "-ub", "512"]
+qwen7b_q4_lean:   # same model/quantization/tag (identical outputs); smaller KV + compute buffers so a verifier fits on the GPU
+  tag: qwen2.5-7b-instruct-q4_k_m|kvq8|b12110
+  model: models/qwen2.5-7b-it-gguf/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
+  ctx: 20480
+  parallel: 8
+  args: [-t, '2', -tb, '2', -ngl, '99', -fa, 'on', --cache-type-k, q8_0, --cache-type-v, q8_0, --kv-unified, --cache-ram, '2048', --no-webui, --metrics, --fit, 'off', --load-mode, none, --jinja, -b, '2048', -ub, '256']
+llama3b_q8:   # quantization check (PROTOCOL §10): same model as llama3b_q4 at Q8_0
+  tag: llama-3.2-3b-instruct-q8_0|kvq8|b12110
+  model: models/llama3.2-3b-it-gguf/Llama-3.2-3B-Instruct-Q8_0.gguf
+  ctx: 32768
+  parallel: 8
+  args: ["-t", "2", "-tb", "2", "-ngl", "99", "-fa", "on", "--cache-type-k", "q8_0", "--cache-type-v", "q8_0", "--kv-unified", "--cache-ram", "2048", "--no-webui", "--metrics", "--fit", "off", "--load-mode", "none", "--jinja", "-b", "2048", "-ub", "512"]

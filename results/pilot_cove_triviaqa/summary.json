@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_cove_triviaqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "cove",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.5,
+ "match": 0.5,
+ "match_norm": 0.57,
+ "em": 0.51,
+ "f1": 0.5879242671897135,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.99,
+ "mean_prompt_tokens": 2062.06,
+ "mean_completion_tokens": 136.73,
+ "mean_llm_seconds": 11.051187195001113,
+ "mean_retrievals": 3.99,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 10.522175842999276,
+ "wall_s": 134.3561656475067
+}

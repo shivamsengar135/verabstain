@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_cove_hotpotqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "cove",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.53,
+ "match": 0.53,
+ "match_norm": 0.61,
+ "em": 0.57,
+ "f1": 0.6512987012987013,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.93,
+ "mean_prompt_tokens": 2002.47,
+ "mean_completion_tokens": 137.48,
+ "mean_llm_seconds": 10.80385681600048,
+ "mean_retrievals": 3.93,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 10.642814666999184,
+ "wall_s": 137.13963079452515
+}

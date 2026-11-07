@@ -1,0 +1,18 @@
+2026-11-05 02:11:33,253 INFO START devB_selfrag_popqa_lt: 300/300 examples to run; projected 8 min
+2026-11-05 02:11:39,262 INFO devB_selfrag_popqa_lt: 25/300 done, 0 errors, 0s
+2026-11-05 02:11:39,374 INFO devB_selfrag_popqa_lt: 50/300 done, 0 errors, 0s
+2026-11-05 02:11:39,487 INFO devB_selfrag_popqa_lt: 75/300 done, 0 errors, 0s
+2026-11-05 02:11:39,582 INFO devB_selfrag_popqa_lt: 100/300 done, 0 errors, 0s
+2026-11-05 02:12:05,792 INFO devB_selfrag_popqa_lt: 125/300 done, 0 errors, 27s
+2026-11-05 02:12:27,562 INFO devB_selfrag_popqa_lt: 150/300 done, 0 errors, 48s
+2026-11-05 02:12:50,224 WARNING PAUSE: gpu_temp=83 cpu_zone=80.9 cpu_load=17.5 on_battery=False
+2026-11-05 02:12:50,960 INFO devB_selfrag_popqa_lt: 175/300 done, 0 errors, 72s
+2026-11-05 02:13:08,770 WARNING RESUME: gpu_temp=50 cpu_zone=53.9 cpu_load=5.3
+2026-11-05 02:13:28,072 INFO devB_selfrag_popqa_lt: 200/300 done, 0 errors, 109s
+2026-11-05 02:13:51,479 INFO devB_selfrag_popqa_lt: 225/300 done, 0 errors, 132s
+2026-11-05 02:14:04,726 WARNING PAUSE: gpu_temp=85 cpu_zone=80.9 cpu_load=20.2 on_battery=False
+2026-11-05 02:14:13,769 INFO devB_selfrag_popqa_lt: 250/300 done, 0 errors, 155s
+2026-11-05 02:14:23,288 WARNING RESUME: gpu_temp=53 cpu_zone=58.9 cpu_load=5.4
+2026-11-05 02:14:50,389 INFO devB_selfrag_popqa_lt: 275/300 done, 0 errors, 191s
+2026-11-05 02:15:14,668 INFO devB_selfrag_popqa_lt: 300/300 done, 0 errors, 216s
+2026-11-05 02:15:14,848 INFO END devB_selfrag_popqa_lt: complete, wall 3.6 min, stats {'llm_calls': 1386, 'cache_hits': 714, 'prompt_tokens': 128574, 'completion_tokens': 27082, 'llm_seconds': 1443.9813086996728, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_flare_popqa_lt",
+ "n": 300,
+ "n_expected": 300,
+ "method": "flare",
+ "dataset": "popqa_lt",
+ "split": "dev",
+ "correct": 0.43333333333333335,
+ "match": 0.43333333333333335,
+ "match_norm": 0.45666666666666667,
+ "em": 0.41,
+ "f1": 0.4636208791208791,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.39,
+ "mean_prompt_tokens": 700.8433333333334,
+ "mean_completion_tokens": 6.82,
+ "mean_llm_seconds": 2.3800011080009185,
+ "mean_retrievals": 1.39,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.2335446379997301,
+ "wall_s": 45.971641302108765
+}

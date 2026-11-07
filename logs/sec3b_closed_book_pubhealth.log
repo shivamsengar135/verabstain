@@ -1,0 +1,22 @@
+2026-11-07 00:30:34,047 INFO START sec3b_closed_book_pubhealth: 500/500 examples to run; projected 3 min
+2026-11-07 00:30:34,834 INFO sec3b_closed_book_pubhealth: 25/500 done, 0 errors, 1s
+2026-11-07 00:30:35,324 INFO sec3b_closed_book_pubhealth: 50/500 done, 0 errors, 1s
+2026-11-07 00:30:35,744 INFO sec3b_closed_book_pubhealth: 75/500 done, 0 errors, 2s
+2026-11-07 00:30:36,232 INFO sec3b_closed_book_pubhealth: 100/500 done, 0 errors, 2s
+2026-11-07 00:30:36,735 INFO sec3b_closed_book_pubhealth: 125/500 done, 0 errors, 3s
+2026-11-07 00:30:37,226 INFO sec3b_closed_book_pubhealth: 150/500 done, 0 errors, 3s
+2026-11-07 00:30:37,658 INFO sec3b_closed_book_pubhealth: 175/500 done, 0 errors, 3s
+2026-11-07 00:30:38,092 INFO sec3b_closed_book_pubhealth: 200/500 done, 0 errors, 4s
+2026-11-07 00:30:38,624 INFO sec3b_closed_book_pubhealth: 225/500 done, 0 errors, 4s
+2026-11-07 00:30:39,164 INFO sec3b_closed_book_pubhealth: 250/500 done, 0 errors, 5s
+2026-11-07 00:30:39,610 INFO sec3b_closed_book_pubhealth: 275/500 done, 0 errors, 5s
+2026-11-07 00:30:40,132 INFO sec3b_closed_book_pubhealth: 300/500 done, 0 errors, 6s
+2026-11-07 00:30:40,704 INFO sec3b_closed_book_pubhealth: 325/500 done, 0 errors, 7s
+2026-11-07 00:30:41,145 INFO sec3b_closed_book_pubhealth: 350/500 done, 0 errors, 7s
+2026-11-07 00:30:41,599 INFO sec3b_closed_book_pubhealth: 375/500 done, 0 errors, 7s
+2026-11-07 00:30:42,032 INFO sec3b_closed_book_pubhealth: 400/500 done, 0 errors, 8s
+2026-11-07 00:30:42,459 INFO sec3b_closed_book_pubhealth: 425/500 done, 0 errors, 8s
+2026-11-07 00:30:42,988 INFO sec3b_closed_book_pubhealth: 450/500 done, 0 errors, 9s
+2026-11-07 00:30:43,433 INFO sec3b_closed_book_pubhealth: 475/500 done, 0 errors, 9s
+2026-11-07 00:30:43,793 INFO sec3b_closed_book_pubhealth: 500/500 done, 0 errors, 10s
+2026-11-07 00:30:43,969 INFO END sec3b_closed_book_pubhealth: complete, wall 0.2 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 46800, 'completion_tokens': 1027, 'llm_seconds': 75.14664570004243, 'retrievals': 0, 'verifier_pairs': 0}

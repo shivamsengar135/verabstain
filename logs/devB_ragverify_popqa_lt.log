@@ -1,0 +1,14 @@
+2026-11-05 01:59:54,219 INFO START devB_ragverify_popqa_lt: 300/300 examples to run; projected 8 min
+2026-11-05 02:00:11,395 INFO devB_ragverify_popqa_lt: 25/300 done, 0 errors, 10s
+2026-11-05 02:00:17,392 INFO devB_ragverify_popqa_lt: 50/300 done, 0 errors, 16s
+2026-11-05 02:00:20,030 INFO devB_ragverify_popqa_lt: 75/300 done, 0 errors, 19s
+2026-11-05 02:00:26,019 INFO devB_ragverify_popqa_lt: 100/300 done, 0 errors, 25s
+2026-11-05 02:00:37,235 INFO devB_ragverify_popqa_lt: 125/300 done, 0 errors, 36s
+2026-11-05 02:00:51,896 INFO devB_ragverify_popqa_lt: 150/300 done, 0 errors, 51s
+2026-11-05 02:01:02,255 INFO devB_ragverify_popqa_lt: 175/300 done, 0 errors, 61s
+2026-11-05 02:01:14,163 INFO devB_ragverify_popqa_lt: 200/300 done, 0 errors, 73s
+2026-11-05 02:01:26,725 INFO devB_ragverify_popqa_lt: 225/300 done, 0 errors, 86s
+2026-11-05 02:01:38,420 INFO devB_ragverify_popqa_lt: 250/300 done, 0 errors, 97s
+2026-11-05 02:01:49,197 INFO devB_ragverify_popqa_lt: 275/300 done, 0 errors, 108s
+2026-11-05 02:02:05,344 INFO devB_ragverify_popqa_lt: 300/300 done, 0 errors, 124s
+2026-11-05 02:02:05,859 INFO END devB_ragverify_popqa_lt: complete, wall 2.1 min, stats {'llm_calls': 493, 'cache_hits': 258, 'prompt_tokens': 167394, 'completion_tokens': 8024, 'llm_seconds': 754.2573801998515, 'retrievals': 0, 'verifier_pairs': 0}

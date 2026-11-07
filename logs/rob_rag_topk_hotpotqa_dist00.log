@@ -1,0 +1,14 @@
+2026-11-07 01:18:26,578 INFO START rob_rag_topk_hotpotqa_dist00: 300/300 examples to run; projected 3 min
+2026-11-07 01:18:36,130 INFO rob_rag_topk_hotpotqa_dist00: 25/300 done, 0 errors, 0s
+2026-11-07 01:18:36,146 INFO rob_rag_topk_hotpotqa_dist00: 50/300 done, 0 errors, 0s
+2026-11-07 01:18:36,165 INFO rob_rag_topk_hotpotqa_dist00: 75/300 done, 0 errors, 0s
+2026-11-07 01:18:36,179 INFO rob_rag_topk_hotpotqa_dist00: 100/300 done, 0 errors, 0s
+2026-11-07 01:18:36,194 INFO rob_rag_topk_hotpotqa_dist00: 125/300 done, 0 errors, 0s
+2026-11-07 01:18:36,209 INFO rob_rag_topk_hotpotqa_dist00: 150/300 done, 0 errors, 0s
+2026-11-07 01:18:36,227 INFO rob_rag_topk_hotpotqa_dist00: 175/300 done, 0 errors, 0s
+2026-11-07 01:18:36,241 INFO rob_rag_topk_hotpotqa_dist00: 200/300 done, 0 errors, 0s
+2026-11-07 01:18:36,256 INFO rob_rag_topk_hotpotqa_dist00: 225/300 done, 0 errors, 0s
+2026-11-07 01:18:36,272 INFO rob_rag_topk_hotpotqa_dist00: 250/300 done, 0 errors, 0s
+2026-11-07 01:18:36,288 INFO rob_rag_topk_hotpotqa_dist00: 275/300 done, 0 errors, 0s
+2026-11-07 01:18:36,304 INFO rob_rag_topk_hotpotqa_dist00: 300/300 done, 0 errors, 0s
+2026-11-07 01:18:36,367 INFO END rob_rag_topk_hotpotqa_dist00: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 300, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

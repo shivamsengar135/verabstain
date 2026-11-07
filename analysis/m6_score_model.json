@@ -1,0 +1,25 @@
+{
+ "mean_aurc_dev": {
+  "support": 0.4400370532434102,
+  "tokenprob": 0.40698547404972313,
+  "c1": 0.46533822114500045,
+  "logistic_cv": 0.3819249067008926
+ },
+ "chosen": "logistic_cv",
+ "n": 1200,
+ "logistic": {
+  "features": [
+   "logit support",
+   "logit tokenprob",
+   "logit c1",
+   "insufficient"
+  ],
+  "coef": [
+   0.10904181380986439,
+   0.25434173319982684,
+   0.11392955875178709,
+   -1.2434162193043414
+  ],
+  "intercept": -1.5474872924037384
+ }
+}

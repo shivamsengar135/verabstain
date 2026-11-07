@@ -1,0 +1,7 @@
+2026-11-04 23:24:18,262 INFO START pilot_rag_selfcheck_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-04 23:38:00,874 INFO START pilot_rag_selfcheck_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-04 23:38:12,762 INFO pilot_rag_selfcheck_popqa_lt: 25/100 done, 0 errors, 12s
+2026-11-04 23:38:21,943 INFO pilot_rag_selfcheck_popqa_lt: 50/100 done, 0 errors, 21s
+2026-11-04 23:38:31,482 INFO pilot_rag_selfcheck_popqa_lt: 75/100 done, 0 errors, 30s
+2026-11-04 23:38:39,693 INFO pilot_rag_selfcheck_popqa_lt: 100/100 done, 0 errors, 39s
+2026-11-04 23:38:39,707 INFO END pilot_rag_selfcheck_popqa_lt: complete, wall 0.6 min, stats {'llm_calls': 500, 'cache_hits': 100, 'prompt_tokens': 256015, 'completion_tokens': 2426, 'llm_seconds': 300.29678180004703, 'retrievals': 0, 'verifier_pairs': 0}

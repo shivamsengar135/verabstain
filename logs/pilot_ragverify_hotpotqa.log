@@ -1,0 +1,12 @@
+2026-11-05 00:09:19,269 INFO START pilot_ragverify_hotpotqa: 100/100 examples to run; projected 15 min
+2026-11-05 00:10:25,559 INFO pilot_ragverify_hotpotqa: 25/100 done, 0 errors, 66s
+2026-11-05 00:11:48,647 INFO pilot_ragverify_hotpotqa: 50/100 done, 0 errors, 149s
+2026-11-05 00:13:05,934 INFO pilot_ragverify_hotpotqa: 75/100 done, 0 errors, 227s
+2026-11-05 00:14:13,701 INFO pilot_ragverify_hotpotqa: 100/100 done, 0 errors, 294s
+2026-11-05 00:14:13,733 INFO END pilot_ragverify_hotpotqa: complete, wall 4.9 min, stats {'llm_calls': 443, 'cache_hits': 157, 'prompt_tokens': 283488, 'completion_tokens': 14318, 'llm_seconds': 1987.5768967998738, 'retrievals': 0, 'verifier_pairs': 0}
+2026-11-05 01:46:32,845 INFO START pilot_ragverify_hotpotqa: 100/100 examples to run; projected 15 min
+2026-11-05 01:46:33,535 INFO pilot_ragverify_hotpotqa: 25/100 done, 0 errors, 1s
+2026-11-05 01:46:34,007 INFO pilot_ragverify_hotpotqa: 50/100 done, 0 errors, 1s
+2026-11-05 01:46:34,463 INFO pilot_ragverify_hotpotqa: 75/100 done, 0 errors, 2s
+2026-11-05 01:46:34,841 INFO pilot_ragverify_hotpotqa: 100/100 done, 0 errors, 2s
+2026-11-05 01:46:35,058 INFO END pilot_ragverify_hotpotqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 600, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

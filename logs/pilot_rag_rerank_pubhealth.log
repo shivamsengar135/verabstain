@@ -1,0 +1,18 @@
+2026-11-04 23:23:58,076 INFO START pilot_rag_rerank_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:24:02,100 ERROR JOB FAILED pilot_rag_rerank_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 259, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 158, in run_job
+    st = llm_server.start(job["server"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\llm_server.py", line 94, in start
+    raise RuntimeError(f"llama-server exited early (code {p.returncode}); see {log}")
+RuntimeError: llama-server exited early (code 1); see C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\logs\server\qwen7b_q4-20261104-232358.log
+
+2026-11-04 23:32:17,948 INFO START pilot_rag_rerank_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:32:54,328 INFO pilot_rag_rerank_pubhealth: 25/100 done, 0 errors, 36s
+2026-11-04 23:34:20,263 INFO START pilot_rag_rerank_pubhealth: 51/100 examples to run; projected 10 min
+2026-11-04 23:34:42,391 INFO pilot_rag_rerank_pubhealth: 25/51 done, 0 errors, 18s
+2026-11-04 23:34:48,931 INFO pilot_rag_rerank_pubhealth: 50/51 done, 0 errors, 24s
+2026-11-04 23:34:48,970 INFO END pilot_rag_rerank_pubhealth: complete, wall 0.4 min, stats {'llm_calls': 51, 'cache_hits': 0, 'prompt_tokens': 29436, 'completion_tokens': 102, 'llm_seconds': 83.21975080002449, 'retrievals': 0, 'verifier_pairs': 0}

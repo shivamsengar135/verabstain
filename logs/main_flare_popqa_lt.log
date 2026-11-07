@@ -1,0 +1,46 @@
+2026-11-05 04:19:20,730 INFO START main_flare_popqa_lt: 1000/1000 examples to run; projected 14 min
+2026-11-05 04:19:20,895 INFO main_flare_popqa_lt: 25/1000 done, 0 errors, 0s
+2026-11-05 04:19:37,588 INFO main_flare_popqa_lt: 50/1000 done, 0 errors, 17s
+2026-11-05 04:19:39,446 INFO main_flare_popqa_lt: 75/1000 done, 0 errors, 19s
+2026-11-05 04:19:41,577 INFO main_flare_popqa_lt: 100/1000 done, 0 errors, 21s
+2026-11-05 04:19:43,573 INFO main_flare_popqa_lt: 125/1000 done, 0 errors, 23s
+2026-11-05 04:19:46,443 INFO main_flare_popqa_lt: 150/1000 done, 0 errors, 26s
+2026-11-05 04:19:47,811 INFO main_flare_popqa_lt: 175/1000 done, 0 errors, 27s
+2026-11-05 04:19:51,211 INFO main_flare_popqa_lt: 200/1000 done, 0 errors, 30s
+2026-11-05 04:19:53,109 INFO main_flare_popqa_lt: 225/1000 done, 0 errors, 32s
+2026-11-05 04:19:55,026 INFO main_flare_popqa_lt: 250/1000 done, 0 errors, 34s
+2026-11-05 04:19:57,840 INFO main_flare_popqa_lt: 275/1000 done, 0 errors, 37s
+2026-11-05 04:19:59,970 INFO main_flare_popqa_lt: 300/1000 done, 0 errors, 39s
+2026-11-05 04:20:01,885 INFO main_flare_popqa_lt: 325/1000 done, 0 errors, 41s
+2026-11-05 04:20:03,958 INFO main_flare_popqa_lt: 350/1000 done, 0 errors, 43s
+2026-11-05 04:20:07,228 INFO main_flare_popqa_lt: 375/1000 done, 0 errors, 46s
+2026-11-05 04:20:07,880 INFO main_flare_popqa_lt: 400/1000 done, 0 errors, 47s
+2026-11-05 04:20:10,247 INFO main_flare_popqa_lt: 425/1000 done, 0 errors, 49s
+2026-11-05 04:20:13,037 INFO main_flare_popqa_lt: 450/1000 done, 0 errors, 52s
+2026-11-05 04:20:13,751 INFO main_flare_popqa_lt: 475/1000 done, 0 errors, 53s
+2026-11-05 04:20:14,611 WARNING PAUSE: gpu_temp=82 cpu_zone=93.9 cpu_load=25.9 on_battery=False
+2026-11-05 04:20:33,132 WARNING RESUME: gpu_temp=48 cpu_zone=56.9 cpu_load=3.4
+2026-11-05 04:20:33,155 INFO main_flare_popqa_lt: 500/1000 done, 0 errors, 72s
+2026-11-05 04:20:37,757 INFO main_flare_popqa_lt: 525/1000 done, 0 errors, 77s
+2026-11-05 04:20:38,457 INFO main_flare_popqa_lt: 550/1000 done, 0 errors, 78s
+2026-11-05 04:20:39,947 INFO main_flare_popqa_lt: 575/1000 done, 0 errors, 79s
+2026-11-05 04:20:41,704 INFO main_flare_popqa_lt: 600/1000 done, 0 errors, 81s
+2026-11-05 04:20:42,243 INFO main_flare_popqa_lt: 625/1000 done, 0 errors, 81s
+2026-11-05 04:20:45,594 INFO main_flare_popqa_lt: 650/1000 done, 0 errors, 85s
+2026-11-05 04:20:48,578 INFO main_flare_popqa_lt: 675/1000 done, 0 errors, 88s
+2026-11-05 04:20:49,248 INFO main_flare_popqa_lt: 700/1000 done, 0 errors, 88s
+2026-11-05 04:20:51,070 INFO main_flare_popqa_lt: 725/1000 done, 0 errors, 90s
+2026-11-05 04:20:51,927 INFO main_flare_popqa_lt: 750/1000 done, 0 errors, 91s
+2026-11-05 04:20:55,197 INFO main_flare_popqa_lt: 775/1000 done, 0 errors, 94s
+2026-11-05 04:20:55,318 INFO main_flare_popqa_lt: 800/1000 done, 0 errors, 94s
+2026-11-05 04:20:58,651 INFO main_flare_popqa_lt: 825/1000 done, 0 errors, 98s
+2026-11-05 04:21:00,794 INFO main_flare_popqa_lt: 850/1000 done, 0 errors, 100s
+2026-11-05 04:21:03,068 INFO main_flare_popqa_lt: 875/1000 done, 0 errors, 102s
+2026-11-05 04:21:06,770 INFO main_flare_popqa_lt: 900/1000 done, 0 errors, 106s
+2026-11-05 04:21:08,812 INFO main_flare_popqa_lt: 925/1000 done, 0 errors, 108s
+2026-11-05 04:21:10,254 WARNING PAUSE: gpu_temp=80 cpu_zone=92.9 cpu_load=17.0 on_battery=False
+2026-11-05 04:21:28,775 WARNING RESUME: gpu_temp=48 cpu_zone=55.9 cpu_load=4.0
+2026-11-05 04:21:28,782 INFO main_flare_popqa_lt: 950/1000 done, 0 errors, 128s
+2026-11-05 04:21:30,838 INFO main_flare_popqa_lt: 975/1000 done, 0 errors, 130s
+2026-11-05 04:21:32,426 INFO main_flare_popqa_lt: 1000/1000 done, 0 errors, 132s
+2026-11-05 04:21:32,950 INFO END main_flare_popqa_lt: complete, wall 2.2 min, stats {'llm_calls': 338, 'cache_hits': 1038, 'prompt_tokens': 161407, 'completion_tokens': 1667, 'llm_seconds': 462.3878253000148, 'retrievals': 0, 'verifier_pairs': 0}

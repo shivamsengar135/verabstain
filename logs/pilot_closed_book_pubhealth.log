@@ -1,0 +1,18 @@
+2026-11-04 23:23:25,766 INFO START pilot_closed_book_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:23:29,791 ERROR JOB FAILED pilot_closed_book_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 259, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 158, in run_job
+    st = llm_server.start(job["server"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\llm_server.py", line 94, in start
+    raise RuntimeError(f"llama-server exited early (code {p.returncode}); see {log}")
+RuntimeError: llama-server exited early (code 1); see C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\logs\server\qwen7b_q4-20261104-232325.log
+
+2026-11-04 23:25:05,953 INFO START pilot_closed_book_pubhealth: 100/100 examples to run; projected 10 min
+2026-11-04 23:25:07,054 INFO pilot_closed_book_pubhealth: 25/100 done, 0 errors, 1s
+2026-11-04 23:25:07,700 INFO pilot_closed_book_pubhealth: 50/100 done, 0 errors, 2s
+2026-11-04 23:25:08,304 INFO pilot_closed_book_pubhealth: 75/100 done, 0 errors, 2s
+2026-11-04 23:25:08,855 INFO pilot_closed_book_pubhealth: 100/100 done, 0 errors, 3s
+2026-11-04 23:25:08,855 INFO END pilot_closed_book_pubhealth: complete, wall 0.0 min, stats {'llm_calls': 100, 'cache_hits': 0, 'prompt_tokens': 7140, 'completion_tokens': 200, 'llm_seconds': 21.09808950003935, 'retrievals': 0, 'verifier_pairs': 0}

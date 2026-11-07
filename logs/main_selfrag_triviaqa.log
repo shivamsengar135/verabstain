@@ -1,0 +1,44 @@
+2026-11-05 11:01:54,722 INFO START main_selfrag_triviaqa: 1000/1000 examples to run; projected 22 min
+2026-11-05 11:03:09,874 INFO main_selfrag_triviaqa: 25/1000 done, 0 errors, 69s
+2026-11-05 11:04:18,083 INFO main_selfrag_triviaqa: 50/1000 done, 0 errors, 138s
+2026-11-05 11:05:38,330 INFO main_selfrag_triviaqa: 75/1000 done, 0 errors, 218s
+2026-11-05 11:06:40,344 INFO main_selfrag_triviaqa: 100/1000 done, 0 errors, 280s
+2026-11-05 11:07:36,637 INFO main_selfrag_triviaqa: 125/1000 done, 0 errors, 336s
+2026-11-05 11:08:42,310 INFO main_selfrag_triviaqa: 150/1000 done, 0 errors, 402s
+2026-11-05 11:09:52,961 INFO main_selfrag_triviaqa: 175/1000 done, 0 errors, 472s
+2026-11-05 11:11:09,453 INFO main_selfrag_triviaqa: 200/1000 done, 0 errors, 549s
+2026-11-05 11:12:31,964 INFO main_selfrag_triviaqa: 225/1000 done, 0 errors, 631s
+2026-11-05 11:13:47,810 INFO main_selfrag_triviaqa: 250/1000 done, 0 errors, 707s
+2026-11-05 11:15:02,450 INFO main_selfrag_triviaqa: 275/1000 done, 0 errors, 782s
+2026-11-05 11:16:14,924 INFO main_selfrag_triviaqa: 300/1000 done, 0 errors, 854s
+2026-11-05 11:17:31,927 INFO main_selfrag_triviaqa: 325/1000 done, 0 errors, 931s
+2026-11-05 11:18:55,879 INFO main_selfrag_triviaqa: 350/1000 done, 0 errors, 1015s
+2026-11-05 11:20:37,530 INFO main_selfrag_triviaqa: 375/1000 done, 0 errors, 1117s
+2026-11-05 11:22:09,317 INFO main_selfrag_triviaqa: 400/1000 done, 0 errors, 1209s
+2026-11-05 11:23:31,922 INFO main_selfrag_triviaqa: 425/1000 done, 0 errors, 1291s
+2026-11-05 11:24:46,663 INFO main_selfrag_triviaqa: 450/1000 done, 0 errors, 1366s
+2026-11-05 11:26:06,700 INFO main_selfrag_triviaqa: 475/1000 done, 0 errors, 1446s
+2026-11-05 11:27:43,569 INFO main_selfrag_triviaqa: 500/1000 done, 0 errors, 1543s
+2026-11-05 11:29:05,031 INFO main_selfrag_triviaqa: 525/1000 done, 0 errors, 1624s
+2026-11-05 11:30:18,566 INFO main_selfrag_triviaqa: 550/1000 done, 0 errors, 1698s
+2026-11-05 11:31:36,214 INFO main_selfrag_triviaqa: 575/1000 done, 0 errors, 1776s
+2026-11-05 11:32:59,560 INFO main_selfrag_triviaqa: 600/1000 done, 0 errors, 1859s
+2026-11-05 11:34:19,182 INFO main_selfrag_triviaqa: 625/1000 done, 0 errors, 1939s
+2026-11-05 11:35:47,940 INFO main_selfrag_triviaqa: 650/1000 done, 0 errors, 2027s
+2026-11-05 11:37:00,074 INFO main_selfrag_triviaqa: 675/1000 done, 0 errors, 2100s
+2026-11-05 11:38:24,990 INFO main_selfrag_triviaqa: 700/1000 done, 0 errors, 2184s
+2026-11-05 11:39:48,024 INFO main_selfrag_triviaqa: 725/1000 done, 0 errors, 2267s
+2026-11-05 11:41:10,955 INFO main_selfrag_triviaqa: 750/1000 done, 0 errors, 2350s
+2026-11-05 11:42:26,013 INFO main_selfrag_triviaqa: 775/1000 done, 0 errors, 2425s
+2026-11-05 11:43:45,302 INFO main_selfrag_triviaqa: 800/1000 done, 0 errors, 2505s
+2026-11-05 11:45:06,454 INFO main_selfrag_triviaqa: 825/1000 done, 0 errors, 2586s
+2026-11-05 11:46:30,526 INFO main_selfrag_triviaqa: 850/1000 done, 0 errors, 2670s
+2026-11-05 11:48:03,334 INFO main_selfrag_triviaqa: 875/1000 done, 0 errors, 2763s
+2026-11-05 11:49:17,949 INFO main_selfrag_triviaqa: 900/1000 done, 0 errors, 2837s
+2026-11-05 11:50:36,406 INFO main_selfrag_triviaqa: 925/1000 done, 0 errors, 2916s
+2026-11-05 11:51:51,925 INFO main_selfrag_triviaqa: 950/1000 done, 0 errors, 2991s
+2026-11-05 11:51:59,591 WARNING PAUSE: gpu_temp=48 cpu_zone=52.9 cpu_load=21.8 on_battery=True
+2026-11-05 12:10:25,872 WARNING RESUME: gpu_temp=39 cpu_zone=60.9 cpu_load=19.6
+2026-11-05 12:11:21,612 INFO main_selfrag_triviaqa: 975/1000 done, 0 errors, 4161s
+2026-11-05 12:12:40,789 INFO main_selfrag_triviaqa: 1000/1000 done, 0 errors, 4240s
+2026-11-05 12:12:41,003 INFO END main_selfrag_triviaqa: complete, wall 70.7 min, stats {'llm_calls': 6988, 'cache_hits': 12, 'prompt_tokens': 1083591, 'completion_tokens': 161892, 'llm_seconds': 25037.22494979907, 'retrievals': 0, 'verifier_pairs': 0}

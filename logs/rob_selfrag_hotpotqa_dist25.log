@@ -1,0 +1,18 @@
+2026-11-07 02:02:56,724 INFO START rob_selfrag_hotpotqa_dist25: 300/300 examples to run; projected 7 min
+2026-11-07 02:03:07,673 INFO rob_selfrag_hotpotqa_dist25: 25/300 done, 0 errors, 5s
+2026-11-07 02:03:12,387 INFO rob_selfrag_hotpotqa_dist25: 50/300 done, 0 errors, 10s
+2026-11-07 02:03:19,014 INFO rob_selfrag_hotpotqa_dist25: 75/300 done, 0 errors, 16s
+2026-11-07 02:03:23,300 INFO rob_selfrag_hotpotqa_dist25: 100/300 done, 0 errors, 21s
+2026-11-07 02:03:27,239 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=11.9 on_battery=False
+2026-11-07 02:03:27,875 INFO rob_selfrag_hotpotqa_dist25: 125/300 done, 0 errors, 25s
+2026-11-07 02:03:47,253 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=1.7
+2026-11-07 02:03:52,164 INFO rob_selfrag_hotpotqa_dist25: 150/300 done, 0 errors, 50s
+2026-11-07 02:03:57,744 INFO rob_selfrag_hotpotqa_dist25: 175/300 done, 0 errors, 55s
+2026-11-07 02:04:02,683 INFO rob_selfrag_hotpotqa_dist25: 200/300 done, 0 errors, 60s
+2026-11-07 02:04:06,766 INFO rob_selfrag_hotpotqa_dist25: 225/300 done, 0 errors, 64s
+2026-11-07 02:04:12,393 INFO rob_selfrag_hotpotqa_dist25: 250/300 done, 0 errors, 70s
+2026-11-07 02:04:15,366 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=14.3 on_battery=False
+2026-11-07 02:04:35,379 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.6
+2026-11-07 02:04:37,012 INFO rob_selfrag_hotpotqa_dist25: 275/300 done, 0 errors, 94s
+2026-11-07 02:04:41,013 INFO rob_selfrag_hotpotqa_dist25: 300/300 done, 0 errors, 98s
+2026-11-07 02:04:41,195 INFO END rob_selfrag_hotpotqa_dist25: complete, wall 1.6 min, stats {'llm_calls': 268, 'cache_hits': 1832, 'prompt_tokens': 52642, 'completion_tokens': 6317, 'llm_seconds': 471.78218050001306, 'retrievals': 0, 'verifier_pairs': 0}

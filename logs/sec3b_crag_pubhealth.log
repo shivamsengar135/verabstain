@@ -1,0 +1,22 @@
+2026-11-07 00:53:36,214 INFO START sec3b_crag_pubhealth: 500/500 examples to run; projected 19 min
+2026-11-07 00:54:14,025 INFO sec3b_crag_pubhealth: 25/500 done, 0 errors, 38s
+2026-11-07 00:54:35,740 INFO sec3b_crag_pubhealth: 50/500 done, 0 errors, 59s
+2026-11-07 00:54:58,686 INFO sec3b_crag_pubhealth: 75/500 done, 0 errors, 82s
+2026-11-07 00:55:21,691 INFO sec3b_crag_pubhealth: 100/500 done, 0 errors, 105s
+2026-11-07 00:55:44,755 INFO sec3b_crag_pubhealth: 125/500 done, 0 errors, 128s
+2026-11-07 00:56:07,513 INFO sec3b_crag_pubhealth: 150/500 done, 0 errors, 151s
+2026-11-07 00:56:29,630 INFO sec3b_crag_pubhealth: 175/500 done, 0 errors, 173s
+2026-11-07 00:56:52,611 INFO sec3b_crag_pubhealth: 200/500 done, 0 errors, 196s
+2026-11-07 00:57:15,165 INFO sec3b_crag_pubhealth: 225/500 done, 0 errors, 219s
+2026-11-07 00:57:38,051 INFO sec3b_crag_pubhealth: 250/500 done, 0 errors, 242s
+2026-11-07 00:58:01,134 INFO sec3b_crag_pubhealth: 275/500 done, 0 errors, 265s
+2026-11-07 00:58:23,643 INFO sec3b_crag_pubhealth: 300/500 done, 0 errors, 287s
+2026-11-07 00:58:47,067 INFO sec3b_crag_pubhealth: 325/500 done, 0 errors, 311s
+2026-11-07 00:59:08,751 INFO sec3b_crag_pubhealth: 350/500 done, 0 errors, 332s
+2026-11-07 00:59:30,690 INFO sec3b_crag_pubhealth: 375/500 done, 0 errors, 354s
+2026-11-07 00:59:53,205 INFO sec3b_crag_pubhealth: 400/500 done, 0 errors, 377s
+2026-11-07 01:00:16,585 INFO sec3b_crag_pubhealth: 425/500 done, 0 errors, 400s
+2026-11-07 01:00:40,177 INFO sec3b_crag_pubhealth: 450/500 done, 0 errors, 424s
+2026-11-07 01:01:03,256 INFO sec3b_crag_pubhealth: 475/500 done, 0 errors, 447s
+2026-11-07 01:01:24,601 INFO sec3b_crag_pubhealth: 500/500 done, 0 errors, 468s
+2026-11-07 01:01:25,564 INFO END sec3b_crag_pubhealth: complete, wall 7.8 min, stats {'llm_calls': 1000, 'cache_hits': 0, 'prompt_tokens': 468958, 'completion_tokens': 8251, 'llm_seconds': 531.9752332998905, 'retrievals': 0, 'verifier_pairs': 0}

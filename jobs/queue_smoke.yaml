@@ -1,0 +1,6 @@
+# Functional smoke tests on 5 dev examples (BM25 static retrieval; dense index still building). Not part of any result.
+- {id: smoke_cb_tqa, method: closed_book, dataset: triviaqa, split: dev, n: 5, server: qwen7b_q4, projected_minutes: 2, needs_retrieval: false}
+- {id: smoke_rag_tqa, method: rag_topk, dataset: triviaqa, split: dev, n: 5, server: qwen7b_q4, projected_minutes: 2, config_overrides: {static_retriever: bm25}}
+- {id: smoke_con_pub, method: chain_of_note, dataset: pubhealth, split: dev, n: 5, server: qwen7b_q4, projected_minutes: 2, config_overrides: {static_retriever: bm25}}
+- {id: smoke_flare_hot, method: flare, dataset: hotpotqa, split: dev, n: 5, server: qwen7b_q4, projected_minutes: 2, config_overrides: {static_retriever: bm25}}
+- {id: smoke_selfcheck_pop, method: rag_selfcheck, dataset: popqa_lt, split: dev, n: 5, server: qwen7b_q4, projected_minutes: 2, config_overrides: {static_retriever: bm25}}

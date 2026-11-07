@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rag_rerank_popqa_lt",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rag_rerank",
+ "dataset": "popqa_lt",
+ "split": "dev",
+ "correct": 0.39,
+ "match": 0.39,
+ "match_norm": 0.4,
+ "em": 0.38,
+ "f1": 0.42509523809523814,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 493.61,
+ "mean_completion_tokens": 4.41,
+ "mean_llm_seconds": 0.31731706399936227,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 5.175114068000548,
+ "wall_s": 67.9890365600586
+}

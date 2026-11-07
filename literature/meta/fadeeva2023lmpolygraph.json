@@ -1,0 +1,110 @@
+{
+ "seed": {
+  "key": "fadeeva2023lmpolygraph",
+  "title": "LM-Polygraph: Uncertainty Estimation for Language Models",
+  "arxiv_id": "2311.07383",
+  "category": "uncertainty",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "LM-Polygraph: Uncertainty Estimation for Language Models",
+  "authors": [
+   "Ekaterina Fadeeva",
+   "Roman Vashurin",
+   "Akim Tsvigun",
+   "Artem Vazhentsev",
+   "Sergey Petrakov",
+   "Kirill Fedyanin",
+   "Daniil Vasilev",
+   "Elizaveta Goncharova",
+   "Alexander Panchenko",
+   "Maxim Panov",
+   "Timothy Baldwin",
+   "Artem Shelmanov"
+  ],
+  "abstract": "Recent advancements in the capabilities of large language models (LLMs) have paved the way for a myriad of groundbreaking applications in various fields. However, a significant challenge arises as these models often \"hallucinate\", i.e., fabricate facts without providing users an apparent means to discern the veracity of their statements. Uncertainty estimation (UE) methods are one path to safer, more responsible, and more effective use of LLMs. However, to date, research on UE methods for LLMs has been focused primarily on theoretical rather than engineering contributions. In this work, we tackle this issue by introducing LM-Polygraph, a framework with implementations of a battery of state-of-the-art UE methods for LLMs in text generation tasks, with unified program interfaces in Python. Additionally, it introduces an extendable benchmark for consistent evaluation of UE techniques by researchers, and a demo web application that enriches the standard chat dialog with confidence scores, empowering end-users to discern unreliable responses. LM-Polygraph is compatible with the most recent LLMs, including BLOOMz, LLaMA-2, ChatGPT, and GPT-4, and is designed to support future releases of similarly-styled LMs.",
+  "published": "2023-11-13",
+  "arxiv_id": "2311.07383",
+  "comment": "Accepted at EMNLP-2023",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "444f3b7293b85b7d37600372941a289f9163abd1",
+  "externalIds": {
+   "ArXiv": "2311.07383",
+   "DBLP": "journals/corr/abs-2311-07383",
+   "DOI": "10.48550/arXiv.2311.07383",
+   "CorpusId": 265149591
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "LM-Polygraph: Uncertainty Estimation for Language Models",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2023,
+  "publicationDate": "2023-11-13",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2311.07383"
+  },
+  "authors": [
+   {
+    "authorId": "2266389184",
+    "name": "Ekaterina Fadeeva"
+   },
+   {
+    "authorId": "2156115499",
+    "name": "Roman Vashurin"
+   },
+   {
+    "authorId": "2164381839",
+    "name": "A. Tsvigun"
+   },
+   {
+    "authorId": "2165225340",
+    "name": "Artem Vazhentsev"
+   },
+   {
+    "authorId": "2042557906",
+    "name": "Sergey Petrakov"
+   },
+   {
+    "authorId": "1490644954",
+    "name": "Kirill Fedyanin"
+   },
+   {
+    "authorId": "2141773765",
+    "name": "Daniil Vasilev"
+   },
+   {
+    "authorId": "2266389312",
+    "name": "E. Goncharova"
+   },
+   {
+    "authorId": "2266390354",
+    "name": "Alexander Panchenko"
+   },
+   {
+    "authorId": "2266389924",
+    "name": "Maxim Panov"
+   },
+   {
+    "authorId": "2266394314",
+    "name": "Timothy Baldwin"
+   },
+   {
+    "authorId": "1967424",
+    "name": "Artem Shelmanov"
+   }
+  ]
+ }
+}

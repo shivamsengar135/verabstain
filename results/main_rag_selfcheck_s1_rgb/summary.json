@@ -1,0 +1,20 @@
+{
+ "run_id": "main_rag_selfcheck_s1_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "rag_selfcheck",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6061538461538462,
+ "rejected": 0.0,
+ "fake_answer": 0.94,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 6.0,
+ "mean_prompt_tokens": 8093.949230769231,
+ "mean_completion_tokens": 38.42846153846154,
+ "mean_llm_seconds": 17.801484168461585,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 12.680240260461499,
+ "wall_s": 2021.4181590080261
+}

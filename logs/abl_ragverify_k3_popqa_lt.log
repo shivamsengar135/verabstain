@@ -1,0 +1,38 @@
+2026-11-06 22:12:20,620 INFO START abl_ragverify_k3_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-06 22:12:35,132 INFO abl_ragverify_k3_popqa_lt: 25/500 done, 0 errors, 14s
+2026-11-06 22:12:36,091 WARNING PAUSE: gpu_temp=81 cpu_zone=54.9 cpu_load=23.3 on_battery=False
+2026-11-06 22:12:56,101 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.2
+2026-11-06 22:13:06,875 INFO abl_ragverify_k3_popqa_lt: 50/500 done, 0 errors, 46s
+2026-11-06 22:13:16,538 INFO abl_ragverify_k3_popqa_lt: 75/500 done, 0 errors, 56s
+2026-11-06 22:13:26,789 INFO abl_ragverify_k3_popqa_lt: 100/500 done, 0 errors, 66s
+2026-11-06 22:13:27,596 WARNING PAUSE: gpu_temp=81 cpu_zone=54.9 cpu_load=17.6 on_battery=False
+2026-11-06 22:13:47,607 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.5
+2026-11-06 22:13:56,554 INFO abl_ragverify_k3_popqa_lt: 125/500 done, 0 errors, 96s
+2026-11-06 22:14:07,467 INFO abl_ragverify_k3_popqa_lt: 150/500 done, 0 errors, 107s
+2026-11-06 22:14:19,406 INFO abl_ragverify_k3_popqa_lt: 175/500 done, 0 errors, 119s
+2026-11-06 22:14:19,639 WARNING PAUSE: gpu_temp=81 cpu_zone=52.9 cpu_load=17.8 on_battery=False
+2026-11-06 22:14:39,649 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.9
+2026-11-06 22:14:51,266 INFO abl_ragverify_k3_popqa_lt: 200/500 done, 0 errors, 150s
+2026-11-06 22:15:03,731 INFO abl_ragverify_k3_popqa_lt: 225/500 done, 0 errors, 163s
+2026-11-06 22:15:05,668 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=20.1 on_battery=False
+2026-11-06 22:15:25,678 WARNING RESUME: gpu_temp=45 cpu_zone=46.9 cpu_load=4.7
+2026-11-06 22:15:34,386 INFO abl_ragverify_k3_popqa_lt: 250/500 done, 0 errors, 194s
+2026-11-06 22:15:44,055 INFO abl_ragverify_k3_popqa_lt: 275/500 done, 0 errors, 203s
+2026-11-06 22:15:52,672 INFO abl_ragverify_k3_popqa_lt: 300/500 done, 0 errors, 212s
+2026-11-06 22:15:55,698 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=15.7 on_battery=False
+2026-11-06 22:16:15,713 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=2.9
+2026-11-06 22:16:21,855 INFO abl_ragverify_k3_popqa_lt: 325/500 done, 0 errors, 241s
+2026-11-06 22:16:31,312 INFO abl_ragverify_k3_popqa_lt: 350/500 done, 0 errors, 251s
+2026-11-06 22:16:41,730 WARNING PAUSE: gpu_temp=83 cpu_zone=51.9 cpu_load=15.3 on_battery=False
+2026-11-06 22:16:42,103 INFO abl_ragverify_k3_popqa_lt: 375/500 done, 0 errors, 261s
+2026-11-06 22:17:01,745 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=2.1
+2026-11-06 22:17:11,665 INFO abl_ragverify_k3_popqa_lt: 400/500 done, 0 errors, 291s
+2026-11-06 22:17:21,827 INFO abl_ragverify_k3_popqa_lt: 425/500 done, 0 errors, 301s
+2026-11-06 22:17:29,762 WARNING PAUSE: gpu_temp=81 cpu_zone=50.9 cpu_load=10.9 on_battery=False
+2026-11-06 22:17:49,777 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.7
+2026-11-06 22:17:52,490 INFO abl_ragverify_k3_popqa_lt: 450/500 done, 0 errors, 332s
+2026-11-06 22:18:00,956 INFO abl_ragverify_k3_popqa_lt: 475/500 done, 0 errors, 340s
+2026-11-06 22:18:07,789 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=12.2 on_battery=False
+2026-11-06 22:18:27,805 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.3
+2026-11-06 22:18:29,358 INFO abl_ragverify_k3_popqa_lt: 500/500 done, 0 errors, 369s
+2026-11-06 22:18:29,975 INFO END abl_ragverify_k3_popqa_lt: complete, wall 6.1 min, stats {'llm_calls': 647, 'cache_hits': 533, 'prompt_tokens': 251878, 'completion_tokens': 16707, 'llm_seconds': 1941.2740429999503, 'retrievals': 0, 'verifier_pairs': 0}

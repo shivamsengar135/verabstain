@@ -1,0 +1,57 @@
+{
+ "seed": {
+  "key": "uawebfc2026",
+  "title": "Uncertainty-Aware Web-Conditioned Scientific Fact-Checking",
+  "arxiv_id": "2604.11036",
+  "category": "verification",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Uncertainty-Aware Web-Conditioned Scientific Fact-Checking",
+  "authors": [
+   "Ashwin Vinod",
+   "Katrin Erk"
+  ],
+  "abstract": "Scientific fact-checking is vital for assessing claims in specialized domains such as biomedicine and materials science, yet existing systems often hallucinate or apply inconsistent reasoning, especially when verifying technical, compositional claims against an evidence snippet under source and cost/latency constraints. We present a pipeline centered on atomic predicate-argument decomposition and calibrated, uncertainty-gated corroboration: atomic facts are aligned to local snippets via embeddings, verified by a compact evidence-grounded checker, and only facts with uncertain support trigger domain-restricted web search over authoritative sources. The system supports both binary and tri-valued classification where it predicts labels from Supported, Refuted, NEI for three-way tasks. We evaluate under two regimes, Context-Only (no web) and Context+Web (uncertainty-gated web corroboration); when retrieved evidence conflicts with the provided context, we abstain with NEI rather than overriding the context. On multiple benchmarks, our framework surpasses the strongest benchmarks. In our experiments, web corroboration was invoked for only a minority of atomic facts on average, indicating that external evidence is consulted selectively under calibrated uncertainty rather than routinely. Overall, coupling atomic granularity with calibrated, uncertainty-gated corroboration yields more interpretable and context-conditioned verification, making the approach well-suited to high-stakes, single-document settings that demand traceable rationales, predictable cost/latency, and conservative.",
+  "published": "2026-04-13",
+  "arxiv_id": "2604.11036",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "adf33bcf3423e2e24b5e28d31a8a63ff60bd1924",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2604-11036",
+   "ArXiv": "2604.11036",
+   "DOI": "10.1145/3774904.3792951",
+   "CorpusId": 287406745
+  },
+  "publicationVenue": {
+   "id": "e07422f9-c065-40c3-a37b-75e98dce79fe",
+   "name": "The Web Conference",
+   "type": "conference",
+   "alternate_names": [
+    "Web Conf",
+    "WWW"
+   ],
+   "url": "http://www.iw3c2.org/"
+  },
+  "title": "Uncertainty-Aware Web-Conditioned Scientific Fact-Checking",
+  "venue": "The Web Conference",
+  "year": 2026,
+  "publicationDate": "2026-04-12",
+  "journal": {
+   "name": "Proceedings of the ACM Web Conference 2026"
+  },
+  "authors": [
+   {
+    "authorId": "145800543",
+    "name": "A. Vinod"
+   },
+   {
+    "authorId": "2271297328",
+    "name": "Katrin Erk"
+   }
+  ]
+ }
+}

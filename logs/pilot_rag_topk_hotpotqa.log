@@ -1,0 +1,18 @@
+2026-11-04 23:23:37,863 INFO START pilot_rag_topk_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:23:41,894 ERROR JOB FAILED pilot_rag_topk_hotpotqa:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 259, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 158, in run_job
+    st = llm_server.start(job["server"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\llm_server.py", line 94, in start
+    raise RuntimeError(f"llama-server exited early (code {p.returncode}); see {log}")
+RuntimeError: llama-server exited early (code 1); see C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\logs\server\qwen7b_q4-20261104-232337.log
+
+2026-11-04 23:25:58,755 INFO START pilot_rag_topk_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:26:07,969 INFO pilot_rag_topk_hotpotqa: 25/100 done, 0 errors, 9s
+2026-11-04 23:26:14,157 INFO pilot_rag_topk_hotpotqa: 50/100 done, 0 errors, 15s
+2026-11-04 23:26:20,924 INFO pilot_rag_topk_hotpotqa: 75/100 done, 0 errors, 22s
+2026-11-04 23:26:26,457 INFO pilot_rag_topk_hotpotqa: 100/100 done, 0 errors, 28s
+2026-11-04 23:26:26,472 INFO END pilot_rag_topk_hotpotqa: complete, wall 0.5 min, stats {'llm_calls': 100, 'cache_hits': 0, 'prompt_tokens': 61437, 'completion_tokens': 495, 'llm_seconds': 218.99241150003218, 'retrievals': 0, 'verifier_pairs': 0}

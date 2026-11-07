@@ -1,0 +1,29 @@
+2026-11-05 02:50:31,876 ERROR JOB FAILED devB_rag_rerank_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 290, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 170, in run_job
+    examples = D.load(job["dataset"], job["split"], job.get("n"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in load
+    return [byid[i] for i in want]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in <listcomp>
+    return [byid[i] for i in want]
+            ~~~~^^^
+KeyError: 'pubdev:there'
+
+2026-11-05 02:58:30,182 INFO START devB_rag_rerank_pubhealth: 300/300 examples to run; projected 8 min
+2026-11-05 02:58:30,633 INFO devB_rag_rerank_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 02:58:30,821 INFO devB_rag_rerank_pubhealth: 50/300 done, 0 errors, 0s
+2026-11-05 02:58:30,998 INFO devB_rag_rerank_pubhealth: 75/300 done, 0 errors, 1s
+2026-11-05 02:58:36,741 INFO devB_rag_rerank_pubhealth: 100/300 done, 0 errors, 6s
+2026-11-05 02:58:43,544 INFO devB_rag_rerank_pubhealth: 125/300 done, 0 errors, 13s
+2026-11-05 02:58:50,248 INFO devB_rag_rerank_pubhealth: 150/300 done, 0 errors, 20s
+2026-11-05 02:58:56,988 INFO devB_rag_rerank_pubhealth: 175/300 done, 0 errors, 27s
+2026-11-05 02:59:02,111 INFO devB_rag_rerank_pubhealth: 200/300 done, 0 errors, 32s
+2026-11-05 02:59:08,154 INFO devB_rag_rerank_pubhealth: 225/300 done, 0 errors, 38s
+2026-11-05 02:59:15,044 INFO devB_rag_rerank_pubhealth: 250/300 done, 0 errors, 45s
+2026-11-05 02:59:21,787 INFO devB_rag_rerank_pubhealth: 275/300 done, 0 errors, 51s
+2026-11-05 02:59:27,526 INFO devB_rag_rerank_pubhealth: 300/300 done, 0 errors, 57s
+2026-11-05 02:59:27,836 INFO END devB_rag_rerank_pubhealth: complete, wall 1.0 min, stats {'llm_calls': 187, 'cache_hits': 113, 'prompt_tokens': 117491, 'completion_tokens': 374, 'llm_seconds': 370.45943630015245, 'retrievals': 0, 'verifier_pairs': 0}

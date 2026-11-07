@@ -1,0 +1,72 @@
+{
+ "seed": {
+  "key": "pave2026",
+  "title": "PAVE: Premise-Aware Validation and Editing for Retrieval-Augmented LLMs",
+  "arxiv_id": "2603.20673",
+  "category": "verification",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "PAVE: Premise-Aware Validation and Editing for Retrieval-Augmented LLMs",
+  "authors": [
+   "Tianyi Huang",
+   "Caden Yang",
+   "Emily Yin",
+   "Eric Wang",
+   "Michael Zhang"
+  ],
+  "abstract": "Retrieval-augmented language models can retrieve relevant evidence yet still commit to answers before explicitly checking whether the retrieved context supports the conclusion. We present PAVE (Premise-Grounded Answer Validation and Editing), an inference-time validation layer for evidence-grounded question answering. PAVE decomposes retrieved context into question-conditioned atomic facts, drafts an answer, scores how well that draft is supported by the extracted premises, and revises low-support outputs before finalization. The resulting trace makes answer commitment auditable at the level of explicit premises, support scores, and revision decisions. In controlled ablations with a fixed retriever and backbone, PAVE outperforms simpler post-retrieval baselines in two evidence-grounded QA settings, with the largest gain reaching 32.7 accuracy points on a span-grounded benchmark. We view these findings as proof-of-concept evidence that explicit premise extraction plus support-gated revision can strengthen evidence-grounded consistency in retrieval-augmented LLM systems.",
+  "published": "2026-03-21",
+  "arxiv_id": "2603.20673",
+  "comment": "Accepted at the ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "6a1c5a08028819ede627fc7b1718511b10473a26",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2603-20673",
+   "ArXiv": "2603.20673",
+   "DOI": "10.48550/arXiv.2603.20673",
+   "CorpusId": 286762450
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "PAVE: Premise-Aware Validation and Editing for Retrieval-Augmented LLMs",
+  "venue": "arXiv.org",
+  "year": 2026,
+  "publicationDate": "2026-03-21",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2603.20673"
+  },
+  "authors": [
+   {
+    "authorId": "2330715558",
+    "name": "Tian-Yi Huang"
+   },
+   {
+    "authorId": "2425418452",
+    "name": "Caden Yang"
+   },
+   {
+    "authorId": "2425316097",
+    "name": "Emily Yin"
+   },
+   {
+    "authorId": "2349310128",
+    "name": "Eric Wang"
+   },
+   {
+    "authorId": "2271265959",
+    "name": "Michael R. Zhang"
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+2026-11-04 23:50:14,057 INFO START pilot_flare_triviaqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:50:44,063 INFO pilot_flare_triviaqa: 25/100 done, 0 errors, 30s
+2026-11-04 23:50:51,137 INFO pilot_flare_triviaqa: 50/100 done, 0 errors, 37s
+2026-11-04 23:51:01,211 INFO pilot_flare_triviaqa: 75/100 done, 0 errors, 47s
+2026-11-04 23:51:11,664 INFO pilot_flare_triviaqa: 100/100 done, 0 errors, 57s
+2026-11-04 23:51:11,676 INFO END pilot_flare_triviaqa: complete, wall 1.0 min, stats {'llm_calls': 123, 'cache_hits': 177, 'prompt_tokens': 73659, 'completion_tokens': 669, 'llm_seconds': 220.999548499909, 'retrievals': 0, 'verifier_pairs': 0}

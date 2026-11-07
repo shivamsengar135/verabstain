@@ -1,0 +1,2 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 9 files:  11%|#1        | 1/9 [00:00<00:02,  3.08it/s]Fetching 9 files:  22%|##2       | 2/9 [00:00<00:01,  5.04it/s]Fetching 9 files:  67%|######6   | 6/9 [00:00<00:00,  9.20it/s]Fetching 9 files:  89%|########8 | 8/9 [00:03<00:00,  1.61it/s]EXIT=127

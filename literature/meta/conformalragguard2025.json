@@ -1,0 +1,52 @@
+{
+ "seed": {
+  "key": "conformalragguard2025",
+  "title": "?",
+  "arxiv_id": "2512.15068",
+  "category": "conformal",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+  "authors": [
+   "Debu Sinha"
+  ],
+  "abstract": "Retrieval-Augmented Generation (RAG) systems remain susceptible to hallucinations despite grounding in retrieved evidence. While current detection methods leverage embedding similarity and natural language inference (NLI), their reliability in safety-critical settings remains unproven. We apply conformal prediction to RAG hallucination detection, transforming heuristic scores into decision sets with finite-sample coverage guarantees (1-alpha). Using calibration sets of n=600, we demonstrate a fundamental dichotomy: on synthetic hallucinations (Natural Questions), embedding methods achieve 95% coverage with 0% False Positive Rate (FPR). However, on real hallucinations from RLHF-aligned models (HaluEval), the same methods fail catastrophically, yielding 100% FPR at target coverage. We analyze this failure through the lens of distributional tails, showing that while NLI models achieve acceptable AUC (0.81), the \"hardest\" hallucinations are semantically indistinguishable from faithful responses, forcing conformal thresholds to reject nearly all valid outputs. Crucially, GPT-4 as a judge achieves 7% FPR (95% CI:[3.4%, 13.7%]) on the same data, proving the task is solvable via reasoning but opaque to surface-level semantics--a phenomenon we term the \"Semantic Illusion.\"",
+  "published": "2025-12-17",
+  "arxiv_id": "2512.15068",
+  "comment": "12 pages, 3 figures, 5 tables",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "b8e4b7e83634583dcf69ac7cce95f135ba988cf8",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2512-15068",
+   "ArXiv": "2512.15068",
+   "DOI": "10.48550/arXiv.2512.15068",
+   "CorpusId": 283920774
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+  "venue": "arXiv.org",
+  "year": 2025,
+  "publicationDate": "2025-12-17",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2512.15068"
+  },
+  "authors": [
+   {
+    "authorId": "2399032889",
+    "name": "Debu Sinha"
+   }
+  ]
+ }
+}

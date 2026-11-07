@@ -1,0 +1,24 @@
+2026-11-07 00:36:19,196 INFO START sec3b_flare_pubhealth: 500/500 examples to run; projected 7 min
+2026-11-07 00:36:48,019 INFO sec3b_flare_pubhealth: 25/500 done, 0 errors, 29s
+2026-11-07 00:36:54,573 INFO sec3b_flare_pubhealth: 50/500 done, 0 errors, 35s
+2026-11-07 00:37:00,743 INFO sec3b_flare_pubhealth: 75/500 done, 0 errors, 41s
+2026-11-07 00:37:10,061 INFO sec3b_flare_pubhealth: 100/500 done, 0 errors, 51s
+2026-11-07 00:37:17,799 INFO sec3b_flare_pubhealth: 125/500 done, 0 errors, 58s
+2026-11-07 00:37:25,552 INFO sec3b_flare_pubhealth: 150/500 done, 0 errors, 66s
+2026-11-07 00:37:26,732 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=27.3 on_battery=False
+2026-11-07 00:37:46,883 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.9
+2026-11-07 00:37:52,175 INFO sec3b_flare_pubhealth: 175/500 done, 0 errors, 93s
+2026-11-07 00:37:58,565 INFO sec3b_flare_pubhealth: 200/500 done, 0 errors, 99s
+2026-11-07 00:38:05,859 INFO sec3b_flare_pubhealth: 225/500 done, 0 errors, 107s
+2026-11-07 00:38:13,721 INFO sec3b_flare_pubhealth: 250/500 done, 0 errors, 114s
+2026-11-07 00:38:19,711 INFO sec3b_flare_pubhealth: 275/500 done, 0 errors, 120s
+2026-11-07 00:38:26,060 INFO sec3b_flare_pubhealth: 300/500 done, 0 errors, 127s
+2026-11-07 00:38:33,876 INFO sec3b_flare_pubhealth: 325/500 done, 0 errors, 135s
+2026-11-07 00:38:41,479 INFO sec3b_flare_pubhealth: 350/500 done, 0 errors, 142s
+2026-11-07 00:38:47,663 INFO sec3b_flare_pubhealth: 375/500 done, 0 errors, 148s
+2026-11-07 00:38:54,585 INFO sec3b_flare_pubhealth: 400/500 done, 0 errors, 155s
+2026-11-07 00:39:03,454 INFO sec3b_flare_pubhealth: 425/500 done, 0 errors, 164s
+2026-11-07 00:39:10,220 INFO sec3b_flare_pubhealth: 450/500 done, 0 errors, 171s
+2026-11-07 00:39:16,859 INFO sec3b_flare_pubhealth: 475/500 done, 0 errors, 178s
+2026-11-07 00:39:22,944 INFO sec3b_flare_pubhealth: 500/500 done, 0 errors, 184s
+2026-11-07 00:39:23,826 INFO END sec3b_flare_pubhealth: complete, wall 3.1 min, stats {'llm_calls': 656, 'cache_hits': 817, 'prompt_tokens': 404499, 'completion_tokens': 1564, 'llm_seconds': 460.4227378000578, 'retrievals': 0, 'verifier_pairs': 0}

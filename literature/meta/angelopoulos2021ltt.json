@@ -1,0 +1,80 @@
+{
+ "seed": {
+  "key": "angelopoulos2021ltt",
+  "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+  "arxiv_id": "2110.01052",
+  "category": "conformal",
+  "role": "method-component"
+ },
+ "arxiv": {
+  "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+  "authors": [
+   "Anastasios N. Angelopoulos",
+   "Stephen Bates",
+   "Emmanuel J. Candès",
+   "Michael I. Jordan",
+   "Lihua Lei"
+  ],
+  "abstract": "We introduce a framework for calibrating machine learning models so that their predictions satisfy explicit, finite-sample statistical guarantees. Our calibration algorithms work with any underlying model and (unknown) data-generating distribution and do not require model refitting. The framework addresses, among other examples, false discovery rate control in multi-label classification, intersection-over-union control in instance segmentation, and the simultaneous control of the type-1 error of outlier detection and confidence set coverage in classification or regression. Our main insight is to reframe the risk-control problem as multiple hypothesis testing, enabling techniques and mathematical arguments different from those in the previous literature. We use the framework to provide new calibration methods for several core machine learning tasks, with detailed worked examples in computer vision and tabular medical data.",
+  "published": "2021-10-03",
+  "arxiv_id": "2110.01052",
+  "comment": "Code available at https://github.com/aangelopoulos/ltt",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "b5437d881723437508de4173142ef4b21c81bfe2",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2110-01052",
+   "ArXiv": "2110.01052",
+   "DOI": "10.48550/arXiv.2110.01052",
+   "CorpusId": 238259034
+  },
+  "publicationVenue": {
+   "id": "8b03733e-25e3-49b5-803c-58c0e9e11180",
+   "name": "Annals of Applied Statistics",
+   "type": "journal",
+   "alternate_names": [
+    "Ann Appl Stat",
+    "The Annals of Applied Statistics"
+   ],
+   "issn": "1932-6157",
+   "url": "http://www.imstat.org/aoas/",
+   "alternate_urls": [
+    "http://www.jstor.org/action/showPublication?journalCode=annaapplstat",
+    "https://www.imstat.org/journals-and-publications/annals-of-applied-statistics/",
+    "https://projecteuclid.org/DPubS?handle=euclid.aoas&service=UI&verb=Display&version=1.0",
+    "https://www.jstor.org/journal/annaapplstat"
+   ]
+  },
+  "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+  "venue": "Annals of Applied Statistics",
+  "year": 2021,
+  "publicationDate": "2021-10-03",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2110.01052"
+  },
+  "authors": [
+   {
+    "authorId": "153331364",
+    "name": "Anastasios Nikolas Angelopoulos"
+   },
+   {
+    "authorId": "153079946",
+    "name": "Stephen Bates"
+   },
+   {
+    "authorId": "2006869",
+    "name": "E. Candès"
+   },
+   {
+    "authorId": "1694621",
+    "name": "Michael I. Jordan"
+   },
+   {
+    "authorId": "40239086",
+    "name": "Li-Hua Lei"
+   }
+  ]
+ }
+}

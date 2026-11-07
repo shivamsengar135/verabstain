@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rarr_pubhealth",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rarr",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.53,
+ "match": 0.53,
+ "match_norm": 0.53,
+ "em": 0.53,
+ "f1": 0.53,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 8.52,
+ "mean_prompt_tokens": 8788.39,
+ "mean_completion_tokens": 930.55,
+ "mean_llm_seconds": 47.00753387099466,
+ "mean_retrievals": 4.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 48.041166611998634,
+ "wall_s": 616.1753067970276
+}

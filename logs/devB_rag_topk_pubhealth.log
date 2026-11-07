@@ -1,0 +1,29 @@
+2026-11-05 02:50:31,871 ERROR JOB FAILED devB_rag_topk_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 290, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 170, in run_job
+    examples = D.load(job["dataset"], job["split"], job.get("n"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in load
+    return [byid[i] for i in want]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in <listcomp>
+    return [byid[i] for i in want]
+            ~~~~^^^
+KeyError: 'pubdev:there'
+
+2026-11-05 02:57:22,242 INFO START devB_rag_topk_pubhealth: 300/300 examples to run; projected 8 min
+2026-11-05 02:57:28,210 INFO devB_rag_topk_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 02:57:28,257 INFO devB_rag_topk_pubhealth: 50/300 done, 0 errors, 0s
+2026-11-05 02:57:28,314 INFO devB_rag_topk_pubhealth: 75/300 done, 0 errors, 0s
+2026-11-05 02:57:28,356 INFO devB_rag_topk_pubhealth: 100/300 done, 0 errors, 0s
+2026-11-05 02:57:45,283 INFO devB_rag_topk_pubhealth: 125/300 done, 0 errors, 17s
+2026-11-05 02:57:51,734 INFO devB_rag_topk_pubhealth: 150/300 done, 0 errors, 24s
+2026-11-05 02:57:58,730 INFO devB_rag_topk_pubhealth: 175/300 done, 0 errors, 31s
+2026-11-05 02:58:04,774 INFO devB_rag_topk_pubhealth: 200/300 done, 0 errors, 37s
+2026-11-05 02:58:10,742 INFO devB_rag_topk_pubhealth: 225/300 done, 0 errors, 43s
+2026-11-05 02:58:17,037 INFO devB_rag_topk_pubhealth: 250/300 done, 0 errors, 49s
+2026-11-05 02:58:23,810 INFO devB_rag_topk_pubhealth: 275/300 done, 0 errors, 56s
+2026-11-05 02:58:29,618 INFO devB_rag_topk_pubhealth: 300/300 done, 0 errors, 61s
+2026-11-05 02:58:30,176 INFO END devB_rag_topk_pubhealth: complete, wall 1.0 min, stats {'llm_calls': 200, 'cache_hits': 100, 'prompt_tokens': 126498, 'completion_tokens': 400, 'llm_seconds': 388.1062726000964, 'retrievals': 0, 'verifier_pairs': 0}

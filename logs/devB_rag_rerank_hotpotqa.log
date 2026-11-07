@@ -1,0 +1,14 @@
+2026-11-05 02:37:10,365 INFO START devB_rag_rerank_hotpotqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:37:10,682 INFO devB_rag_rerank_hotpotqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:37:10,781 INFO devB_rag_rerank_hotpotqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:37:10,893 INFO devB_rag_rerank_hotpotqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:37:10,985 INFO devB_rag_rerank_hotpotqa: 100/300 done, 0 errors, 0s
+2026-11-05 02:37:29,394 INFO devB_rag_rerank_hotpotqa: 125/300 done, 0 errors, 19s
+2026-11-05 02:37:34,096 INFO devB_rag_rerank_hotpotqa: 150/300 done, 0 errors, 24s
+2026-11-05 02:37:41,044 INFO devB_rag_rerank_hotpotqa: 175/300 done, 0 errors, 31s
+2026-11-05 02:37:46,666 INFO devB_rag_rerank_hotpotqa: 200/300 done, 0 errors, 36s
+2026-11-05 02:37:52,229 INFO devB_rag_rerank_hotpotqa: 225/300 done, 0 errors, 42s
+2026-11-05 02:37:57,781 INFO devB_rag_rerank_hotpotqa: 250/300 done, 0 errors, 47s
+2026-11-05 02:38:04,399 INFO devB_rag_rerank_hotpotqa: 275/300 done, 0 errors, 54s
+2026-11-05 02:38:09,274 INFO devB_rag_rerank_hotpotqa: 300/300 done, 0 errors, 59s
+2026-11-05 02:38:09,601 INFO END devB_rag_rerank_hotpotqa: complete, wall 1.0 min, stats {'llm_calls': 171, 'cache_hits': 129, 'prompt_tokens': 101244, 'completion_tokens': 842, 'llm_seconds': 336.1678483999858, 'retrievals': 0, 'verifier_pairs': 0}

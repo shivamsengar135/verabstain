@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_chain_of_note_triviaqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "chain_of_note",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.44,
+ "match": 0.44,
+ "match_norm": 0.46,
+ "em": 0.44,
+ "f1": 0.4708571428571428,
+ "native_abstain_rate": 0.36,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 706.07,
+ "mean_completion_tokens": 166.4,
+ "mean_llm_seconds": 10.07975902399994,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 10.083520713999896,
+ "wall_s": 128.37723779678345
+}

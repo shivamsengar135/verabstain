@@ -1,0 +1,24 @@
+[22:31:06] bm25 tokenized 250,000/5,302,804 passages, vocab 277,111
+[22:31:18] bm25 tokenized 500,000/5,302,804 passages, vocab 461,639
+[22:31:31] bm25 tokenized 750,000/5,302,804 passages, vocab 618,818
+[22:31:42] bm25 tokenized 1,000,000/5,302,804 passages, vocab 758,250
+[22:31:54] bm25 tokenized 1,250,000/5,302,804 passages, vocab 891,614
+[22:32:05] bm25 tokenized 1,500,000/5,302,804 passages, vocab 1,011,900
+[22:32:15] bm25 tokenized 1,750,000/5,302,804 passages, vocab 1,126,351
+[22:32:25] bm25 tokenized 2,000,000/5,302,804 passages, vocab 1,244,539
+[22:32:35] bm25 tokenized 2,250,000/5,302,804 passages, vocab 1,359,102
+[22:32:45] bm25 tokenized 2,500,000/5,302,804 passages, vocab 1,474,661
+[22:32:55] bm25 tokenized 2,750,000/5,302,804 passages, vocab 1,587,852
+[22:33:05] bm25 tokenized 3,000,000/5,302,804 passages, vocab 1,688,700
+[22:33:16] bm25 tokenized 3,250,000/5,302,804 passages, vocab 1,783,391
+[22:33:27] bm25 tokenized 3,500,000/5,302,804 passages, vocab 1,876,736
+[22:33:38] bm25 tokenized 3,750,000/5,302,804 passages, vocab 1,983,386
+[22:33:50] bm25 tokenized 4,000,000/5,302,804 passages, vocab 2,094,313
+[22:34:01] bm25 tokenized 4,250,000/5,302,804 passages, vocab 2,210,181
+[22:34:13] bm25 tokenized 4,500,000/5,302,804 passages, vocab 2,299,655
+[22:34:27] bm25 tokenized 4,750,000/5,302,804 passages, vocab 2,378,695
+[22:34:42] bm25 tokenized 5,000,000/5,302,804 passages, vocab 2,460,064
+[22:34:55] bm25 tokenized 5,250,000/5,302,804 passages, vocab 2,536,644
+[22:34:58] bm25 tokenized 5,302,804/5,302,804 passages, vocab 2,553,236
+[22:35:26] {"k1": 0.9, "b": 0.4, "avgdl": 29.369420593331377, "vocab": 2553236, "postings": 120328996, "idf": "log(1+(N-df+0.5)/(df+0.5))", "tokenizer": "lowercase \\w+, sklearn ENGLISH_STOP_WORDS removed, PyStemmer english", "weights": "float16"}
+EXIT=0

@@ -1,0 +1,22 @@
+{
+ "run_id": "main_rarr_pubhealth",
+ "n": 987,
+ "n_expected": 987,
+ "method": "rarr",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.5440729483282675,
+ "match": 0.5440729483282675,
+ "match_norm": 0.5440729483282675,
+ "em": 0.5440729483282675,
+ "f1": 0.5440729483282675,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 6.034447821681864,
+ "mean_prompt_tokens": 6898.104356636271,
+ "mean_completion_tokens": 403.4447821681864,
+ "mean_llm_seconds": 36.82653936930088,
+ "mean_retrievals": 3.611955420466059,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 35.048187891185435,
+ "wall_s": 6141.5147750377655
+}

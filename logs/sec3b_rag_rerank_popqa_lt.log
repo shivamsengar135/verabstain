@@ -1,0 +1,27 @@
+2026-11-06 23:30:13,089 INFO START sec3b_rag_rerank_popqa_lt: 500/500 examples to run; projected 8 min
+2026-11-06 23:30:32,235 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.4
+2026-11-06 23:30:36,472 INFO sec3b_rag_rerank_popqa_lt: 25/500 done, 0 errors, 23s
+2026-11-06 23:30:39,840 INFO sec3b_rag_rerank_popqa_lt: 50/500 done, 0 errors, 27s
+2026-11-06 23:30:43,188 INFO sec3b_rag_rerank_popqa_lt: 75/500 done, 0 errors, 30s
+2026-11-06 23:30:46,367 INFO sec3b_rag_rerank_popqa_lt: 100/500 done, 0 errors, 33s
+2026-11-06 23:30:49,799 INFO sec3b_rag_rerank_popqa_lt: 125/500 done, 0 errors, 37s
+2026-11-06 23:30:52,857 INFO sec3b_rag_rerank_popqa_lt: 150/500 done, 0 errors, 40s
+2026-11-06 23:30:56,336 INFO sec3b_rag_rerank_popqa_lt: 175/500 done, 0 errors, 43s
+2026-11-06 23:30:59,786 INFO sec3b_rag_rerank_popqa_lt: 200/500 done, 0 errors, 47s
+2026-11-06 23:31:03,058 INFO sec3b_rag_rerank_popqa_lt: 225/500 done, 0 errors, 50s
+2026-11-06 23:31:06,113 INFO sec3b_rag_rerank_popqa_lt: 250/500 done, 0 errors, 53s
+2026-11-06 23:31:08,262 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=14.7 on_battery=False
+2026-11-06 23:31:08,669 INFO sec3b_rag_rerank_popqa_lt: 275/500 done, 0 errors, 55s
+2026-11-06 23:31:28,273 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=4.5
+2026-11-06 23:31:32,192 INFO sec3b_rag_rerank_popqa_lt: 300/500 done, 0 errors, 79s
+2026-11-06 23:31:35,642 INFO sec3b_rag_rerank_popqa_lt: 325/500 done, 0 errors, 82s
+2026-11-06 23:31:38,799 INFO sec3b_rag_rerank_popqa_lt: 350/500 done, 0 errors, 86s
+2026-11-06 23:31:42,513 INFO sec3b_rag_rerank_popqa_lt: 375/500 done, 0 errors, 89s
+2026-11-06 23:31:45,515 INFO sec3b_rag_rerank_popqa_lt: 400/500 done, 0 errors, 92s
+2026-11-06 23:31:48,286 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=14.4 on_battery=False
+2026-11-06 23:31:48,615 INFO sec3b_rag_rerank_popqa_lt: 425/500 done, 0 errors, 95s
+2026-11-06 23:32:08,298 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=3.3
+2026-11-06 23:32:12,302 INFO sec3b_rag_rerank_popqa_lt: 450/500 done, 0 errors, 119s
+2026-11-06 23:32:15,589 INFO sec3b_rag_rerank_popqa_lt: 475/500 done, 0 errors, 122s
+2026-11-06 23:32:18,567 INFO sec3b_rag_rerank_popqa_lt: 500/500 done, 0 errors, 125s
+2026-11-06 23:32:18,763 INFO END sec3b_rag_rerank_popqa_lt: complete, wall 2.1 min, stats {'llm_calls': 499, 'cache_hits': 1, 'prompt_tokens': 258085, 'completion_tokens': 2729, 'llm_seconds': 520.4061581999449, 'retrievals': 0, 'verifier_pairs': 0}

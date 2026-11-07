@@ -1,0 +1,7 @@
+2026-11-05 00:30:18,543 INFO START pilot_crag_triviaqa: 100/100 examples to run; projected 10 min
+2026-11-05 00:41:45,611 INFO START pilot_crag_triviaqa: 100/100 examples to run; projected 10 min
+2026-11-05 00:42:51,278 INFO pilot_crag_triviaqa: 25/100 done, 0 errors, 64s
+2026-11-05 00:43:38,631 INFO pilot_crag_triviaqa: 50/100 done, 0 errors, 111s
+2026-11-05 00:44:28,438 INFO pilot_crag_triviaqa: 75/100 done, 0 errors, 161s
+2026-11-05 00:45:08,321 INFO pilot_crag_triviaqa: 100/100 done, 0 errors, 201s
+2026-11-05 00:45:08,325 INFO END pilot_crag_triviaqa: complete, wall 3.3 min, stats {'llm_calls': 394, 'cache_hits': 6, 'prompt_tokens': 189560, 'completion_tokens': 2395, 'llm_seconds': 967.3025304000039, 'retrievals': 0, 'verifier_pairs': 0}

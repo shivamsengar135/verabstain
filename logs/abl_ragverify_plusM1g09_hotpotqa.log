@@ -1,0 +1,22 @@
+2026-11-06 22:32:20,928 INFO START abl_ragverify_plusM1g09_hotpotqa: 500/500 examples to run; projected 25 min
+2026-11-06 22:32:21,276 INFO abl_ragverify_plusM1g09_hotpotqa: 25/500 done, 0 errors, 0s
+2026-11-06 22:32:21,479 INFO abl_ragverify_plusM1g09_hotpotqa: 50/500 done, 0 errors, 0s
+2026-11-06 22:32:21,752 INFO abl_ragverify_plusM1g09_hotpotqa: 75/500 done, 0 errors, 1s
+2026-11-06 22:32:21,946 INFO abl_ragverify_plusM1g09_hotpotqa: 100/500 done, 0 errors, 1s
+2026-11-06 22:32:22,164 INFO abl_ragverify_plusM1g09_hotpotqa: 125/500 done, 0 errors, 1s
+2026-11-06 22:32:22,324 INFO abl_ragverify_plusM1g09_hotpotqa: 150/500 done, 0 errors, 1s
+2026-11-06 22:32:22,529 INFO abl_ragverify_plusM1g09_hotpotqa: 175/500 done, 0 errors, 1s
+2026-11-06 22:32:22,689 INFO abl_ragverify_plusM1g09_hotpotqa: 200/500 done, 0 errors, 2s
+2026-11-06 22:32:22,839 INFO abl_ragverify_plusM1g09_hotpotqa: 225/500 done, 0 errors, 2s
+2026-11-06 22:32:23,037 INFO abl_ragverify_plusM1g09_hotpotqa: 250/500 done, 0 errors, 2s
+2026-11-06 22:32:23,203 INFO abl_ragverify_plusM1g09_hotpotqa: 275/500 done, 0 errors, 2s
+2026-11-06 22:32:23,396 INFO abl_ragverify_plusM1g09_hotpotqa: 300/500 done, 0 errors, 2s
+2026-11-06 22:32:23,575 INFO abl_ragverify_plusM1g09_hotpotqa: 325/500 done, 0 errors, 3s
+2026-11-06 22:32:23,712 INFO abl_ragverify_plusM1g09_hotpotqa: 350/500 done, 0 errors, 3s
+2026-11-06 22:32:23,848 INFO abl_ragverify_plusM1g09_hotpotqa: 375/500 done, 0 errors, 3s
+2026-11-06 22:32:23,984 INFO abl_ragverify_plusM1g09_hotpotqa: 400/500 done, 0 errors, 3s
+2026-11-06 22:32:24,084 INFO abl_ragverify_plusM1g09_hotpotqa: 425/500 done, 0 errors, 3s
+2026-11-06 22:32:24,251 INFO abl_ragverify_plusM1g09_hotpotqa: 450/500 done, 0 errors, 3s
+2026-11-06 22:32:24,399 INFO abl_ragverify_plusM1g09_hotpotqa: 475/500 done, 0 errors, 3s
+2026-11-06 22:32:24,510 INFO abl_ragverify_plusM1g09_hotpotqa: 500/500 done, 0 errors, 3s
+2026-11-06 22:32:24,707 INFO END abl_ragverify_plusM1g09_hotpotqa: complete, wall 0.1 min, stats {'llm_calls': 0, 'cache_hits': 1125, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

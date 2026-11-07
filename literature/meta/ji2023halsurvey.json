@@ -1,0 +1,115 @@
+{
+ "seed": {
+  "key": "ji2023halsurvey",
+  "title": "Survey of Hallucination in Natural Language Generation",
+  "arxiv_id": "2202.03629",
+  "category": "survey",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "Survey of Hallucination in Natural Language Generation",
+  "authors": [
+   "Ziwei Ji",
+   "Nayeon Lee",
+   "Rita Frieske",
+   "Tiezheng Yu",
+   "Dan Su",
+   "Yan Xu",
+   "Etsuko Ishii",
+   "Yejin Bang",
+   "Delong Chen",
+   "Wenliang Dai",
+   "Ho Shu Chan",
+   "Andrea Madotto",
+   "Pascale Fung"
+  ],
+  "abstract": "Natural Language Generation (NLG) has improved exponentially in recent years thanks to the development of sequence-to-sequence deep learning technologies such as Transformer-based language models. This advancement has led to more fluent and coherent NLG, leading to improved development in downstream tasks such as abstractive summarization, dialogue generation and data-to-text generation. However, it is also apparent that deep learning based generation is prone to hallucinate unintended text, which degrades the system performance and fails to meet user expectations in many real-world scenarios. To address this issue, many studies have been presented in measuring and mitigating hallucinated texts, but these have never been reviewed in a comprehensive manner before. In this survey, we thus provide a broad overview of the research progress and challenges in the hallucination problem in NLG. The survey is organized into two parts: (1) a general overview of metrics, mitigation methods, and future directions; (2) an overview of task-specific research progress on hallucinations in the following downstream tasks, namely abstractive summarization, dialogue generation, generative question answering, data-to-text generation, machine translation, and visual-language generation; and (3) hallucinations in large language models (LLMs). This survey serves to facilitate collaborative efforts among researchers in tackling the challenge of hallucinated texts in NLG.",
+  "published": "2022-02-08",
+  "arxiv_id": "2202.03629",
+  "comment": "",
+  "journal_ref": "ACM Computing Surveys (2022)"
+ },
+ "s2": {
+  "paperId": "3def68bd0f856886d34272840a7f81588f2bc082",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2202-03629",
+   "ArXiv": "2202.03629",
+   "DOI": "10.1145/3571730",
+   "CorpusId": 246652372
+  },
+  "publicationVenue": {
+   "id": "7b2adce0-d53f-49d6-8784-b0645604fe62",
+   "name": "ACM Computing Surveys",
+   "type": "journal",
+   "alternate_names": [
+    "ACM Comput Surv"
+   ],
+   "issn": "0360-0300",
+   "url": "http://www.acm.org/pubs/surveys/",
+   "alternate_urls": [
+    "http://portal.acm.org/csur",
+    "https://csur.acm.org/",
+    "http://csur.acm.org/"
+   ]
+  },
+  "title": "Survey of Hallucination in Natural Language Generation",
+  "venue": "ACM Computing Surveys",
+  "year": 2022,
+  "publicationDate": "2022-02-08",
+  "journal": {
+   "name": "ACM Computing Surveys",
+   "pages": "1 - 38",
+   "volume": "55"
+  },
+  "authors": [
+   {
+    "authorId": "3391272",
+    "name": "Ziwei Ji"
+   },
+   {
+    "authorId": "40221187",
+    "name": "Nayeon Lee"
+   },
+   {
+    "authorId": "1397300094",
+    "name": "Rita Frieske"
+   },
+   {
+    "authorId": "1660855299",
+    "name": "Tiezheng Yu"
+   },
+   {
+    "authorId": "49678544",
+    "name": "D. Su"
+   },
+   {
+    "authorId": "98271906",
+    "name": "Yan Xu"
+   },
+   {
+    "authorId": "38524906",
+    "name": "Etsuko Ishii"
+   },
+   {
+    "authorId": "23672613",
+    "name": "Yejin Bang"
+   },
+   {
+    "authorId": "94210578",
+    "name": "Delong Chen"
+   },
+   {
+    "authorId": "47653392",
+    "name": "Wenliang Dai"
+   },
+   {
+    "authorId": "2111680936",
+    "name": "Andrea Madotto"
+   },
+   {
+    "authorId": "40539650",
+    "name": "Pascale Fung"
+   }
+  ]
+ }
+}

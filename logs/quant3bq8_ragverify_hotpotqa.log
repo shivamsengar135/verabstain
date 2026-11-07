@@ -1,0 +1,10 @@
+2026-11-07 01:10:55,968 INFO START quant3bq8_ragverify_hotpotqa: 200/200 examples to run; projected 10 min
+2026-11-07 01:11:12,039 INFO quant3bq8_ragverify_hotpotqa: 25/200 done, 0 errors, 16s
+2026-11-07 01:11:24,193 INFO quant3bq8_ragverify_hotpotqa: 50/200 done, 0 errors, 28s
+2026-11-07 01:11:35,930 INFO quant3bq8_ragverify_hotpotqa: 75/200 done, 0 errors, 40s
+2026-11-07 01:11:48,494 INFO quant3bq8_ragverify_hotpotqa: 100/200 done, 0 errors, 52s
+2026-11-07 01:12:00,868 INFO quant3bq8_ragverify_hotpotqa: 125/200 done, 0 errors, 65s
+2026-11-07 01:12:11,855 INFO quant3bq8_ragverify_hotpotqa: 150/200 done, 0 errors, 76s
+2026-11-07 01:12:23,693 INFO quant3bq8_ragverify_hotpotqa: 175/200 done, 0 errors, 88s
+2026-11-07 01:12:35,190 INFO quant3bq8_ragverify_hotpotqa: 200/200 done, 0 errors, 99s
+2026-11-07 01:12:36,003 INFO END quant3bq8_ragverify_hotpotqa: complete, wall 1.7 min, stats {'llm_calls': 367, 'cache_hits': 218, 'prompt_tokens': 230136, 'completion_tokens': 10937, 'llm_seconds': 708.7622588000595, 'retrievals': 0, 'verifier_pairs': 0}

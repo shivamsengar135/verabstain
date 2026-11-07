@@ -1,0 +1,24 @@
+2026-11-07 01:18:36,489 INFO START rob_rag_rerank_hotpotqa_dist00: 300/300 examples to run; projected 5 min
+2026-11-07 01:18:43,766 INFO rob_rag_rerank_hotpotqa_dist00: 25/300 done, 0 errors, 7s
+2026-11-07 01:18:50,536 INFO rob_rag_rerank_hotpotqa_dist00: 50/300 done, 0 errors, 14s
+2026-11-07 01:18:56,190 INFO rob_rag_rerank_hotpotqa_dist00: 75/300 done, 0 errors, 20s
+2026-11-07 01:18:56,843 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=18.6 on_battery=False
+2026-11-07 01:19:16,853 WARNING RESUME: gpu_temp=43 cpu_zone=47.9 cpu_load=10.2
+2026-11-07 01:19:22,378 INFO rob_rag_rerank_hotpotqa_dist00: 100/300 done, 0 errors, 46s
+2026-11-07 01:19:28,753 INFO rob_rag_rerank_hotpotqa_dist00: 125/300 done, 0 errors, 52s
+2026-11-07 01:19:30,864 WARNING PAUSE: gpu_temp=80 cpu_zone=52.9 cpu_load=20.9 on_battery=False
+2026-11-07 01:19:50,876 WARNING RESUME: gpu_temp=44 cpu_zone=48.9 cpu_load=9.6
+2026-11-07 01:19:53,473 INFO rob_rag_rerank_hotpotqa_dist00: 150/300 done, 0 errors, 77s
+2026-11-07 01:19:58,560 INFO rob_rag_rerank_hotpotqa_dist00: 175/300 done, 0 errors, 82s
+2026-11-07 01:20:00,883 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=14.0 on_battery=False
+2026-11-07 01:20:20,895 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=3.3
+2026-11-07 01:20:25,025 INFO rob_rag_rerank_hotpotqa_dist00: 200/300 done, 0 errors, 108s
+2026-11-07 01:20:30,901 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.8 on_battery=False
+2026-11-07 01:20:31,480 INFO rob_rag_rerank_hotpotqa_dist00: 225/300 done, 0 errors, 115s
+2026-11-07 01:20:50,915 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.1
+2026-11-07 01:20:58,346 INFO rob_rag_rerank_hotpotqa_dist00: 250/300 done, 0 errors, 142s
+2026-11-07 01:21:00,922 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=11.3 on_battery=False
+2026-11-07 01:21:20,935 WARNING RESUME: gpu_temp=42 cpu_zone=42.9 cpu_load=2.6
+2026-11-07 01:21:24,288 INFO rob_rag_rerank_hotpotqa_dist00: 275/300 done, 0 errors, 168s
+2026-11-07 01:21:28,251 INFO rob_rag_rerank_hotpotqa_dist00: 300/300 done, 0 errors, 172s
+2026-11-07 01:21:28,335 INFO END rob_rag_rerank_hotpotqa_dist00: complete, wall 2.9 min, stats {'llm_calls': 279, 'cache_hits': 21, 'prompt_tokens': 169973, 'completion_tokens': 1344, 'llm_seconds': 593.6646541000591, 'retrievals': 0, 'verifier_pairs': 0}

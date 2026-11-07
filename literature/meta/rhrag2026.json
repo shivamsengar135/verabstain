@@ -1,0 +1,52 @@
+{
+ "seed": {
+  "key": "rhrag2026",
+  "title": "RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings",
+  "arxiv_id": "2608.01311",
+  "category": "verification",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings",
+  "authors": [
+   "Raj Shekhar Singh"
+  ],
+  "abstract": "Generating long-form content from extensive internal reports remains challenging for organizations operating under strict privacy and security constraints, where proprietary cloud-based LLM APIs are often not viable. While locally deployed open-weight models offer a privacy-preserving alternative, existing retrieval-augmented generation (RAG) approaches on smaller models frequently lack effective global planning and accumulate factual inconsistencies over long outputs. To address these limitations, we present RH-RAG, a multi-agent framework for secure and trustworthy long form generation using local language models. RH-RAG decomposes generation into three coordinated stages: a Planner Agent that constructs a global document outline from high-level semantic summaries, a Writer Agent that incrementally generates coherent section-wise content using bounded coherence memory, and a Checker Agent that mitigates hallucinations through natural language inference-based factual verification and an attestation-driven revision loop. The framework further employs a dual-level retrieval index that supports efficient planning and fine-grained contextual generation on consumer-grade hardware. Evaluations across literary, financial, and legal domains demonstrate that RH-RAG consistently improves factual grounding, semantic coherence, and document-level alignment compared to standard and hierarchical RAG baselines, while achieving reliability competitive with proprietary cloud-based systems without compromising data privacy.",
+  "published": "2026-08-02",
+  "arxiv_id": "2608.01311",
+  "comment": "accepted in KDD 2026 SeT-LLM Workshop",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "0f492e41291938c3b06b422bec558d0a3d713077",
+  "externalIds": {
+   "ArXiv": "2608.01311",
+   "DBLP": "journals/corr/abs-2608-01311",
+   "DOI": "10.48550/arXiv.2608.01311",
+   "CorpusId": 290831504
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings",
+  "venue": "arXiv.org",
+  "year": 2026,
+  "publicationDate": "2026-08-02",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2608.01311"
+  },
+  "authors": [
+   {
+    "authorId": "2439305662",
+    "name": "Rajbhan Singh"
+   }
+  ]
+ }
+}

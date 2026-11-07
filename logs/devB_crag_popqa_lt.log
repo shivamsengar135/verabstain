@@ -1,0 +1,18 @@
+2026-11-05 02:05:57,981 INFO START devB_crag_popqa_lt: 300/300 examples to run; projected 8 min
+2026-11-05 02:06:04,126 INFO devB_crag_popqa_lt: 25/300 done, 0 errors, 0s
+2026-11-05 02:06:04,316 INFO devB_crag_popqa_lt: 50/300 done, 0 errors, 0s
+2026-11-05 02:06:04,523 INFO devB_crag_popqa_lt: 75/300 done, 0 errors, 1s
+2026-11-05 02:06:04,717 INFO devB_crag_popqa_lt: 100/300 done, 0 errors, 1s
+2026-11-05 02:06:47,690 INFO devB_crag_popqa_lt: 125/300 done, 0 errors, 44s
+2026-11-05 02:07:22,283 INFO devB_crag_popqa_lt: 150/300 done, 0 errors, 78s
+2026-11-05 02:07:33,234 INFO START devB_crag_popqa_lt: 146/300 examples to run; projected 8 min
+2026-11-05 02:08:25,408 INFO devB_crag_popqa_lt: 25/146 done, 0 errors, 51s
+2026-11-05 02:09:00,889 INFO devB_crag_popqa_lt: 50/146 done, 0 errors, 86s
+2026-11-05 02:09:29,701 INFO devB_crag_popqa_lt: 75/146 done, 0 errors, 115s
+2026-11-05 02:09:44,202 WARNING PAUSE: gpu_temp=77 cpu_zone=83.9 cpu_load=21.7 on_battery=False
+2026-11-05 02:10:02,784 WARNING RESUME: gpu_temp=49 cpu_zone=51.9 cpu_load=6.1
+2026-11-05 02:10:18,666 INFO devB_crag_popqa_lt: 100/146 done, 0 errors, 164s
+2026-11-05 02:10:52,952 INFO devB_crag_popqa_lt: 125/146 done, 0 errors, 198s
+2026-11-05 02:10:58,569 WARNING PAUSE: gpu_temp=77 cpu_zone=84.9 cpu_load=21.8 on_battery=False
+2026-11-05 02:11:17,130 WARNING RESUME: gpu_temp=50 cpu_zone=56.9 cpu_load=4.1
+2026-11-05 02:11:33,247 INFO END devB_crag_popqa_lt: complete, wall 4.0 min, stats {'llm_calls': 288, 'cache_hits': 4, 'prompt_tokens': 132107, 'completion_tokens': 1659, 'llm_seconds': 500.49716729999636, 'retrievals': 0, 'verifier_pairs': 0}

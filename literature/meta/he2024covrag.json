@@ -1,0 +1,60 @@
+{
+ "seed": {
+  "key": "he2024covrag",
+  "title": "Retrieving Rethinking and Revising: The Chain-of-Verification Can Improve Retrieval Augmented Generation",
+  "arxiv_id": "",
+  "category": "verification",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Retrieving, Rethinking and Revising: The Chain-of-Verification Can Improve Retrieval Augmented Generation",
+  "authors": [
+   "Bolei He",
+   "Nuo Chen",
+   "Xinran He",
+   "Lingyong Yan",
+   "Zhenkai Wei",
+   "Jinchang Luo",
+   "Zhen-Hua Ling"
+  ],
+  "abstract": "Recent Retrieval Augmented Generation (RAG) aims to enhance Large Language Models (LLMs) by incorporating extensive knowledge retrieved from external sources. However, such approach encounters some challenges: Firstly, the original queries may not be suitable for precise retrieval, resulting in erroneous contextual knowledge; Secondly, the language model can easily generate inconsistent answer with external references due to their knowledge boundary limitation. To address these issues, we propose the chain-of-verification (CoV-RAG) to enhance the external retrieval correctness and internal generation consistency. Specifically, we integrate the verification module into the RAG, engaging in scoring, judgment, and rewriting. To correct external retrieval errors, CoV-RAG retrieves new knowledge using a revised query. To correct internal generation errors, we unify QA and verification tasks with a Chain-of-Thought (CoT) reasoning during training. Our comprehensive experiments across various LLMs demonstrate the effectiveness and adaptability compared with other strong baselines. Especially, our CoV-RAG can significantly surpass the state-of-the-art baselines using different LLM backbones.",
+  "published": "2024-10-08",
+  "arxiv_id": "2410.05801",
+  "comment": "Accepted to EMNLP 2024 Findings. 9 pages, 4 figures, 7 tables",
+  "journal_ref": ""
+ },
+ "s2": {
+  "title": "Retrieving, Rethinking and Revising: The Chain-of-Verification Can Improve Retrieval Augmented Generation",
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+  "year": 2024,
+  "externalIds": {
+   "DOI": "10.18653/v1/2024.findings-emnlp.607",
+   "ACL": "2024.findings-emnlp.607"
+  },
+  "authors": [
+   {
+    "name": "Bolei He"
+   },
+   {
+    "name": "Nuo Chen"
+   },
+   {
+    "name": "Xinran He"
+   },
+   {
+    "name": "Lingyong Yan"
+   },
+   {
+    "name": "Zhenkai Wei"
+   },
+   {
+    "name": "Jinchang Luo"
+   },
+   {
+    "name": "Zhen-Hua Ling"
+   }
+  ],
+  "source": "openalex",
+  "openalex_id": "https://openalex.org/W4404792856"
+ }
+}

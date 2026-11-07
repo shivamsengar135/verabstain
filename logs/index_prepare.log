@@ -1,0 +1,29 @@
+[22:29:20] prepared 200,000 articles -> 204,610 passages
+[22:29:21] prepared 400,000 articles -> 408,462 passages
+[22:29:23] prepared 600,000 articles -> 612,135 passages
+[22:29:24] prepared 800,000 articles -> 815,502 passages
+[22:29:25] prepared 1,000,000 articles -> 1,018,806 passages
+[22:29:27] prepared 1,200,000 articles -> 1,221,660 passages
+[22:29:28] prepared 1,400,000 articles -> 1,424,542 passages
+[22:29:29] prepared 1,600,000 articles -> 1,627,404 passages
+[22:29:30] prepared 1,800,000 articles -> 1,829,557 passages
+[22:29:32] prepared 2,000,000 articles -> 2,031,761 passages
+[22:29:33] prepared 2,200,000 articles -> 2,234,339 passages
+[22:29:34] prepared 2,400,000 articles -> 2,436,632 passages
+[22:29:35] prepared 2,600,000 articles -> 2,638,838 passages
+[22:29:36] prepared 2,800,000 articles -> 2,841,260 passages
+[22:29:37] prepared 3,000,000 articles -> 3,043,763 passages
+[22:29:39] prepared 3,200,000 articles -> 3,246,249 passages
+[22:29:40] prepared 3,400,000 articles -> 3,449,018 passages
+[22:29:41] prepared 3,600,000 articles -> 3,651,443 passages
+[22:29:42] prepared 3,800,000 articles -> 3,853,551 passages
+[22:29:44] prepared 4,000,000 articles -> 4,055,885 passages
+[22:29:45] prepared 4,200,000 articles -> 4,258,067 passages
+[22:29:46] prepared 4,400,000 articles -> 4,460,210 passages
+[22:29:47] prepared 4,600,000 articles -> 4,662,364 passages
+[22:29:48] prepared 4,800,000 articles -> 4,864,695 passages
+[22:29:49] prepared 5,000,000 articles -> 5,067,111 passages
+[22:29:51] prepared 5,200,000 articles -> 5,269,173 passages
+[22:29:51] prepared 5,233,329 articles -> 5,302,804 passages
+[22:29:51] {"source": "BeIR/hotpotqa corpus (HotpotQA 2017-10-01 Wikipedia intro paragraphs)", "articles": 5233329, "passages": 5302804, "articles_split": 56646, "max_words": 150, "chunk_words": 100}
+EXIT=0

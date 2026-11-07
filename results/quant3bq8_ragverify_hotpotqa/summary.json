@@ -1,0 +1,22 @@
+{
+ "run_id": "quant3bq8_ragverify_hotpotqa",
+ "n": 200,
+ "n_expected": 200,
+ "method": "ragverify",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.315,
+ "match": 0.315,
+ "match_norm": 0.37,
+ "em": 0.245,
+ "f1": 0.39827173520923526,
+ "native_abstain_rate": 0.245,
+ "mean_llm_calls": 2.925,
+ "mean_prompt_tokens": 1249.51,
+ "mean_completion_tokens": 63.31,
+ "mean_llm_seconds": 4.036226484000036,
+ "mean_retrievals": 1.315,
+ "mean_verifier_pairs": 1.175,
+ "mean_seconds": 3.93720806750036,
+ "wall_s": 99.09354257583618
+}

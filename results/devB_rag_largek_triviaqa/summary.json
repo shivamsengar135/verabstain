@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_rag_largek_triviaqa",
+ "n": 300,
+ "n_expected": 300,
+ "method": "rag_largek",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.5066666666666667,
+ "match": 0.5066666666666667,
+ "match_norm": 0.5833333333333334,
+ "em": 0.5366666666666666,
+ "f1": 0.5952026123301987,
+ "native_abstain_rate": 0.0033333333333333335,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1105.63,
+ "mean_completion_tokens": 4.756666666666667,
+ "mean_llm_seconds": 3.8279542866664995,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.529315232334484,
+ "wall_s": 112.84222841262817
+}

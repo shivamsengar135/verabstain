@@ -1,0 +1,48 @@
+2026-11-05 12:32:30,331 INFO START main_rag_largek_hotpotqa: 1000/1000 examples to run; projected 12 min
+2026-11-05 12:32:47,743 INFO main_rag_largek_hotpotqa: 25/1000 done, 0 errors, 17s
+2026-11-05 12:33:01,807 INFO main_rag_largek_hotpotqa: 50/1000 done, 0 errors, 31s
+2026-11-05 12:33:16,202 INFO main_rag_largek_hotpotqa: 75/1000 done, 0 errors, 46s
+2026-11-05 12:33:28,952 INFO main_rag_largek_hotpotqa: 100/1000 done, 0 errors, 58s
+2026-11-05 12:33:44,253 INFO main_rag_largek_hotpotqa: 125/1000 done, 0 errors, 74s
+2026-11-05 12:33:57,798 INFO main_rag_largek_hotpotqa: 150/1000 done, 0 errors, 87s
+2026-11-05 12:34:11,273 INFO main_rag_largek_hotpotqa: 175/1000 done, 0 errors, 101s
+2026-11-05 12:34:26,007 INFO main_rag_largek_hotpotqa: 200/1000 done, 0 errors, 116s
+2026-11-05 12:34:40,848 INFO main_rag_largek_hotpotqa: 225/1000 done, 0 errors, 130s
+2026-11-05 12:34:55,798 INFO main_rag_largek_hotpotqa: 250/1000 done, 0 errors, 145s
+2026-11-05 12:35:09,284 INFO main_rag_largek_hotpotqa: 275/1000 done, 0 errors, 159s
+2026-11-05 12:35:22,904 INFO main_rag_largek_hotpotqa: 300/1000 done, 0 errors, 172s
+2026-11-05 12:35:27,841 WARNING PAUSE: gpu_temp=84 cpu_zone=76.9 cpu_load=21.5 on_battery=False
+2026-11-05 12:36:04,953 WARNING RESUME: gpu_temp=46 cpu_zone=64.9 cpu_load=13.3
+2026-11-05 12:36:14,073 INFO main_rag_largek_hotpotqa: 325/1000 done, 0 errors, 224s
+2026-11-05 12:36:27,859 INFO main_rag_largek_hotpotqa: 350/1000 done, 0 errors, 237s
+2026-11-05 12:36:40,774 INFO main_rag_largek_hotpotqa: 375/1000 done, 0 errors, 250s
+2026-11-05 12:36:54,977 INFO main_rag_largek_hotpotqa: 400/1000 done, 0 errors, 265s
+2026-11-05 12:37:08,406 INFO main_rag_largek_hotpotqa: 425/1000 done, 0 errors, 278s
+2026-11-05 12:37:23,151 INFO main_rag_largek_hotpotqa: 450/1000 done, 0 errors, 293s
+2026-11-05 12:37:35,372 INFO main_rag_largek_hotpotqa: 475/1000 done, 0 errors, 305s
+2026-11-05 12:37:51,431 INFO main_rag_largek_hotpotqa: 500/1000 done, 0 errors, 321s
+2026-11-05 12:38:04,379 INFO main_rag_largek_hotpotqa: 525/1000 done, 0 errors, 334s
+2026-11-05 12:38:18,608 INFO main_rag_largek_hotpotqa: 550/1000 done, 0 errors, 348s
+2026-11-05 12:38:32,264 INFO main_rag_largek_hotpotqa: 575/1000 done, 0 errors, 362s
+2026-11-05 12:38:47,114 INFO main_rag_largek_hotpotqa: 600/1000 done, 0 errors, 377s
+2026-11-05 12:38:59,945 INFO main_rag_largek_hotpotqa: 625/1000 done, 0 errors, 389s
+2026-11-05 12:39:14,841 INFO main_rag_largek_hotpotqa: 650/1000 done, 0 errors, 404s
+2026-11-05 12:39:28,484 INFO main_rag_largek_hotpotqa: 675/1000 done, 0 errors, 418s
+2026-11-05 12:39:42,472 INFO main_rag_largek_hotpotqa: 700/1000 done, 0 errors, 432s
+2026-11-05 12:39:57,151 INFO main_rag_largek_hotpotqa: 725/1000 done, 0 errors, 447s
+2026-11-05 12:40:09,280 INFO main_rag_largek_hotpotqa: 750/1000 done, 0 errors, 459s
+2026-11-05 12:40:25,687 INFO main_rag_largek_hotpotqa: 775/1000 done, 0 errors, 475s
+2026-11-05 12:40:40,117 INFO main_rag_largek_hotpotqa: 800/1000 done, 0 errors, 490s
+2026-11-05 12:40:43,371 WARNING PAUSE: gpu_temp=83 cpu_zone=79.9 cpu_load=24.0 on_battery=False
+2026-11-05 12:41:20,487 WARNING RESUME: gpu_temp=46 cpu_zone=56.9 cpu_load=6.3
+2026-11-05 12:41:30,311 INFO main_rag_largek_hotpotqa: 825/1000 done, 0 errors, 540s
+2026-11-05 12:41:45,098 INFO main_rag_largek_hotpotqa: 850/1000 done, 0 errors, 555s
+2026-11-05 12:41:57,925 INFO main_rag_largek_hotpotqa: 875/1000 done, 0 errors, 567s
+2026-11-05 12:42:12,604 INFO main_rag_largek_hotpotqa: 900/1000 done, 0 errors, 582s
+2026-11-05 12:42:16,177 WARNING PAUSE: gpu_temp=83 cpu_zone=68.9 cpu_load=18.1 on_battery=False
+2026-11-05 12:42:34,717 WARNING RESUME: gpu_temp=48 cpu_zone=56.9 cpu_load=12.5
+2026-11-05 12:42:44,959 INFO main_rag_largek_hotpotqa: 925/1000 done, 0 errors, 614s
+2026-11-05 12:42:59,948 INFO main_rag_largek_hotpotqa: 950/1000 done, 0 errors, 629s
+2026-11-05 12:43:13,187 INFO main_rag_largek_hotpotqa: 975/1000 done, 0 errors, 643s
+2026-11-05 12:43:23,872 INFO main_rag_largek_hotpotqa: 1000/1000 done, 0 errors, 653s
+2026-11-05 12:43:24,127 INFO END main_rag_largek_hotpotqa: complete, wall 10.9 min, stats {'llm_calls': 1000, 'cache_hits': 0, 'prompt_tokens': 1124590, 'completion_tokens': 4803, 'llm_seconds': 4499.504161399906, 'retrievals': 0, 'verifier_pairs': 0}

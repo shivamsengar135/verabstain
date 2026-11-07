@@ -1,0 +1,22 @@
+{
+ "run_id": "main_rag_largek_pubhealth",
+ "n": 987,
+ "n_expected": 987,
+ "method": "rag_largek",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.5268490374873354,
+ "match": 0.5268490374873354,
+ "match_norm": 0.5268490374873354,
+ "em": 0.5268490374873354,
+ "f1": 0.5268490374873354,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1543.9300911854104,
+ "mean_completion_tokens": 2.0466058763931105,
+ "mean_llm_seconds": 5.049715049240148,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 5.053976174265533,
+ "wall_s": 881.1380839347839
+}

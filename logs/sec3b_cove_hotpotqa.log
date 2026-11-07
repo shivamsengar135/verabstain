@@ -1,0 +1,37 @@
+2026-11-07 00:05:59,576 INFO START sec3b_cove_hotpotqa: 500/500 examples to run; projected 17 min
+2026-11-07 00:06:29,007 INFO sec3b_cove_hotpotqa: 25/500 done, 0 errors, 29s
+2026-11-07 00:06:33,063 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=27.3 on_battery=False
+2026-11-07 00:06:53,077 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=2.7
+2026-11-07 00:07:11,578 INFO sec3b_cove_hotpotqa: 50/500 done, 0 errors, 72s
+2026-11-07 00:07:32,334 INFO sec3b_cove_hotpotqa: 75/500 done, 0 errors, 93s
+2026-11-07 00:07:54,259 INFO sec3b_cove_hotpotqa: 100/500 done, 0 errors, 115s
+2026-11-07 00:08:10,295 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=28.7 on_battery=False
+2026-11-07 00:08:30,363 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=3.1
+2026-11-07 00:08:34,670 INFO sec3b_cove_hotpotqa: 125/500 done, 0 errors, 155s
+2026-11-07 00:08:57,924 INFO sec3b_cove_hotpotqa: 150/500 done, 0 errors, 178s
+2026-11-07 00:09:00,811 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=29.2 on_battery=False
+2026-11-07 00:09:20,822 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.3
+2026-11-07 00:09:38,773 INFO sec3b_cove_hotpotqa: 175/500 done, 0 errors, 219s
+2026-11-07 00:09:57,258 WARNING PAUSE: gpu_temp=81 cpu_zone=52.9 cpu_load=23.5 on_battery=False
+2026-11-07 00:10:17,367 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=7.0
+2026-11-07 00:10:21,415 INFO sec3b_cove_hotpotqa: 200/500 done, 0 errors, 262s
+2026-11-07 00:10:43,042 INFO sec3b_cove_hotpotqa: 225/500 done, 0 errors, 283s
+2026-11-07 00:11:06,595 INFO sec3b_cove_hotpotqa: 250/500 done, 0 errors, 307s
+2026-11-07 00:11:28,615 INFO sec3b_cove_hotpotqa: 275/500 done, 0 errors, 329s
+2026-11-07 00:11:28,772 WARNING PAUSE: gpu_temp=81 cpu_zone=55.9 cpu_load=20.2 on_battery=False
+2026-11-07 00:11:48,864 WARNING RESUME: gpu_temp=46 cpu_zone=48.9 cpu_load=9.2
+2026-11-07 00:12:12,277 INFO sec3b_cove_hotpotqa: 300/500 done, 0 errors, 373s
+2026-11-07 00:12:33,606 WARNING PAUSE: gpu_temp=82 cpu_zone=54.9 cpu_load=32.6 on_battery=False
+2026-11-07 00:12:53,631 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.3
+2026-11-07 00:12:55,611 INFO sec3b_cove_hotpotqa: 325/500 done, 0 errors, 416s
+2026-11-07 00:13:16,937 INFO sec3b_cove_hotpotqa: 350/500 done, 0 errors, 437s
+2026-11-07 00:13:37,408 INFO sec3b_cove_hotpotqa: 375/500 done, 0 errors, 458s
+2026-11-07 00:13:50,247 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=29.8 on_battery=False
+2026-11-07 00:14:10,257 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.4
+2026-11-07 00:14:16,536 INFO sec3b_cove_hotpotqa: 400/500 done, 0 errors, 497s
+2026-11-07 00:14:39,345 INFO sec3b_cove_hotpotqa: 425/500 done, 0 errors, 520s
+2026-11-07 00:15:01,473 INFO sec3b_cove_hotpotqa: 450/500 done, 0 errors, 542s
+2026-11-07 00:15:21,991 INFO sec3b_cove_hotpotqa: 475/500 done, 0 errors, 562s
+2026-11-07 00:15:41,494 INFO sec3b_cove_hotpotqa: 500/500 done, 0 errors, 582s
+2026-11-07 00:15:42,317 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=12.7 on_battery=False
+2026-11-07 00:15:42,380 INFO END sec3b_cove_hotpotqa: complete, wall 9.7 min, stats {'llm_calls': 2425, 'cache_hits': 503, 'prompt_tokens': 705894, 'completion_tokens': 65492, 'llm_seconds': 3200.307595800121, 'retrievals': 0, 'verifier_pairs': 0}

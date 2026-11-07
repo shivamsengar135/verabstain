@@ -1,0 +1,25 @@
+2026-11-06 18:56:25,261 INFO START abl_ragverify_plusM1g09_popqa_lt: 500/500 examples to run; projected 25 min
+2026-11-06 18:56:35,063 INFO abl_ragverify_plusM1g09_popqa_lt: 25/500 done, 0 errors, 0s
+2026-11-06 18:56:35,277 INFO abl_ragverify_plusM1g09_popqa_lt: 50/500 done, 0 errors, 0s
+2026-11-06 18:56:35,487 INFO abl_ragverify_plusM1g09_popqa_lt: 75/500 done, 0 errors, 1s
+2026-11-06 18:56:35,709 INFO abl_ragverify_plusM1g09_popqa_lt: 100/500 done, 0 errors, 1s
+2026-11-06 18:56:35,880 INFO abl_ragverify_plusM1g09_popqa_lt: 125/500 done, 0 errors, 1s
+2026-11-06 18:56:36,047 INFO abl_ragverify_plusM1g09_popqa_lt: 150/500 done, 0 errors, 1s
+2026-11-06 18:56:36,225 INFO abl_ragverify_plusM1g09_popqa_lt: 175/500 done, 0 errors, 1s
+2026-11-06 18:56:36,357 INFO abl_ragverify_plusM1g09_popqa_lt: 200/500 done, 0 errors, 2s
+2026-11-06 18:56:36,539 INFO abl_ragverify_plusM1g09_popqa_lt: 225/500 done, 0 errors, 2s
+2026-11-06 18:56:36,715 INFO abl_ragverify_plusM1g09_popqa_lt: 250/500 done, 0 errors, 2s
+2026-11-06 18:56:36,861 INFO abl_ragverify_plusM1g09_popqa_lt: 275/500 done, 0 errors, 2s
+2026-11-06 18:56:37,002 INFO abl_ragverify_plusM1g09_popqa_lt: 300/500 done, 0 errors, 2s
+2026-11-06 18:56:37,166 INFO abl_ragverify_plusM1g09_popqa_lt: 325/500 done, 0 errors, 2s
+2026-11-06 18:56:37,347 INFO abl_ragverify_plusM1g09_popqa_lt: 350/500 done, 0 errors, 3s
+2026-11-06 18:56:37,546 INFO abl_ragverify_plusM1g09_popqa_lt: 375/500 done, 0 errors, 3s
+2026-11-06 18:56:37,762 INFO abl_ragverify_plusM1g09_popqa_lt: 400/500 done, 0 errors, 3s
+2026-11-06 18:56:37,945 INFO abl_ragverify_plusM1g09_popqa_lt: 425/500 done, 0 errors, 3s
+2026-11-06 18:56:38,145 INFO abl_ragverify_plusM1g09_popqa_lt: 450/500 done, 0 errors, 3s
+2026-11-06 18:56:38,362 INFO abl_ragverify_plusM1g09_popqa_lt: 475/500 done, 0 errors, 4s
+2026-11-06 18:56:38,488 INFO abl_ragverify_plusM1g09_popqa_lt: 500/500 done, 0 errors, 4s
+2026-11-06 18:56:38,615 INFO END abl_ragverify_plusM1g09_popqa_lt: complete, wall 0.1 min, stats {'llm_calls': 0, 'cache_hits': 1035, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}
+2026-11-06 20:14:54,363 WARNING PAUSE: gpu_temp=43 cpu_zone=999.0 cpu_load=100.0 on_battery=False
+2026-11-06 20:15:24,864 WARNING RESUME: gpu_temp=43 cpu_zone=64.9 cpu_load=99.8
+2026-11-06 21:10:39,497 WARNING PAUSE: gpu_temp=58 cpu_zone=64.9 cpu_load=100.0 on_battery=False

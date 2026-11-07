@@ -1,0 +1,89 @@
+{
+ "seed": {
+  "key": "niu2024ragtruth",
+  "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+  "arxiv_id": "2401.00396",
+  "category": "benchmark",
+  "role": "dataset"
+ },
+ "arxiv": {
+  "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+  "authors": [
+   "Cheng Niu",
+   "Yuanhao Wu",
+   "Juno Zhu",
+   "Siliang Xu",
+   "Kashun Shum",
+   "Randy Zhong",
+   "Juntong Song",
+   "Tong Zhang"
+  ],
+  "abstract": "Retrieval-augmented generation (RAG) has become a main technique for alleviating hallucinations in large language models (LLMs). Despite the integration of RAG, LLMs may still present unsupported or contradictory claims to the retrieved contents. In order to develop effective hallucination prevention strategies under RAG, it is important to create benchmark datasets that can measure the extent of hallucination. This paper presents RAGTruth, a corpus tailored for analyzing word-level hallucinations in various domains and tasks within the standard RAG frameworks for LLM applications. RAGTruth comprises nearly 18,000 naturally generated responses from diverse LLMs using RAG. These responses have undergone meticulous manual annotations at both the individual cases and word levels, incorporating evaluations of hallucination intensity. We not only benchmark hallucination frequencies across different LLMs, but also critically assess the effectiveness of several existing hallucination detection methodologies. Furthermore, we show that using a high-quality dataset such as RAGTruth, it is possible to finetune a relatively small LLM and achieve a competitive level of performance in hallucination detection when compared to the existing prompt-based approaches using state-of-the-art large language models such as GPT-4.",
+  "published": "2023-12-31",
+  "arxiv_id": "2401.00396",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "cfce709a65f90312d2bdc1a6cf0380c19becf694",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2401-00396",
+   "ArXiv": "2401.00396",
+   "DOI": "10.48550/arXiv.2401.00396",
+   "CorpusId": 266693591
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-12-31",
+  "journal": {
+   "pages": "10862-10878"
+  },
+  "authors": [
+   {
+    "authorId": "2277251434",
+    "name": "Yuan-Hao Wu"
+   },
+   {
+    "authorId": "2277249776",
+    "name": "Juno Zhu"
+   },
+   {
+    "authorId": "2277414822",
+    "name": "Siliang Xu"
+   },
+   {
+    "authorId": "2121340452",
+    "name": "Kashun Shum"
+   },
+   {
+    "authorId": "2277247851",
+    "name": "Cheng Niu"
+   },
+   {
+    "authorId": "2277247396",
+    "name": "Randy Zhong"
+   },
+   {
+    "authorId": "2277244244",
+    "name": "Juntong Song"
+   },
+   {
+    "authorId": "2277418669",
+    "name": "Tong Zhang"
+   }
+  ]
+ }
+}

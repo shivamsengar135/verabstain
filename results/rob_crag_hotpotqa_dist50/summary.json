@@ -1,0 +1,22 @@
+{
+ "run_id": "rob_crag_hotpotqa_dist50",
+ "n": 300,
+ "n_expected": 300,
+ "method": "crag",
+ "dataset": "hotpotqa_dist50",
+ "split": "test",
+ "correct": 0.2966666666666667,
+ "match": 0.2966666666666667,
+ "match_norm": 0.33,
+ "em": 0.3,
+ "f1": 0.38710569985569987,
+ "native_abstain_rate": 0.0033333333333333335,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 1049.3633333333332,
+ "mean_completion_tokens": 18.246666666666666,
+ "mean_llm_seconds": 8.8538870436662,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.551788012666607,
+ "wall_s": 426.98409843444824
+}

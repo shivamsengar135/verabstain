@@ -1,0 +1,12 @@
+2026-11-05 00:04:49,788 INFO START pilot_ragverify_triviaqa: 100/100 examples to run; projected 15 min
+2026-11-05 00:05:55,628 INFO pilot_ragverify_triviaqa: 25/100 done, 0 errors, 66s
+2026-11-05 00:07:02,821 INFO pilot_ragverify_triviaqa: 50/100 done, 0 errors, 133s
+2026-11-05 00:08:14,483 INFO pilot_ragverify_triviaqa: 75/100 done, 0 errors, 205s
+2026-11-05 00:09:18,701 INFO pilot_ragverify_triviaqa: 100/100 done, 0 errors, 269s
+2026-11-05 00:09:18,727 INFO END pilot_ragverify_triviaqa: complete, wall 4.5 min, stats {'llm_calls': 431, 'cache_hits': 169, 'prompt_tokens': 289078, 'completion_tokens': 12664, 'llm_seconds': 1789.5415169999178, 'retrievals': 0, 'verifier_pairs': 0}
+2026-11-05 01:46:30,681 INFO START pilot_ragverify_triviaqa: 100/100 examples to run; projected 15 min
+2026-11-05 01:46:31,383 INFO pilot_ragverify_triviaqa: 25/100 done, 0 errors, 1s
+2026-11-05 01:46:31,817 INFO pilot_ragverify_triviaqa: 50/100 done, 0 errors, 1s
+2026-11-05 01:46:32,267 INFO pilot_ragverify_triviaqa: 75/100 done, 0 errors, 1s
+2026-11-05 01:46:32,626 INFO pilot_ragverify_triviaqa: 100/100 done, 0 errors, 2s
+2026-11-05 01:46:32,840 INFO END pilot_ragverify_triviaqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 600, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

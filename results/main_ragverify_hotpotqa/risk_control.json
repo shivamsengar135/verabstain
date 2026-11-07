@@ -1,0 +1,46 @@
+{
+ "run_id": "main_ragverify_hotpotqa",
+ "n": 1000,
+ "0.05": {
+  "crc": {
+   "risk_mean": 0.05081999999999999,
+   "risk_sd": 0.014689029920318087,
+   "frac_risk_gt_alpha": 0.4,
+   "coverage_mean": 0.13132000000000002
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ },
+ "0.1": {
+  "crc": {
+   "risk_mean": 0.1001,
+   "risk_sd": 0.0195005128137698,
+   "frac_risk_gt_alpha": 0.41,
+   "coverage_mean": 0.25202
+  },
+  "ltt": {
+   "risk_mean": 0.0,
+   "risk_sd": 0.0,
+   "frac_risk_gt_alpha": 0.0,
+   "coverage_mean": 0.0
+  }
+ },
+ "0.2": {
+  "crc": {
+   "risk_mean": 0.19798000000000002,
+   "risk_sd": 0.0232111955745498,
+   "frac_risk_gt_alpha": 0.37,
+   "coverage_mean": 0.43146000000000007
+  },
+  "ltt": {
+   "risk_mean": 0.008035714285714287,
+   "risk_sd": 0.05637740673173889,
+   "frac_risk_gt_alpha": 0.02,
+   "coverage_mean": 0.0003
+  }
+ }
+}

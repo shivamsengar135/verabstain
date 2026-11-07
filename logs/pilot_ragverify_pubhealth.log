@@ -1,0 +1,12 @@
+2026-11-05 00:14:14,379 INFO START pilot_ragverify_pubhealth: 100/100 examples to run; projected 15 min
+2026-11-05 00:15:25,560 INFO pilot_ragverify_pubhealth: 25/100 done, 0 errors, 71s
+2026-11-05 00:16:10,826 INFO pilot_ragverify_pubhealth: 50/100 done, 0 errors, 116s
+2026-11-05 00:16:54,003 INFO pilot_ragverify_pubhealth: 75/100 done, 0 errors, 159s
+2026-11-05 00:18:00,331 INFO pilot_ragverify_pubhealth: 100/100 done, 0 errors, 226s
+2026-11-05 00:18:00,363 INFO END pilot_ragverify_pubhealth: complete, wall 3.8 min, stats {'llm_calls': 400, 'cache_hits': 200, 'prompt_tokens': 285830, 'completion_tokens': 13621, 'llm_seconds': 1507.2759134000808, 'retrievals': 0, 'verifier_pairs': 0}
+2026-11-05 01:46:35,065 INFO START pilot_ragverify_pubhealth: 100/100 examples to run; projected 15 min
+2026-11-05 01:46:35,590 INFO pilot_ragverify_pubhealth: 25/100 done, 0 errors, 0s
+2026-11-05 01:46:35,879 INFO pilot_ragverify_pubhealth: 50/100 done, 0 errors, 1s
+2026-11-05 01:46:36,174 INFO pilot_ragverify_pubhealth: 75/100 done, 0 errors, 1s
+2026-11-05 01:46:36,426 INFO pilot_ragverify_pubhealth: 100/100 done, 0 errors, 1s
+2026-11-05 01:46:36,647 INFO END pilot_ragverify_pubhealth: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 600, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

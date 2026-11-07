@@ -1,0 +1,20 @@
+{
+ "run_id": "main_ragverify_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "ragverify",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6253846153846154,
+ "rejected": 0.045384615384615384,
+ "fake_answer": 0.92,
+ "native_abstain_rate": 0.045384615384615384,
+ "mean_llm_calls": 2.18,
+ "mean_prompt_tokens": 1636.3676923076923,
+ "mean_completion_tokens": 47.04461538461538,
+ "mean_llm_seconds": 19.611793152230984,
+ "mean_retrievals": 1.0576923076923077,
+ "mean_verifier_pairs": 1.0546153846153845,
+ "mean_seconds": 21.36416007553862,
+ "wall_s": 3553.374533176422
+}

@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_closed_book_pubhealth",
+ "n": 100,
+ "n_expected": 100,
+ "method": "closed_book",
+ "dataset": "pubhealth",
+ "split": "dev",
+ "correct": 0.5,
+ "match": 0.5,
+ "match_norm": 0.5,
+ "em": 0.5,
+ "f1": 0.5,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 71.4,
+ "mean_completion_tokens": 2.0,
+ "mean_llm_seconds": 0.2109808950003935,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.21290938700083642,
+ "wall_s": 2.7710256576538086
+}

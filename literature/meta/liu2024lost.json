@@ -1,0 +1,89 @@
+{
+ "seed": {
+  "key": "liu2024lost",
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "arxiv_id": "2307.03172",
+  "category": "rag",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": [
+   "Nelson F. Liu",
+   "Kevin Lin",
+   "John Hewitt",
+   "Ashwin Paranjape",
+   "Michele Bevilacqua",
+   "Fabio Petroni",
+   "Percy Liang"
+  ],
+  "abstract": "While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustly make use of information in long input contexts. In particular, we observe that performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models. Our analysis provides a better understanding of how language models use their input context and provides new evaluation protocols for future long-context language models.",
+  "published": "2023-07-06",
+  "arxiv_id": "2307.03172",
+  "comment": "18 pages, 16 figures. Accepted for publication in Transactions of the Association for Computational Linguistics (TACL), 2023",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "1733eb7792f7a43dd21f51f4d1017a1bffd217b5",
+  "externalIds": {
+   "ArXiv": "2307.03172",
+   "DBLP": "journals/corr/abs-2307-03172",
+   "ACL": "2024.tacl-1.9",
+   "DOI": "10.1162/tacl_a_00638",
+   "CorpusId": 259360665
+  },
+  "publicationVenue": {
+   "id": "e0dbf116-86aa-418d-859f-a49952d7e44a",
+   "name": "Transactions of the Association for Computational Linguistics",
+   "type": "journal",
+   "alternate_names": [
+    "Trans Assoc Comput Linguistics",
+    "TACL"
+   ],
+   "issn": "2307-387X",
+   "url": "https://www.mitpressjournals.org/loi/tacl",
+   "alternate_urls": [
+    "http://www.transacl.org/"
+   ]
+  },
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-07-06",
+  "journal": {
+   "name": "Transactions of the Association for Computational Linguistics",
+   "pages": "157-173",
+   "volume": "12"
+  },
+  "authors": [
+   {
+    "authorId": "22243769",
+    "name": "Nelson F. Liu"
+   },
+   {
+    "authorId": "48085802",
+    "name": "Kevin Lin"
+   },
+   {
+    "authorId": "145430120",
+    "name": "John Hewitt"
+   },
+   {
+    "authorId": "40404493",
+    "name": "Ashwin Paranjape"
+   },
+   {
+    "authorId": "143802044",
+    "name": "Michele Bevilacqua"
+   },
+   {
+    "authorId": "40052301",
+    "name": "F. Petroni"
+   },
+   {
+    "authorId": "145419642",
+    "name": "Percy Liang"
+   }
+  ]
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "seed": {
+  "key": "wang2025speculative",
+  "title": "Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting",
+  "arxiv_id": "2407.08223",
+  "category": "corrective",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting",
+  "authors": [
+   "Zilong Wang",
+   "Zifeng Wang",
+   "Long Le",
+   "Huaixiu Steven Zheng",
+   "Swaroop Mishra",
+   "Vincent Perot",
+   "Yuwei Zhang",
+   "Anush Mattapalli",
+   "Ankur Taly",
+   "Jingbo Shang",
+   "Chen-Yu Lee",
+   "Tomas Pfister"
+  ],
+  "abstract": "Retrieval augmented generation (RAG) combines the generative abilities of large language models (LLMs) with external knowledge sources to provide more accurate and up-to-date responses. Recent RAG advancements focus on improving retrieval outcomes through iterative LLM refinement or self-critique capabilities acquired through additional instruction tuning of LLMs. In this work, we introduce Speculative RAG - a framework that leverages a larger generalist LM to efficiently verify multiple RAG drafts produced in parallel by a smaller, distilled specialist LM. Each draft is generated from a distinct subset of retrieved documents, offering diverse perspectives on the evidence while reducing input token counts per draft. This approach enhances comprehension of each subset and mitigates potential position bias over long context. Our method accelerates RAG by delegating drafting to the smaller specialist LM, with the larger generalist LM performing a single verification pass over the drafts. Extensive experiments demonstrate that Speculative RAG achieves state-of-the-art performance with reduced latency on TriviaQA, MuSiQue, PopQA, PubHealth, and ARC-Challenge benchmarks. It notably enhances accuracy by up to 12.97% while reducing latency by 50.83% compared to conventional RAG systems on PubHealth.",
+  "published": "2024-07-11",
+  "arxiv_id": "2407.08223",
+  "comment": "Accepted to ICLR 2025",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "160924af0791331ec8fa5a3d526ea125355f3b8b",
+  "externalIds": {
+   "ArXiv": "2407.08223",
+   "DBLP": "journals/corr/abs-2407-08223",
+   "DOI": "10.48550/arXiv.2407.08223",
+   "CorpusId": 271097348
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting",
+  "venue": "International Conference on Learning Representations",
+  "year": 2024,
+  "publicationDate": "2024-07-11",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2407.08223"
+  },
+  "authors": [
+   {
+    "authorId": "1762478",
+    "name": "Zilong Wang"
+   },
+   {
+    "authorId": "2135785111",
+    "name": "Zifeng Wang"
+   },
+   {
+    "authorId": "2253355959",
+    "name": "Long T. Le"
+   },
+   {
+    "authorId": "2253804927",
+    "name": "Huaixiu Steven Zheng"
+   },
+   {
+    "authorId": "2287936369",
+    "name": "Swaroop Mishra"
+   },
+   {
+    "authorId": "2066252171",
+    "name": "Vincent Perot"
+   },
+   {
+    "authorId": "2284259968",
+    "name": "Yu-Wei Zhang"
+   },
+   {
+    "authorId": "2257348141",
+    "name": "Anush Mattapalli"
+   },
+   {
+    "authorId": "2313338667",
+    "name": "Ankur Taly"
+   },
+   {
+    "authorId": "2310730051",
+    "name": "Jing-Bo Shang"
+   },
+   {
+    "authorId": "2278969944",
+    "name": "Chen-Yu Lee"
+   },
+   {
+    "authorId": "2305619900",
+    "name": "Tomas Pfister"
+   }
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "seed": {
+  "key": "saadfalcon2024ares",
+  "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+  "arxiv_id": "2311.09476",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+  "authors": [
+   "Jon Saad-Falcon",
+   "Omar Khattab",
+   "Christopher Potts",
+   "Matei Zaharia"
+  ],
+  "abstract": "Evaluating retrieval-augmented generation (RAG) systems traditionally relies on hand annotations for input queries, passages to retrieve, and responses to generate. We introduce ARES, an Automated RAG Evaluation System, for evaluating RAG systems along the dimensions of context relevance, answer faithfulness, and answer relevance. By creating its own synthetic training data, ARES finetunes lightweight LM judges to assess the quality of individual RAG components. To mitigate potential prediction errors, ARES utilizes a small set of human-annotated datapoints for prediction-powered inference (PPI). Across eight different knowledge-intensive tasks in KILT, SuperGLUE, and AIS, ARES accurately evaluates RAG systems while using only a few hundred human annotations during evaluation. Furthermore, ARES judges remain effective across domain shifts, proving accurate even after changing the type of queries and/or documents used in the evaluated RAG systems. We make our code and datasets publicly available on Github.",
+  "published": "2023-11-16",
+  "arxiv_id": "2311.09476",
+  "comment": "NAACL 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "4df2b1e7d54fe5ad81dc2ed6774b93ef7891b3c8",
+  "externalIds": {
+   "ArXiv": "2311.09476",
+   "DBLP": "conf/naacl/Saad-FalconKPZ24",
+   "ACL": "2024.naacl-long.20",
+   "DOI": "10.48550/arXiv.2311.09476",
+   "CorpusId": 265221210
+  },
+  "publicationVenue": {
+   "id": "01103732-3808-4930-b8e4-7e9e68d5c68d",
+   "name": "North American Chapter of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "North Am Chapter Assoc Comput Linguistics",
+    "NAACL"
+   ],
+   "url": "https://www.aclweb.org/portal/naacl"
+  },
+  "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+  "venue": "North American Chapter of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-11-16",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2311.09476"
+  },
+  "authors": [
+   {
+    "authorId": "2127522115",
+    "name": "Jon Saad-Falcon"
+   },
+   {
+    "authorId": "144112155",
+    "name": "O. Khattab"
+   },
+   {
+    "authorId": "2254255092",
+    "name": "Christopher Potts"
+   },
+   {
+    "authorId": "2253469012",
+    "name": "Matei Zaharia"
+   }
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+# RAG-Verify time budget. Local time = India Standard Time (UTC+05:30).
+# Written once at session start. Machine-readable: scripts/run_queue.py parses KEY=VALUE lines.
+T0=2026-11-04T21:46:34+05:30
+GATE1_TARGET=2026-11-05T05:46:34+05:30
+MAIN_RUNS_END=2026-11-06T17:46:34+05:30
+ABLATIONS_END=2026-11-07T09:46:34+05:30
+NO_NEW_GPU_JOBS_AFTER=2026-11-07T15:46:34+05:30
+HARD_STOP=2026-11-07T21:46:34+05:30
+GPU_BUDGET_HOURS=50

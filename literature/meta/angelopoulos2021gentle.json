@@ -1,0 +1,57 @@
+{
+ "seed": {
+  "key": "angelopoulos2021gentle",
+  "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+  "arxiv_id": "2107.07511",
+  "category": "conformal",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+  "authors": [
+   "Anastasios N. Angelopoulos",
+   "Stephen Bates"
+  ],
+  "abstract": "Black-box machine learning models are now routinely used in high-risk settings, like medical diagnostics, which demand uncertainty quantification to avoid consequential model failures. Conformal prediction is a user-friendly paradigm for creating statistically rigorous uncertainty sets/intervals for the predictions of such models. Critically, the sets are valid in a distribution-free sense: they possess explicit, non-asymptotic guarantees even without distributional assumptions or model assumptions. One can use conformal prediction with any pre-trained model, such as a neural network, to produce sets that are guaranteed to contain the ground truth with a user-specified probability, such as 90%. It is easy-to-understand, easy-to-use, and general, applying naturally to problems arising in the fields of computer vision, natural language processing, deep reinforcement learning, and so on. This hands-on introduction is aimed to provide the reader a working understanding of conformal prediction and related distribution-free uncertainty quantification techniques with one self-contained document. We lead the reader through practical theory for and examples of conformal prediction and describe its extensions to complex machine learning tasks involving structured outputs, distribution shift, time-series, outliers, models that abstain, and more. Throughout, there are many explanatory illustrations, examples, and code samples in Python. With each code sample comes a Jupyter notebook implementing the method on a real-data example; the notebooks can be accessed and easily run using our codebase.",
+  "published": "2021-07-15",
+  "arxiv_id": "2107.07511",
+  "comment": "Blog and tutorial video at http://angelopoulos.ai/blog/posts/gentle-intro/ ; Code is available at https://github.com/aangelopoulos/conformal-prediction",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "c3ea8eb80bc8ca0b21efa273b9e4a9fd059c65be",
+  "externalIds": {
+   "ArXiv": "2107.07511",
+   "DBLP": "journals/corr/abs-2107-07511",
+   "DOI": "10.48550/arXiv.2107.07511",
+   "CorpusId": 235899036
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+  "venue": "arXiv.org",
+  "year": 2021,
+  "publicationDate": "2021-07-15",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2107.07511"
+  },
+  "authors": [
+   {
+    "authorId": "153331364",
+    "name": "Anastasios Nikolas Angelopoulos"
+   },
+   {
+    "authorId": "153079946",
+    "name": "Stephen Bates"
+   }
+  ]
+ }
+}

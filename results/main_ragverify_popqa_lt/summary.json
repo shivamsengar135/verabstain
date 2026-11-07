@@ -1,0 +1,22 @@
+{
+ "run_id": "main_ragverify_popqa_lt",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "ragverify",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.658,
+ "match": 0.658,
+ "match_norm": 0.659,
+ "em": 0.585,
+ "f1": 0.6579158008658008,
+ "native_abstain_rate": 0.152,
+ "mean_llm_calls": 2.411,
+ "mean_prompt_tokens": 818.104,
+ "mean_completion_tokens": 43.224,
+ "mean_llm_seconds": 4.3682365015998075,
+ "mean_retrievals": 1.127,
+ "mean_verifier_pairs": 1.053,
+ "mean_seconds": 3.8502806323002443,
+ "wall_s": 686.2420389652252
+}

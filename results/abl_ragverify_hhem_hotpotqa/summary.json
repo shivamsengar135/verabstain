@@ -1,0 +1,22 @@
+{
+ "run_id": "abl_ragverify_hhem_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.374,
+ "match": 0.374,
+ "match_norm": 0.4,
+ "em": 0.362,
+ "f1": 0.4665878781807253,
+ "native_abstain_rate": 0.204,
+ "mean_llm_calls": 2.38,
+ "mean_prompt_tokens": 895.894,
+ "mean_completion_tokens": 50.38,
+ "mean_llm_seconds": 6.022069337801044,
+ "mean_retrievals": 1.084,
+ "mean_verifier_pairs": 1.042,
+ "mean_seconds": 0.42639062160002505,
+ "wall_s": 28.906398057937622
+}

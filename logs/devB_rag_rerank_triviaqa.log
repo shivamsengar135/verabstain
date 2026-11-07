@@ -1,0 +1,14 @@
+2026-11-05 02:19:10,267 INFO START devB_rag_rerank_triviaqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:19:10,582 INFO devB_rag_rerank_triviaqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:19:10,682 INFO devB_rag_rerank_triviaqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:19:10,777 INFO devB_rag_rerank_triviaqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:19:10,868 INFO devB_rag_rerank_triviaqa: 100/300 done, 0 errors, 0s
+2026-11-05 02:19:22,524 INFO devB_rag_rerank_triviaqa: 125/300 done, 0 errors, 12s
+2026-11-05 02:19:28,103 INFO devB_rag_rerank_triviaqa: 150/300 done, 0 errors, 18s
+2026-11-05 02:19:33,352 INFO devB_rag_rerank_triviaqa: 175/300 done, 0 errors, 23s
+2026-11-05 02:19:39,018 INFO devB_rag_rerank_triviaqa: 200/300 done, 0 errors, 29s
+2026-11-05 02:19:44,032 INFO devB_rag_rerank_triviaqa: 225/300 done, 0 errors, 34s
+2026-11-05 02:19:49,930 INFO devB_rag_rerank_triviaqa: 250/300 done, 0 errors, 40s
+2026-11-05 02:19:56,458 INFO devB_rag_rerank_triviaqa: 275/300 done, 0 errors, 46s
+2026-11-05 02:20:00,306 INFO devB_rag_rerank_triviaqa: 300/300 done, 0 errors, 50s
+2026-11-05 02:20:00,620 INFO END devB_rag_rerank_triviaqa: complete, wall 0.8 min, stats {'llm_calls': 164, 'cache_hits': 136, 'prompt_tokens': 94959, 'completion_tokens': 730, 'llm_seconds': 324.8223439999274, 'retrievals': 0, 'verifier_pairs': 0}

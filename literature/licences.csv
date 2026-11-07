@@ -1,0 +1,9 @@
+dataset,licence,source,checked_at
+PopQA,MIT,https://github.com/AlexTMallen/adaptive-retrieval/blob/main/LICENSE (repository releasing PopQA),2026-11-07T10:25:18+05:30
+TriviaQA,no data licence stated; code Apache-2.0,HF card mandarjoshi/trivia_qa: 'The University of Washington does not own the copyright of the questions and documents included in TriviaQA'; https://github.com/mandarjoshi90/triviaqa/blob/master/LICENSE,2026-11-07T10:25:18+05:30
+HotpotQA,CC BY-SA 4.0,HF card hotpotqa/hotpot_qa,2026-11-07T10:25:18+05:30
+HotpotQA Wikipedia corpus (BEIR),CC BY-SA 4.0,HF card BeIR/hotpotqa,2026-11-07T10:25:18+05:30
+PubHealth,MIT,https://github.com/neemakot/Health-Fact-Checking/blob/master/LICENSE; HF card bigbio/pubhealth,2026-11-07T10:25:18+05:30
+"Self-RAG evaluation files (PopQA, TriviaQA, PubHealth test files)",MIT,https://github.com/AkariAsai/self-rag/blob/main/LICENSE,2026-11-07T10:25:18+05:30
+RGB,CC BY-NC-SA 4.0,https://github.com/chen700564/RGB/blob/master/LICENSE.txt,2026-11-07T10:25:18+05:30
+RAGTruth,MIT,https://github.com/ParticleMedia/RAGTruth/blob/main/LICENSE,2026-11-07T10:25:18+05:30

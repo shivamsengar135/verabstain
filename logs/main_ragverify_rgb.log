@@ -1,0 +1,64 @@
+2026-11-06 12:44:05,290 INFO START main_ragverify_rgb: 1300/1300 examples to run; projected 65 min
+2026-11-06 12:44:12,887 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=18.8 on_battery=False
+2026-11-06 12:44:33,277 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=12.1
+2026-11-06 12:45:03,132 INFO main_ragverify_rgb: 25/1300 done, 0 errors, 58s
+2026-11-06 12:46:15,865 INFO main_ragverify_rgb: 50/1300 done, 0 errors, 130s
+2026-11-06 12:47:32,996 INFO main_ragverify_rgb: 75/1300 done, 0 errors, 208s
+2026-11-06 12:48:53,793 INFO main_ragverify_rgb: 100/1300 done, 0 errors, 288s
+2026-11-06 12:50:08,501 INFO main_ragverify_rgb: 125/1300 done, 0 errors, 363s
+2026-11-06 12:51:28,570 INFO main_ragverify_rgb: 150/1300 done, 0 errors, 443s
+2026-11-06 12:52:04,821 INFO main_ragverify_rgb: 175/1300 done, 0 errors, 479s
+2026-11-06 12:52:38,058 INFO main_ragverify_rgb: 200/1300 done, 0 errors, 513s
+2026-11-06 12:53:09,446 INFO main_ragverify_rgb: 225/1300 done, 0 errors, 544s
+2026-11-06 12:53:47,638 WARNING PAUSE: gpu_temp=82 cpu_zone=53.9 cpu_load=26.1 on_battery=False
+2026-11-06 12:53:48,620 INFO main_ragverify_rgb: 250/1300 done, 0 errors, 583s
+2026-11-06 12:54:07,648 WARNING RESUME: gpu_temp=47 cpu_zone=48.9 cpu_load=11.4
+2026-11-06 12:54:41,111 INFO main_ragverify_rgb: 275/1300 done, 0 errors, 636s
+2026-11-06 12:55:12,994 INFO main_ragverify_rgb: 300/1300 done, 0 errors, 668s
+2026-11-06 12:55:42,377 INFO main_ragverify_rgb: 325/1300 done, 0 errors, 697s
+2026-11-06 12:56:01,725 WARNING PAUSE: gpu_temp=81 cpu_zone=53.9 cpu_load=22.4 on_battery=False
+2026-11-06 12:56:21,737 WARNING RESUME: gpu_temp=47 cpu_zone=48.9 cpu_load=10.8
+2026-11-06 12:56:34,062 INFO main_ragverify_rgb: 350/1300 done, 0 errors, 749s
+2026-11-06 12:56:41,750 WARNING PAUSE: gpu_temp=80 cpu_zone=51.9 cpu_load=22.5 on_battery=False
+2026-11-06 12:57:01,759 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=14.5
+2026-11-06 12:57:25,813 INFO main_ragverify_rgb: 375/1300 done, 0 errors, 800s
+2026-11-06 12:57:59,885 INFO main_ragverify_rgb: 400/1300 done, 0 errors, 834s
+2026-11-06 12:58:03,803 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=24.4 on_battery=False
+2026-11-06 12:58:23,814 WARNING RESUME: gpu_temp=47 cpu_zone=48.9 cpu_load=9.2
+2026-11-06 12:58:52,948 INFO main_ragverify_rgb: 425/1300 done, 0 errors, 887s
+2026-11-06 12:59:28,268 INFO main_ragverify_rgb: 450/1300 done, 0 errors, 923s
+2026-11-06 13:00:04,179 INFO main_ragverify_rgb: 475/1300 done, 0 errors, 959s
+2026-11-06 13:00:37,968 INFO main_ragverify_rgb: 500/1300 done, 0 errors, 993s
+2026-11-06 13:01:08,073 INFO main_ragverify_rgb: 525/1300 done, 0 errors, 1023s
+2026-11-06 13:01:38,868 INFO main_ragverify_rgb: 550/1300 done, 0 errors, 1053s
+2026-11-06 13:02:27,886 INFO main_ragverify_rgb: 575/1300 done, 0 errors, 1102s
+2026-11-06 13:03:38,295 INFO main_ragverify_rgb: 600/1300 done, 0 errors, 1173s
+2026-11-06 13:04:46,207 INFO main_ragverify_rgb: 625/1300 done, 0 errors, 1241s
+2026-11-06 13:05:56,013 INFO main_ragverify_rgb: 650/1300 done, 0 errors, 1311s
+2026-11-06 13:07:00,244 INFO main_ragverify_rgb: 675/1300 done, 0 errors, 1375s
+2026-11-06 13:08:14,960 INFO main_ragverify_rgb: 700/1300 done, 0 errors, 1449s
+2026-11-06 13:09:23,920 INFO main_ragverify_rgb: 725/1300 done, 0 errors, 1518s
+2026-11-06 13:10:30,244 INFO main_ragverify_rgb: 750/1300 done, 0 errors, 1585s
+2026-11-06 13:12:02,888 INFO main_ragverify_rgb: 775/1300 done, 0 errors, 1677s
+2026-11-06 13:13:14,384 INFO main_ragverify_rgb: 800/1300 done, 0 errors, 1749s
+2026-11-06 13:14:39,883 INFO main_ragverify_rgb: 825/1300 done, 0 errors, 1834s
+2026-11-06 13:16:06,266 INFO main_ragverify_rgb: 850/1300 done, 0 errors, 1921s
+2026-11-06 13:17:31,081 INFO main_ragverify_rgb: 875/1300 done, 0 errors, 2006s
+2026-11-06 13:19:04,552 INFO main_ragverify_rgb: 900/1300 done, 0 errors, 2099s
+2026-11-06 13:21:10,404 INFO main_ragverify_rgb: 925/1300 done, 0 errors, 2225s
+2026-11-06 13:23:14,779 INFO main_ragverify_rgb: 950/1300 done, 0 errors, 2349s
+2026-11-06 13:25:16,319 INFO main_ragverify_rgb: 975/1300 done, 0 errors, 2471s
+2026-11-06 13:27:15,688 INFO main_ragverify_rgb: 1000/1300 done, 0 errors, 2590s
+2026-11-06 13:28:42,239 INFO main_ragverify_rgb: 1025/1300 done, 0 errors, 2677s
+2026-11-06 13:30:17,444 INFO main_ragverify_rgb: 1050/1300 done, 0 errors, 2772s
+2026-11-06 13:31:58,353 INFO main_ragverify_rgb: 1075/1300 done, 0 errors, 2873s
+2026-11-06 13:33:47,634 INFO main_ragverify_rgb: 1100/1300 done, 0 errors, 2982s
+2026-11-06 13:35:09,033 INFO main_ragverify_rgb: 1125/1300 done, 0 errors, 3064s
+2026-11-06 13:36:34,349 INFO main_ragverify_rgb: 1150/1300 done, 0 errors, 3149s
+2026-11-06 13:39:06,516 INFO main_ragverify_rgb: 1175/1300 done, 0 errors, 3301s
+2026-11-06 13:41:01,266 INFO main_ragverify_rgb: 1200/1300 done, 0 errors, 3416s
+2026-11-06 13:41:30,111 INFO main_ragverify_rgb: 1225/1300 done, 0 errors, 3445s
+2026-11-06 13:42:09,785 INFO main_ragverify_rgb: 1250/1300 done, 0 errors, 3484s
+2026-11-06 13:42:50,330 INFO main_ragverify_rgb: 1275/1300 done, 0 errors, 3525s
+2026-11-06 13:43:18,824 INFO main_ragverify_rgb: 1300/1300 done, 0 errors, 3553s
+2026-11-06 13:43:20,579 INFO END main_ragverify_rgb: complete, wall 59.2 min, stats {'llm_calls': 1411, 'cache_hits': 1423, 'prompt_tokens': 1899707, 'completion_tokens': 50995, 'llm_seconds': 24034.166091200226, 'retrievals': 0, 'verifier_pairs': 0}

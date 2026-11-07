@@ -1,0 +1,83 @@
+{
+ "seed": {
+  "key": "gou2024critic",
+  "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+  "arxiv_id": "2305.11738",
+  "category": "verification",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+  "authors": [
+   "Zhibin Gou",
+   "Zhihong Shao",
+   "Yeyun Gong",
+   "Yelong Shen",
+   "Yujiu Yang",
+   "Nan Duan",
+   "Weizhu Chen"
+  ],
+  "abstract": "Recent developments in large language models (LLMs) have been impressive. However, these models sometimes show inconsistencies and problematic behavior, such as hallucinating facts, generating flawed code, or creating offensive and toxic content. Unlike these models, humans typically utilize external tools to cross-check and refine their initial content, like using a search engine for fact-checking, or a code interpreter for debugging. Inspired by this observation, we introduce a framework called CRITIC that allows LLMs, which are essentially \"black boxes\" to validate and progressively amend their own outputs in a manner similar to human interaction with tools. More specifically, starting with an initial output, CRITIC interacts with appropriate tools to evaluate certain aspects of the text, and then revises the output based on the feedback obtained during this validation process. Comprehensive evaluations involving free-form question answering, mathematical program synthesis, and toxicity reduction demonstrate that CRITIC consistently enhances the performance of LLMs. Meanwhile, our research highlights the crucial importance of external feedback in promoting the ongoing self-improvement of LLMs.",
+  "published": "2023-05-19",
+  "arxiv_id": "2305.11738",
+  "comment": "ICLR 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "bcdaf6c98ddbd6809cf6241aa77200d7394db163",
+  "externalIds": {
+   "DBLP": "conf/iclr/GouSGSYDC24",
+   "ArXiv": "2305.11738",
+   "DOI": "10.48550/arXiv.2305.11738",
+   "CorpusId": 258823123
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+  "venue": "International Conference on Learning Representations",
+  "year": 2023,
+  "publicationDate": "2023-05-19",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2305.11738"
+  },
+  "authors": [
+   {
+    "authorId": "1797090",
+    "name": "Zhibin Gou"
+   },
+   {
+    "authorId": "144485528",
+    "name": "Zhihong Shao"
+   },
+   {
+    "authorId": "2171182",
+    "name": "Yeyun Gong"
+   },
+   {
+    "authorId": "1752875",
+    "name": "Ye-Long Shen"
+   },
+   {
+    "authorId": "3001727",
+    "name": "Yujiu Yang"
+   },
+   {
+    "authorId": "46429989",
+    "name": "Nan Duan"
+   },
+   {
+    "authorId": "2109136147",
+    "name": "Wei-Zhu Chen"
+   }
+  ]
+ }
+}

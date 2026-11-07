@@ -1,0 +1,123 @@
+key,title,arxiv_id,category,role
+lewis2020rag,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2005.11401,rag,background
+karpukhin2020dpr,Dense Passage Retrieval for Open-Domain Question Answering,2004.04906,retrieval,background
+guu2020realm,REALM: Retrieval-Augmented Language Model Pre-Training,2002.08909,rag,background
+izacard2021fid,Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering,2007.01282,rag,background
+izacard2023atlas,Atlas: Few-shot Learning with Retrieval Augmented Language Models,2208.03299,rag,background
+shi2024replug,REPLUG: Retrieval-Augmented Black-Box Language Models,2301.12652,rag,background
+ram2023icralm,In-Context Retrieval-Augmented Language Models,2302.00083,rag,background
+gao2023ragsurvey,Retrieval-Augmented Generation for Large Language Models: A Survey,2312.10997,survey,background
+liu2024lost,Lost in the Middle: How Language Models Use Long Contexts,2307.03172,rag,background
+jin2025flashrag,FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research,2405.13576,rag,reference-impl
+mallen2023popqa,When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories,2212.10511,adaptive,dataset+method
+jiang2023flare,Active Retrieval Augmented Generation,2305.06983,adaptive,baseline
+su2024dragin,DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models,2403.10081,adaptive,candidate-baseline
+jeong2024adaptiverag,Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity,2403.14403,adaptive,candidate-baseline
+trivedi2023ircot,Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions,2212.10509,adaptive,related
+wang2023skr,Self-Knowledge Guided Retrieval Augmentation for Large Language Models,2310.05002,adaptive,related
+yao2024seakr,SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation,2406.19215,adaptive,related
+ding2024rowen,Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs,2402.10612,adaptive,closest-prior
+moskvoretskii2025adaptive,Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home,,adaptive,related
+press2023selfask,Measuring and Narrowing the Compositionality Gap in Language Models,2210.03350,adaptive,related
+asai2024selfrag,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",2310.11511,reflective,baseline
+yan2024crag,Corrective Retrieval Augmented Generation,2401.15884,corrective,baseline
+yu2024chainofnote,Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models,2311.09210,corrective,baseline
+yoran2024retrobust,Making Retrieval-Augmented Language Models Robust to Irrelevant Context,2310.01558,corrective,related
+wang2025astute,Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models,2410.07176,corrective,candidate-baseline
+wei2025instructrag,InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales,2406.13629,corrective,candidate-baseline
+xu2024recomp,RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation,2310.04408,corrective,related
+wang2025speculative,Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting,2407.08223,corrective,related
+islam2024openrag,Open-RAG: Enhanced Retrieval-Augmented Reasoning with Open-Source Large Language Models,2410.01782,reflective,related
+yan2025rpo,RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation,2501.13726,corrective,related
+he2024covrag,Retrieving Rethinking and Revising: The Chain-of-Verification Can Improve Retrieval Augmented Generation,,verification,closest-prior
+xiang2024robustrag,Certifiably Robust RAG against Retrieval Corruption,2405.15556,corrective,related
+jin2025searchr1,Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning,2503.09516,adaptive,related
+gao2023rarr,RARR: Researching and Revising What Language Models Say Using Language Models,2210.08726,verification,baseline
+zhao2023verifyedit,Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework,2305.03268,verification,candidate-baseline
+dhuliawala2024cove,Chain-of-Verification Reduces Hallucination in Large Language Models,2309.11495,verification,baseline
+gou2024critic,CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing,2305.11738,verification,related
+madaan2023selfrefine,Self-Refine: Iterative Refinement with Self-Feedback,2303.17651,verification,related
+peng2023checkfacts,Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback,2302.12813,verification,related
+kang2024ever,Ever: Mitigating Hallucination in Large Language Models through Real-Time Verification and Rectification,2311.09114,verification,closest-prior
+chern2023factool,FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios,2307.13528,verification,related
+chen2023purr,PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions,2305.14908,verification,related
+huang2024cannotselfcorrect,Large Language Models Cannot Self-Correct Reasoning Yet,2310.01798,verification,related
+min2023factscore,FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation,2305.14251,claimcheck,related
+wei2024safe,Long-form factuality in large language models,2403.18802,claimcheck,related
+tang2024minicheck,MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents,2404.10774,claimcheck,verifier
+zha2023alignscore,AlignScore: Evaluating Factual Consistency with A Unified Alignment Function,2305.16739,claimcheck,verifier/evaluator
+laban2022summac,SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization,2111.09525,claimcheck,related
+honovich2022true,TRUE: Re-evaluating Factual Consistency Evaluation,2204.04991,claimcheck,related
+he2023debertav3,DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing,2111.09543,model,verifier
+song2024veriscore,VeriScore: Evaluating the factuality of verifiable claims in long-form text generation,2406.19276,claimcheck,related
+es2024ragas,RAGAs: Automated Evaluation of Retrieval Augmented Generation,2309.15217,claimcheck,related
+saadfalcon2024ares,ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems,2311.09476,claimcheck,related
+ru2024ragchecker,RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation,2408.08067,claimcheck,related
+kovacs2025lettucedetect,LettuceDetect: A Hallucination Detection Framework for RAG Applications,2502.17125,claimcheck,candidate-verifier
+sun2025redeep,ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability,2410.11414,claimcheck,related
+belyi2024luna,Luna: An Evaluation Foundation Model to Catch Language Model Hallucinations with High Accuracy and Low Cost,2406.00975,claimcheck,related
+ravi2024lynx,Lynx: An Open Source Hallucination Evaluation Model,2407.08488,claimcheck,related
+chung2024flant5,Scaling Instruction-Finetuned Language Models,2210.11416,model,verifier-base
+thorne2018fever,FEVER: a Large-scale Dataset for Fact Extraction and VERification,1803.05355,dataset,dataset
+kotonya2020pubhealth,Explainable Automated Fact-Checking for Public Health Claims,2010.09926,dataset,dataset
+manakul2023selfcheckgpt,SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models,2303.08896,uncertainty,baseline
+kuhn2023semantic,Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation,2302.09664,uncertainty,related
+farquhar2024nature,Detecting hallucinations in large language models using semantic entropy,,uncertainty,related
+kadavath2022know,Language Models (Mostly) Know What They Know,2207.05221,uncertainty,related
+kamath2020selective,Selective Question Answering under Domain Shift,2006.09462,uncertainty,related
+geifman2017selective,Selective Classification for Deep Neural Networks,1705.08500,uncertainty,metric
+geifman2019aurc,Bias-Reduced Uncertainty Estimation for Deep Neural Classifiers,1805.08206,uncertainty,metric
+angelopoulos2024crc,Conformal Risk Control,2208.02814,conformal,method-component
+angelopoulos2021ltt,Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control,2110.01052,conformal,method-component
+angelopoulos2021gentle,A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification,2107.07511,conformal,background
+bates2021rcps,Distribution-Free Risk-Controlling Prediction Sets,2101.02703,conformal,background
+quach2024clm,Conformal Language Modeling,2306.10193,conformal,related
+mohri2024conformalfactuality,Language Models with Conformal Factuality Guarantees,2402.10978,conformal,closest-prior
+kang2024cragcert,C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models,2402.03181,conformal,closest-prior
+li2024traq,TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction,2307.04642,conformal,closest-prior
+yadkori2024conformalabstention,Mitigating LLM Hallucinations via Conformal Abstention,2405.01563,conformal,closest-prior
+cherian2024llmvalidity,Large language model validity via enhanced conformal prediction methods,2406.09714,conformal,related
+feng2024dontabstain,Don't Hallucinate Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration,2402.00367,uncertainty,related
+wen2025abstentionsurvey,Know Your Limits: A Survey of Abstention in Large Language Models,2407.18418,survey,related
+fadeeva2023lmpolygraph,LM-Polygraph: Uncertainty Estimation for Language Models,2311.07383,uncertainty,related
+unicr2025,Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal,2509.01455,conformal,closest-prior
+conformalragguard2025,The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems,2512.15068,conformal,closest-prior
+chanceconstrained2026,Chance-Constrained Inference for Hallucination Risk Control in Large Language Models,2602.01637,conformal,related
+rhrag2026,RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings,2608.01311,verification,closest-prior
+r2vc2026,R2VC: Modular Fact-Checking with Retrieval Verification and Confidence Calibration,2609.11955,verification,closest-prior
+repairrag2026,Detecting and Repairing Hallucinations in Retrieval-Augmented Generation,2608.29307,verification,closest-prior
+pave2026,PAVE: Premise-Aware Validation and Editing for Retrieval-Augmented LLMs,2603.20673,verification,closest-prior
+reasonverify2026,Reason and Verify: A Framework for Faithful Retrieval-Augmented Generation,2603.10143,verification,related
+chen2024rgb,Benchmarking Large Language Models in Retrieval-Augmented Generation,2309.01431,benchmark,dataset
+niu2024ragtruth,RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models,2401.00396,benchmark,dataset
+ming2025faitheval,FaithEval: Can Your Language Model Stay Faithful to Context Even If The Moon is Made of Marshmallows,2410.03727,benchmark,dataset
+li2023halueval,HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models,2305.11747,benchmark,related
+lin2022truthfulqa,TruthfulQA: Measuring How Models Mimic Human Falsehoods,2109.07958,benchmark,related
+gao2023alce,Enabling Large Language Models to Generate Text with Citations,2305.14627,benchmark,related
+stelmakh2022asqa,ASQA: Factoid Questions Meet Long-Form Answers,2204.06092,benchmark,optional-dataset
+friel2024ragbench,RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems,2407.11005,benchmark,related
+wu2024clasheval,ClashEval: Quantifying the tug-of-war between an LLM's internal prior and external evidence,2404.10198,benchmark,related
+joshi2017triviaqa,TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension,1705.03551,dataset,dataset
+yang2018hotpotqa,HotpotQA: A Dataset for Diverse Explainable Multi-hop Question Answering,1809.09600,dataset,dataset
+thakur2021beir,BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models,2104.08663,retrieval,corpus-source
+huang2025halsurvey,A Survey on Hallucination in Large Language Models: Principles Taxonomy Challenges and Open Questions,2311.05232,survey,background
+ji2023halsurvey,Survey of Hallucination in Natural Language Generation,2202.03629,survey,background
+tonmoy2024mitigation,A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models,2401.01313,survey,background
+robertson2009bm25,The Probabilistic Relevance Framework: BM25 and Beyond,,retrieval,method-component
+lu2024bm25s,BM25S: Orders of magnitude faster lexical search via eager sparse scoring,2407.03618,retrieval,software
+cormack2009rrf,Reciprocal rank fusion outperforms condorcet and individual rank learning methods,,retrieval,method-component
+douze2024faiss,The Faiss library,2401.08281,retrieval,software
+xiao2024cpack,C-Pack: Packed Resources For General Chinese Embeddings,2309.07597,retrieval,model
+nogueira2019monobert,Passage Re-ranking with BERT,1901.04085,retrieval,method-component
+wang2020minilm,MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers,2002.10957,model,model
+izacard2022contriever,Unsupervised Dense Information Retrieval with Contrastive Learning,2112.09118,retrieval,background
+qwen2025qwen25,Qwen2.5 Technical Report,2412.15115,model,backbone
+grattafiori2024llama3,The Llama 3 Herd of Models,2407.21783,model,backbone
+touvron2023llama2,Llama 2: Open Foundation and Fine-Tuned Chat Models,2307.09288,model,selfrag-base
+koehn2004bootstrap,Statistical Significance Tests for Machine Translation Evaluation,,stats,stats
+dror2018hitchhiker,The Hitchhiker's Guide to Testing Statistical Significance in Natural Language Processing,,stats,stats
+surerag2026,SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation,2605.03534,verification,closest-prior
+targ2026,Retrieval as a Decision: Training-Free Adaptive Gating for Efficient RAG,2511.09803,adaptive,closest-prior
+uawebfc2026,Uncertainty-Aware Web-Conditioned Scientific Fact-Checking,2604.11036,verification,closest-prior
+ecr2026,Entropic Claim Resolution: Uncertainty-Driven Evidence Selection for RAG,2603.28444,verification,related
+conformalretrieval2026,Towards Dependable Retrieval-Augmented Generation Using Factual Confidence Prediction,2605.05244,conformal,related

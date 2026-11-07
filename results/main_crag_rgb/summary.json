@@ -1,0 +1,20 @@
+{
+ "run_id": "main_crag_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "crag",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.5838461538461538,
+ "rejected": 0.0,
+ "fake_answer": 0.93,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 1150.533076923077,
+ "mean_completion_tokens": 16.953076923076924,
+ "mean_llm_seconds": 8.731235652154194,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 12.1148236350001,
+ "wall_s": 2259.5439298152924
+}

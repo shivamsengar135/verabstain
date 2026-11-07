@@ -1,0 +1,73 @@
+{
+ "seed": {
+  "key": "angelopoulos2024crc",
+  "title": "Conformal Risk Control",
+  "arxiv_id": "2208.02814",
+  "category": "conformal",
+  "role": "method-component"
+ },
+ "arxiv": {
+  "title": "Conformal Risk Control",
+  "authors": [
+   "Anastasios N. Angelopoulos",
+   "Stephen Bates",
+   "Adam Fisch",
+   "Lihua Lei",
+   "Tal Schuster"
+  ],
+  "abstract": "We extend conformal prediction to control the expected value of any monotone loss function. The algorithm generalizes split conformal prediction together with its coverage guarantee. Like conformal prediction, the conformal risk control procedure is tight up to an $\\mathcal{O}(1/n)$ factor. We also introduce extensions of the idea to distribution shift, quantile risk control, multiple and adversarial risk control, and expectations of U-statistics. Worked examples from computer vision and natural language processing demonstrate the usage of our algorithm to bound the false negative rate, graph distance, and token-level F1-score.",
+  "published": "2022-08-04",
+  "arxiv_id": "2208.02814",
+  "comment": "Code available at https://github.com/aangelopoulos/conformal-risk",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "af2fba1911f0d0977c731e3918c51428e08741da",
+  "externalIds": {
+   "ArXiv": "2208.02814",
+   "DBLP": "journals/corr/abs-2208-02814",
+   "DOI": "10.48550/arXiv.2208.02814",
+   "CorpusId": 251320513
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Conformal Risk Control",
+  "venue": "International Conference on Learning Representations",
+  "year": 2022,
+  "publicationDate": "2022-08-04",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2208.02814"
+  },
+  "authors": [
+   {
+    "authorId": "153331364",
+    "name": "Anastasios Nikolas Angelopoulos"
+   },
+   {
+    "authorId": "153079946",
+    "name": "Stephen Bates"
+   },
+   {
+    "authorId": "2064150446",
+    "name": "Adam Fisch"
+   },
+   {
+    "authorId": "40239086",
+    "name": "Li-Hua Lei"
+   },
+   {
+    "authorId": "32303439",
+    "name": "Tal Schuster"
+   }
+  ]
+ }
+}

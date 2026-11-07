@@ -1,0 +1,6 @@
+2026-11-04 23:51:12,134 INFO START pilot_flare_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:51:41,616 INFO pilot_flare_hotpotqa: 25/100 done, 0 errors, 29s
+2026-11-04 23:51:51,115 INFO pilot_flare_hotpotqa: 50/100 done, 0 errors, 39s
+2026-11-04 23:52:00,253 INFO pilot_flare_hotpotqa: 75/100 done, 0 errors, 48s
+2026-11-04 23:52:11,474 INFO pilot_flare_hotpotqa: 100/100 done, 0 errors, 59s
+2026-11-04 23:52:11,479 INFO END pilot_flare_hotpotqa: complete, wall 1.0 min, stats {'llm_calls': 115, 'cache_hits': 185, 'prompt_tokens': 68943, 'completion_tokens': 592, 'llm_seconds': 171.96444270001666, 'retrievals': 0, 'verifier_pairs': 0}

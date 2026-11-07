@@ -1,0 +1,69 @@
+{
+ "seed": {
+  "key": "xiang2024robustrag",
+  "title": "Certifiably Robust RAG against Retrieval Corruption",
+  "arxiv_id": "2405.15556",
+  "category": "corrective",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Certifiably Robust RAG against Retrieval Corruption",
+  "authors": [
+   "Chong Xiang",
+   "Tong Wu",
+   "Zexuan Zhong",
+   "David Wagner",
+   "Danqi Chen",
+   "Prateek Mittal"
+  ],
+  "abstract": "Retrieval-augmented generation (RAG) is susceptible to retrieval corruption attacks, where malicious passages injected into retrieval results can lead to inaccurate model responses. We propose RobustRAG, the first defense framework with certifiable robustness against retrieval corruption attacks. The key insight of RobustRAG is an isolate-then-aggregate strategy: we isolate passages into disjoint groups, generate LLM responses based on the concatenated passages from each isolated group, and then securely aggregate these responses for a robust output. To instantiate RobustRAG, we design keyword-based and decoding-based algorithms for securely aggregating unstructured text responses. Notably, RobustRAG achieves certifiable robustness: for certain queries in our evaluation datasets, we can formally certify non-trivial lower bounds on response quality -- even against an adaptive attacker with full knowledge of the defense and the ability to arbitrarily inject a bounded number of malicious passages. We evaluate RobustRAG on the tasks of open-domain question-answering and free-form long text generation and demonstrate its effectiveness across three datasets and three LLMs.",
+  "published": "2024-05-24",
+  "arxiv_id": "2405.15556",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "3b81eca915a041b12eab31ffa62fca5bdabfbf17",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2405-15556",
+   "ArXiv": "2405.15556",
+   "DOI": "10.1109/SaTML68715.2026.00029",
+   "CorpusId": 270045527
+  },
+  "publicationVenue": null,
+  "title": "Certifiably Robust RAG against Retrieval Corruption",
+  "venue": "2026 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+  "year": 2024,
+  "publicationDate": "2024-05-24",
+  "journal": {
+   "name": "2026 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+   "pages": "392-410"
+  },
+  "authors": [
+   {
+    "authorId": "2056790281",
+    "name": "Chong Xiang"
+   },
+   {
+    "authorId": "2257381743",
+    "name": "Tong Wu"
+   },
+   {
+    "authorId": "49164966",
+    "name": "Zexuan Zhong"
+   },
+   {
+    "authorId": "2265651533",
+    "name": "David A. Wagner"
+   },
+   {
+    "authorId": "50536468",
+    "name": "Danqi Chen"
+   },
+   {
+    "authorId": "2254282852",
+    "name": "Prateek Mittal"
+   }
+  ]
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "seed": {
+  "key": "reasonverify2026",
+  "title": "Reason and Verify: A Framework for Faithful Retrieval-Augmented Generation",
+  "arxiv_id": "2603.10143",
+  "category": "verification",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Reason and Verify: A Framework for Faithful Retrieval-Augmented Generation",
+  "authors": [
+   "Eeham Khan",
+   "Luis Rodriguez",
+   "Marc Queudot"
+  ],
+  "abstract": "Retrieval-Augmented Generation (RAG) significantly improves the factuality of Large Language Models (LLMs), yet standard pipelines often lack mechanisms to verify inter- mediate reasoning, leaving them vulnerable to hallucinations in high-stakes domains. To address this, we propose a domain-specific RAG framework that integrates explicit rea- soning and faithfulness verification. Our architecture augments standard retrieval with neural query rewriting, BGE-based cross-encoder reranking, and a rationale generation module that grounds sub-claims in specific evidence spans. We further introduce an eight-category verification taxonomy that enables fine-grained assessment of rationale faithfulness, distinguishing between explicit and implicit support patterns to facilitate structured error diagnosis. We evaluate this framework on the BioASQ and PubMedQA benchmarks, specifically analyzing the impact of dynamic in-context learning and rerank- ing under constrained token budgets. Experiments demonstrate that explicit rationale generation improves accuracy over vanilla RAG baselines, while dynamic demonstration selection combined with robust reranking yields further gains in few-shot settings. Using Llama-3-8B-Instruct, our approach achieves 89.1% on BioASQ-Y/N and 73.0% on Pub- MedQA, competitive with systems using significantly larger models. Additionally, we perform a pilot study combining human expert assessment with LLM-based verification to explore how explicit rationale generation improves system transparency and enables more detailed diagnosis of retrieval failures in biomedical question answering.",
+  "published": "2026-03-10",
+  "arxiv_id": "2603.10143",
+  "comment": "Accepted to Canadian AI 2026",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "a99930f519b536876aa1e67a83dfd7b57f617678",
+  "externalIds": {
+   "ArXiv": "2603.10143",
+   "DBLP": "journals/corr/abs-2603-10143",
+   "DOI": "10.48550/arXiv.2603.10143",
+   "CorpusId": 286457612
+  },
+  "publicationVenue": {
+   "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+   "name": "arXiv.org",
+   "alternate_names": [
+    "ArXiv"
+   ],
+   "issn": "2331-8422",
+   "url": "https://arxiv.org"
+  },
+  "title": "Reason and Verify: A Framework for Faithful Retrieval-Augmented Generation",
+  "venue": "arXiv.org",
+  "year": 2026,
+  "publicationDate": "2026-03-10",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2603.10143"
+  },
+  "authors": [
+   {
+    "authorId": "2363973396",
+    "name": "Eeham Khan"
+   },
+   {
+    "authorId": "2385415953",
+    "name": "Luis Rodriguez"
+   },
+   {
+    "authorId": "3456784",
+    "name": "Marc Queudot"
+   }
+  ]
+ }
+}

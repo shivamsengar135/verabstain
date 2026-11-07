@@ -1,0 +1,6 @@
+2026-11-04 23:39:23,601 INFO START pilot_rag_selfcheck_hotpotqa: 100/100 examples to run; projected 10 min
+2026-11-04 23:39:36,690 INFO pilot_rag_selfcheck_hotpotqa: 25/100 done, 0 errors, 13s
+2026-11-04 23:39:48,388 INFO pilot_rag_selfcheck_hotpotqa: 50/100 done, 0 errors, 25s
+2026-11-04 23:39:58,524 INFO pilot_rag_selfcheck_hotpotqa: 75/100 done, 0 errors, 35s
+2026-11-04 23:40:08,395 INFO pilot_rag_selfcheck_hotpotqa: 100/100 done, 0 errors, 45s
+2026-11-04 23:40:08,413 INFO END pilot_rag_selfcheck_hotpotqa: complete, wall 0.7 min, stats {'llm_calls': 500, 'cache_hits': 100, 'prompt_tokens': 307185, 'completion_tokens': 2638, 'llm_seconds': 351.2121782001341, 'retrievals': 0, 'verifier_pairs': 0}

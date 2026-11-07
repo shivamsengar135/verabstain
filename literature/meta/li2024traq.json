@@ -1,0 +1,68 @@
+{
+ "seed": {
+  "key": "li2024traq",
+  "title": "TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction",
+  "arxiv_id": "2307.04642",
+  "category": "conformal",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction",
+  "authors": [
+   "Shuo Li",
+   "Sangdon Park",
+   "Insup Lee",
+   "Osbert Bastani"
+  ],
+  "abstract": "When applied to open-domain question answering, large language models (LLMs) frequently generate incorrect responses based on made-up facts, which are called $\\textit{hallucinations}$. Retrieval augmented generation (RAG) is a promising strategy to avoid hallucinations, but it does not provide guarantees on its correctness. To address this challenge, we propose the Trustworthy Retrieval Augmented Question Answering, or $\\textit{TRAQ}$, which provides the first end-to-end statistical correctness guarantee for RAG. TRAQ uses conformal prediction, a statistical technique for constructing prediction sets that are guaranteed to contain the semantically correct response with high probability. Additionally, TRAQ leverages Bayesian optimization to minimize the size of the constructed sets. In an extensive experimental evaluation, we demonstrate that TRAQ provides the desired correctness guarantee while reducing prediction set size by 16.2% on average compared to an ablation. The implementation is available at $\\href{https://github.com/shuoli90/TRAQ.git}{TRAQ}$.",
+  "published": "2023-07-07",
+  "arxiv_id": "2307.04642",
+  "comment": "23 pages, 17 figures, 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "28e078b52a761cf3fe5941d3428acb7bbf608f21",
+  "externalIds": {
+   "ACL": "2024.naacl-long.210",
+   "DBLP": "conf/naacl/Li00B24",
+   "ArXiv": "2307.04642",
+   "DOI": "10.18653/v1/2024.naacl-long.210",
+   "CorpusId": 259501744
+  },
+  "publicationVenue": {
+   "id": "01103732-3808-4930-b8e4-7e9e68d5c68d",
+   "name": "North American Chapter of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "North Am Chapter Assoc Comput Linguistics",
+    "NAACL"
+   ],
+   "url": "https://www.aclweb.org/portal/naacl"
+  },
+  "title": "TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction",
+  "venue": "North American Chapter of the Association for Computational Linguistics",
+  "year": 2023,
+  "publicationDate": "2023-07-07",
+  "journal": {
+   "pages": "3799-3821"
+  },
+  "authors": [
+   {
+    "authorId": "2109135300",
+    "name": "Shuo Li"
+   },
+   {
+    "authorId": "2107883360",
+    "name": "Sangdon Park"
+   },
+   {
+    "authorId": "2152635282",
+    "name": "Insup Lee"
+   },
+   {
+    "authorId": "1697444",
+    "name": "Osbert Bastani"
+   }
+  ]
+ }
+}

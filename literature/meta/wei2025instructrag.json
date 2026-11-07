@@ -1,0 +1,59 @@
+{
+ "seed": {
+  "key": "wei2025instructrag",
+  "title": "InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales",
+  "arxiv_id": "2406.13629",
+  "category": "corrective",
+  "role": "candidate-baseline"
+ },
+ "arxiv": {
+  "title": "InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales",
+  "authors": [
+   "Zhepei Wei",
+   "Wei-Lin Chen",
+   "Yu Meng"
+  ],
+  "abstract": "Retrieval-augmented generation (RAG) has shown promising potential to enhance the accuracy and factuality of language models (LMs). However, imperfect retrievers or noisy corpora can introduce misleading or even erroneous information to the retrieved contents, posing a significant challenge to the generation quality. Existing RAG methods typically address this challenge by directly predicting final answers despite potentially noisy inputs, resulting in an implicit denoising process that is difficult to interpret and verify. On the other hand, the acquisition of explicit denoising supervision is often costly, involving significant human efforts. In this work, we propose InstructRAG, where LMs explicitly learn the denoising process through self-synthesized rationales -- First, we instruct the LM to explain how the ground-truth answer is derived from retrieved documents. Then, these rationales can be used either as demonstrations for in-context learning of explicit denoising or as supervised fine-tuning data to train the model. Compared to standard RAG approaches, InstructRAG requires no additional supervision, allows for easier verification of the predicted answers, and effectively improves generation accuracy. Experiments show InstructRAG consistently outperforms existing RAG methods in both training-free and trainable scenarios, achieving a relative improvement of 8.3% over the best baseline method on average across five knowledge-intensive benchmarks. Extensive analysis indicates that InstructRAG scales well with increased numbers of retrieved documents and consistently exhibits robust denoising ability even in out-of-domain datasets, demonstrating strong generalizability.",
+  "published": "2024-06-19",
+  "arxiv_id": "2406.13629",
+  "comment": "ICLR 2025. Code: https://github.com/weizhepei/InstructRAG",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "e8a9b5a32836af499dcb9ccdee1008638309a6cc",
+  "externalIds": {
+   "DBLP": "conf/iclr/WeiC025",
+   "ArXiv": "2406.13629",
+   "CorpusId": 271909559
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales",
+  "venue": "International Conference on Learning Representations",
+  "year": 2024,
+  "publicationDate": "2024-06-19",
+  "journal": null,
+  "authors": [
+   {
+    "authorId": "122835755",
+    "name": "Zhepei Wei"
+   },
+   {
+    "authorId": "2316519239",
+    "name": "Wei-Lin Chen"
+   },
+   {
+    "authorId": "145391513",
+    "name": "Yu Meng"
+   }
+  ]
+ }
+}

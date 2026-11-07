@@ -1,0 +1,63 @@
+{
+ "seed": {
+  "key": "ding2024rowen",
+  "title": "Retrieve Only When It Needs: Adaptive Retrieval Augmentation for Hallucination Mitigation in Large Language Models",
+  "arxiv_id": "2402.10612",
+  "category": "adaptive",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs",
+  "authors": [
+   "Hanxing Ding",
+   "Liang Pang",
+   "Zihao Wei",
+   "Huawei Shen",
+   "Xueqi Cheng"
+  ],
+  "abstract": "Hallucinations present a significant challenge for large language models (LLMs). The utilization of parametric knowledge in generating factual content is constrained by the limited knowledge of LLMs, potentially resulting in internal hallucinations. While incorporating external information can help fill knowledge gaps, it also introduces the risk of irrelevant information, thereby increasing the likelihood of external hallucinations. To balance the use of parametric knowledge within LLMs and external information, in this study, we present Rowen, a novel framework that enhances LLMs with an adaptive retrieval augmentation process tailored to address hallucinated outputs. Rowen introduces a consistency-based hallucination detection module, which assesses the model's uncertainty regarding the input query by evaluating the semantic inconsistencies in various responses generated across different languages or models. When high uncertainties in the responses are detected, Rowen activates the retrieval of external information to rectify the model outputs. Through comprehensive empirical experiments, we demonstrate that Rowen surpasses the current state-of-the-art in both detecting and mitigating hallucinated content within the outputs of LLMs.",
+  "published": "2024-02-16",
+  "arxiv_id": "2402.10612",
+  "comment": "Accepted at SIGIR-AP 2025",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "bcf1fb79ae33f5a3d5b356c59a573599f64a4994",
+  "externalIds": {
+   "DBLP": "conf/sigir-ap/Ding0WSC25",
+   "ArXiv": "2402.10612",
+   "DOI": "10.1145/3767695.3769500",
+   "CorpusId": 267740648
+  },
+  "publicationVenue": null,
+  "title": "Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs",
+  "venue": "SIGIR-AP",
+  "year": 2024,
+  "publicationDate": "2024-02-16",
+  "journal": {
+   "name": "Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region"
+  },
+  "authors": [
+   {
+    "authorId": "1560515848",
+    "name": "Hanxing Ding"
+   },
+   {
+    "authorId": "2111815778",
+    "name": "Liang Pang"
+   },
+   {
+    "authorId": "2284642799",
+    "name": "Zihao Wei"
+   },
+   {
+    "authorId": "2476503",
+    "name": "Hua-Wei Shen"
+   },
+   {
+    "authorId": "2110251463",
+    "name": "Xue-Qi Cheng"
+   }
+  ]
+ }
+}

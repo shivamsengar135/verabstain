@@ -1,0 +1,22 @@
+{
+ "run_id": "rob_chain_of_note_hotpotqa_dist75",
+ "n": 300,
+ "n_expected": 300,
+ "method": "chain_of_note",
+ "dataset": "hotpotqa_dist75",
+ "split": "test",
+ "correct": 0.18,
+ "match": 0.18,
+ "match_norm": 0.19666666666666666,
+ "em": 0.16,
+ "f1": 0.2097790227201992,
+ "native_abstain_rate": 0.5666666666666667,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 855.29,
+ "mean_completion_tokens": 179.01,
+ "mean_llm_seconds": 10.355460261666618,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 10.366051955999962,
+ "wall_s": 771.6983692646027
+}

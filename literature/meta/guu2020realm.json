@@ -1,0 +1,74 @@
+{
+ "seed": {
+  "key": "guu2020realm",
+  "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+  "arxiv_id": "2002.08909",
+  "category": "rag",
+  "role": "background"
+ },
+ "arxiv": {
+  "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+  "authors": [
+   "Kelvin Guu",
+   "Kenton Lee",
+   "Zora Tung",
+   "Panupong Pasupat",
+   "Ming-Wei Chang"
+  ],
+  "abstract": "Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for NLP tasks such as question answering. However, this knowledge is stored implicitly in the parameters of a neural network, requiring ever-larger networks to cover more facts. To capture knowledge in a more modular and interpretable way, we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For the first time, we show how to pre-train such a knowledge retriever in an unsupervised manner, using masked language modeling as the learning signal and backpropagating through a retrieval step that considers millions of documents. We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA). We compare against state-of-the-art models for both explicit and implicit knowledge storage on three popular Open-QA benchmarks, and find that we outperform all previous methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as interpretability and modularity.",
+  "published": "2020-02-10",
+  "arxiv_id": "2002.08909",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "832fff14d2ed50eb7969c4c4b976c35776548f56",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2002-08909",
+   "MAG": "3034671305",
+   "ArXiv": "2002.08909",
+   "DOI": "10.48550/arXiv.2002.08909",
+   "CorpusId": 211204736
+  },
+  "publicationVenue": {
+   "id": "fc0a208c-acb7-47dc-a0d4-af8190e21d29",
+   "name": "International Conference on Machine Learning",
+   "type": "conference",
+   "alternate_names": [
+    "ICML",
+    "Int Conf Mach Learn"
+   ],
+   "url": "https://icml.cc/"
+  },
+  "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+  "venue": "International Conference on Machine Learning",
+  "year": 2020,
+  "publicationDate": "2020-02-10",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2002.08909"
+  },
+  "authors": [
+   {
+    "authorId": "2091768",
+    "name": "Kelvin Guu"
+   },
+   {
+    "authorId": "2544107",
+    "name": "Kenton Lee"
+   },
+   {
+    "authorId": "9941702",
+    "name": "Zora Tung"
+   },
+   {
+    "authorId": "2616463",
+    "name": "Panupong Pasupat"
+   },
+   {
+    "authorId": "1744179",
+    "name": "Ming-Wei Chang"
+   }
+  ]
+ }
+}

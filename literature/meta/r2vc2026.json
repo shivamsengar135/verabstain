@@ -1,0 +1,44 @@
+{
+ "seed": {
+  "key": "r2vc2026",
+  "title": "R2VC: Modular Fact-Checking with Retrieval Verification and Confidence Calibration",
+  "arxiv_id": "2609.11955",
+  "category": "verification",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration",
+  "authors": [
+   "Dhruv Dixit",
+   "Paritosh Pandey"
+  ],
+  "abstract": "Large language models are increasingly used for automated fact checking, but end-to-end prompting often entangles evidence retrieval, reasoning, and uncertainty estimation, making failures difficult to diagnose and confidence difficult to trust. We present R2VC, a modular retrieve, reason, verify, calibrate architecture for evidence-grounded fact checking with citations and abstention. R2VC combines hybrid sparse+dense retrieval over Wikipedia, a supervised fine-tuned and DPO-aligned generator that produces diverse structured verdict candidates, an external NLI cross-encoder for evidence-based candidate selection, and a lightweight sequence-level calibrator for confidence estimation and selective abstention. On FEVER, an 8B backbone with R2VC achieves 13.74% higher accuracy than baseline. Ablation studies show that verifier-based candidate selection and confidence calibration are the largest contributors to performance. Removing candidate selection drops FEVER accuracy to 76.24%, while removing calibration nearly doubles the Brier score to 0.161. A manual analysis of 250 errors further shows that retrieval failures, especially wrong-entity evidence, remain the dominant bottleneck. Together, these results show that modular fact-checking pipelines can substantially improve both predictive accuracy and confidence reliability in open-domain verification.",
+  "published": "2026-08-06",
+  "arxiv_id": "2609.11955",
+  "comment": "21 pages, 15 figures",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "46eea4ee0592d0096ab30a481887e15bf2a4cf23",
+  "externalIds": {
+   "ArXiv": "2609.11955",
+   "CorpusId": 291956597
+  },
+  "publicationVenue": null,
+  "title": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration",
+  "venue": "",
+  "year": 2026,
+  "publicationDate": "2026-08-06",
+  "journal": null,
+  "authors": [
+   {
+    "authorId": "2350517133",
+    "name": "Dhruv Dixit"
+   },
+   {
+    "authorId": "2061476530",
+    "name": "Paritosh Pandey"
+   }
+  ]
+ }
+}

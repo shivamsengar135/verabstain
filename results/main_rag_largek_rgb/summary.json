@@ -1,0 +1,20 @@
+{
+ "run_id": "main_rag_largek_rgb",
+ "n": 1300,
+ "n_expected": 1300,
+ "method": "rag_largek",
+ "dataset": "rgb",
+ "split": "test",
+ "correct": 0.6061538461538462,
+ "rejected": 0.0,
+ "fake_answer": 0.94,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1348.9915384615385,
+ "mean_completion_tokens": 6.390769230769231,
+ "mean_llm_seconds": 4.66770649669252,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.0002780078462260113,
+ "wall_s": 0.6454720497131348
+}

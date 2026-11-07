@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_crag_hotpotqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "crag",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.51,
+ "match": 0.51,
+ "match_norm": 0.59,
+ "em": 0.55,
+ "f1": 0.6372987012987013,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 4.0,
+ "mean_prompt_tokens": 1863.56,
+ "mean_completion_tokens": 29.22,
+ "mean_llm_seconds": 9.444413281997258,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 16.087931606999774,
+ "wall_s": 203.89215683937073
+}

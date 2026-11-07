@@ -1,0 +1,10 @@
+2026-11-05 00:18:00,902 INFO START pilot_crag_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-05 00:21:13,174 WARNING PAUSE: gpu_temp=52 cpu_load=62.1 on_battery=False
+2026-11-05 00:22:07,795 WARNING RESUME: gpu_temp=51
+2026-11-05 00:23:05,004 WARNING PAUSE: gpu_temp=50 cpu_load=63.1 on_battery=False
+2026-11-05 00:27:16,275 INFO START pilot_crag_popqa_lt: 100/100 examples to run; projected 10 min
+2026-11-05 00:28:02,611 INFO pilot_crag_popqa_lt: 25/100 done, 0 errors, 45s
+2026-11-05 00:28:57,111 INFO pilot_crag_popqa_lt: 50/100 done, 0 errors, 99s
+2026-11-05 00:29:40,507 INFO pilot_crag_popqa_lt: 75/100 done, 0 errors, 142s
+2026-11-05 00:30:18,207 INFO pilot_crag_popqa_lt: 100/100 done, 0 errors, 180s
+2026-11-05 00:30:18,210 INFO END pilot_crag_popqa_lt: complete, wall 3.0 min, stats {'llm_calls': 346, 'cache_hits': 54, 'prompt_tokens': 158026, 'completion_tokens': 1708, 'llm_seconds': 659.3381228999933, 'retrievals': 0, 'verifier_pairs': 0}

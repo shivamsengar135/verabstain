@@ -1,0 +1,24 @@
+2026-11-05 02:22:24,799 INFO START devB_crag_triviaqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:22:30,792 INFO devB_crag_triviaqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:22:30,937 INFO devB_crag_triviaqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:22:31,081 INFO devB_crag_triviaqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:22:31,281 INFO devB_crag_triviaqa: 100/300 done, 0 errors, 1s
+2026-11-05 02:23:24,370 WARNING PAUSE: gpu_temp=72 cpu_zone=87.9 cpu_load=20.5 on_battery=False
+2026-11-05 02:23:25,954 INFO devB_crag_triviaqa: 125/300 done, 0 errors, 55s
+2026-11-05 02:23:42,925 WARNING RESUME: gpu_temp=48 cpu_zone=56.9 cpu_load=5.3
+2026-11-05 02:24:14,653 INFO devB_crag_triviaqa: 150/300 done, 0 errors, 104s
+2026-11-05 02:24:52,435 INFO devB_crag_triviaqa: 175/300 done, 0 errors, 142s
+2026-11-05 02:24:57,388 WARNING PAUSE: gpu_temp=77 cpu_zone=86.9 cpu_load=21.8 on_battery=False
+2026-11-05 02:25:15,991 WARNING RESUME: gpu_temp=49 cpu_zone=55.9 cpu_load=6.0
+2026-11-05 02:25:47,296 INFO devB_crag_triviaqa: 200/300 done, 0 errors, 197s
+2026-11-05 02:26:11,788 WARNING PAUSE: gpu_temp=77 cpu_zone=83.9 cpu_load=25.2 on_battery=False
+2026-11-05 02:26:30,341 WARNING RESUME: gpu_temp=50 cpu_zone=59.9 cpu_load=4.0
+2026-11-05 02:26:41,947 INFO devB_crag_triviaqa: 225/300 done, 0 errors, 251s
+2026-11-05 02:27:17,969 INFO devB_crag_triviaqa: 250/300 done, 0 errors, 287s
+2026-11-05 02:27:26,085 WARNING PAUSE: gpu_temp=78 cpu_zone=83.9 cpu_load=25.2 on_battery=False
+2026-11-05 02:27:44,676 WARNING RESUME: gpu_temp=50 cpu_zone=58.9 cpu_load=6.5
+2026-11-05 02:28:06,196 INFO devB_crag_triviaqa: 275/300 done, 0 errors, 336s
+2026-11-05 02:28:21,845 WARNING PAUSE: gpu_temp=76 cpu_zone=82.9 cpu_load=21.1 on_battery=False
+2026-11-05 02:28:40,444 WARNING RESUME: gpu_temp=49 cpu_zone=52.9 cpu_load=5.2
+2026-11-05 02:28:50,285 INFO devB_crag_triviaqa: 300/300 done, 0 errors, 380s
+2026-11-05 02:28:51,028 INFO END devB_crag_triviaqa: complete, wall 6.3 min, stats {'llm_calls': 400, 'cache_hits': 200, 'prompt_tokens': 195973, 'completion_tokens': 3166, 'llm_seconds': 791.0048517998075, 'retrievals': 0, 'verifier_pairs': 0}

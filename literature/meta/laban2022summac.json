@@ -1,0 +1,74 @@
+{
+ "seed": {
+  "key": "laban2022summac",
+  "title": "SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
+  "arxiv_id": "2111.09525",
+  "category": "claimcheck",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
+  "authors": [
+   "Philippe Laban",
+   "Tobias Schnabel",
+   "Paul N. Bennett",
+   "Marti A. Hearst"
+  ],
+  "abstract": "In the summarization domain, a key requirement for summaries is to be factually consistent with the input document. Previous work has found that natural language inference (NLI) models do not perform competitively when applied to inconsistency detection. In this work, we revisit the use of NLI for inconsistency detection, finding that past work suffered from a mismatch in input granularity between NLI datasets (sentence-level), and inconsistency detection (document level). We provide a highly effective and light-weight method called SummaCConv that enables NLI models to be successfully used for this task by segmenting documents into sentence units and aggregating scores between pairs of sentences. On our newly introduced benchmark called SummaC (Summary Consistency) consisting of six large inconsistency detection datasets, SummaCConv obtains state-of-the-art results with a balanced accuracy of 74.4%, a 5% point improvement compared to prior work. We make the models and datasets available: https://github.com/tingofurro/summac",
+  "published": "2021-11-18",
+  "arxiv_id": "2111.09525",
+  "comment": "TACL pre-MIT Press publication version; 11 pages, 2 figures, 5 tables",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "ee1ef7b70dc34adcc90c42cc28168165ea56501f",
+  "externalIds": {
+   "ArXiv": "2111.09525",
+   "DBLP": "journals/tacl/LabanSBH22",
+   "ACL": "2022.tacl-1.10",
+   "DOI": "10.1162/tacl_a_00453",
+   "CorpusId": 244345901
+  },
+  "publicationVenue": {
+   "id": "e0dbf116-86aa-418d-859f-a49952d7e44a",
+   "name": "Transactions of the Association for Computational Linguistics",
+   "type": "journal",
+   "alternate_names": [
+    "Trans Assoc Comput Linguistics",
+    "TACL"
+   ],
+   "issn": "2307-387X",
+   "url": "https://www.mitpressjournals.org/loi/tacl",
+   "alternate_urls": [
+    "http://www.transacl.org/"
+   ]
+  },
+  "title": "SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "year": 2021,
+  "publicationDate": "2021-11-18",
+  "journal": {
+   "name": "Transactions of the Association for Computational Linguistics",
+   "pages": "163-177",
+   "volume": "10"
+  },
+  "authors": [
+   {
+    "authorId": "46180754",
+    "name": "Philippe Laban"
+   },
+   {
+    "authorId": "48839531",
+    "name": "Tobias Schnabel"
+   },
+   {
+    "authorId": "144609235",
+    "name": "Paul N. Bennett"
+   },
+   {
+    "authorId": "1716902",
+    "name": "Marti A. Hearst"
+   }
+  ]
+ }
+}

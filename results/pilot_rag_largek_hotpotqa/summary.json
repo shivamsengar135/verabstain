@@ -1,0 +1,22 @@
+{
+ "run_id": "pilot_rag_largek_hotpotqa",
+ "n": 100,
+ "n_expected": 100,
+ "method": "rag_largek",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.56,
+ "match": 0.56,
+ "match_norm": 0.62,
+ "em": 0.58,
+ "f1": 0.6536320346320346,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1141.09,
+ "mean_completion_tokens": 4.98,
+ "mean_llm_seconds": 4.02582576799934,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.037247416000464,
+ "wall_s": 50.93644690513611
+}

@@ -1,0 +1,60 @@
+{
+ "seed": {
+  "key": "geifman2017selective",
+  "title": "Selective Classification for Deep Neural Networks",
+  "arxiv_id": "1705.08500",
+  "category": "uncertainty",
+  "role": "metric"
+ },
+ "arxiv": {
+  "title": "Selective Classification for Deep Neural Networks",
+  "authors": [
+   "Yonatan Geifman",
+   "Ran El-Yaniv"
+  ],
+  "abstract": "Selective classification techniques (also known as reject option) have not yet been considered in the context of deep neural networks (DNNs). These techniques can potentially significantly improve DNNs prediction performance by trading-off coverage. In this paper we propose a method to construct a selective classifier given a trained neural network. Our method allows a user to set a desired risk level. At test time, the classifier rejects instances as needed, to grant the desired risk (with high probability). Empirical results over CIFAR and ImageNet convincingly demonstrate the viability of our method, which opens up possibilities to operate DNNs in mission-critical applications. For example, using our method an unprecedented 2% error in top-5 ImageNet classification can be guaranteed with probability 99.9%, and almost 60% test coverage.",
+  "published": "2017-05-23",
+  "arxiv_id": "1705.08500",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "2ed7cc027367295b1a7d7cd49406acfa5c580138",
+  "externalIds": {
+   "MAG": "2963613748",
+   "ArXiv": "1705.08500",
+   "DBLP": "conf/nips/GeifmanE17",
+   "DOI": "10.48550/arXiv.1705.08500",
+   "CorpusId": 491127
+  },
+  "publicationVenue": {
+   "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+   "name": "Neural Information Processing Systems",
+   "type": "conference",
+   "alternate_names": [
+    "Neural Inf Process Syst",
+    "NeurIPS",
+    "NIPS"
+   ],
+   "url": "http://neurips.cc/"
+  },
+  "title": "Selective Classification for Deep Neural Networks",
+  "venue": "Neural Information Processing Systems",
+  "year": 2017,
+  "publicationDate": "2017-05-01",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/1705.08500"
+  },
+  "authors": [
+   {
+    "authorId": "16082116",
+    "name": "Yonatan Geifman"
+   },
+   {
+    "authorId": "1387872181",
+    "name": "Ran El-Yaniv"
+   }
+  ]
+ }
+}

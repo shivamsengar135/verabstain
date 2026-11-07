@@ -1,0 +1,22 @@
+{
+ "run_id": "abl_ragverify_minicheckdeb_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.374,
+ "match": 0.374,
+ "match_norm": 0.4,
+ "em": 0.358,
+ "f1": 0.46552986952271663,
+ "native_abstain_rate": 0.184,
+ "mean_llm_calls": 2.916,
+ "mean_prompt_tokens": 1211.872,
+ "mean_completion_tokens": 65.32,
+ "mean_llm_seconds": 7.9848664342009945,
+ "mean_retrievals": 1.352,
+ "mean_verifier_pairs": 1.228,
+ "mean_seconds": 1.5013420509998396,
+ "wall_s": 109.46348261833191
+}

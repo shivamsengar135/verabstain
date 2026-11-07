@@ -1,0 +1,30 @@
+2026-11-07 00:30:44,197 INFO START sec3b_rag_topk_pubhealth: 500/500 examples to run; projected 4 min
+2026-11-07 00:30:47,704 WARNING PAUSE: gpu_temp=81 cpu_zone=51.9 cpu_load=11.8 on_battery=False
+2026-11-07 00:31:07,713 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.4
+2026-11-07 00:31:08,878 INFO sec3b_rag_topk_pubhealth: 25/500 done, 0 errors, 25s
+2026-11-07 00:31:13,343 INFO sec3b_rag_topk_pubhealth: 50/500 done, 0 errors, 29s
+2026-11-07 00:31:18,240 INFO sec3b_rag_topk_pubhealth: 75/500 done, 0 errors, 34s
+2026-11-07 00:31:19,722 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=12.9 on_battery=False
+2026-11-07 00:31:39,733 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=3.9
+2026-11-07 00:31:42,117 INFO sec3b_rag_topk_pubhealth: 100/500 done, 0 errors, 58s
+2026-11-07 00:31:47,034 INFO sec3b_rag_topk_pubhealth: 125/500 done, 0 errors, 63s
+2026-11-07 00:31:51,415 INFO sec3b_rag_topk_pubhealth: 150/500 done, 0 errors, 67s
+2026-11-07 00:31:55,640 INFO sec3b_rag_topk_pubhealth: 175/500 done, 0 errors, 71s
+2026-11-07 00:32:00,366 INFO sec3b_rag_topk_pubhealth: 200/500 done, 0 errors, 76s
+2026-11-07 00:32:01,749 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=13.8 on_battery=False
+2026-11-07 00:32:21,761 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=4.2
+2026-11-07 00:32:24,844 INFO sec3b_rag_topk_pubhealth: 225/500 done, 0 errors, 101s
+2026-11-07 00:32:29,372 INFO sec3b_rag_topk_pubhealth: 250/500 done, 0 errors, 105s
+2026-11-07 00:32:34,117 INFO sec3b_rag_topk_pubhealth: 275/500 done, 0 errors, 110s
+2026-11-07 00:32:38,409 INFO sec3b_rag_topk_pubhealth: 300/500 done, 0 errors, 114s
+2026-11-07 00:32:42,626 INFO sec3b_rag_topk_pubhealth: 325/500 done, 0 errors, 118s
+2026-11-07 00:32:45,776 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=14.1 on_battery=False
+2026-11-07 00:32:46,498 INFO sec3b_rag_topk_pubhealth: 350/500 done, 0 errors, 122s
+2026-11-07 00:33:05,786 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.9
+2026-11-07 00:33:11,348 INFO sec3b_rag_topk_pubhealth: 375/500 done, 0 errors, 147s
+2026-11-07 00:33:15,908 INFO sec3b_rag_topk_pubhealth: 400/500 done, 0 errors, 152s
+2026-11-07 00:33:20,570 INFO sec3b_rag_topk_pubhealth: 425/500 done, 0 errors, 156s
+2026-11-07 00:33:25,454 INFO sec3b_rag_topk_pubhealth: 450/500 done, 0 errors, 161s
+2026-11-07 00:33:29,307 INFO sec3b_rag_topk_pubhealth: 475/500 done, 0 errors, 165s
+2026-11-07 00:33:33,270 INFO sec3b_rag_topk_pubhealth: 500/500 done, 0 errors, 169s
+2026-11-07 00:33:33,448 INFO END sec3b_rag_topk_pubhealth: complete, wall 2.8 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 402374, 'completion_tokens': 1188, 'llm_seconds': 721.0874745999863, 'retrievals': 0, 'verifier_pairs': 0}

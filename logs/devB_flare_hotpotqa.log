@@ -1,0 +1,15 @@
+2026-11-05 02:39:52,096 INFO START devB_flare_hotpotqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:39:52,317 INFO devB_flare_hotpotqa: 25/300 done, 0 errors, 0s
+2026-11-05 02:39:52,346 INFO devB_flare_hotpotqa: 50/300 done, 0 errors, 0s
+2026-11-05 02:39:52,366 INFO devB_flare_hotpotqa: 75/300 done, 0 errors, 0s
+2026-11-05 02:39:52,403 INFO devB_flare_hotpotqa: 100/300 done, 0 errors, 0s
+2026-11-05 02:40:10,256 INFO devB_flare_hotpotqa: 125/300 done, 0 errors, 18s
+2026-11-05 02:40:10,452 INFO devB_flare_hotpotqa: 150/300 done, 0 errors, 18s
+2026-11-05 02:40:11,877 INFO devB_flare_hotpotqa: 175/300 done, 0 errors, 20s
+2026-11-05 02:40:13,324 INFO devB_flare_hotpotqa: 200/300 done, 0 errors, 21s
+2026-11-05 02:40:15,067 INFO devB_flare_hotpotqa: 225/300 done, 0 errors, 23s
+2026-11-05 02:40:16,986 INFO devB_flare_hotpotqa: 250/300 done, 0 errors, 25s
+2026-11-05 02:40:20,702 INFO devB_flare_hotpotqa: 275/300 done, 0 errors, 28s
+2026-11-05 02:40:23,938 INFO devB_flare_hotpotqa: 300/300 done, 0 errors, 32s
+2026-11-05 02:40:24,645 WARNING PAUSE: gpu_temp=84 cpu_zone=83.9 cpu_load=18.4 on_battery=False
+2026-11-05 02:40:24,669 INFO END devB_flare_hotpotqa: complete, wall 0.5 min, stats {'llm_calls': 43, 'cache_hits': 339, 'prompt_tokens': 24825, 'completion_tokens': 274, 'llm_seconds': 60.153636400034884, 'retrievals': 0, 'verifier_pairs': 0}

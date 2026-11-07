@@ -1,0 +1,74 @@
+{
+ "seed": {
+  "key": "wang2025astute",
+  "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+  "arxiv_id": "2410.07176",
+  "category": "corrective",
+  "role": "candidate-baseline"
+ },
+ "arxiv": {
+  "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+  "authors": [
+   "Fei Wang",
+   "Xingchen Wan",
+   "Ruoxi Sun",
+   "Jiefeng Chen",
+   "Sercan Ö. Arık"
+  ],
+  "abstract": "Retrieval augmented generation (RAG), while effectively integrating external knowledge to address the inherent limitations of large language models (LLMs), can be hindered by imperfect retrieval that contain irrelevant, misleading, or even malicious information. Previous studies have rarely connected the behavior of RAG through joint analysis, particularly regarding error propagation coming from imperfect retrieval and potential conflicts between LLMs' internal knowledge and external sources. Through comprehensive and controlled analyses under realistic conditions, we find that imperfect retrieval augmentation is inevitable, common, and harmful. We identify the knowledge conflicts between LLM-internal and external knowledge from retrieval as a bottleneck to overcome imperfect retrieval in the post-retrieval stage of RAG. To address this, we propose Astute RAG, a novel RAG approach designed to be resilient to imperfect retrieval augmentation. It adaptively elicits essential information from LLMs' internal knowledge, iteratively consolidates internal and external knowledge with source-awareness, and finalizes the answer according to information reliability. Our experiments with Gemini and Claude demonstrate the superior performance of Astute RAG compared to previous robustness-enhanced RAG approaches. Specifically, Astute RAG is the only RAG method that achieves performance comparable to or even surpassing conventional use of LLMs under the worst-case scenario. Further analysis reveals the effectiveness of Astute RAG in resolving knowledge conflicts, thereby improving the trustworthiness of RAG.",
+  "published": "2024-10-09",
+  "arxiv_id": "2410.07176",
+  "comment": "ACL 2025 main conference",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "fe2dd4ac8bb14c622a890482384c9e1136479bf6",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2410-07176",
+   "ArXiv": "2410.07176",
+   "DOI": "10.48550/arXiv.2410.07176",
+   "CorpusId": 273233415
+  },
+  "publicationVenue": {
+   "id": "1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44",
+   "name": "Annual Meeting of the Association for Computational Linguistics",
+   "type": "conference",
+   "alternate_names": [
+    "Annu Meet Assoc Comput Linguistics",
+    "Meeting of the Association for Computational Linguistics",
+    "ACL",
+    "Meet Assoc Comput Linguistics"
+   ],
+   "url": "https://www.aclweb.org/anthology/venues/acl/"
+  },
+  "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+  "venue": "Annual Meeting of the Association for Computational Linguistics",
+  "year": 2024,
+  "publicationDate": "2024-10-09",
+  "journal": {
+   "pages": "30553-30571"
+  },
+  "authors": [
+   {
+    "authorId": "47939052",
+    "name": "Fei Wang"
+   },
+   {
+    "authorId": "1470501980",
+    "name": "Xingchen Wan"
+   },
+   {
+    "authorId": "2068169921",
+    "name": "Ruoxi Sun"
+   },
+   {
+    "authorId": "2155099104",
+    "name": "Jie-Feng Chen"
+   },
+   {
+    "authorId": "2676352",
+    "name": "Sercan Ö. Arik"
+   }
+  ]
+ }
+}

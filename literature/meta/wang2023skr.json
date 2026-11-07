@@ -1,0 +1,69 @@
+{
+ "seed": {
+  "key": "wang2023skr",
+  "title": "Self-Knowledge Guided Retrieval Augmentation for Large Language Models",
+  "arxiv_id": "2310.05002",
+  "category": "adaptive",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Self-Knowledge Guided Retrieval Augmentation for Large Language Models",
+  "authors": [
+   "Yile Wang",
+   "Peng Li",
+   "Maosong Sun",
+   "Yang Liu"
+  ],
+  "abstract": "Large language models (LLMs) have shown superior performance without task-specific fine-tuning. Despite the success, the knowledge stored in the parameters of LLMs could still be incomplete and difficult to update due to the computational costs. As complementary, retrieval-based methods can offer non-parametric world knowledge and improve the performance on tasks such as question answering. However, we find that the retrieved knowledge does not always help and even has a negative impact on original responses occasionally. To better make use of both internal knowledge and external world knowledge, we investigate eliciting the model's ability to recognize what they know and do not know (which is also called self-knowledge) and propose Self-Knowledge guided Retrieval augmentation (SKR), a simple yet effective method which can let LLMs refer to the questions they have previously encountered and adaptively call for external resources when dealing with new questions. We evaluate SKR on multiple datasets and demonstrate that it outperforms chain-of-thought based and fully retrieval-based methods by using either InstructGPT or ChatGPT.",
+  "published": "2023-10-08",
+  "arxiv_id": "2310.05002",
+  "comment": "",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "8f72127459ade06831ec2990f7da4914cc1a6e22",
+  "externalIds": {
+   "ArXiv": "2310.05002",
+   "DBLP": "conf/emnlp/WangLSL23",
+   "DOI": "10.48550/arXiv.2310.05002",
+   "CorpusId": 263828724
+  },
+  "publicationVenue": {
+   "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+   "name": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "conference",
+   "alternate_names": [
+    "Empir Method Nat Lang Process",
+    "Empirical Methods in Natural Language Processing",
+    "Conf Empir Method Nat Lang Process",
+    "EMNLP"
+   ],
+   "url": "https://www.aclweb.org/portal/emnlp"
+  },
+  "title": "Self-Knowledge Guided Retrieval Augmentation for Large Language Models",
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "year": 2023,
+  "publicationDate": "2023-10-08",
+  "journal": {
+   "pages": "10303-10315"
+  },
+  "authors": [
+   {
+    "authorId": "2108102904",
+    "name": "Yi-Le Wang"
+   },
+   {
+    "authorId": "144326610",
+    "name": "Peng Li"
+   },
+   {
+    "authorId": "2257187607",
+    "name": "Mao-Song Sun"
+   },
+   {
+    "authorId": "2152797839",
+    "name": "Yang Liu"
+   }
+  ]
+ }
+}

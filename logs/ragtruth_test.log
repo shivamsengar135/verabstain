@@ -1,0 +1,31 @@
+Loading weights:   0%|          | 0/560 [00:00<?, ?it/s]Loading weights:  52%|#####2    | 292/560 [00:00<00:00, 2912.89it/s]Loading weights: 100%|##########| 560/560 [00:00<00:00, 2308.09it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+minicheck-ft5 {'auroc': 0.848, 'best_threshold': 0.07, 'f1_at_dev_threshold': 0.5686, 'threshold_used': 0.0654, 'n': 900, 'pairs': 5526, 'positive_rate': 0.1778}
+C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights:   1%|1         | 5/394 [00:00<00:40,  9.51it/s]Loading weights: 100%|##########| 394/394 [00:00<00:00, 701.01it/s]
+minicheck-deb {'auroc': 0.8262, 'best_threshold': 0.034, 'f1_at_dev_threshold': 0.5204, 'threshold_used': 0.0697, 'n': 900, 'pairs': 5526, 'positive_rate': 0.1778}
+[transformers] You are using a model of type `HHEMv2Config` to instantiate a model of type `HHEMv2`. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Loading weights:   0%|          | 0/113 [00:00<?, ?it/s]Loading weights:  19%|#8        | 21/113 [00:00<00:00, 201.92it/s]Loading weights:  37%|###7      | 42/113 [00:00<00:00, 141.80it/s]Loading weights: 100%|##########| 113/113 [00:00<00:00, 389.50it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (517 > 512). Running this sequence through the model will result in indexing errors
+thermal pause gpu=83 cpu_zone=49.9
+thermal pause gpu=81 cpu_zone=47.9
+thermal pause gpu=80 cpu_zone=46.9
+thermal pause gpu=81 cpu_zone=46.9
+thermal pause gpu=80 cpu_zone=45.9
+thermal pause gpu=80 cpu_zone=45.9
+thermal pause gpu=81 cpu_zone=46.9
+thermal pause gpu=82 cpu_zone=46.9
+thermal pause gpu=80 cpu_zone=46.9
+thermal pause gpu=81 cpu_zone=45.9
+thermal pause gpu=81 cpu_zone=46.9
+thermal pause gpu=81 cpu_zone=46.9
+thermal pause gpu=80 cpu_zone=46.9
+thermal pause gpu=80 cpu_zone=46.9
+thermal pause gpu=81 cpu_zone=46.9
+thermal pause gpu=80 cpu_zone=45.9
+thermal pause gpu=81 cpu_zone=45.9
+thermal pause gpu=82 cpu_zone=45.9
+hhem-2.1-open {'auroc': 0.8744, 'best_threshold': 0.1906, 'f1_at_dev_threshold': 0.6275, 'threshold_used': 0.2287, 'n': 900, 'pairs': 5526, 'positive_rate': 0.1778}
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights:   7%|6         | 27/394 [00:00<00:01, 259.99it/s]Loading weights:  13%|#3        | 53/394 [00:00<00:01, 251.36it/s]Loading weights:  20%|##        | 79/394 [00:00<00:01, 248.95it/s]Loading weights:  26%|##6       | 104/394 [00:00<00:01, 229.00it/s]Loading weights: 100%|##########| 394/394 [00:00<00:00, 818.48it/s]
+deberta-v3-l-nli {'auroc': 0.7315, 'best_threshold': 0.5411, 'f1_at_dev_threshold': 0.4007, 'threshold_used': 0.2062, 'n': 900, 'pairs': 5526, 'positive_rate': 0.1778}

@@ -1,0 +1,72 @@
+{
+ "seed": {
+  "key": "kang2024cragcert",
+  "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+  "arxiv_id": "2402.03181",
+  "category": "conformal",
+  "role": "closest-prior"
+ },
+ "arxiv": {
+  "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+  "authors": [
+   "Mintong Kang",
+   "Nezihe Merve Gürel",
+   "Ning Yu",
+   "Dawn Song",
+   "Bo Li"
+  ],
+  "abstract": "Despite the impressive capabilities of large language models (LLMs) across diverse applications, they still suffer from trustworthiness issues, such as hallucinations and misalignments. Retrieval-augmented language models (RAG) have been proposed to enhance the credibility of generations by grounding external knowledge, but the theoretical understandings of their generation risks remains unexplored. In this paper, we answer: 1) whether RAG can indeed lead to low generation risks, 2) how to provide provable guarantees on the generation risks of RAG and vanilla LLMs, and 3) what sufficient conditions enable RAG models to reduce generation risks. We propose C-RAG, the first framework to certify generation risks for RAG models. Specifically, we provide conformal risk analysis for RAG models and certify an upper confidence bound of generation risks, which we refer to as conformal generation risk. We also provide theoretical guarantees on conformal generation risks for general bounded risk functions under test distribution shifts. We prove that RAG achieves a lower conformal generation risk than that of a single LLM when the quality of the retrieval model and transformer is non-trivial. Our intensive empirical results demonstrate the soundness and tightness of our conformal generation risk guarantees across four widely-used NLP datasets on four state-of-the-art retrieval models.",
+  "published": "2024-02-05",
+  "arxiv_id": "2402.03181",
+  "comment": "Accepted to ICML 2024",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "32c260ddd7e2d0b05c58f2e67d244b8036699db4",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2402-03181",
+   "ArXiv": "2402.03181",
+   "DOI": "10.48550/arXiv.2402.03181",
+   "CorpusId": 267412330
+  },
+  "publicationVenue": {
+   "id": "fc0a208c-acb7-47dc-a0d4-af8190e21d29",
+   "name": "International Conference on Machine Learning",
+   "type": "conference",
+   "alternate_names": [
+    "ICML",
+    "Int Conf Mach Learn"
+   ],
+   "url": "https://icml.cc/"
+  },
+  "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+  "venue": "International Conference on Machine Learning",
+  "year": 2024,
+  "publicationDate": "2024-02-05",
+  "journal": {
+   "pages": "22963-23000"
+  },
+  "authors": [
+   {
+    "authorId": "2153110066",
+    "name": "Min-Tong Kang"
+   },
+   {
+    "authorId": "51274710",
+    "name": "Nezihe Merve Gurel"
+   },
+   {
+    "authorId": "2282538184",
+    "name": "Ning Yu"
+   },
+   {
+    "authorId": "2242706269",
+    "name": "D. Song"
+   },
+   {
+    "authorId": "2267398406",
+    "name": "Bo Li"
+   }
+  ]
+ }
+}

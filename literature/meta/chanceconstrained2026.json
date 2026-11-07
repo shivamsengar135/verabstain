@@ -1,0 +1,44 @@
+{
+ "seed": {
+  "key": "chanceconstrained2026",
+  "title": "?",
+  "arxiv_id": "2602.01637",
+  "category": "conformal",
+  "role": "related"
+ },
+ "arxiv": {
+  "title": "Chance-Constrained Inference for Hallucination Risk Control in Large Language Models",
+  "authors": [
+   "Sreenivasan Mohandas"
+  ],
+  "abstract": "Large language models generate outputs stochastically and may produce fluent but invalid responses, including factual hallucinations. Existing mitigation strategies reduce average error rates but do not provide explicit control over the \\emph{frequency} of such failures under repeated use. We formulate inference as a deployment-time risk control problem and introduce \\emph{chance-constrained inference}, which directly bounds the probability of hallucinations among accepted generations. Hallucinations are modeled as stochastic constraint violations, and we show that confidence-based selective prediction does not, in general, imply probabilistic risk guarantees. To enforce chance constraints efficiently, we propose a sequential, anytime-valid inference procedure that adaptively certifies feasibility or infeasibility using finite samples, avoiding conservative fixed-sample bounds. Experiments on questions inspired by NaturalQuestions and controlled multi-hop question answering demonstrate reliable risk control, early detection of intrinsically infeasible inputs, and safe composition under repeated use, while confidence-based baselines fail to provide consistent guarantees.",
+  "published": "2026-02-02",
+  "arxiv_id": "2602.01637",
+  "comment": "",
+  "journal_ref": "Transactions on Machine Learning Research (TMLR), 2026"
+ },
+ "s2": {
+  "paperId": "e6b37ad7dbd4c216c94baff6e8b1985527cbc315",
+  "externalIds": {
+   "DBLP": "journals/tmlr/M26",
+   "ArXiv": "2602.01637",
+   "DOI": "10.48550/arXiv.2602.01637",
+   "CorpusId": 285270271
+  },
+  "publicationVenue": null,
+  "title": "Chance-Constrained Inference for Hallucination Risk Control in Large Language Models",
+  "venue": "Trans. Mach. Learn. Res.",
+  "year": 2026,
+  "publicationDate": "2026-02-02",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2602.01637"
+  },
+  "authors": [
+   {
+    "authorId": "2154816405",
+    "name": "S. Mohandas"
+   }
+  ]
+ }
+}

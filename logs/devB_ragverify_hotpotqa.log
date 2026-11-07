@@ -1,0 +1,19 @@
+2026-11-05 02:33:21,869 INFO START devB_ragverify_hotpotqa: 300/300 examples to run; projected 8 min
+2026-11-05 02:33:38,526 WARNING RESUME: gpu_temp=50 cpu_zone=57.9 cpu_load=8.9
+2026-11-05 02:33:38,934 INFO devB_ragverify_hotpotqa: 25/300 done, 0 errors, 11s
+2026-11-05 02:33:47,280 INFO devB_ragverify_hotpotqa: 50/300 done, 0 errors, 20s
+2026-11-05 02:33:49,022 INFO devB_ragverify_hotpotqa: 75/300 done, 0 errors, 21s
+2026-11-05 02:33:58,405 INFO devB_ragverify_hotpotqa: 100/300 done, 0 errors, 31s
+2026-11-05 02:34:07,215 INFO devB_ragverify_hotpotqa: 125/300 done, 0 errors, 40s
+2026-11-05 02:34:22,668 INFO devB_ragverify_hotpotqa: 150/300 done, 0 errors, 55s
+2026-11-05 02:34:34,001 INFO devB_ragverify_hotpotqa: 175/300 done, 0 errors, 66s
+2026-11-05 02:34:34,386 WARNING PAUSE: gpu_temp=76 cpu_zone=82.9 cpu_load=20.4 on_battery=False
+2026-11-05 02:34:52,957 WARNING RESUME: gpu_temp=50 cpu_zone=61.9 cpu_load=6.0
+2026-11-05 02:35:04,798 INFO devB_ragverify_hotpotqa: 200/300 done, 0 errors, 97s
+2026-11-05 02:35:19,748 INFO devB_ragverify_hotpotqa: 225/300 done, 0 errors, 112s
+2026-11-05 02:35:30,405 WARNING PAUSE: gpu_temp=81 cpu_zone=91.9 cpu_load=24.9 on_battery=False
+2026-11-05 02:35:30,786 INFO devB_ragverify_hotpotqa: 250/300 done, 0 errors, 123s
+2026-11-05 02:35:49,013 WARNING RESUME: gpu_temp=49 cpu_zone=51.9 cpu_load=6.5
+2026-11-05 02:35:57,416 INFO devB_ragverify_hotpotqa: 275/300 done, 0 errors, 150s
+2026-11-05 02:36:08,816 INFO devB_ragverify_hotpotqa: 300/300 done, 0 errors, 161s
+2026-11-05 02:36:09,645 INFO END devB_ragverify_hotpotqa: complete, wall 2.7 min, stats {'llm_calls': 436, 'cache_hits': 234, 'prompt_tokens': 163398, 'completion_tokens': 8247, 'llm_seconds': 739.382986600307, 'retrievals': 0, 'verifier_pairs': 0}

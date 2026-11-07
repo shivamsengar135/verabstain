@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_rag_largek_hotpotqa",
+ "n": 300,
+ "n_expected": 300,
+ "method": "rag_largek",
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "correct": 0.52,
+ "match": 0.52,
+ "match_norm": 0.5833333333333334,
+ "em": 0.5566666666666666,
+ "f1": 0.6296132756132756,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1144.61,
+ "mean_completion_tokens": 4.96,
+ "mean_llm_seconds": 4.05296653399894,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.7132706440012164,
+ "wall_s": 102.17020344734192
+}

@@ -1,0 +1,10 @@
+2026-11-07 01:09:34,902 INFO START quant3bq8_closed_book_hotpotqa: 200/200 examples to run; projected 3 min
+2026-11-07 01:09:36,248 INFO quant3bq8_closed_book_hotpotqa: 25/200 done, 0 errors, 1s
+2026-11-07 01:09:37,644 INFO quant3bq8_closed_book_hotpotqa: 50/200 done, 0 errors, 3s
+2026-11-07 01:09:38,763 INFO quant3bq8_closed_book_hotpotqa: 75/200 done, 0 errors, 4s
+2026-11-07 01:09:39,991 INFO quant3bq8_closed_book_hotpotqa: 100/200 done, 0 errors, 5s
+2026-11-07 01:09:41,248 INFO quant3bq8_closed_book_hotpotqa: 125/200 done, 0 errors, 6s
+2026-11-07 01:09:42,723 INFO quant3bq8_closed_book_hotpotqa: 150/200 done, 0 errors, 8s
+2026-11-07 01:09:44,060 INFO quant3bq8_closed_book_hotpotqa: 175/200 done, 0 errors, 9s
+2026-11-07 01:09:45,363 INFO quant3bq8_closed_book_hotpotqa: 200/200 done, 0 errors, 10s
+2026-11-07 01:09:45,617 INFO END quant3bq8_closed_book_hotpotqa: complete, wall 0.2 min, stats {'llm_calls': 200, 'cache_hits': 0, 'prompt_tokens': 17207, 'completion_tokens': 1453, 'llm_seconds': 80.77599999996164, 'retrievals': 0, 'verifier_pairs': 0}

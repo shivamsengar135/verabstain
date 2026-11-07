@@ -1,0 +1,72 @@
+{
+ "seed": {
+  "key": "asai2024selfrag",
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "arxiv_id": "2310.11511",
+  "category": "reflective",
+  "role": "baseline"
+ },
+ "arxiv": {
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "authors": [
+   "Akari Asai",
+   "Zeqiu Wu",
+   "Yizhong Wang",
+   "Avirup Sil",
+   "Hannaneh Hajishirzi"
+  ],
+  "abstract": "Despite their remarkable capabilities, large language models (LLMs) often produce responses containing factual inaccuracies due to their sole reliance on the parametric knowledge they encapsulate. Retrieval-Augmented Generation (RAG), an ad hoc approach that augments LMs with retrieval of relevant knowledge, decreases such issues. However, indiscriminately retrieving and incorporating a fixed number of retrieved passages, regardless of whether retrieval is necessary, or passages are relevant, diminishes LM versatility or can lead to unhelpful response generation. We introduce a new framework called Self-Reflective Retrieval-Augmented Generation (Self-RAG) that enhances an LM's quality and factuality through retrieval and self-reflection. Our framework trains a single arbitrary LM that adaptively retrieves passages on-demand, and generates and reflects on retrieved passages and its own generations using special tokens, called reflection tokens. Generating reflection tokens makes the LM controllable during the inference phase, enabling it to tailor its behavior to diverse task requirements. Experiments show that Self-RAG (7B and 13B parameters) significantly outperforms state-of-the-art LLMs and retrieval-augmented models on a diverse set of tasks. Specifically, Self-RAG outperforms ChatGPT and retrieval-augmented Llama2-chat on Open-domain QA, reasoning and fact verification tasks, and it shows significant gains in improving factuality and citation accuracy for long-form generations relative to these models.",
+  "published": "2023-10-17",
+  "arxiv_id": "2310.11511",
+  "comment": "30 pages, 2 figures, 12 tables",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "ddbd8fe782ac98e9c64dd98710687a962195dd9b",
+  "externalIds": {
+   "DBLP": "conf/iclr/AsaiWWSH24",
+   "ArXiv": "2310.11511",
+   "CorpusId": 264288947
+  },
+  "publicationVenue": {
+   "id": "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+   "name": "International Conference on Learning Representations",
+   "type": "conference",
+   "alternate_names": [
+    "Int Conf Learn Represent",
+    "ICLR"
+   ],
+   "url": "https://iclr.cc/"
+  },
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "venue": "International Conference on Learning Representations",
+  "year": 2023,
+  "publicationDate": "2023-10-17",
+  "journal": {
+   "name": "ArXiv",
+   "volume": "abs/2310.11511"
+  },
+  "authors": [
+   {
+    "authorId": "35584853",
+    "name": "Akari Asai"
+   },
+   {
+    "authorId": "7806955",
+    "name": "Zeqiu Wu"
+   },
+   {
+    "authorId": "1705260",
+    "name": "Yizhong Wang"
+   },
+   {
+    "authorId": "2707234",
+    "name": "Avirup Sil"
+   },
+   {
+    "authorId": "2548384",
+    "name": "Hannaneh Hajishirzi"
+   }
+  ]
+ }
+}

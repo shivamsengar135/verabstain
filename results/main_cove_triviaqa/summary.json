@@ -1,0 +1,22 @@
+{
+ "run_id": "main_cove_triviaqa",
+ "n": 1000,
+ "n_expected": 1000,
+ "method": "cove",
+ "dataset": "triviaqa",
+ "split": "test",
+ "correct": 0.629,
+ "match": 0.629,
+ "match_norm": 0.638,
+ "em": 0.562,
+ "f1": 0.6491380057850646,
+ "native_abstain_rate": 0.001,
+ "mean_llm_calls": 5.977,
+ "mean_prompt_tokens": 2229.624,
+ "mean_completion_tokens": 136.732,
+ "mean_llm_seconds": 10.853959682902584,
+ "mean_retrievals": 3.977,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.14201871029986,
+ "wall_s": 1538.1359195709229
+}

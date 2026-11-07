@@ -1,0 +1,22 @@
+{
+ "run_id": "devB_selfrag_popqa_lt",
+ "n": 300,
+ "n_expected": 300,
+ "method": "selfrag",
+ "dataset": "popqa_lt",
+ "split": "dev",
+ "correct": 0.3466666666666667,
+ "match": 0.3466666666666667,
+ "match_norm": 0.36,
+ "em": 0.006666666666666667,
+ "f1": 0.15232630302232802,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 651.8033333333333,
+ "mean_completion_tokens": 136.86333333333334,
+ "mean_llm_seconds": 10.544351118665848,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 4.843722134667042,
+ "wall_s": 215.56717777252197
+}

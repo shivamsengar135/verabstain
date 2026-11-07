@@ -1,0 +1,31 @@
+2026-11-05 02:50:31,880 ERROR JOB FAILED devB_rag_largek_pubhealth:
+Traceback (most recent call last):
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 290, in main
+    run_job(job, gcfg, log, guard)
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\scripts\run_queue.py", line 170, in run_job
+    examples = D.load(job["dataset"], job["split"], job.get("n"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in load
+    return [byid[i] for i in want]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Extras\Current_Data\shivam_phd_work\coding\trial_4_ragverify\src\ragverify\data.py", line 20, in <listcomp>
+    return [byid[i] for i in want]
+            ~~~~^^^
+KeyError: 'pubdev:there'
+
+2026-11-05 02:59:27,840 INFO START devB_rag_largek_pubhealth: 300/300 examples to run; projected 8 min
+2026-11-05 02:59:27,996 INFO devB_rag_largek_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-05 02:59:28,011 INFO devB_rag_largek_pubhealth: 50/300 done, 0 errors, 0s
+2026-11-05 02:59:28,026 INFO devB_rag_largek_pubhealth: 75/300 done, 0 errors, 0s
+2026-11-05 02:59:28,045 INFO devB_rag_largek_pubhealth: 100/300 done, 0 errors, 0s
+2026-11-05 02:59:41,604 INFO devB_rag_largek_pubhealth: 125/300 done, 0 errors, 14s
+2026-11-05 02:59:53,665 INFO devB_rag_largek_pubhealth: 150/300 done, 0 errors, 26s
+2026-11-05 03:00:05,437 INFO devB_rag_largek_pubhealth: 175/300 done, 0 errors, 37s
+2026-11-05 03:00:13,200 WARNING PAUSE: gpu_temp=83 cpu_zone=78.9 cpu_load=11.6 on_battery=False
+2026-11-05 03:00:31,829 WARNING RESUME: gpu_temp=48 cpu_zone=55.9 cpu_load=5.0
+2026-11-05 03:00:33,770 INFO devB_rag_largek_pubhealth: 200/300 done, 0 errors, 66s
+2026-11-05 03:00:45,248 INFO devB_rag_largek_pubhealth: 225/300 done, 0 errors, 77s
+2026-11-05 03:00:57,008 INFO devB_rag_largek_pubhealth: 250/300 done, 0 errors, 89s
+2026-11-05 03:01:08,744 INFO devB_rag_largek_pubhealth: 275/300 done, 0 errors, 101s
+2026-11-05 03:01:19,709 INFO devB_rag_largek_pubhealth: 300/300 done, 0 errors, 112s
+2026-11-05 03:01:19,884 INFO END devB_rag_largek_pubhealth: complete, wall 1.9 min, stats {'llm_calls': 200, 'cache_hits': 100, 'prompt_tokens': 229999, 'completion_tokens': 400, 'llm_seconds': 750.2905137998168, 'retrievals': 0, 'verifier_pairs': 0}

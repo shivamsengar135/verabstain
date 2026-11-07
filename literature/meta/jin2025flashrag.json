@@ -1,0 +1,93 @@
+{
+ "seed": {
+  "key": "jin2025flashrag",
+  "title": "FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research",
+  "arxiv_id": "2405.13576",
+  "category": "rag",
+  "role": "reference-impl"
+ },
+ "arxiv": {
+  "title": "FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research",
+  "authors": [
+   "Jiajie Jin",
+   "Yutao Zhu",
+   "Guanting Dong",
+   "Yuyao Zhang",
+   "Xinyu Yang",
+   "Chenghao Zhang",
+   "Tong Zhao",
+   "Zhao Yang",
+   "Zhicheng Dou",
+   "Ji-Rong Wen"
+  ],
+  "abstract": "With the advent of large language models (LLMs) and multimodal large language models (MLLMs), the potential of retrieval-augmented generation (RAG) has attracted considerable research attention. Various novel algorithms and models have been introduced to enhance different aspects of RAG systems. However, the absence of a standardized framework for implementation, coupled with the inherently complex RAG process, makes it challenging and time-consuming for researchers to compare and evaluate these approaches in a consistent environment. Existing RAG toolkits, such as LangChain and LlamaIndex, while available, are often heavy and inflexibly, failing to meet the customization needs of researchers. In response to this challenge, we develop \\ours{}, an efficient and modular open-source toolkit designed to assist researchers in reproducing and comparing existing RAG methods and developing their own algorithms within a unified framework. Our toolkit has implemented 16 advanced RAG methods and gathered and organized 38 benchmark datasets. It has various features, including a customizable modular framework, multimodal RAG capabilities, a rich collection of pre-implemented RAG works, comprehensive datasets, efficient auxiliary pre-processing scripts, and extensive and standard evaluation metrics. Our toolkit and resources are available at https://github.com/RUC-NLPIR/FlashRAG.",
+  "published": "2024-05-22",
+  "arxiv_id": "2405.13576",
+  "comment": "The paper is accepted by WWW2025 Resource Track",
+  "journal_ref": ""
+ },
+ "s2": {
+  "paperId": "daebec92963ab8dea492f0c209bdf57e87bcaa07",
+  "externalIds": {
+   "ArXiv": "2405.13576",
+   "DBLP": "conf/www/Jin0DDYZZYW25",
+   "DOI": "10.1145/3701716.3715313",
+   "CorpusId": 269982691
+  },
+  "publicationVenue": {
+   "id": "e07422f9-c065-40c3-a37b-75e98dce79fe",
+   "name": "The Web Conference",
+   "type": "conference",
+   "alternate_names": [
+    "Web Conf",
+    "WWW"
+   ],
+   "url": "http://www.iw3c2.org/"
+  },
+  "title": "FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research",
+  "venue": "The Web Conference",
+  "year": 2024,
+  "publicationDate": "2024-05-22",
+  "journal": {
+   "name": "Companion Proceedings of the ACM on Web Conference 2025"
+  },
+  "authors": [
+   {
+    "authorId": "4376097",
+    "name": "Jiajie Jin"
+   },
+   {
+    "authorId": "1900406",
+    "name": "Yutao Zhu"
+   },
+   {
+    "authorId": "2257039188",
+    "name": "Zhi-Cheng Dou"
+   },
+   {
+    "authorId": "2316562231",
+    "name": "Guan-Ting Dong"
+   },
+   {
+    "authorId": "2302980850",
+    "name": "Xin-Yu Yang"
+   },
+   {
+    "authorId": "2470136401",
+    "name": "Cheng-Hao Zhang"
+   },
+   {
+    "authorId": "2395868627",
+    "name": "Tong Zhao"
+   },
+   {
+    "authorId": "2301680721",
+    "name": "Zhao Yang"
+   },
+   {
+    "authorId": "2260701602",
+    "name": "Ji-Rong Wen"
+   }
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "run_id": "main_selfrag_pubhealth",
+ "n": 987,
+ "n_expected": 987,
+ "method": "selfrag",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.7163120567375887,
+ "match": 0.7163120567375887,
+ "match_norm": 0.7163120567375887,
+ "em": 0.7163120567375887,
+ "f1": 0.7163120567375887,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 1286.1671732522796,
+ "mean_completion_tokens": 26.59777102330294,
+ "mean_llm_seconds": 7.741230468591973,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 7.901143112563256,
+ "wall_s": 1045.3576242923737
+}

@@ -1,0 +1,24 @@
+2026-11-07 02:38:28,069 INFO START rob_selfrag_hotpotqa_dist50: 300/300 examples to run; projected 7 min
+2026-11-07 02:38:44,194 INFO rob_selfrag_hotpotqa_dist50: 25/300 done, 0 errors, 10s
+2026-11-07 02:38:54,667 INFO rob_selfrag_hotpotqa_dist50: 50/300 done, 0 errors, 21s
+2026-11-07 02:39:07,842 INFO rob_selfrag_hotpotqa_dist50: 75/300 done, 0 errors, 34s
+2026-11-07 02:39:13,001 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=13.1 on_battery=False
+2026-11-07 02:39:33,013 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.7
+2026-11-07 02:39:37,368 INFO rob_selfrag_hotpotqa_dist50: 100/300 done, 0 errors, 63s
+2026-11-07 02:39:45,714 INFO rob_selfrag_hotpotqa_dist50: 125/300 done, 0 errors, 72s
+2026-11-07 02:39:51,023 WARNING PAUSE: gpu_temp=80 cpu_zone=50.9 cpu_load=13.6 on_battery=False
+2026-11-07 02:40:11,035 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.2
+2026-11-07 02:40:16,918 INFO rob_selfrag_hotpotqa_dist50: 150/300 done, 0 errors, 103s
+2026-11-07 02:40:27,246 INFO rob_selfrag_hotpotqa_dist50: 175/300 done, 0 errors, 113s
+2026-11-07 02:40:35,050 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=15.2 on_battery=False
+2026-11-07 02:40:55,063 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=3.0
+2026-11-07 02:40:57,010 INFO rob_selfrag_hotpotqa_dist50: 200/300 done, 0 errors, 143s
+2026-11-07 02:41:06,634 INFO rob_selfrag_hotpotqa_dist50: 225/300 done, 0 errors, 153s
+2026-11-07 02:41:11,076 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=12.8 on_battery=False
+2026-11-07 02:41:31,089 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=4.2
+2026-11-07 02:41:37,682 INFO rob_selfrag_hotpotqa_dist50: 250/300 done, 0 errors, 184s
+2026-11-07 02:41:46,186 INFO rob_selfrag_hotpotqa_dist50: 275/300 done, 0 errors, 192s
+2026-11-07 02:41:49,181 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=11.8 on_battery=False
+2026-11-07 02:42:09,195 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=3.4
+2026-11-07 02:42:14,560 INFO rob_selfrag_hotpotqa_dist50: 300/300 done, 0 errors, 221s
+2026-11-07 02:42:14,824 INFO END rob_selfrag_hotpotqa_dist50: complete, wall 3.7 min, stats {'llm_calls': 543, 'cache_hits': 1557, 'prompt_tokens': 107176, 'completion_tokens': 13335, 'llm_seconds': 1324.008613099868, 'retrievals': 0, 'verifier_pairs': 0}
