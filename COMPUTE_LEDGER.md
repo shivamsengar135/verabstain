@@ -272,3 +272,13 @@ Columns: run_id · launched (IST) · projected runtime · projected end · wall 
 | rob_crag_hotpotqa_dist75 | 2026-11-07T03:10 | 11 min | 2026-11-07T03:21 | 6.3 min | 380 | 279 | 246009 | 1484 | complete |  |
 | rob_selfrag_hotpotqa_dist75 | 2026-11-07T03:16 | 7 min | 2026-11-07T03:23 | 1.7 min | 102 | 267 | 55104 | 6571 | complete |  |
 | rob_ragverify_hotpotqa_dist75 | 2026-11-07T03:18 | 15 min | 2026-11-07T03:33 | 8.1 min | 485 | 547 | 352220 | 18947 | complete |  |
+| posthoc_chain_of_note_m2_popqa_lt | 2026-11-07T10:48 | 15 min | 2026-11-07T11:03 | 17.2 min | 1035 | 499 | 309334 | 73422 | complete |  |
+| posthoc_chain_of_note_m2_hotpotqa | 2026-11-07T11:05 | 15 min | 2026-11-07T11:20 | 19.7 min | 1181 | 499 | 339863 | 84642 | complete |  |
+| posthoc_chain_of_note_m2_triviaqa | 2026-11-07T11:25 | 18 min | 2026-11-07T11:43 | 21.3 min | 1281 | 500 | 417740 | 86479 | complete |  |
+| posthoc_chain_of_note_m2_pubhealth | 2026-11-07T11:46 | 30 min | 2026-11-07T12:16 | 25.4 min | 1525 | 499 | 433397 | 106025 | complete |  |
+| posthoc_crag_m2_popqa_lt | 2026-11-07T12:12 | 20 min | 2026-11-07T12:32 | 8.8 min | 525 | 498 | 355826 | 2153 | complete |  |
+| posthoc_crag_m2_hotpotqa | 2026-11-07T12:21 | 20 min | 2026-11-07T12:41 | 10.1 min | 607 | 490 | 391561 | 2380 | complete |  |
+| posthoc_crag_m2_triviaqa | 2026-11-07T12:31 | 25 min | 2026-11-07T12:56 | 10.8 min | 647 | 488 | 403327 | 2247 | complete |  |
+| posthoc_crag_m2_pubhealth | 2026-11-07T12:42 | 22 min | 2026-11-07T13:04 | 8.8 min | 526 | 485 | 382783 | 970 | complete |  |
+
+> Note (2026-11-07 13:20): post-hoc analyses (PROTOCOL §17, P1–P3). The 8 queue_posthoc jobs above took 122.1 min wall in total (≈2.0 GPU-h, thermal pauses included). P3 `analysis/faithfulness_paired.py` (AlignScore-large + DeBERTa-v3-L NLI, no LLM server) ran 12:56–13:16 (≈0.33 GPU-h; log logs/faithfulness_paired.log). Running total ≈ 44.8 + 2.0 + 0.33 ≈ 47.2 of 50 GPU-h. No further GPU jobs are planned.

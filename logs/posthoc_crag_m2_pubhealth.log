@@ -1,0 +1,39 @@
+2026-11-07 12:42:10,308 INFO START posthoc_crag_m2_pubhealth: 500/500 examples to run; projected 22 min
+2026-11-07 12:42:29,378 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=3.8
+2026-11-07 12:42:53,187 INFO posthoc_crag_m2_pubhealth: 25/500 done, 0 errors, 43s
+2026-11-07 12:43:10,920 INFO posthoc_crag_m2_pubhealth: 50/500 done, 0 errors, 60s
+2026-11-07 12:43:29,293 INFO posthoc_crag_m2_pubhealth: 75/500 done, 0 errors, 79s
+2026-11-07 12:43:33,432 WARNING PAUSE: gpu_temp=81 cpu_zone=53.9 cpu_load=16.9 on_battery=False
+2026-11-07 12:43:53,447 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=0.9
+2026-11-07 12:44:05,540 INFO posthoc_crag_m2_pubhealth: 100/500 done, 0 errors, 115s
+2026-11-07 12:44:25,228 INFO posthoc_crag_m2_pubhealth: 125/500 done, 0 errors, 135s
+2026-11-07 12:44:43,082 INFO posthoc_crag_m2_pubhealth: 150/500 done, 0 errors, 153s
+2026-11-07 12:45:00,986 INFO posthoc_crag_m2_pubhealth: 175/500 done, 0 errors, 171s
+2026-11-07 12:45:09,499 WARNING PAUSE: gpu_temp=83 cpu_zone=54.9 cpu_load=16.5 on_battery=False
+2026-11-07 12:45:29,516 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=1.9
+2026-11-07 12:45:37,049 INFO posthoc_crag_m2_pubhealth: 200/500 done, 0 errors, 207s
+2026-11-07 12:45:55,795 INFO posthoc_crag_m2_pubhealth: 225/500 done, 0 errors, 225s
+2026-11-07 12:46:07,538 WARNING PAUSE: gpu_temp=83 cpu_zone=53.9 cpu_load=17.8 on_battery=False
+2026-11-07 12:46:08,876 INFO posthoc_crag_m2_pubhealth: 250/500 done, 0 errors, 238s
+2026-11-07 12:46:27,553 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.4
+2026-11-07 12:46:46,872 INFO posthoc_crag_m2_pubhealth: 275/500 done, 0 errors, 276s
+2026-11-07 12:46:55,571 WARNING PAUSE: gpu_temp=82 cpu_zone=53.9 cpu_load=16.4 on_battery=False
+2026-11-07 12:47:15,581 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=4.1
+2026-11-07 12:47:22,962 INFO posthoc_crag_m2_pubhealth: 300/500 done, 0 errors, 313s
+2026-11-07 12:47:39,596 WARNING PAUSE: gpu_temp=80 cpu_zone=55.9 cpu_load=25.1 on_battery=False
+2026-11-07 12:47:41,065 INFO posthoc_crag_m2_pubhealth: 325/500 done, 0 errors, 331s
+2026-11-07 12:47:59,606 WARNING RESUME: gpu_temp=46 cpu_zone=48.9 cpu_load=15.1
+2026-11-07 12:48:12,816 INFO posthoc_crag_m2_pubhealth: 350/500 done, 0 errors, 362s
+2026-11-07 12:48:33,439 INFO posthoc_crag_m2_pubhealth: 375/500 done, 0 errors, 383s
+2026-11-07 12:48:51,637 WARNING PAUSE: gpu_temp=83 cpu_zone=57.9 cpu_load=28.2 on_battery=False
+2026-11-07 12:48:51,954 INFO posthoc_crag_m2_pubhealth: 400/500 done, 0 errors, 402s
+2026-11-07 12:49:11,647 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=3.3
+2026-11-07 12:49:29,070 INFO posthoc_crag_m2_pubhealth: 425/500 done, 0 errors, 439s
+2026-11-07 12:49:33,661 WARNING PAUSE: gpu_temp=82 cpu_zone=53.9 cpu_load=22.2 on_battery=False
+2026-11-07 12:49:53,674 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=1.9
+2026-11-07 12:50:05,293 INFO posthoc_crag_m2_pubhealth: 450/500 done, 0 errors, 475s
+2026-11-07 12:50:23,280 INFO posthoc_crag_m2_pubhealth: 475/500 done, 0 errors, 493s
+2026-11-07 12:50:31,696 WARNING PAUSE: gpu_temp=82 cpu_zone=52.9 cpu_load=17.7 on_battery=False
+2026-11-07 12:50:51,706 WARNING RESUME: gpu_temp=46 cpu_zone=46.9 cpu_load=10.8
+2026-11-07 12:50:56,124 INFO posthoc_crag_m2_pubhealth: 500/500 done, 0 errors, 526s
+2026-11-07 12:50:56,425 INFO END posthoc_crag_m2_pubhealth: complete, wall 8.8 min, stats {'llm_calls': 485, 'cache_hits': 515, 'prompt_tokens': 382783, 'completion_tokens': 970, 'llm_seconds': 2168.7285116998537, 'retrievals': 0, 'verifier_pairs': 0}

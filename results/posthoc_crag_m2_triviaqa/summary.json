@@ -1,0 +1,22 @@
+{
+ "run_id": "posthoc_crag_m2_triviaqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "crag",
+ "dataset": "triviaqa",
+ "split": "test",
+ "correct": 0.614,
+ "match": 0.614,
+ "match_norm": 0.634,
+ "em": 0.552,
+ "f1": 0.6514342245989305,
+ "native_abstain_rate": 0.002,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 1002.42,
+ "mean_completion_tokens": 15.874,
+ "mean_llm_seconds": 7.241846476400155,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 8.208945055999852,
+ "wall_s": 647.4202282428741
+}

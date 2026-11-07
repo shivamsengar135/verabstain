@@ -4,18 +4,25 @@ entering extended mode
 (main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
+(C:\Program Files\MiKTeX\tex/latex/elsarticle\elsarticle.cls
+Document Class: elsarticle 2026/01/09, 3.5: Elsevier Ltd
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd))
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def))
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty)
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size11.clo))
-(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo))
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty)
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
-(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty))
-(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def))) (main.spl)
+(C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty))
 (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty
-(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def)))
 (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
 (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty)
 (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
@@ -29,11 +36,6 @@ For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
 (C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty)
 (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty)
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty)
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg)
-(C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def)))
 (C:\Program Files\MiKTeX\tex/latex/algorithms\algorithm.sty
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty)
 (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty))
@@ -42,19 +44,23 @@ For additional information on amsmath, use the `?' option.
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+) (C:\Program Files\MiKTeX\tex/latex/lineno\lineno.sty
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)))
+(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty)))
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 (C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty)
 (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
-(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
 (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 (C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
 (C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty)
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty)
-(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
-(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty)))
-(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty))
 (C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty)
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def)
 (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty)
@@ -65,72 +71,317 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def
 (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 (C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty)))
-(C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty)
 (generated/setup_macros.tex) (generated/results_macros.tex) (main.aux)
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-(main.out) (main.out) (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd) (sections/introduction.tex
- [1]) (sections/related.tex [2]) (sections/problem.tex) (sections/method.tex
-[3]) (sections/setup.tex [4] [5]) (sections/results.tex [6]
-(generated/table_main.tex) [7] (generated/table_risk_control.tex)
-(generated/table_secondary_metrics.tex) [8] (generated/table_efficiency.tex))
-(sections/analysis.tex [9] [10] (generated/table_ablations.tex)
-(generated/table_ablation_cost.tex)
-Overfull \hbox (49.00508pt too wide) in paragraph at lines 2--62
+(main.out) (main.out)
+Overfull \hbox (8.23605pt too wide) in paragraph at lines 38--54
+\TU/lmr/m/n/12 laptop GPU. Under a pre-registered protocol we compare the resul
+ting pipeline,
+[1] (sections/introduction.tex
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd) [2] [3])
+(sections/related.tex
+Overfull \hbox (29.88673pt too wide) in paragraph at lines 40--1
+ []\TU/lmr/m/it/12 Contributions..[] \TU/lmr/m/n/12 (i) A controlled comparison
+ of VerAbstain with ten re-implemented
+[4] [5]) (sections/problem.tex [6]) (sections/method.tex [7] [8])
+(sections/setup.tex [9] [10] [11]) (sections/results.tex
+Overfull \hbox (3.44138pt too wide) in paragraph at lines 50--1
+\TU/lmr/m/n/12 method’s pre-specified confidence score. Secondary metrics cover
+ exact match,
+[12] [13] [14]
+Underfull \hbox (badness 1248) in paragraph at lines 47--47
+[]\TU/lmr/m/n/10 Table 1: []Main results on the test sets (primary backbone Qwe
+n2.5-7B-Instruct,
+(generated/table_main.tex)
+Overfull \hbox (12.58618pt too wide) in paragraph at lines 63--71
+[]\TU/lmr/m/n/12 Table []2[] reports CRC and LTT over 100 random 50/50 calibrat
+ion/evaluation
+[15] [16] (generated/table_risk_control.tex)
+Overfull \hbox (61.73419pt too wide) in paragraph at lines 2--86
  [][] 
-(generated/table_secondary.tex) (generated/table_quant.tex) [11]
-(generated/table_distractor.tex) (generated/table_distractor_pairs.tex)
-(generated/table_ragtruth.tex) [12] (generated/table_faithfulness.tex))
-(sections/discussion.tex [13] [14] [15] [16]) (sections/conclusion.tex)
-(main.bbl [17] [18] [19] [20] [21] [22] [23] [24])
-(generated/appendix_deviations.tex [25]) (generated/appendix_data.tex
-Overfull \hbox (13.81125pt too wide) in paragraph at lines 4--4
-\TU/lmtt/m/n/10 popqa_longtail_w_gs.jsonl| 
+[17] (generated/table_secondary_metrics.tex) (generated/table_efficiency.tex)
+Overfull \hbox (84.6753pt too wide) in paragraph at lines 2--133
+ [][] 
+) (sections/analysis.tex [18] [19] [20] (generated/table_ablations.tex)
+Overfull \hbox (3.93147pt too wide) in paragraph at lines 67--72
+[]\TU/lmr/m/n/12 The quantization check compares Q8_0 with Q4_K_M weights for L
+lama-
+(generated/table_secondary.tex) [21] (generated/table_distractor.tex)
+Overfull \hbox (5.5092pt too wide) in paragraph at lines 2--101
+ [][] 
+(generated/table_distractor_pairs.tex) (generated/table_ragtruth.tex) [22]
+(generated/table_faithfulness.tex)
+Overfull \hbox (5.5092pt too wide) in paragraph at lines 2--154
+ [][] 
+[23] (generated/table_posthoc_evidence.tex) [24]
+(generated/table_posthoc_scores.tex)
+Overfull \hbox (246.22192pt too wide) in paragraph at lines 2--202
+ [][] 
+(generated/table_faithfulness_paired.tex)) (sections/discussion.tex [25]
+[26]
+Overfull \hbox (4.80675pt too wide) in paragraph at lines 23--29
+\TU/lmr/m/n/12 bone’s own support judgement on AURC and H@0.8 while using 42% (
+PopQA-
+[27] [28] [29] [30]) (sections/conclusion.tex) [31]
+Overfull \hbox (18.47186pt too wide) in paragraph at lines 74--78
+\TU/lmr/m/n/12 puts are released at an anonymized repository for review at []$[
+][][][][] [] [] [] [][][][][][][][][] []
+(main.bbl [32]
+Underfull \hbox (badness 3291) in paragraph at lines 28--39
+[]\TU/lmr/m/n/12 Angelopoulos, A.N., Bates, S., Fisch, A., Lei, L., Schuster, T
+.,
 
-Overfull \hbox (8.56125pt too wide) in paragraph at lines 5--5
-\TU/lmtt/m/n/10 triviaqa_test_w_gs.jsonl
+Underfull \hbox (badness 10000) in paragraph at lines 28--39
+\TU/lmr/m/n/12 2024.  Conformal Risk Control, in: The Twelfth Interna-
 
-Overfull \hbox (34.81125pt too wide) in paragraph at lines 7--7
-\TU/lmtt/m/n/10 health_claims_processed.jsonl
+Underfull \hbox (badness 5359) in paragraph at lines 28--39
+\TU/lmr/m/n/12 tional Conference on Learning Representations (ICLR).  URL:
 
-Overfull \hbox (6.07668pt too wide) in paragraph at lines 8--8
-\TU/lmtt/m/n/10 processdata
+Underfull \hbox (badness 10000) in paragraph at lines 28--39
+[]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][] [] [][] [] [][][][][]
+ [] [][][][][] [] [][][][][] [] [][][][] [] [][][][] []
 
-Overfull \hbox (13.55164pt too wide) in paragraph at lines 8--9
-\TU/lmtt/m/n/10 checkanswer\TU/lmr/m/n/10 ;
+Underfull \hbox (badness 10000) in paragraph at lines 28--39
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/12 ,
 
-Overfull \hbox (43.82295pt too wide) in alignment at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 40--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/12 ,
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48]) (generated/appendix_deviations.tex [49] [50]) [51]
+(generated/appendix_data.tex
+Overfull \hbox (46.2187pt too wide) in paragraph at lines 4--4
+\TU/lmtt/m/n/10.95 popqa_longtail_w_gs.jsonl| 
+
+Overfull \hbox (2.4656pt too wide) in paragraph at lines 5--5
+[]|\TU/lmr/m/n/10.95 TriviaQA| 
+
+Overfull \hbox (40.46997pt too wide) in paragraph at lines 5--5
+\TU/lmtt/m/n/10.95 triviaqa_test_w_gs.jsonl
+
+Overfull \hbox (7.90775pt too wide) in paragraph at lines 6--6
+[]|\TU/lmr/m/n/10.95 HotpotQA| 
+
+Overfull \hbox (8.67426pt too wide) in paragraph at lines 7--7
+[]|\TU/lmr/m/n/10.95 PubHealth| 
+
+Overfull \hbox (69.2137pt too wide) in paragraph at lines 7--7
+\TU/lmtt/m/n/10.95 health_claims_processed.jsonl
+
+Overfull \hbox (20.336pt too wide) in paragraph at lines 8--8
+\TU/lmtt/m/n/10.95 processdata
+
+Overfull \hbox (27.27795pt too wide) in paragraph at lines 8--9
+\TU/lmtt/m/n/10.95 checkanswer\TU/lmr/m/n/10.95 ;
+
+Overfull \hbox (9.386pt too wide) in paragraph at lines 9--9
+[]|\TU/lmr/m/n/10.95 RAGTruth
+
+Overfull \hbox (5.24655pt too wide) in paragraph at lines 9--10
+[]|\TU/lmr/m/n/10.95 response-
+
+Overfull \hbox (48.6069pt too wide) in alignment at lines 2--11
  [] [] [] [] [] [] [] 
-[26] [27]) (generated/table_main_tests_captioned.tex
-Overfull \hbox (11.41313pt too wide) in alignment at lines 2--71
+ignored error: Infinite glue shrinkage found in box being split [52]
+ignored error: Infinite glue shrinkage found in box being split [53] [54])
+[55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
+(generated/table_main_tests_captioned.tex
+Overfull \hbox (9.40005pt too wide) in alignment at lines 2--71
  [] [] [] [] [] 
-ignored error: Infinite glue shrinkage found in box being split [28])
-(generated/table_faithfulness_ci.tex) (generated/appendix_versions.tex
-ignored error: Infinite glue shrinkage found in box being split [29])
-(generated/appendix_baselines.tex
-Overfull \hbox (105.84125pt too wide) in paragraph at lines 8--8
-\TU/lmtt/m/n/10 internal/external_knowledge_preparation.py\TU/lmr/m/n/10 ,
+[65] [66] [67]) [68] (generated/table_ablation_cost.tex)
+Overfull \hbox (171.20216pt too wide) in paragraph at lines 2--117
+ [][] 
 
-Overfull \hbox (16.34125pt too wide) in paragraph at lines 13--13
-\TU/lmr/m/n/10 (\TU/lmtt/m/n/10 run_editor_sequential.py\TU/lmr/m/n/10 )| 
-) (generated/appendix_prompts.tex [30] [31] [32]
-Overfull \hbox (1.64238pt too wide) in paragraph at lines 126--126
-[]  \TU/lmtt/m/n/10.95 > evidence. Keep it only if the passages above support i
-t; otherwise correct it.[] 
-[33]
-Overfull \hbox (1.64238pt too wide) in paragraph at lines 177--177
-[]  \TU/lmtt/m/n/10.95 > and questions as queries for the web search, including
- topic background within[] 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (1.64238pt too wide) in paragraph at lines 198--198
-[]  \TU/lmtt/m/n/10.95 > if the passages contain the answer, answer from them; 
-if they are relevant but[] 
-[34]
-Overfull \hbox (1.64238pt too wide) in paragraph at lines 235--235
-[]  \TU/lmtt/m/n/10.95 > the baseline answer. Each question must be answerable 
-on its own (do not refer[] 
-[35]) [36] (main.aux) )
+(generated/table_quant.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(generated/table_faithfulness_ci.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(generated/appendix_versions.tex
+Overfull \hbox (44.66136pt too wide) in paragraph at lines 2--3
+ []\TU/lmr/m/it/12 Software..[] \TU/lmr/m/n/12 Python 3.11.9; llama.cpp b12110 
+(commit cd959bae9); torch 2.14.1+cu130,
+
+Overfull \hbox (8.91043pt too wide) in paragraph at lines 2--3
+\TU/lmr/m/n/12 transformers 5.22.1, sentence-transformers 6.2.0, faiss-cpu 1.15
+.1, bm25s 0.3.16,
+
+Overfull \hbox (1.41742pt too wide) in alignment at lines 5--22
+ [] [] 
+) (generated/appendix_baselines.tex
+Overfull \hbox (7.53238pt too wide) in paragraph at lines 8--8
+\TU/lmr/m/n/10.95 (\TU/lmtt/m/n/10.95 CRAG_Inference.py\TU/lmr/m/n/10.95 ,
+
+Overfull \hbox (146.99153pt too wide) in paragraph at lines 8--8
+\TU/lmtt/m/n/10.95 internal/external_knowledge_preparation.py\TU/lmr/m/n/10.95 
+,
+
+Overfull \hbox (48.98907pt too wide) in paragraph at lines 13--13
+\TU/lmr/m/n/10.95 (\TU/lmtt/m/n/10.95 run_editor_sequential.py\TU/lmr/m/n/10.95
+ )| 
+
+Overfull \hbox (7.84315pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/n/10.95 SelfCheckGPT-
+
+Overfull \hbox (4.79929pt too wide) in alignment at lines 2--17
+ [] [] [] [] 
+ignored error: Infinite glue shrinkage found in box being split [69]
+ignored error: Infinite glue shrinkage found in box being split [70])
+(generated/appendix_prompts.tex [71]
+Overfull \hbox (67.31989pt too wide) in paragraph at lines 11--11
+[]\TU/lmtt/m/n/12 Give only the short answer (a name, number, date or short phr
+ase), without[] 
+
+Overfull \hbox (92.03992pt too wide) in paragraph at lines 22--22
+[]\TU/lmtt/m/n/12 Is the following statement correct or not? Say true if it's c
+orrect; otherwise[] 
+[72]
+Overfull \hbox (79.67992pt too wide) in paragraph at lines 37--37
+[]\TU/lmtt/m/n/12 Use the passages to answer. Give only the short answer (a nam
+e, number, date[] 
+
+Overfull \hbox (92.03992pt too wide) in paragraph at lines 53--53
+[]\TU/lmtt/m/n/12 Is the following statement correct or not? Say true if it's c
+orrect; otherwise[] 
+
+Overfull \hbox (54.95993pt too wide) in paragraph at lines 53--53
+[]\TU/lmtt/m/n/12 Use the passages to answer. Answer with exactly one word: tru
+e or false.[] 
+[73]
+Overfull \hbox (85.85994pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/12 Answer using only information in the passages. If the passage
+s do not contain[] 
+
+Overfull \hbox (54.95993pt too wide) in paragraph at lines 72--72
+[]  \TU/lmtt/m/n/12 > the information needed, reply exactly: Answer: insufficie
+nt evidence[] 
+
+Overfull \hbox (92.03995pt too wide) in paragraph at lines 72--72
+[]\TU/lmtt/m/n/12 Statement: <one complete sentence that states the answer to t
+he question, with[] 
+
+Overfull \hbox (92.03992pt too wide) in paragraph at lines 93--93
+[]\TU/lmtt/m/n/12 Is the following statement correct or not? Say true if it's c
+orrect; otherwise[] 
+[74]
+Overfull \hbox (85.85994pt too wide) in paragraph at lines 93--93
+[]\TU/lmtt/m/n/12 Answer using only information in the passages. If the passage
+s do not contain[] 
+
+Overfull \hbox (54.95993pt too wide) in paragraph at lines 93--93
+[]  \TU/lmtt/m/n/12 > the information needed, reply exactly: Answer: insufficie
+nt evidence[] 
+
+Overfull \hbox (73.49994pt too wide) in paragraph at lines 93--93
+[]\TU/lmtt/m/n/12 Evidence: one sentence from your reading of the passages that
+ justifies the[] 
+
+Overfull \hbox (79.67992pt too wide) in paragraph at lines 104--104
+[]\TU/lmtt/m/n/12 Current answer statement (not supported by the evidence so fa
+r): <STATEMENT>[] 
+
+Overfull \hbox (73.4999pt too wide) in paragraph at lines 104--104
+[]\TU/lmtt/m/n/12 Write one short search query (at most 12 words) that would fi
+nd a Wikipedia[] 
+
+Overfull \hbox (98.2199pt too wide) in paragraph at lines 104--104
+[]  \TU/lmtt/m/n/12 > passage confirming or correcting this statement. Reply wi
+th the query only.[] 
+[75]
+Overfull \hbox (85.85994pt too wide) in paragraph at lines 126--126
+[]\TU/lmtt/m/n/12 Answer using only information in the passages. If the passage
+s do not contain[] 
+
+Overfull \hbox (54.95993pt too wide) in paragraph at lines 126--126
+[]  \TU/lmtt/m/n/12 > the information needed, reply exactly: Answer: insufficie
+nt evidence[] 
+
+Overfull \hbox (92.03995pt too wide) in paragraph at lines 126--126
+[]\TU/lmtt/m/n/12 Statement: <one complete sentence that states the answer to t
+he question, with[] 
+
+Overfull \hbox (67.31992pt too wide) in paragraph at lines 126--126
+[]\TU/lmtt/m/n/12 A previous answer was '<PREVIOUS ANSWER>', but it was not sup
+ported by its[] 
+
+Overfull \hbox (116.75989pt too wide) in paragraph at lines 126--126
+[]  \TU/lmtt/m/n/12 > evidence. Keep it only if the passages above support it; 
+otherwise correct it.[] 
+[76]
+Overfull \hbox (48.77995pt too wide) in paragraph at lines 155--155
+[]\TU/lmtt/m/n/12 Refer to the following documents, follow the instruction and 
+answer the[] 
+
+Overfull \hbox (67.31989pt too wide) in paragraph at lines 155--155
+[]\TU/lmtt/m/n/12 Give only the short answer (a name, number, date or short phr
+ase), without[] 
+
+Overfull \hbox (92.0399pt too wide) in paragraph at lines 177--177
+[]\TU/lmtt/m/n/12 Extract at most three keywords separated by comma from the fo
+llowing dialogues[] 
+
+Overfull \hbox (116.7599pt too wide) in paragraph at lines 177--177
+[]  \TU/lmtt/m/n/12 > and questions as queries for the web search, including to
+pic background within[] 
+[77]
+Overfull \hbox (48.77994pt too wide) in paragraph at lines 177--177
+[]\TU/lmtt/m/n/12 question: What sport does Kiribati men's national basketball 
+team play?[] 
+
+Overfull \hbox (92.03987pt too wide) in paragraph at lines 198--198
+[]\TU/lmtt/m/n/12 First write a brief reading note for each passage ([1], [2], 
+...): say whether[] 
+
+Overfull \hbox (110.57991pt too wide) in paragraph at lines 198--198
+[]  \TU/lmtt/m/n/12 > it is relevant to the question and what information it pr
+ovides. Then decide:[] 
+
+Overfull \hbox (116.7599pt too wide) in paragraph at lines 198--198
+[]  \TU/lmtt/m/n/12 > if the passages contain the answer, answer from them; if 
+they are relevant but[] 
+
+Overfull \hbox (110.57988pt too wide) in paragraph at lines 198--198
+[]  \TU/lmtt/m/n/12 > incomplete, combine them with what you know; if none is r
+elevant, answer from[] 
+[78]
+Overfull \hbox (42.59991pt too wide) in paragraph at lines 198--198
+[]\TU/lmtt/m/n/12 Format: one line per note ('Note [1]: ...'), then a last line
+ 'Answer:[] 
+
+Overfull \hbox (85.85982pt too wide) in paragraph at lines 198--198
+[]  \TU/lmtt/m/n/12 > <answer>', where <answer> is only a short answer (a name,
+ number, date or[] 
+
+Overfull \hbox (85.85991pt too wide) in paragraph at lines 223--223
+[]\TU/lmtt/m/n/12 What is the answer given in the response? Give only the short
+ answer (a name,[] 
+[79]
+Overfull \hbox (79.67989pt too wide) in paragraph at lines 235--235
+[]\TU/lmtt/m/n/12 Write up to three short verification questions that would che
+ck the facts in[] 
+
+Overfull \hbox (116.75992pt too wide) in paragraph at lines 235--235
+[]  \TU/lmtt/m/n/12 > the baseline answer. Each question must be answerable on 
+its own (do not refer[] 
+
+Overfull \hbox (30.23994pt too wide) in paragraph at lines 249--249
+[]\TU/lmtt/m/n/12 Answer the question briefly using the passages (one short sen
+tence).[] 
+[80]
+Overfull \hbox (92.03993pt too wide) in paragraph at lines 265--265
+[]\TU/lmtt/m/n/12 Using the verification answers, give the final answer, correc
+ting the baseline[] 
+
+Overfull \hbox (98.21988pt too wide) in paragraph at lines 265--265
+[]  \TU/lmtt/m/n/12 > answer if it is inconsistent with them. Give only the sho
+rt answer (a name,[] 
+) [81] [82] [83] (main.aux) )
 (see the transcript file for additional information)
-Output written on main.pdf (36 pages).
+Output written on main.pdf (83 pages).
 Transcript written on main.log.

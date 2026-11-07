@@ -209,11 +209,13 @@ class SelfCheckRAG(StandardRAG):
 class ChainOfNote:
     name = "chain_of_note"
 
-    def __init__(self, ctx, **kw):
-        self.ctx = ctx
+    def __init__(self, ctx, evidence: str = "static", **kw):
+        # evidence="m2": post-hoc control (PROTOCOL §17, 2026-11-07): the same hybrid pool + cross-encoder top-k as RAG-Verify's M2
+        self.ctx, self.evidence = ctx, evidence
 
     def run(self, ex, cnt):
-        ps = self.ctx.static_list(ex, self.ctx.cfg["k"], cnt)
+        k = self.ctx.cfg["k"]
+        ps = self.ctx.pool(ex, cnt)[:k] if self.evidence == "m2" else self.ctx.static_list(ex, k, cnt)
         r = self.ctx.llm.chat(P.chain_of_note(ex, ps), max_tokens=self.ctx.cfg["max_reasoning_tokens"], top_logprobs=5, counter=cnt)
         pred = clean_answer(r["text"], ex["task"])
         return {"pred": pred, "native_abstain": is_unknown(pred), "scores": {"tokenprob": answer_span_conf(r["tokens"])},

@@ -99,12 +99,13 @@ class CragEvaluator:
 class CRAG:
     name = "crag"
 
-    def __init__(self, ctx, **kw):
-        self.ctx = ctx
+    def __init__(self, ctx, evidence: str = "static", **kw):
+        # evidence="m2": post-hoc control (PROTOCOL §17, 2026-11-07): the same hybrid pool + cross-encoder top-k as RAG-Verify's M2
+        self.ctx, self.evidence = ctx, evidence
 
     def run(self, ex, cnt):
         c, ev = self.ctx.cfg, self.ctx.crag_eval
-        docs = self.ctx.static_list(ex, c["k"], cnt)
+        docs = self.ctx.pool(ex, cnt)[:c["k"]] if self.evidence == "m2" else self.ctx.static_list(ex, c["k"], cnt)
         q = ex["question"]
         scores = ev.score(q, [p["text"] for p in docs])
         flags = [2 if s >= c["crag_upper"] else (1 if s >= c["crag_lower"] else 0) for s in scores]

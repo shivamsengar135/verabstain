@@ -1,0 +1,22 @@
+{
+ "run_id": "posthoc_crag_m2_popqa_lt",
+ "n": 500,
+ "n_expected": 500,
+ "method": "crag",
+ "dataset": "popqa_lt",
+ "split": "test",
+ "correct": 0.636,
+ "match": 0.636,
+ "match_norm": 0.666,
+ "em": 0.582,
+ "f1": 0.653652380952381,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 880.5,
+ "mean_completion_tokens": 12.432,
+ "mean_llm_seconds": 5.183593694200157,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 5.716127324399771,
+ "wall_s": 525.1636393070221
+}

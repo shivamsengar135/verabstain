@@ -1,0 +1,22 @@
+{
+ "run_id": "posthoc_crag_m2_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "crag",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.332,
+ "match": 0.332,
+ "match_norm": 0.408,
+ "em": 0.362,
+ "f1": 0.46720712656519103,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 975.63,
+ "mean_completion_tokens": 18.066,
+ "mean_llm_seconds": 6.206617093800461,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 6.28979159100019,
+ "wall_s": 607.4976630210876
+}

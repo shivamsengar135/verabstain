@@ -215,3 +215,22 @@ named the verifier `minicheck-deb-l` (the model folder) instead of its registry 
 failed at verifier construction (22:12) before producing any output. The queue and `scripts/make_queue.py` now use
 `minicheck-deb`, which is the same model (`models/minicheck-deb-l`). Both jobs run in the watchdog's next pass over
 unfinished Phase-4 jobs.
+
+**2026-11-07 10:47 IST — Post-hoc analyses after an internal pre-submission review (decided before any of their results exist; reported
+separately from the pre-registered results and labelled post-hoc).** A simulated review (reviews/simulated_review_round0.md)
+raised three fairness questions. The following analyses are added; none changes any pre-registered result or decision rule.
+(P1) *Equal evidence for corrective baselines.* Chain-of-Note and CRAG are re-run with the same hybrid pool and cross-encoder
+top-5 as RAG-Verify's M2 (`method_args: {evidence: m2}`; identical to B3's evidence because rel_tau is off), on the first
+500 test items of PopQA-LT, TriviaQA, HotpotQA and PubHealth (8 jobs, `jobs/queue_posthoc.yaml`). RGB is excluded because
+every method there already receives the same 5 RGB passages. Comparison: RAG-Verify minus each re-run baseline on the same
+500 items, paired bootstrap CI, McNemar / paired permutation, Holm over the 2 methods within dataset × metric.
+Budget: 44.8 of 50 GPU-h were used before these runs; the runner's 15:46 cut-off and thermal guard apply.
+(P2) *Equal confidence-score fitting.* Every method, RAG-Verify included, gets a logistic confidence score fitted the
+same way: features = all per-example signals the method itself produces (token probabilities, and for RAG-Verify
+also support, c1 and the insufficient-evidence flag; Self-RAG its path score; A2 its agreement), two-fold
+cross-fitting on the test outputs (random 50/50 split, seed 0; fit on one half, score the other, then swap).
+AURC and H@0.8 are recomputed with these scores and compared with paired bootstrap CIs; CPU only, from existing
+outputs.
+(P3) *Paired faithfulness.* The two faithfulness judges are re-run storing per-item scores for RAG-Verify, B3, B5, B6 and B8,
+and unsupported rates are compared on the items answered by both methods, judged against each method's own evidence
+(GPU, run only if P1 finishes with budget and time left).

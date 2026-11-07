@@ -1,0 +1,22 @@
+{
+ "run_id": "posthoc_chain_of_note_m2_pubhealth",
+ "n": 500,
+ "n_expected": 500,
+ "method": "chain_of_note",
+ "dataset": "pubhealth",
+ "split": "test",
+ "correct": 0.466,
+ "match": 0.466,
+ "match_norm": 0.466,
+ "em": 0.466,
+ "f1": 0.466,
+ "native_abstain_rate": 0.024,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 868.722,
+ "mean_completion_tokens": 212.464,
+ "mean_llm_seconds": 12.486862507799954,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 12.52484290340016,
+ "wall_s": 1525.3640015125275
+}

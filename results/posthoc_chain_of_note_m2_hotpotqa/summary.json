@@ -1,0 +1,22 @@
+{
+ "run_id": "posthoc_chain_of_note_m2_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "chain_of_note",
+ "dataset": "hotpotqa",
+ "split": "test",
+ "correct": 0.33,
+ "match": 0.33,
+ "match_norm": 0.378,
+ "em": 0.32,
+ "f1": 0.4000303477884123,
+ "native_abstain_rate": 0.32,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 680.946,
+ "mean_completion_tokens": 169.674,
+ "mean_llm_seconds": 9.264676784000214,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.30247489580026,
+ "wall_s": 1180.5489075183868
+}

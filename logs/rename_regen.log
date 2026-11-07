@@ -1,0 +1,12 @@
+popqa_lt H1 True
+triviaqa H1 False
+hotpotqa H1 False
+pubhealth H1 False
+rgb H1 False
+popqa_lt variants done 11 missing 0 H2 True H3 False
+hotpotqa variants done 11 missing 0 H2 True H3 False
+secondary {'popqa_lt': 8, 'hotpotqa': 8, 'pubhealth': 8} quant {'popqa_lt': ['closed_book', 'rag_topk', 'ragverify'], 'hotpotqa': ['closed_book', 'rag_topk', 'ragverify']}
+missing 0
+ok
+1388 keys
+RESULTS_SUMMARY.md 141 lines

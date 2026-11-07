@@ -315,7 +315,9 @@ def captioned_tests_table() -> None:
 
 def risk_coverage_fig() -> None:
     ms = j(A / "main_stats.json")["datasets"]
-    fig, axes = plt.subplots(1, 5, figsize=(15, 3.2), sharey=False)
+    fig, axes = plt.subplots(2, 3, figsize=(12, 7), sharey=False)
+    axes = axes.ravel()
+    axes[-1].axis("off")
     for ax, d in zip(axes, DATASETS):
         best = min(ms[d]["baselines"].values(), key=lambda e: e["aurc"])
         bm = next(m for b, n, m in BASELINES if b == best["id"])
@@ -331,11 +333,63 @@ def risk_coverage_fig() -> None:
         ax.set_title(DS_NAME[d], fontsize=10)
         ax.set_xlabel("Coverage")
         ax.axvline(0.8, color="0.7", lw=0.8)
-        ax.legend(fontsize=6.5, loc="upper left")
+        ax.legend(fontsize=8, loc="upper left")
         ax.grid(alpha=0.3)
     axes[0].set_ylabel("Risk (error rate among answered)")
     fig.tight_layout()
     fig.savefig(ROOT / "paper" / "figures" / "risk_coverage.pdf")
+
+
+def posthoc() -> None:
+    """Post-hoc analyses P1-P3 (PROTOCOL §17, 2026-11-07); keys ph1-*, ph2-*, ph3-*."""
+    p = A / "posthoc_stats.json"
+    if p.exists():
+        d = j(p)
+        for ds, e in d["P1"].items():
+            s = SHORT[ds]
+            R["ph1-n"] = str(e["n"])
+            R[f"ph1-{s}-rv-acc"] = f3(e["ragverify"]["accuracy"])
+            for b in ("B5", "B6"):
+                R[f"ph1-{s}-{b}-m2-acc"] = f3(e[b]["m2"]["accuracy"])
+                R[f"ph1-{s}-{b}-static-acc"] = f3(e[b]["static"]["accuracy"])
+                for m, k in MET.items():
+                    R[f"ph1-{s}-{b}-rv-d{k}"] = ci(e[b]["rv_minus_m2"][m])
+                    R[f"ph1-{s}-{b}-m2s-d{k}"] = ci(e[b]["m2_minus_static"][m])
+        for m, k in MET.items():
+            xs = [e[b]["rv_minus_m2"][m] for e in d["P1"].values() for b in ("B5", "B6")]
+            R[f"ph1-d{k}-min"] = s3(min(x["diff"] for x in xs))
+            R[f"ph1-d{k}-max"] = s3(max(x["diff"] for x in xs))
+            R[f"ph1-d{k}-nsig"] = str(sum(x["p_holm"] < 0.05 for x in xs))
+            R["ph1-ncomp"] = str(len(xs))
+        for ds, e in d["P2"].items():
+            s = SHORT[ds]
+            for m, k in (("halluc@0.8", "hE"), ("aurc", "aurc")):
+                ds_ = [x["diff"][m] for x in e["baselines"].values()]
+                R[f"ph2-{s}-{k}-nbetter"] = str(sum(x["diff"] < 0 and x["p_holm"] < 0.05 for x in ds_))
+                R[f"ph2-{s}-{k}-nworse"] = str(sum(x["diff"] > 0 and x["p_holm"] < 0.05 for x in ds_))
+                for b, x in e["baselines"].items():
+                    R[f"ph2-{s}-{b}-d{k}"] = ci(x["diff"][m])
+            R["ph2-nbase"] = str(len(e["baselines"]))
+    p = A / "faithfulness_paired.json"
+    if p.exists():
+        d = j(p)
+        allx = [(m, x) for ev in d.values() for e in ev.values() for m, x in e.items()]
+        R["ph3-ncomp"] = str(len(allx))
+        R["ph3-nbetter"] = str(sum(x["diff"]["diff"] < 0 and x["diff"]["p_holm"] < 0.05 for _, x in allx))
+        R["ph3-nworse"] = str(sum(x["diff"]["diff"] > 0 and x["diff"]["p_holm"] < 0.05 for _, x in allx))
+        b3 = [x for m, x in allx if m == "rag_rerank"]
+        R["ph3-B3-ncomp"] = str(len(b3))
+        R["ph3-B3-nsig"] = str(sum(x["diff"]["p_holm"] < 0.05 for x in b3))
+        for ev, ek in (("alignscore-large", "as"), ("deberta-v3-l-nli", "nli")):
+            for ds, e in d[ev].items():
+                for m, x in e.items():
+                    k = f"ph3-{ek}-{SHORT[ds]}-{m}"
+                    R[k] = ci(x["diff"])
+                    R[k + "-n"] = str(x["n_common"])
+                    R[k + "-rv"] = f3(x["rv_rate"])
+                    R[k + "-b"] = f3(x["b_rate"])
+                R[f"ph3-{ek}-{SHORT[ds]}-nbetter"] = str(sum(x["diff"]["diff"] < 0 and x["diff"]["p_holm"] < 0.05 for x in e.values()))
+                R[f"ph3-{ek}-{SHORT[ds]}-nworse"] = str(sum(x["diff"]["diff"] > 0 and x["diff"]["p_holm"] < 0.05 for x in e.values()))
 
 
 def write() -> None:
@@ -361,4 +415,5 @@ if __name__ == "__main__":
     secondary_metrics()
     captioned_tests_table()
     risk_coverage_fig()
+    posthoc()
     write()

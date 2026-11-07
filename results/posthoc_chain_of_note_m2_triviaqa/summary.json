@@ -1,0 +1,22 @@
+{
+ "run_id": "posthoc_chain_of_note_m2_triviaqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "chain_of_note",
+ "dataset": "triviaqa",
+ "split": "test",
+ "correct": 0.62,
+ "match": 0.62,
+ "match_norm": 0.638,
+ "em": 0.54,
+ "f1": 0.6322983086831471,
+ "native_abstain_rate": 0.208,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 835.48,
+ "mean_completion_tokens": 172.958,
+ "mean_llm_seconds": 9.897304672999569,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.944460899199825,
+ "wall_s": 1280.5800368785858
+}

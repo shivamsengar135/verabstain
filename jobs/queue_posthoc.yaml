@@ -1,0 +1,80 @@
+- id: posthoc_chain_of_note_m2_popqa_lt
+  method: chain_of_note
+  method_args:
+    evidence: m2
+  dataset: popqa_lt
+  split: test
+  n: 500
+  server: qwen7b_q4
+  seed: 0
+  projected_minutes: 15
+- id: posthoc_chain_of_note_m2_hotpotqa
+  method: chain_of_note
+  method_args:
+    evidence: m2
+  dataset: hotpotqa
+  split: test
+  n: 500
+  server: qwen7b_q4
+  seed: 0
+  projected_minutes: 15
+- id: posthoc_chain_of_note_m2_triviaqa
+  method: chain_of_note
+  method_args:
+    evidence: m2
+  dataset: triviaqa
+  split: test
+  n: 500
+  server: qwen7b_q4
+  seed: 0
+  projected_minutes: 18
+- id: posthoc_chain_of_note_m2_pubhealth
+  method: chain_of_note
+  method_args:
+    evidence: m2
+  dataset: pubhealth
+  split: test
+  n: 500
+  server: qwen7b_q4
+  seed: 0
+  projected_minutes: 30
+- id: posthoc_crag_m2_popqa_lt
+  method: crag
+  method_args:
+    evidence: m2
+  dataset: popqa_lt
+  split: test
+  n: 500
+  server: qwen7b_q4_lean
+  seed: 0
+  projected_minutes: 20
+- id: posthoc_crag_m2_hotpotqa
+  method: crag
+  method_args:
+    evidence: m2
+  dataset: hotpotqa
+  split: test
+  n: 500
+  server: qwen7b_q4_lean
+  seed: 0
+  projected_minutes: 20
+- id: posthoc_crag_m2_triviaqa
+  method: crag
+  method_args:
+    evidence: m2
+  dataset: triviaqa
+  split: test
+  n: 500
+  server: qwen7b_q4_lean
+  seed: 0
+  projected_minutes: 25
+- id: posthoc_crag_m2_pubhealth
+  method: crag
+  method_args:
+    evidence: m2
+  dataset: pubhealth
+  split: test
+  n: 500
+  server: qwen7b_q4_lean
+  seed: 0
+  projected_minutes: 22
