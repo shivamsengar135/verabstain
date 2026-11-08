@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_ragverify_v2_popqa_lt",
+ "n": 399,
+ "n_expected": 399,
+ "method": "ragverify_v2",
+ "dataset": "popqa_lt",
+ "split": "fresh",
+ "correct": 0.606516290726817,
+ "match": 0.606516290726817,
+ "match_norm": 0.6641604010025063,
+ "em": 0.5764411027568922,
+ "f1": 0.6410589966980944,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 3.0,
+ "mean_prompt_tokens": 1116.641604010025,
+ "mean_completion_tokens": 40.957393483709275,
+ "mean_llm_seconds": 4.4862065859637745,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 1.944862155388471,
+ "mean_seconds": 6.91988324711802,
+ "wall_s": 212.22155857086182
+}

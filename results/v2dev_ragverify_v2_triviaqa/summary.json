@@ -1,0 +1,22 @@
+{
+ "run_id": "v2dev_ragverify_v2_triviaqa",
+ "n": 300,
+ "n_expected": 300,
+ "method": "ragverify_v2",
+ "dataset": "triviaqa",
+ "split": "dev",
+ "correct": 0.52,
+ "match": 0.52,
+ "match_norm": 0.5966666666666667,
+ "em": 0.55,
+ "f1": 0.6040943258529465,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 3.0,
+ "mean_prompt_tokens": 1258.9866666666667,
+ "mean_completion_tokens": 45.75333333333333,
+ "mean_llm_seconds": 5.667267169333597,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 1.78,
+ "mean_seconds": 0.06497099033382256,
+ "wall_s": 2.7894513607025146
+}

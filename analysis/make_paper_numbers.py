@@ -18,7 +18,25 @@ import sys
 from pathlib import Path
 
 import numpy as np
-import matplotlib
+
+
+def _pure_python_beziertools() -> None:
+    """Windows Application Control may block fontTools' compiled bezierTools extension (used when matplotlib embeds
+    fonts in PDFs). fontTools ships the same module as pure Python; load that instead if the compiled one is blocked."""
+    try:
+        import fontTools.misc.bezierTools  # noqa: F401
+    except ImportError:
+        import importlib.util
+        import fontTools.misc
+        src = Path(fontTools.misc.__file__).with_name("bezierTools.py")
+        spec = importlib.util.spec_from_file_location("fontTools.misc.bezierTools", src)
+        mod = importlib.util.module_from_spec(spec)
+        sys.modules["fontTools.misc.bezierTools"] = mod
+        spec.loader.exec_module(mod)
+
+
+_pure_python_beziertools()
+import matplotlib  # noqa: E402
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
@@ -392,6 +410,46 @@ def posthoc() -> None:
                 R[f"ph3-{ek}-{SHORT[ds]}-nworse"] = str(sum(x["diff"]["diff"] > 0 and x["diff"]["p_holm"] < 0.05 for x in e.values()))
 
 
+def fresh() -> None:
+    """Follow-up study v2 (PROTOCOL §17, 2026-11-07/08); keys fr-*. Inputs: results/analysis/fresh_stats.json,
+    analysis/v2/v2_model.json, data/processed/pubhealth_fresh.jsonl, results/fresh_*_pubhealth/outputs.jsonl."""
+    p = A / "fresh_stats.json"
+    if not p.exists():
+        return
+    d = j(p)
+    for ds, r in d.items():
+        s = SHORT[ds]
+        R[f"fr-{s}-n"] = str(r["n"])
+        for m, k in MET.items():
+            better = max if m == "accuracy" else min
+            for v in ("v2", "v1"):
+                R[f"fr-{s}-{v}-{k}"] = f3(r[v][m])
+                key = f"{v}_diff"
+                good = (lambda x: x["diff"] > 0) if m == "accuracy" else (lambda x: x["diff"] < 0)
+                R[f"fr-{s}-{v}-{k}-nbetter"] = str(sum(good(e[key][m]) and e[key][m]["p_holm"] < 0.05 for e in r["baselines"].values()))
+                R[f"fr-{s}-{v}-{k}-nworse"] = str(sum((not good(e[key][m])) and e[key][m]["p_holm"] < 0.05 for e in r["baselines"].values()))
+            R[f"fr-{s}-v21-d{k}"] = ci(r["v2_minus_v1"][m])
+            R[f"fr-{s}-v21-p{k}"] = pfmt(r["v2_minus_v1"][m]["p"], 10000 if m != "accuracy" else None)
+            bid = better(r["baselines"], key=lambda b: r["baselines"][b][m])
+            R[f"fr-{s}-best-{k}-id"] = bid
+            R[f"fr-{s}-best-{k}"] = f3(r["baselines"][bid][m])
+            R[f"fr-{s}-v2best-d{k}"] = ci(r["baselines"][bid]["v2_diff"][m])
+            R[f"fr-{s}-v1best-d{k}"] = ci(r["baselines"][bid]["v1_diff"][m])
+        R["fr-nbase"] = str(len(r["baselines"]))
+    mdl = j(ROOT / "analysis" / "v2" / "v2_model.json")
+    R["fr-sel-nrows"] = str(mdl["selector"]["n_rows"])
+    R["fr-claim-n"] = str(mdl["claim"]["n"])
+    a, b0 = mdl["claim"]["coef"][0], mdl["claim"]["intercept"]
+    R["fr-claim-thr"] = f"{1 / (1 + math.exp(b0 / a)):.3f}"  # support s with P(true)=0.5: logit(s) = -b0/a
+    R["fr-claim-devacc"] = f3(mdl["claim"]["dev_acc_in_sample"])
+    gold = [json.loads(x)["answers"][0] for x in (ROOT / "data/processed/pubhealth_fresh.jsonl").read_text(encoding="utf-8").split(chr(10)) if x.strip()]
+    R["fr-ph-major"] = f3(max(gold.count(c) for c in set(gold)) / len(gold))
+    R["fr-ph-ntrue"] = str(gold.count("true"))
+    for run, k in (("fresh_ragverify_v2_pubhealth", "v2"), ("fresh_selfrag_pubhealth", "B8")):
+        preds = [json.loads(x)["pred"] for x in (ROOT / "results" / run / "outputs.jsonl").read_text(encoding="utf-8").split(chr(10)) if x.strip()]
+        R[f"fr-ph-{k}-predtrue"] = str(sum(x == "true" for x in preds))
+
+
 def write() -> None:
     def esc(v: str) -> str:
         return v.replace("%", "\\%").replace("&", "\\&")
@@ -416,4 +474,5 @@ if __name__ == "__main__":
     captioned_tests_table()
     risk_coverage_fig()
     posthoc()
+    fresh()
     write()

@@ -1,0 +1,14 @@
+2026-11-07 23:12:36,635 INFO START v2dev_ragverify_v2_pubhealth: 300/300 examples to run; projected 12 min
+2026-11-07 23:12:51,067 INFO v2dev_ragverify_v2_pubhealth: 25/300 done, 0 errors, 0s
+2026-11-07 23:12:51,345 INFO v2dev_ragverify_v2_pubhealth: 50/300 done, 0 errors, 1s
+2026-11-07 23:12:51,598 INFO v2dev_ragverify_v2_pubhealth: 75/300 done, 0 errors, 1s
+2026-11-07 23:12:51,858 INFO v2dev_ragverify_v2_pubhealth: 100/300 done, 0 errors, 1s
+2026-11-07 23:12:52,144 INFO v2dev_ragverify_v2_pubhealth: 125/300 done, 0 errors, 2s
+2026-11-07 23:12:52,377 INFO v2dev_ragverify_v2_pubhealth: 150/300 done, 0 errors, 2s
+2026-11-07 23:12:52,604 INFO v2dev_ragverify_v2_pubhealth: 175/300 done, 0 errors, 2s
+2026-11-07 23:12:52,823 INFO v2dev_ragverify_v2_pubhealth: 200/300 done, 0 errors, 2s
+2026-11-07 23:12:53,017 INFO v2dev_ragverify_v2_pubhealth: 225/300 done, 0 errors, 2s
+2026-11-07 23:12:53,215 INFO v2dev_ragverify_v2_pubhealth: 250/300 done, 0 errors, 3s
+2026-11-07 23:12:53,413 INFO v2dev_ragverify_v2_pubhealth: 275/300 done, 0 errors, 3s
+2026-11-07 23:12:53,577 INFO v2dev_ragverify_v2_pubhealth: 300/300 done, 0 errors, 3s
+2026-11-07 23:12:53,683 INFO END v2dev_ragverify_v2_pubhealth: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 0, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

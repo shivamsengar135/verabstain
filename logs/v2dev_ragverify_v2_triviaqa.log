@@ -1,0 +1,14 @@
+2026-11-07 23:12:56,851 INFO START v2dev_ragverify_v2_triviaqa: 300/300 examples to run; projected 12 min
+2026-11-07 23:12:57,278 INFO v2dev_ragverify_v2_triviaqa: 25/300 done, 0 errors, 0s
+2026-11-07 23:12:57,501 INFO v2dev_ragverify_v2_triviaqa: 50/300 done, 0 errors, 1s
+2026-11-07 23:12:57,781 INFO v2dev_ragverify_v2_triviaqa: 75/300 done, 0 errors, 1s
+2026-11-07 23:12:58,020 INFO v2dev_ragverify_v2_triviaqa: 100/300 done, 0 errors, 1s
+2026-11-07 23:12:58,259 INFO v2dev_ragverify_v2_triviaqa: 125/300 done, 0 errors, 1s
+2026-11-07 23:12:58,503 INFO v2dev_ragverify_v2_triviaqa: 150/300 done, 0 errors, 2s
+2026-11-07 23:12:58,739 INFO v2dev_ragverify_v2_triviaqa: 175/300 done, 0 errors, 2s
+2026-11-07 23:12:58,951 INFO v2dev_ragverify_v2_triviaqa: 200/300 done, 0 errors, 2s
+2026-11-07 23:12:59,167 INFO v2dev_ragverify_v2_triviaqa: 225/300 done, 0 errors, 2s
+2026-11-07 23:12:59,387 INFO v2dev_ragverify_v2_triviaqa: 250/300 done, 0 errors, 2s
+2026-11-07 23:12:59,599 INFO v2dev_ragverify_v2_triviaqa: 275/300 done, 0 errors, 3s
+2026-11-07 23:12:59,761 INFO v2dev_ragverify_v2_triviaqa: 300/300 done, 0 errors, 3s
+2026-11-07 23:12:59,894 INFO END v2dev_ragverify_v2_triviaqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 900, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,20 @@
+2026-11-08 17:05:35,737 INFO START fresh_rag_selfcheck_pubhealth: 200/200 examples to run; projected 3 min
+2026-11-08 17:05:44,129 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=12.1 on_battery=False
+2026-11-08 17:06:04,145 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.9
+2026-11-08 17:06:06,997 INFO fresh_rag_selfcheck_pubhealth: 25/200 done, 0 errors, 31s
+2026-11-08 17:06:14,956 INFO fresh_rag_selfcheck_pubhealth: 50/200 done, 0 errors, 39s
+2026-11-08 17:06:16,155 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=8.0 on_battery=False
+2026-11-08 17:06:36,172 WARNING RESUME: gpu_temp=42 cpu_zone=42.9 cpu_load=0.7
+2026-11-08 17:06:43,753 INFO fresh_rag_selfcheck_pubhealth: 75/200 done, 0 errors, 68s
+2026-11-08 17:06:51,755 INFO fresh_rag_selfcheck_pubhealth: 100/200 done, 0 errors, 76s
+2026-11-08 17:06:52,195 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.8 on_battery=False
+2026-11-08 17:07:12,212 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.0
+2026-11-08 17:07:19,137 INFO fresh_rag_selfcheck_pubhealth: 125/200 done, 0 errors, 103s
+2026-11-08 17:07:27,500 INFO fresh_rag_selfcheck_pubhealth: 150/200 done, 0 errors, 112s
+2026-11-08 17:07:28,224 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.9 on_battery=False
+2026-11-08 17:07:48,239 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=0.8
+2026-11-08 17:07:55,256 INFO fresh_rag_selfcheck_pubhealth: 175/200 done, 0 errors, 139s
+2026-11-08 17:08:00,250 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=11.7 on_battery=False
+2026-11-08 17:08:20,267 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=0.9
+2026-11-08 17:08:22,153 INFO fresh_rag_selfcheck_pubhealth: 200/200 done, 0 errors, 166s
+2026-11-08 17:08:22,337 INFO END fresh_rag_selfcheck_pubhealth: complete, wall 2.8 min, stats {'llm_calls': 1000, 'cache_hits': 200, 'prompt_tokens': 621705, 'completion_tokens': 2000, 'llm_seconds': 1086.6702312006091, 'retrievals': 0, 'verifier_pairs': 0}

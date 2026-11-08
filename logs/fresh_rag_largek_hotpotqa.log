@@ -1,0 +1,26 @@
+2026-11-08 14:08:04,213 INFO START fresh_rag_largek_hotpotqa: 500/500 examples to run; projected 8 min
+2026-11-08 14:08:25,815 INFO fresh_rag_largek_hotpotqa: 25/500 done, 0 errors, 21s
+2026-11-08 14:08:45,444 INFO fresh_rag_largek_hotpotqa: 50/500 done, 0 errors, 41s
+2026-11-08 14:09:05,540 INFO fresh_rag_largek_hotpotqa: 75/500 done, 0 errors, 61s
+2026-11-08 14:09:23,234 INFO fresh_rag_largek_hotpotqa: 100/500 done, 0 errors, 79s
+2026-11-08 14:09:42,375 INFO fresh_rag_largek_hotpotqa: 125/500 done, 0 errors, 98s
+2026-11-08 14:10:02,741 INFO fresh_rag_largek_hotpotqa: 150/500 done, 0 errors, 118s
+2026-11-08 14:10:19,259 INFO fresh_rag_largek_hotpotqa: 175/500 done, 0 errors, 135s
+2026-11-08 14:10:39,321 INFO fresh_rag_largek_hotpotqa: 200/500 done, 0 errors, 155s
+2026-11-08 14:10:56,230 INFO fresh_rag_largek_hotpotqa: 225/500 done, 0 errors, 172s
+2026-11-08 14:11:13,014 INFO fresh_rag_largek_hotpotqa: 250/500 done, 0 errors, 189s
+2026-11-08 14:11:30,696 INFO fresh_rag_largek_hotpotqa: 275/500 done, 0 errors, 206s
+2026-11-08 14:11:48,122 INFO fresh_rag_largek_hotpotqa: 300/500 done, 0 errors, 224s
+2026-11-08 14:12:04,199 WARNING PAUSE: gpu_temp=63 cpu_zone=50.9 cpu_load=21.8 on_battery=True
+2026-11-08 14:12:04,422 INFO fresh_rag_largek_hotpotqa: 325/500 done, 0 errors, 240s
+2026-11-08 14:26:48,806 WARNING RESUME: gpu_temp=38 cpu_zone=43.9 cpu_load=10.9
+2026-11-08 14:27:06,406 INFO fresh_rag_largek_hotpotqa: 350/500 done, 0 errors, 1142s
+2026-11-08 14:27:23,381 INFO fresh_rag_largek_hotpotqa: 375/500 done, 0 errors, 1159s
+2026-11-08 14:27:40,010 INFO fresh_rag_largek_hotpotqa: 400/500 done, 0 errors, 1176s
+2026-11-08 14:27:56,311 INFO fresh_rag_largek_hotpotqa: 425/500 done, 0 errors, 1192s
+2026-11-08 14:28:12,012 INFO fresh_rag_largek_hotpotqa: 450/500 done, 0 errors, 1208s
+2026-11-08 14:28:28,069 INFO fresh_rag_largek_hotpotqa: 475/500 done, 0 errors, 1224s
+2026-11-08 14:28:34,885 WARNING PAUSE: gpu_temp=81 cpu_zone=51.9 cpu_load=19.4 on_battery=False
+2026-11-08 14:28:54,899 WARNING RESUME: gpu_temp=47 cpu_zone=47.9 cpu_load=11.0
+2026-11-08 14:28:58,920 INFO fresh_rag_largek_hotpotqa: 500/500 done, 0 errors, 1255s
+2026-11-08 14:28:59,270 INFO END fresh_rag_largek_hotpotqa: complete, wall 20.9 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 566526, 'completion_tokens': 2538, 'llm_seconds': 2803.483633099793, 'retrievals': 0, 'verifier_pairs': 0}

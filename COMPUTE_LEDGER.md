@@ -282,3 +282,69 @@ Columns: run_id · launched (IST) · projected runtime · projected end · wall 
 | posthoc_crag_m2_pubhealth | 2026-11-07T12:42 | 22 min | 2026-11-07T13:04 | 8.8 min | 526 | 485 | 382783 | 970 | complete |  |
 
 > Note (2026-11-07 13:20): post-hoc analyses (PROTOCOL §17, P1–P3). The 8 queue_posthoc jobs above took 122.1 min wall in total (≈2.0 GPU-h, thermal pauses included). P3 `analysis/faithfulness_paired.py` (AlignScore-large + DeBERTa-v3-L NLI, no LLM server) ran 12:56–13:16 (≈0.33 GPU-h; log logs/faithfulness_paired.log). Running total ≈ 44.8 + 2.0 + 0.33 ≈ 47.2 of 50 GPU-h. No further GPU jobs are planned.
+
+> Note (2026-11-07 13:50): by user decision (follow-up study v2, PROTOCOL §17), the limits are extended: no new GPU jobs after 2026-11-08 15:46:34, hard stop 2026-11-08 21:46:34, GPU budget 62 h (was 50). Used before the extension ≈ 47.2 GPU-h.
+| v2dev_ragverify_v2_pubhealth | 2026-11-07T23:12 | 12 min | 2026-11-07T23:24 | 0.0 min | 3 | 0 | 0 | 0 | complete |  |
+| v2dev_ragverify_v2_popqa_lt | 2026-11-07T23:12 | 12 min | 2026-11-07T23:24 | 0.0 min | 3 | 0 | 0 | 0 | complete |  |
+| v2dev_ragverify_v2_triviaqa | 2026-11-07T23:12 | 12 min | 2026-11-07T23:24 | 0.0 min | 3 | 0 | 0 | 0 | complete |  |
+| v2dev_ragverify_v2_hotpotqa | 2026-11-07T23:12 | 12 min | 2026-11-07T23:24 | 0.0 min | 3 | 0 | 0 | 0 | complete |  |
+
+## Protocol freeze — follow-up study v2
+
+- PROTOCOL.md SHA-256 (v2 freeze): dda07b3ad6adee62ba60943daa906c2ab8240a375d417b7a6dbb657ddee5216f
+- Frozen at: 2026-11-07T23:13:44+05:30 (copy: logs/protocol_freeze/PROTOCOL_v2.md); fresh-split jobs are refused unless this hash matches.
+> Note (2026-11-07 23:19): fresh queue paused at the user's request (laptop shutdown) after ~5 min of fresh_ragverify_v2_popqa_lt; resumes on the user's 'continue'.
+| fresh_ragverify_v2_popqa_lt | 2026-11-08T08:29 | 21 min | 2026-11-08T08:50 | 3.5 min | 212 | 558 | 206347 | 7391 | complete |  |
+> Note (2026-11-08 08:35): queue resumed 08:29 after the user's overnight shutdown. By user decision the limits are extended by a further 12 h: no new GPU jobs after 2026-11-09 03:46:34, hard stop 2026-11-09 09:46:34; GPU budget unchanged at 62 h.
+| fresh_ragverify_v2_triviaqa | 2026-11-08T08:33 | 26 min | 2026-11-08T08:59 | 13.0 min | 780 | 1500 | 788242 | 23857 | complete |  |
+| fresh_ragverify_v2_hotpotqa | 2026-11-08T08:46 | 26 min | 2026-11-08T09:12 | 12.6 min | 757 | 1500 | 640191 | 25106 | complete |  |
+| fresh_ragverify_v2_pubhealth | 2026-11-08T08:59 | 11 min | 2026-11-08T09:10 | 1.4 min | 87 | 0 | 0 | 0 | complete |  |
+| fresh_ragverify_popqa_lt | 2026-11-08T09:00 | 26 min | 2026-11-08T09:26 | 0.6 min | 35 | 72 | 44032 | 1896 | complete |  |
+| fresh_ragverify_triviaqa | 2026-11-08T09:01 | 33 min | 2026-11-08T09:34 | 4.4 min | 266 | 279 | 209837 | 8466 | complete |  |
+| fresh_ragverify_hotpotqa | 2026-11-08T09:05 | 33 min | 2026-11-08T09:38 | 3.5 min | 213 | 264 | 170916 | 7750 | complete |  |
+| fresh_ragverify_pubhealth | 2026-11-08T09:09 | 13 min | 2026-11-08T09:22 | 3.7 min | 220 | 462 | 191833 | 9481 | complete |  |
+| fresh_closed_book_popqa_lt | 2026-11-08T09:12 | 2 min | 2026-11-08T09:14 | 0.0 min | 0 | 0 | 0 | 0 | complete |  |
+| fresh_rag_topk_popqa_lt | 2026-11-08T09:12 | 5 min | 2026-11-08T09:17 | 4.5 min | 268 | 394 | 258302 | 1897 | complete |  |
+| fresh_rag_rerank_popqa_lt | 2026-11-08T09:17 | 9 min | 2026-11-08T09:26 | 0.0 min | 3 | 0 | 0 | 0 | complete |  |
+| fresh_rag_largek_popqa_lt | 2026-11-08T09:17 | 7 min | 2026-11-08T09:24 | 9.1 min | 548 | 394 | 560220 | 1803 | complete |  |
+| fresh_rag_selfcheck_popqa_lt | 2026-11-08T09:26 | 6 min | 2026-11-08T09:32 | 5.5 min | 332 | 1970 | 1291510 | 9506 | complete |  |
+| fresh_chain_of_note_popqa_lt | 2026-11-08T09:32 | 17 min | 2026-11-08T09:49 | 14.9 min | 894 | 394 | 297308 | 62480 | complete |  |
+| fresh_flare_popqa_lt | 2026-11-08T09:47 | 8 min | 2026-11-08T09:55 | 1.6 min | 97 | 134 | 63086 | 679 | complete |  |
+| fresh_cove_popqa_lt | 2026-11-08T09:48 | 18 min | 2026-11-08T10:06 | 15.1 min | 906 | 1966 | 465085 | 44577 | complete |  |
+| fresh_rarr_popqa_lt | 2026-11-08T10:03 | 46 min | 2026-11-08T10:49 | 30.5 min | 1829 | 2084 | 2431337 | 155609 | complete |  |
+| fresh_crag_popqa_lt | 2026-11-08T10:34 | 20 min | 2026-11-08T10:54 | 12.2 min | 729 | 788 | 367799 | 4894 | complete |  |
+| fresh_selfrag_popqa_lt | 2026-11-08T10:46 | 12 min | 2026-11-08T10:58 | 13.1 min | 786 | 2753 | 319496 | 50371 | complete |  |
+| fresh_closed_book_triviaqa | 2026-11-08T10:59 | 2 min | 2026-11-08T11:01 | 0.0 min | 0 | 0 | 0 | 0 | complete |  |
+| fresh_rag_topk_triviaqa | 2026-11-08T10:59 | 6 min | 2026-11-08T11:05 | 7.5 min | 448 | 500 | 414231 | 2262 | complete |  |
+| fresh_rag_rerank_triviaqa | 2026-11-08T11:07 | 11 min | 2026-11-08T11:18 | 0.1 min | 4 | 0 | 0 | 0 | complete |  |
+| fresh_rag_largek_triviaqa | 2026-11-08T11:07 | 8 min | 2026-11-08T11:15 | 15.4 min | 923 | 500 | 978860 | 2312 | complete |  |
+| fresh_rag_selfcheck_triviaqa | 2026-11-08T11:22 | 7 min | 2026-11-08T11:29 | 8.9 min | 531 | 2500 | 2071155 | 11482 | complete |  |
+| fresh_chain_of_note_triviaqa | 2026-11-08T11:31 | 21 min | 2026-11-08T11:52 | 27.3 min | 1635 | 500 | 463731 | 87199 | complete |  |
+| fresh_flare_triviaqa | 2026-11-08T11:59 | 10 min | 2026-11-08T12:09 | 2.0 min | 121 | 135 | 76707 | 674 | complete |  |
+| fresh_cove_triviaqa | 2026-11-08T12:01 | 23 min | 2026-11-08T12:24 | 18.8 min | 1131 | 2494 | 709584 | 65159 | complete |  |
+| fresh_rarr_triviaqa | 2026-11-08T12:19 | 58 min | 2026-11-08T13:17 | 59.8 min | 3591 | 2668 | 3243398 | 211780 | complete |  |
+| fresh_crag_triviaqa | 2026-11-08T13:19 | 25 min | 2026-11-08T13:44 | 18.3 min | 1098 | 1000 | 494113 | 8043 | complete |  |
+| fresh_selfrag_triviaqa | 2026-11-08T13:38 | 15 min | 2026-11-08T13:53 | 24.9 min | 1493 | 3496 | 544065 | 77005 | complete |  |
+| fresh_closed_book_hotpotqa | 2026-11-08T14:03 | 2 min | 2026-11-08T14:05 | 0.0 min | 0 | 0 | 0 | 0 | complete |  |
+| fresh_rag_topk_hotpotqa | 2026-11-08T14:03 | 6 min | 2026-11-08T14:09 | 4.5 min | 273 | 498 | 300474 | 2484 | complete |  |
+| fresh_rag_rerank_hotpotqa | 2026-11-08T14:07 | 11 min | 2026-11-08T14:18 | 0.1 min | 5 | 0 | 0 | 0 | complete |  |
+| fresh_rag_largek_hotpotqa | 2026-11-08T14:08 | 8 min | 2026-11-08T14:16 | 20.9 min | 1255 | 500 | 566526 | 2538 | complete |  |
+| fresh_rag_selfcheck_hotpotqa | 2026-11-08T14:28 | 7 min | 2026-11-08T14:35 | 8.8 min | 529 | 2500 | 1509580 | 12985 | complete |  |
+| fresh_chain_of_note_hotpotqa | 2026-11-08T14:37 | 21 min | 2026-11-08T14:58 | 22.7 min | 1359 | 500 | 351416 | 87132 | complete |  |
+| fresh_flare_hotpotqa | 2026-11-08T15:00 | 10 min | 2026-11-08T15:10 | 1.9 min | 112 | 131 | 79843 | 722 | complete |  |
+| fresh_cove_hotpotqa | 2026-11-08T15:02 | 23 min | 2026-11-08T15:25 | 25.5 min | 1530 | 2492 | 712199 | 65637 | complete |  |
+| fresh_rarr_hotpotqa | 2026-11-08T15:27 | 58 min | 2026-11-08T16:25 | 53.8 min | 3230 | 2729 | 3335446 | 221058 | complete |  |
+| fresh_crag_hotpotqa | 2026-11-08T16:21 | 25 min | 2026-11-08T16:46 | 15.8 min | 947 | 1000 | 496292 | 9060 | complete |  |
+| fresh_selfrag_hotpotqa | 2026-11-08T16:37 | 15 min | 2026-11-08T16:52 | 19.8 min | 1190 | 3500 | 423596 | 80958 | complete |  |
+| fresh_closed_book_pubhealth | 2026-11-08T16:57 | 2 min | 2026-11-08T16:59 | 0.0 min | 0 | 0 | 0 | 0 | complete |  |
+| fresh_rag_topk_pubhealth | 2026-11-08T16:57 | 3 min | 2026-11-08T17:00 | 2.1 min | 127 | 200 | 124341 | 400 | complete |  |
+| fresh_rag_rerank_pubhealth | 2026-11-08T16:59 | 4 min | 2026-11-08T17:03 | 1.7 min | 102 | 174 | 108504 | 348 | complete |  |
+| fresh_rag_largek_pubhealth | 2026-11-08T17:01 | 4 min | 2026-11-08T17:05 | 4.0 min | 238 | 200 | 229754 | 400 | complete |  |
+| fresh_rag_selfcheck_pubhealth | 2026-11-08T17:05 | 3 min | 2026-11-08T17:08 | 2.8 min | 166 | 1000 | 621705 | 2000 | complete |  |
+| fresh_chain_of_note_pubhealth | 2026-11-08T17:08 | 9 min | 2026-11-08T17:17 | 8.8 min | 530 | 200 | 143741 | 38136 | complete |  |
+| fresh_flare_pubhealth | 2026-11-08T17:17 | 4 min | 2026-11-08T17:21 | 0.4 min | 24 | 10 | 6568 | 20 | complete |  |
+| fresh_cove_pubhealth | 2026-11-08T17:17 | 9 min | 2026-11-08T17:26 | 11.9 min | 717 | 997 | 304546 | 30859 | complete |  |
+| fresh_rarr_pubhealth | 2026-11-08T17:29 | 23 min | 2026-11-08T17:52 | 16.8 min | 1006 | 983 | 1172397 | 78688 | complete |  |
+| fresh_crag_pubhealth | 2026-11-08T17:46 | 10 min | 2026-11-08T17:56 | 6.3 min | 381 | 400 | 203494 | 2867 | complete |  |
+| fresh_selfrag_pubhealth | 2026-11-08T17:52 | 6 min | 2026-11-08T17:58 | 3.1 min | 186 | 1400 | 214660 | 5399 | complete |  |
+> Note (2026-11-08 18:40): follow-up study v2 fresh queue finished 17:56 (52/52 jobs complete; logs/runner.log "queue exhausted"). Sum of the 52 fresh rows' gpu_s in logs/ledger.jsonl = 9.40 GPU-h (wall-clock, thermal pauses included). Logged total so far ≈ 47.2 + 9.4 ≈ 56.6 of 62 GPU-h. The v2 dev development scripts (analysis/v2/dev_candidates.py, dev_support.py; 2026-11-07 13:50–23:10, laptop standby 21:17–23:00) ran outside the queue and have no ledger rows; their GPU time was not logged (upper bound ≈ 7.6 h wall; TODO-VERIFY if an exact figure is needed). No further GPU jobs are planned.

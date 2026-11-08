@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_closed_book_popqa_lt",
+ "n": 399,
+ "n_expected": 399,
+ "method": "closed_book",
+ "dataset": "popqa_lt",
+ "split": "fresh",
+ "correct": 0.14035087719298245,
+ "match": 0.14035087719298245,
+ "match_norm": 0.19548872180451127,
+ "em": 0.18796992481203006,
+ "f1": 0.2084019572741377,
+ "native_abstain_rate": 0.017543859649122806,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 53.41353383458647,
+ "mean_completion_tokens": 4.634085213032582,
+ "mean_llm_seconds": 0.9276918077692673,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.0006738002506116251,
+ "wall_s": 0.23749041557312012
+}

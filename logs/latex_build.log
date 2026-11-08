@@ -80,15 +80,11 @@ ting pipeline,
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd) [2] [3])
 (sections/related.tex
-Overfull \hbox (29.88673pt too wide) in paragraph at lines 40--1
- []\TU/lmr/m/it/12 Contributions..[] \TU/lmr/m/n/12 (i) A controlled comparison
- of VerAbstain with ten re-implemented
+Overfull \hbox (26.28674pt too wide) in paragraph at lines 40--1
+ []\TU/lmr/m/it/12 Contributions.[] \TU/lmr/m/n/12 (i) A controlled comparison 
+of VerAbstain with ten re-implemented
 [4] [5]) (sections/problem.tex [6]) (sections/method.tex [7] [8])
-(sections/setup.tex [9] [10] [11]) (sections/results.tex
-Overfull \hbox (3.44138pt too wide) in paragraph at lines 50--1
-\TU/lmr/m/n/12 method’s pre-specified confidence score. Secondary metrics cover
- exact match,
-[12] [13] [14]
+(sections/setup.tex [9] [10] [11]) (sections/results.tex [12] [13] [14]
 Underfull \hbox (badness 1248) in paragraph at lines 47--47
 []\TU/lmr/m/n/10 Table 1: []Main results on the test sets (primary backbone Qwe
 n2.5-7B-Instruct,
@@ -117,16 +113,16 @@ Overfull \hbox (5.5092pt too wide) in paragraph at lines 2--154
 (generated/table_posthoc_scores.tex)
 Overfull \hbox (246.22192pt too wide) in paragraph at lines 2--202
  [][] 
-(generated/table_faithfulness_paired.tex)) (sections/discussion.tex [25]
-[26]
+(generated/table_faithfulness_paired.tex)) (sections/followup.tex [25] [26]
+(generated/table_fresh.tex) [27]) (sections/discussion.tex [28]
 Overfull \hbox (4.80675pt too wide) in paragraph at lines 23--29
 \TU/lmr/m/n/12 bone’s own support judgement on AURC and H@0.8 while using 42% (
 PopQA-
-[27] [28] [29] [30]) (sections/conclusion.tex) [31]
-Overfull \hbox (18.47186pt too wide) in paragraph at lines 74--78
+[29] [30] [31] [32] [33]) (sections/conclusion.tex) [34]
+Overfull \hbox (18.47186pt too wide) in paragraph at lines 75--79
 \TU/lmr/m/n/12 puts are released at an anonymized repository for review at []$[
 ][][][][] [] [] [] [][][][][][][][][] []
-(main.bbl [32]
+[35] (main.bbl
 Underfull \hbox (badness 3291) in paragraph at lines 28--39
 []\TU/lmr/m/n/12 Angelopoulos, A.N., Bates, S., Fisch, A., Lei, L., Schuster, T
 .,
@@ -148,9 +144,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--39
 Underfull \hbox (badness 10000) in paragraph at lines 40--50
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/12 ,
-[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
-[48]) (generated/appendix_deviations.tex [49] [50]) [51]
-(generated/appendix_data.tex
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+[51]) (generated/appendix_deviations.tex [52] [53] [54] [55] [56]
+Missing character: There is no ≈ in font [lmroman12-regular]:mapping=tex-text;!
+[57])
+Overfull \hbox (29.98083pt too wide) in paragraph at lines 22--98
+\TU/lmr/m/n/12 ported additionally (descriptive, computed by analysis/make_pape
+r_numbers.py):
+[58] (generated/appendix_data.tex
 Overfull \hbox (46.2187pt too wide) in paragraph at lines 4--4
 \TU/lmtt/m/n/10.95 popqa_longtail_w_gs.jsonl| 
 
@@ -183,14 +184,14 @@ Overfull \hbox (5.24655pt too wide) in paragraph at lines 9--10
 
 Overfull \hbox (48.6069pt too wide) in alignment at lines 2--11
  [] [] [] [] [] [] [] 
-ignored error: Infinite glue shrinkage found in box being split [52]
-ignored error: Infinite glue shrinkage found in box being split [53] [54])
-[55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
+ignored error: Infinite glue shrinkage found in box being split [59]
+ignored error: Infinite glue shrinkage found in box being split [60] [61])
+[62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
 (generated/table_main_tests_captioned.tex
 Overfull \hbox (9.40005pt too wide) in alignment at lines 2--71
  [] [] [] [] [] 
-[65] [66] [67]) [68] (generated/table_ablation_cost.tex)
-Overfull \hbox (171.20216pt too wide) in paragraph at lines 2--117
+[73] [74] [75]) [76] (generated/table_ablation_cost.tex)
+Overfull \hbox (171.20216pt too wide) in paragraph at lines 2--118
  [][] 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -203,10 +204,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(generated/appendix_versions.tex
-Overfull \hbox (44.66136pt too wide) in paragraph at lines 2--3
- []\TU/lmr/m/it/12 Software..[] \TU/lmr/m/n/12 Python 3.11.9; llama.cpp b12110 
-(commit cd959bae9); torch 2.14.1+cu130,
+[77] [78] (generated/table_fresh_full.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[79] (generated/appendix_versions.tex
+Overfull \hbox (41.06136pt too wide) in paragraph at lines 2--3
+ []\TU/lmr/m/it/12 Software.[] \TU/lmr/m/n/12 Python 3.11.9; llama.cpp b12110 (
+commit cd959bae9); torch 2.14.1+cu130,
 
 Overfull \hbox (8.91043pt too wide) in paragraph at lines 2--3
 \TU/lmr/m/n/12 transformers 5.22.1, sentence-transformers 6.2.0, faiss-cpu 1.15
@@ -231,9 +236,9 @@ Overfull \hbox (7.84315pt too wide) in paragraph at lines 15--15
 
 Overfull \hbox (4.79929pt too wide) in alignment at lines 2--17
  [] [] [] [] 
-ignored error: Infinite glue shrinkage found in box being split [69]
-ignored error: Infinite glue shrinkage found in box being split [70])
-(generated/appendix_prompts.tex [71]
+ignored error: Infinite glue shrinkage found in box being split [80]
+ignored error: Infinite glue shrinkage found in box being split [81])
+(generated/appendix_prompts.tex [82]
 Overfull \hbox (67.31989pt too wide) in paragraph at lines 11--11
 []\TU/lmtt/m/n/12 Give only the short answer (a name, number, date or short phr
 ase), without[] 
@@ -241,7 +246,7 @@ ase), without[]
 Overfull \hbox (92.03992pt too wide) in paragraph at lines 22--22
 []\TU/lmtt/m/n/12 Is the following statement correct or not? Say true if it's c
 orrect; otherwise[] 
-[72]
+[83]
 Overfull \hbox (79.67992pt too wide) in paragraph at lines 37--37
 []\TU/lmtt/m/n/12 Use the passages to answer. Give only the short answer (a nam
 e, number, date[] 
@@ -253,7 +258,7 @@ orrect; otherwise[]
 Overfull \hbox (54.95993pt too wide) in paragraph at lines 53--53
 []\TU/lmtt/m/n/12 Use the passages to answer. Answer with exactly one word: tru
 e or false.[] 
-[73]
+[84]
 Overfull \hbox (85.85994pt too wide) in paragraph at lines 72--72
 []\TU/lmtt/m/n/12 Answer using only information in the passages. If the passage
 s do not contain[] 
@@ -269,7 +274,7 @@ he question, with[]
 Overfull \hbox (92.03992pt too wide) in paragraph at lines 93--93
 []\TU/lmtt/m/n/12 Is the following statement correct or not? Say true if it's c
 orrect; otherwise[] 
-[74]
+[85]
 Overfull \hbox (85.85994pt too wide) in paragraph at lines 93--93
 []\TU/lmtt/m/n/12 Answer using only information in the passages. If the passage
 s do not contain[] 
@@ -293,7 +298,7 @@ nd a Wikipedia[]
 Overfull \hbox (98.2199pt too wide) in paragraph at lines 104--104
 []  \TU/lmtt/m/n/12 > passage confirming or correcting this statement. Reply wi
 th the query only.[] 
-[75]
+[86]
 Overfull \hbox (85.85994pt too wide) in paragraph at lines 126--126
 []\TU/lmtt/m/n/12 Answer using only information in the passages. If the passage
 s do not contain[] 
@@ -313,7 +318,7 @@ ported by its[]
 Overfull \hbox (116.75989pt too wide) in paragraph at lines 126--126
 []  \TU/lmtt/m/n/12 > evidence. Keep it only if the passages above support it; 
 otherwise correct it.[] 
-[76]
+[87]
 Overfull \hbox (48.77995pt too wide) in paragraph at lines 155--155
 []\TU/lmtt/m/n/12 Refer to the following documents, follow the instruction and 
 answer the[] 
@@ -329,7 +334,7 @@ llowing dialogues[]
 Overfull \hbox (116.7599pt too wide) in paragraph at lines 177--177
 []  \TU/lmtt/m/n/12 > and questions as queries for the web search, including to
 pic background within[] 
-[77]
+[88]
 Overfull \hbox (48.77994pt too wide) in paragraph at lines 177--177
 []\TU/lmtt/m/n/12 question: What sport does Kiribati men's national basketball 
 team play?[] 
@@ -349,7 +354,7 @@ they are relevant but[]
 Overfull \hbox (110.57988pt too wide) in paragraph at lines 198--198
 []  \TU/lmtt/m/n/12 > incomplete, combine them with what you know; if none is r
 elevant, answer from[] 
-[78]
+[89]
 Overfull \hbox (42.59991pt too wide) in paragraph at lines 198--198
 []\TU/lmtt/m/n/12 Format: one line per note ('Note [1]: ...'), then a last line
  'Answer:[] 
@@ -361,7 +366,7 @@ Overfull \hbox (85.85982pt too wide) in paragraph at lines 198--198
 Overfull \hbox (85.85991pt too wide) in paragraph at lines 223--223
 []\TU/lmtt/m/n/12 What is the answer given in the response? Give only the short
  answer (a name,[] 
-[79]
+[90]
 Overfull \hbox (79.67989pt too wide) in paragraph at lines 235--235
 []\TU/lmtt/m/n/12 Write up to three short verification questions that would che
 ck the facts in[] 
@@ -373,7 +378,7 @@ its own (do not refer[]
 Overfull \hbox (30.23994pt too wide) in paragraph at lines 249--249
 []\TU/lmtt/m/n/12 Answer the question briefly using the passages (one short sen
 tence).[] 
-[80]
+[91]
 Overfull \hbox (92.03993pt too wide) in paragraph at lines 265--265
 []\TU/lmtt/m/n/12 Using the verification answers, give the final answer, correc
 ting the baseline[] 
@@ -381,7 +386,7 @@ ting the baseline[]
 Overfull \hbox (98.21988pt too wide) in paragraph at lines 265--265
 []  \TU/lmtt/m/n/12 > answer if it is inconsistent with them. Give only the sho
 rt answer (a name,[] 
-) [81] [82] [83] (main.aux) )
+) [92] (main.aux) )
 (see the transcript file for additional information)
-Output written on main.pdf (83 pages).
+Output written on main.pdf (92 pages).
 Transcript written on main.log.

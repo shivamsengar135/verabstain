@@ -1,0 +1,14 @@
+2026-11-08 17:46:22,829 INFO START fresh_crag_pubhealth: 200/200 examples to run; projected 10 min
+2026-11-08 17:47:22,495 INFO fresh_crag_pubhealth: 25/200 done, 0 errors, 54s
+2026-11-08 17:48:04,943 INFO fresh_crag_pubhealth: 50/200 done, 0 errors, 96s
+2026-11-08 17:48:48,855 INFO fresh_crag_pubhealth: 75/200 done, 0 errors, 140s
+2026-11-08 17:48:51,516 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=21.0 on_battery=False
+2026-11-08 17:49:11,535 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=1.1
+2026-11-08 17:49:46,510 INFO fresh_crag_pubhealth: 100/200 done, 0 errors, 198s
+2026-11-08 17:50:29,191 INFO fresh_crag_pubhealth: 125/200 done, 0 errors, 241s
+2026-11-08 17:51:11,088 INFO fresh_crag_pubhealth: 150/200 done, 0 errors, 282s
+2026-11-08 17:51:53,889 INFO fresh_crag_pubhealth: 175/200 done, 0 errors, 325s
+2026-11-08 17:52:25,684 WARNING PAUSE: gpu_temp=80 cpu_zone=55.9 cpu_load=20.3 on_battery=False
+2026-11-08 17:52:45,700 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=0.5
+2026-11-08 17:52:49,262 INFO fresh_crag_pubhealth: 200/200 done, 0 errors, 381s
+2026-11-08 17:52:50,077 INFO END fresh_crag_pubhealth: complete, wall 6.3 min, stats {'llm_calls': 400, 'cache_hits': 0, 'prompt_tokens': 203494, 'completion_tokens': 2867, 'llm_seconds': 809.5435472001554, 'retrievals': 0, 'verifier_pairs': 0}

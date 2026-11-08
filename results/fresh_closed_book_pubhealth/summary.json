@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_closed_book_pubhealth",
+ "n": 200,
+ "n_expected": 200,
+ "method": "closed_book",
+ "dataset": "pubhealth",
+ "split": "fresh",
+ "correct": 0.515,
+ "match": 0.515,
+ "match_norm": 0.515,
+ "em": 0.515,
+ "f1": 0.515,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 72.835,
+ "mean_completion_tokens": 2.0,
+ "mean_llm_seconds": 0.36275112299932516,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.0005365830003574956,
+ "wall_s": 0.11997199058532715
+}

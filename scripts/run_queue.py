@@ -71,11 +71,11 @@ def git_commit() -> str:
         return "unknown"
 
 
-def protocol_frozen() -> bool:
+def protocol_frozen(name: str = "PROTOCOL.md") -> bool:
     """Frozen iff the ledger records a SHA-256 and logs/protocol_freeze/PROTOCOL.md (the frozen copy) has that hash.
     Later dated Deviations entries in PROTOCOL.md therefore do not unfreeze it."""
     led = (ROOT / "COMPUTE_LEDGER.md").read_text(encoding="utf-8")
-    frozen = ROOT / "logs" / "protocol_freeze" / "PROTOCOL.md"
+    frozen = ROOT / "logs" / "protocol_freeze" / name
     if "not frozen yet" in led or not frozen.exists():
         return False
     return hashlib.sha256(frozen.read_bytes()).hexdigest() in led
@@ -204,8 +204,8 @@ def run_job(job: dict, gcfg: dict, log: logging.Logger, guard: Guard) -> str:
         return "refused-deadline"
     if now() > dl["HARD_STOP"]:
         return "refused-hardstop"
-    if job["split"] == "test":
-        if not protocol_frozen():
+    if job["split"] in ("test", "fresh"):
+        if not protocol_frozen() or (job["split"] == "fresh" and not protocol_frozen("PROTOCOL_v2.md")):
             log.error(f"REFUSED {run_id}: test split but PROTOCOL.md is not frozen")
             return "refused-protocol"
         with (ROOT / "logs" / "test_runs.log").open("a", encoding="utf-8") as f:

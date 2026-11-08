@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_closed_book_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "closed_book",
+ "dataset": "hotpotqa",
+ "split": "fresh",
+ "correct": 0.138,
+ "match": 0.138,
+ "match_norm": 0.202,
+ "em": 0.19,
+ "f1": 0.27805814185814187,
+ "native_abstain_rate": 0.004,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 64.79,
+ "mean_completion_tokens": 4.76,
+ "mean_llm_seconds": 1.3113940578004113,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.0005867341991979629,
+ "wall_s": 0.3468754291534424
+}

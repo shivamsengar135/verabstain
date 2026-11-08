@@ -1,0 +1,50 @@
+2026-11-08 10:59:59,662 INFO START fresh_rag_topk_triviaqa: 500/500 examples to run; projected 6 min
+2026-11-08 11:00:04,531 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.4 on_battery=False
+2026-11-08 11:00:24,544 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.2
+2026-11-08 11:00:29,056 INFO fresh_rag_topk_triviaqa: 25/500 done, 0 errors, 29s
+2026-11-08 11:00:36,552 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.1 on_battery=False
+2026-11-08 11:00:37,589 INFO fresh_rag_topk_triviaqa: 50/500 done, 0 errors, 38s
+2026-11-08 11:00:56,567 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=3.4
+2026-11-08 11:01:06,337 INFO fresh_rag_topk_triviaqa: 75/500 done, 0 errors, 67s
+2026-11-08 11:01:08,584 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.4 on_battery=False
+2026-11-08 11:01:28,597 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.1
+2026-11-08 11:01:34,843 INFO fresh_rag_topk_triviaqa: 100/500 done, 0 errors, 95s
+2026-11-08 11:01:38,604 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.8 on_battery=False
+2026-11-08 11:01:58,617 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.5
+2026-11-08 11:02:01,991 INFO fresh_rag_topk_triviaqa: 125/500 done, 0 errors, 122s
+2026-11-08 11:02:06,623 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.6 on_battery=False
+2026-11-08 11:02:26,640 WARNING RESUME: gpu_temp=42 cpu_zone=42.9 cpu_load=2.7
+2026-11-08 11:02:30,889 INFO fresh_rag_topk_triviaqa: 150/500 done, 0 errors, 151s
+2026-11-08 11:02:39,089 INFO fresh_rag_topk_triviaqa: 175/500 done, 0 errors, 159s
+2026-11-08 11:02:40,648 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=10.0 on_battery=False
+2026-11-08 11:03:00,661 WARNING RESUME: gpu_temp=43 cpu_zone=45.9 cpu_load=3.7
+2026-11-08 11:03:07,608 INFO fresh_rag_topk_triviaqa: 200/500 done, 0 errors, 188s
+2026-11-08 11:03:10,668 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=14.5 on_battery=False
+2026-11-08 11:03:30,683 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=2.1
+2026-11-08 11:03:35,426 INFO fresh_rag_topk_triviaqa: 225/500 done, 0 errors, 216s
+2026-11-08 11:03:43,434 INFO fresh_rag_topk_triviaqa: 250/500 done, 0 errors, 224s
+2026-11-08 11:03:44,691 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=8.5 on_battery=False
+2026-11-08 11:04:04,706 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.7
+2026-11-08 11:04:11,920 INFO fresh_rag_topk_triviaqa: 275/500 done, 0 errors, 252s
+2026-11-08 11:04:20,713 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.7 on_battery=False
+2026-11-08 11:04:21,016 INFO fresh_rag_topk_triviaqa: 300/500 done, 0 errors, 261s
+2026-11-08 11:04:40,729 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=3.3
+2026-11-08 11:04:48,954 INFO fresh_rag_topk_triviaqa: 325/500 done, 0 errors, 289s
+2026-11-08 11:04:52,736 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.0 on_battery=False
+2026-11-08 11:05:12,756 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=3.2
+2026-11-08 11:05:18,036 INFO fresh_rag_topk_triviaqa: 350/500 done, 0 errors, 318s
+2026-11-08 11:05:24,763 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.7 on_battery=False
+2026-11-08 11:05:25,144 INFO fresh_rag_topk_triviaqa: 375/500 done, 0 errors, 325s
+2026-11-08 11:05:44,778 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.8
+2026-11-08 11:05:55,693 INFO fresh_rag_topk_triviaqa: 400/500 done, 0 errors, 356s
+2026-11-08 11:05:56,788 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=10.2 on_battery=False
+2026-11-08 11:06:16,803 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.8
+2026-11-08 11:06:23,779 INFO fresh_rag_topk_triviaqa: 425/500 done, 0 errors, 384s
+2026-11-08 11:06:30,810 WARNING PAUSE: gpu_temp=81 cpu_zone=45.9 cpu_load=10.3 on_battery=False
+2026-11-08 11:06:31,170 INFO fresh_rag_topk_triviaqa: 450/500 done, 0 errors, 391s
+2026-11-08 11:06:50,826 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.2
+2026-11-08 11:07:00,832 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=10.4 on_battery=False
+2026-11-08 11:07:00,849 INFO fresh_rag_topk_triviaqa: 475/500 done, 0 errors, 421s
+2026-11-08 11:07:20,848 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.8
+2026-11-08 11:07:27,853 INFO fresh_rag_topk_triviaqa: 500/500 done, 0 errors, 448s
+2026-11-08 11:07:28,034 INFO END fresh_rag_topk_triviaqa: complete, wall 7.5 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 414231, 'completion_tokens': 2262, 'llm_seconds': 1416.6372099998698, 'retrievals': 0, 'verifier_pairs': 0}

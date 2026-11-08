@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_crag_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "crag",
+ "dataset": "hotpotqa",
+ "split": "fresh",
+ "correct": 0.342,
+ "match": 0.342,
+ "match_norm": 0.416,
+ "em": 0.378,
+ "f1": 0.48093210123210123,
+ "native_abstain_rate": 0.002,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 992.584,
+ "mean_completion_tokens": 18.12,
+ "mean_llm_seconds": 6.639261081800273,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 15.068777568400721,
+ "wall_s": 946.5663924217224
+}

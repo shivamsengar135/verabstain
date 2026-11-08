@@ -234,3 +234,48 @@ outputs.
 (P3) *Paired faithfulness.* The two faithfulness judges are re-run storing per-item scores for RAG-Verify, B3, B5, B6 and B8,
 and unsupported rates are compared on the items answered by both methods, judged against each method's own evidence
 (GPU, run only if P1 finishes with budget and time left).
+
+**2026-11-07 13:50 IST — Follow-up study "RAG-Verify v2" (user decision; registered before any v2 development or fresh-item
+run).** The user asked for further ablations and an improved method. Because every test item used so far has been seen,
+the improved method is developed and evaluated as a separate follow-up study; it never replaces any result above and is
+reported in full whatever its outcome. Its design ideas are informed by the pre-registered results (e.g. the M5 ablation
+and the PubHealth loss); this is disclosed.
+(V1) *Development data.* v2 candidates are chosen only on dev items 0–299 of PopQA-LT, TriviaQA, HotpotQA and PubHealth
+(the items already used for v1 tuning and for the dev baseline runs devB_*/pilot_*). No test output is used for any v2
+choice.
+(V2) *Fresh test sets, fixed now.* PopQA-LT test items 1000–1398 (399; the remainder of the test split), TriviaQA test
+items 1000–1499 (500), HotpotQA test items 1000–1499 (500), and PubHealth dev items 300–499 (200; never run by any job and
+not used by any tuning script — the PubHealth test split is exhausted). Positions refer to data/splits/*.ids. RGB is
+excluded: it has no unused items. These items are touched only after the v2 freeze below.
+(V3) *Methods on the fresh items.* RAG-Verify v2, RAG-Verify v1 (main configuration, unchanged), and all 12 baselines
+with their frozen configurations. Decided now for feasibility: A2 and RARR are run with seed 0 only (the main study used
+3 seeds).
+(V4) *Analysis.* As in §9: accuracy, H@0.8 and AURC; v2 minus each baseline with paired bootstrap 95% CIs, McNemar /
+paired permutation tests and Holm over the 12 baselines within dataset × metric; v2 minus v1 reported separately. v2's
+M6 score is fitted on dev items 0–299 only, then frozen. CRC/LTT are not re-evaluated.
+(V5) *Freeze.* The v2 configuration and code are recorded in a further dated entry, and the SHA-256 of PROTOCOL.md is
+written to COMPUTE_LEDGER.md, before any fresh-item run. Fresh-item runs are logged in logs/test_runs.log.
+(V6) *Budget.* By user decision the time limit is extended by 24 h (no new GPU jobs after 2026-11-08 15:46, hard stop
+2026-11-08 21:46) and the GPU budget by 12 h (62 GPU-h total). The thermal guard is unchanged.
+
+**2026-11-07 23:15 IST — Freeze of RAG-Verify v2 (V5; before any fresh-item run).** Method `ragverify_v2`
+(src/ragverify/methods.py, class RAGVerifyV2), frozen models analysis/v2/v2_model.json (fitted by analysis/v2/fit_v2.py on
+dev items 0–299 only). QA: M2 evidence (top-5 of the hybrid pool after cross-encoder reranking); three candidates — the
+grounded draft D (standard-RAG answer if the draft says "insufficient evidence"), the standard RAG answer R on the same
+evidence, and the closed-book answer C; MiniCheck-FT5 support of each candidate's template statement; a logistic selector
+(features: logit support, logit c1 for C, candidate type, number of other candidates agreeing, agreement with C × logit c1,
+draft-insufficient flag) picks the answer; its probability is the confidence score. No gate, no revision. Claims: label
+"true" iff the logistic rule on logit MiniCheck support of the claim gives P(true) ≥ 0.5 (no LLM call; in effect "true"
+unless the support is below ≈0.006, i.e. mostly the dev class prior plus a weak signal); confidence = max(P, 1−P).
+Dev readout (items 0–299; in-sample for the fitted models; 5-fold CV of the selector in parentheses): accuracy PopQA dev
+0.440 (0.440), TriviaQA 0.520 (0.517), HotpotQA 0.497 (0.497), PubHealth 0.647 (claim rule CV 0.647); v1 on the same items
+0.427 / 0.480 / 0.483 / 0.410. Dev evidence for selective prediction was mixed (CV AURC better on TriviaQA, worse on PopQA
+and HotpotQA than v1's in-sample M6). Analysis script fixed now: analysis/v2/fresh_stats.py. Queue: jobs/queue_fresh.yaml
+(52 jobs; v2 and v1 first; then the baselines; projected 13.1 GPU-h with a 1.3 safety factor). If the 15:46 cut-off stops
+the queue, the unfinished methods are reported as not run.
+
+**2026-11-08 08:35 IST — v2 queue timing (no design change).** The fresh queue was paused 2026-11-07 23:19 at the user's
+request (laptop shutdown) and resumed 2026-11-08 08:29 with the per-item outputs kept. By user decision the time limit is
+extended by a further 12 h (no new GPU jobs after 2026-11-09 03:46). Methods, items, models and analysis are unchanged.
+
+**2026-11-08 18:40 IST — Follow-up study v2: completion and reporting (no design change).** All 52 fresh-item jobs finished at 17:56 (no cut-off reached). Analysis ran with the frozen analysis/v2/fresh_stats.py; after the results were known, only its table writer was changed: LaTeX escaping fixed (the frozen version wrote control characters), a "v1 − best baseline" row added to table_fresh.tex, and a full every-method table (table_fresh_full.tex) added. No statistic, item, method or test changed. Reported additionally (descriptive, computed by analysis/make_paper_numbers.py): on the PubHealth fresh items v2 labelled 199 of 200 claims "true" against a majority-class rate of 0.625, so its accuracy gain over v1 reflects the class prior. analysis/make_paper_numbers.py now loads fontTools' pure-Python bezierTools when Windows Application Control blocks the compiled module (figure rendering only; no number affected).

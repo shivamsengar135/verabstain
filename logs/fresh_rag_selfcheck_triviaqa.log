@@ -1,0 +1,49 @@
+2026-11-08 11:22:55,708 INFO START fresh_rag_selfcheck_triviaqa: 500/500 examples to run; projected 7 min
+2026-11-08 11:23:11,515 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.8
+2026-11-08 11:23:27,159 INFO fresh_rag_selfcheck_triviaqa: 25/500 done, 0 errors, 31s
+2026-11-08 11:23:31,533 WARNING PAUSE: gpu_temp=82 cpu_zone=47.9 cpu_load=11.9 on_battery=False
+2026-11-08 11:23:51,550 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.6
+2026-11-08 11:23:59,485 INFO fresh_rag_selfcheck_triviaqa: 50/500 done, 0 errors, 64s
+2026-11-08 11:24:09,565 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.7 on_battery=False
+2026-11-08 11:24:29,582 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=3.0
+2026-11-08 11:24:32,418 INFO fresh_rag_selfcheck_triviaqa: 75/500 done, 0 errors, 97s
+2026-11-08 11:24:44,924 INFO fresh_rag_selfcheck_triviaqa: 100/500 done, 0 errors, 109s
+2026-11-08 11:24:49,599 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.4 on_battery=False
+2026-11-08 11:25:09,613 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.5
+2026-11-08 11:25:17,960 INFO fresh_rag_selfcheck_triviaqa: 125/500 done, 0 errors, 142s
+2026-11-08 11:25:29,970 INFO fresh_rag_selfcheck_triviaqa: 150/500 done, 0 errors, 154s
+2026-11-08 11:25:31,629 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=12.2 on_battery=False
+2026-11-08 11:25:51,645 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.2
+2026-11-08 11:26:03,026 INFO fresh_rag_selfcheck_triviaqa: 175/500 done, 0 errors, 187s
+2026-11-08 11:26:11,658 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=11.8 on_battery=False
+2026-11-08 11:26:31,673 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.6
+2026-11-08 11:26:36,614 INFO fresh_rag_selfcheck_triviaqa: 200/500 done, 0 errors, 221s
+2026-11-08 11:26:41,683 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.8 on_battery=False
+2026-11-08 11:27:01,697 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.9
+2026-11-08 11:27:09,548 INFO fresh_rag_selfcheck_triviaqa: 225/500 done, 0 errors, 254s
+2026-11-08 11:27:21,219 INFO fresh_rag_selfcheck_triviaqa: 250/500 done, 0 errors, 265s
+2026-11-08 11:27:27,713 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.9 on_battery=False
+2026-11-08 11:27:47,726 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=4.3
+2026-11-08 11:27:54,568 INFO fresh_rag_selfcheck_triviaqa: 275/500 done, 0 errors, 299s
+2026-11-08 11:27:59,736 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.2 on_battery=False
+2026-11-08 11:28:19,755 WARNING RESUME: gpu_temp=43 cpu_zone=47.9 cpu_load=7.1
+2026-11-08 11:28:27,527 INFO fresh_rag_selfcheck_triviaqa: 300/500 done, 0 errors, 332s
+2026-11-08 11:28:31,765 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=13.8 on_battery=False
+2026-11-08 11:28:51,780 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.4
+2026-11-08 11:28:59,927 INFO fresh_rag_selfcheck_triviaqa: 325/500 done, 0 errors, 364s
+2026-11-08 11:29:09,796 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=11.6 on_battery=False
+2026-11-08 11:29:29,812 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.7
+2026-11-08 11:29:32,698 INFO fresh_rag_selfcheck_triviaqa: 350/500 done, 0 errors, 397s
+2026-11-08 11:29:45,420 INFO fresh_rag_selfcheck_triviaqa: 375/500 done, 0 errors, 410s
+2026-11-08 11:29:58,635 INFO fresh_rag_selfcheck_triviaqa: 400/500 done, 0 errors, 423s
+2026-11-08 11:30:01,832 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=12.7 on_battery=False
+2026-11-08 11:30:21,845 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.7
+2026-11-08 11:30:30,951 INFO fresh_rag_selfcheck_triviaqa: 425/500 done, 0 errors, 455s
+2026-11-08 11:30:35,855 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.7 on_battery=False
+2026-11-08 11:30:55,870 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=3.9
+2026-11-08 11:31:03,677 INFO fresh_rag_selfcheck_triviaqa: 450/500 done, 0 errors, 488s
+2026-11-08 11:31:05,883 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=11.3 on_battery=False
+2026-11-08 11:31:25,900 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=4.7
+2026-11-08 11:31:36,829 INFO fresh_rag_selfcheck_triviaqa: 475/500 done, 0 errors, 521s
+2026-11-08 11:31:46,929 INFO fresh_rag_selfcheck_triviaqa: 500/500 done, 0 errors, 531s
+2026-11-08 11:31:47,115 INFO END fresh_rag_selfcheck_triviaqa: complete, wall 8.9 min, stats {'llm_calls': 2500, 'cache_hits': 500, 'prompt_tokens': 2071155, 'completion_tokens': 11482, 'llm_seconds': 3790.494463600713, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,10 @@
+2026-11-08 16:57:38,354 INFO START fresh_closed_book_pubhealth: 200/200 examples to run; projected 2 min
+2026-11-08 16:57:46,201 INFO fresh_closed_book_pubhealth: 25/200 done, 0 errors, 0s
+2026-11-08 16:57:46,217 INFO fresh_closed_book_pubhealth: 50/200 done, 0 errors, 0s
+2026-11-08 16:57:46,225 INFO fresh_closed_book_pubhealth: 75/200 done, 0 errors, 0s
+2026-11-08 16:57:46,233 INFO fresh_closed_book_pubhealth: 100/200 done, 0 errors, 0s
+2026-11-08 16:57:46,249 INFO fresh_closed_book_pubhealth: 125/200 done, 0 errors, 0s
+2026-11-08 16:57:46,269 INFO fresh_closed_book_pubhealth: 150/200 done, 0 errors, 0s
+2026-11-08 16:57:46,281 INFO fresh_closed_book_pubhealth: 175/200 done, 0 errors, 0s
+2026-11-08 16:57:46,296 INFO fresh_closed_book_pubhealth: 200/200 done, 0 errors, 0s
+2026-11-08 16:57:46,455 INFO END fresh_closed_book_pubhealth: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 200, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

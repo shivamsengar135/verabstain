@@ -1,0 +1,24 @@
+2026-11-08 11:59:03,177 INFO START fresh_flare_triviaqa: 500/500 examples to run; projected 10 min
+2026-11-08 11:59:27,397 WARNING PAUSE: gpu_temp=43 cpu_zone=999.0 cpu_load=18.0 on_battery=False
+2026-11-08 11:59:47,571 WARNING RESUME: gpu_temp=42 cpu_zone=41.9 cpu_load=11.8
+2026-11-08 11:59:51,456 INFO fresh_flare_triviaqa: 25/500 done, 0 errors, 48s
+2026-11-08 11:59:51,646 INFO fresh_flare_triviaqa: 50/500 done, 0 errors, 48s
+2026-11-08 11:59:56,787 INFO fresh_flare_triviaqa: 75/500 done, 0 errors, 53s
+2026-11-08 11:59:56,887 INFO fresh_flare_triviaqa: 100/500 done, 0 errors, 54s
+2026-11-08 11:59:59,842 INFO fresh_flare_triviaqa: 125/500 done, 0 errors, 57s
+2026-11-08 12:00:02,351 INFO fresh_flare_triviaqa: 150/500 done, 0 errors, 59s
+2026-11-08 12:00:07,410 INFO fresh_flare_triviaqa: 175/500 done, 0 errors, 64s
+2026-11-08 12:00:15,272 INFO fresh_flare_triviaqa: 200/500 done, 0 errors, 72s
+2026-11-08 12:00:19,339 INFO fresh_flare_triviaqa: 225/500 done, 0 errors, 76s
+2026-11-08 12:00:20,222 INFO fresh_flare_triviaqa: 250/500 done, 0 errors, 77s
+2026-11-08 12:00:24,203 INFO fresh_flare_triviaqa: 275/500 done, 0 errors, 81s
+2026-11-08 12:00:24,346 INFO fresh_flare_triviaqa: 300/500 done, 0 errors, 81s
+2026-11-08 12:00:34,144 INFO fresh_flare_triviaqa: 325/500 done, 0 errors, 91s
+2026-11-08 12:00:41,887 INFO fresh_flare_triviaqa: 350/500 done, 0 errors, 99s
+2026-11-08 12:00:44,374 INFO fresh_flare_triviaqa: 375/500 done, 0 errors, 101s
+2026-11-08 12:00:49,164 INFO fresh_flare_triviaqa: 400/500 done, 0 errors, 106s
+2026-11-08 12:00:52,923 INFO fresh_flare_triviaqa: 425/500 done, 0 errors, 110s
+2026-11-08 12:00:57,782 INFO fresh_flare_triviaqa: 450/500 done, 0 errors, 114s
+2026-11-08 12:01:00,100 INFO fresh_flare_triviaqa: 475/500 done, 0 errors, 117s
+2026-11-08 12:01:04,116 INFO fresh_flare_triviaqa: 500/500 done, 0 errors, 121s
+2026-11-08 12:01:05,221 INFO END fresh_flare_triviaqa: complete, wall 2.0 min, stats {'llm_calls': 135, 'cache_hits': 508, 'prompt_tokens': 76707, 'completion_tokens': 674, 'llm_seconds': 566.524518599821, 'retrievals': 0, 'verifier_pairs': 0}

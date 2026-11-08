@@ -1,0 +1,22 @@
+2026-11-08 11:07:28,255 INFO START fresh_rag_rerank_triviaqa: 500/500 examples to run; projected 11 min
+2026-11-08 11:07:28,694 INFO fresh_rag_rerank_triviaqa: 25/500 done, 0 errors, 0s
+2026-11-08 11:07:28,902 INFO fresh_rag_rerank_triviaqa: 50/500 done, 0 errors, 1s
+2026-11-08 11:07:29,090 INFO fresh_rag_rerank_triviaqa: 75/500 done, 0 errors, 1s
+2026-11-08 11:07:29,304 INFO fresh_rag_rerank_triviaqa: 100/500 done, 0 errors, 1s
+2026-11-08 11:07:29,506 INFO fresh_rag_rerank_triviaqa: 125/500 done, 0 errors, 1s
+2026-11-08 11:07:29,710 INFO fresh_rag_rerank_triviaqa: 150/500 done, 0 errors, 1s
+2026-11-08 11:07:29,898 INFO fresh_rag_rerank_triviaqa: 175/500 done, 0 errors, 2s
+2026-11-08 11:07:30,082 INFO fresh_rag_rerank_triviaqa: 200/500 done, 0 errors, 2s
+2026-11-08 11:07:30,262 INFO fresh_rag_rerank_triviaqa: 225/500 done, 0 errors, 2s
+2026-11-08 11:07:30,454 INFO fresh_rag_rerank_triviaqa: 250/500 done, 0 errors, 2s
+2026-11-08 11:07:30,631 INFO fresh_rag_rerank_triviaqa: 275/500 done, 0 errors, 2s
+2026-11-08 11:07:30,829 INFO fresh_rag_rerank_triviaqa: 300/500 done, 0 errors, 2s
+2026-11-08 11:07:31,013 INFO fresh_rag_rerank_triviaqa: 325/500 done, 0 errors, 3s
+2026-11-08 11:07:31,213 INFO fresh_rag_rerank_triviaqa: 350/500 done, 0 errors, 3s
+2026-11-08 11:07:31,401 INFO fresh_rag_rerank_triviaqa: 375/500 done, 0 errors, 3s
+2026-11-08 11:07:31,591 INFO fresh_rag_rerank_triviaqa: 400/500 done, 0 errors, 3s
+2026-11-08 11:07:31,783 INFO fresh_rag_rerank_triviaqa: 425/500 done, 0 errors, 3s
+2026-11-08 11:07:31,960 INFO fresh_rag_rerank_triviaqa: 450/500 done, 0 errors, 4s
+2026-11-08 11:07:32,131 INFO fresh_rag_rerank_triviaqa: 475/500 done, 0 errors, 4s
+2026-11-08 11:07:32,279 INFO fresh_rag_rerank_triviaqa: 500/500 done, 0 errors, 4s
+2026-11-08 11:07:32,459 INFO END fresh_rag_rerank_triviaqa: complete, wall 0.1 min, stats {'llm_calls': 0, 'cache_hits': 500, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

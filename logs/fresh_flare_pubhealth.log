@@ -1,0 +1,10 @@
+2026-11-08 17:17:12,393 INFO START fresh_flare_pubhealth: 200/200 examples to run; projected 4 min
+2026-11-08 17:17:12,535 INFO fresh_flare_pubhealth: 25/200 done, 0 errors, 0s
+2026-11-08 17:17:12,568 INFO fresh_flare_pubhealth: 50/200 done, 0 errors, 0s
+2026-11-08 17:17:12,607 INFO fresh_flare_pubhealth: 75/200 done, 0 errors, 0s
+2026-11-08 17:17:34,707 INFO fresh_flare_pubhealth: 100/200 done, 0 errors, 22s
+2026-11-08 17:17:34,754 INFO fresh_flare_pubhealth: 125/200 done, 0 errors, 22s
+2026-11-08 17:17:35,049 INFO fresh_flare_pubhealth: 150/200 done, 0 errors, 23s
+2026-11-08 17:17:35,533 INFO fresh_flare_pubhealth: 175/200 done, 0 errors, 23s
+2026-11-08 17:17:36,570 INFO fresh_flare_pubhealth: 200/200 done, 0 errors, 24s
+2026-11-08 17:17:37,238 INFO END fresh_flare_pubhealth: complete, wall 0.4 min, stats {'llm_calls': 10, 'cache_hits': 209, 'prompt_tokens': 6568, 'completion_tokens': 20, 'llm_seconds': 17.044799299997976, 'retrievals': 0, 'verifier_pairs': 0}

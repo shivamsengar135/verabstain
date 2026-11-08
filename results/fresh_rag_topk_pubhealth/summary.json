@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_rag_topk_pubhealth",
+ "n": 200,
+ "n_expected": 200,
+ "method": "rag_topk",
+ "dataset": "pubhealth",
+ "split": "fresh",
+ "correct": 0.395,
+ "match": 0.395,
+ "match_norm": 0.395,
+ "em": 0.395,
+ "f1": 0.395,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 621.705,
+ "mean_completion_tokens": 2.0,
+ "mean_llm_seconds": 1.9998018499996397,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.0155413214993314,
+ "wall_s": 127.37806940078735
+}

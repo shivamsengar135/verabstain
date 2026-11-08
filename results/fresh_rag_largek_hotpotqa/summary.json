@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_rag_largek_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rag_largek",
+ "dataset": "hotpotqa",
+ "split": "fresh",
+ "correct": 0.342,
+ "match": 0.342,
+ "match_norm": 0.412,
+ "em": 0.378,
+ "f1": 0.4752578755869454,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 1133.052,
+ "mean_completion_tokens": 5.076,
+ "mean_llm_seconds": 5.606967266199587,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 5.6123067981997155,
+ "wall_s": 1254.5656774044037
+}

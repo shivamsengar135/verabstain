@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_cove_pubhealth",
+ "n": 200,
+ "n_expected": 200,
+ "method": "cove",
+ "dataset": "pubhealth",
+ "split": "fresh",
+ "correct": 0.41,
+ "match": 0.41,
+ "match_norm": 0.41,
+ "em": 0.41,
+ "f1": 0.41,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.985,
+ "mean_prompt_tokens": 2144.435,
+ "mean_completion_tokens": 156.295,
+ "mean_llm_seconds": 28.223854236999177,
+ "mean_retrievals": 3.985,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 28.13747697049941,
+ "wall_s": 716.9808573722839
+}

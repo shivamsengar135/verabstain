@@ -1,0 +1,17 @@
+2026-11-08 09:17:26,481 INFO START fresh_rag_rerank_popqa_lt: 399/399 examples to run; projected 9 min
+2026-11-08 09:17:26,890 INFO fresh_rag_rerank_popqa_lt: 25/399 done, 0 errors, 0s
+2026-11-08 09:17:27,095 INFO fresh_rag_rerank_popqa_lt: 50/399 done, 0 errors, 0s
+2026-11-08 09:17:27,284 INFO fresh_rag_rerank_popqa_lt: 75/399 done, 0 errors, 1s
+2026-11-08 09:17:27,455 INFO fresh_rag_rerank_popqa_lt: 100/399 done, 0 errors, 1s
+2026-11-08 09:17:27,636 INFO fresh_rag_rerank_popqa_lt: 125/399 done, 0 errors, 1s
+2026-11-08 09:17:27,810 INFO fresh_rag_rerank_popqa_lt: 150/399 done, 0 errors, 1s
+2026-11-08 09:17:27,975 INFO fresh_rag_rerank_popqa_lt: 175/399 done, 0 errors, 1s
+2026-11-08 09:17:28,165 INFO fresh_rag_rerank_popqa_lt: 200/399 done, 0 errors, 2s
+2026-11-08 09:17:28,354 INFO fresh_rag_rerank_popqa_lt: 225/399 done, 0 errors, 2s
+2026-11-08 09:17:28,543 INFO fresh_rag_rerank_popqa_lt: 250/399 done, 0 errors, 2s
+2026-11-08 09:17:28,715 INFO fresh_rag_rerank_popqa_lt: 275/399 done, 0 errors, 2s
+2026-11-08 09:17:28,875 INFO fresh_rag_rerank_popqa_lt: 300/399 done, 0 errors, 2s
+2026-11-08 09:17:29,046 INFO fresh_rag_rerank_popqa_lt: 325/399 done, 0 errors, 2s
+2026-11-08 09:17:29,226 INFO fresh_rag_rerank_popqa_lt: 350/399 done, 0 errors, 3s
+2026-11-08 09:17:29,396 INFO fresh_rag_rerank_popqa_lt: 375/399 done, 0 errors, 3s
+2026-11-08 09:17:29,696 INFO END fresh_rag_rerank_popqa_lt: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 399, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

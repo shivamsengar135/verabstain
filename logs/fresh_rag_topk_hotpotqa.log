@@ -1,0 +1,22 @@
+2026-11-08 14:03:25,818 INFO START fresh_rag_topk_hotpotqa: 500/500 examples to run; projected 6 min
+2026-11-08 14:03:41,268 INFO fresh_rag_topk_hotpotqa: 25/500 done, 0 errors, 15s
+2026-11-08 14:03:55,217 INFO fresh_rag_topk_hotpotqa: 50/500 done, 0 errors, 29s
+2026-11-08 14:04:09,567 INFO fresh_rag_topk_hotpotqa: 75/500 done, 0 errors, 44s
+2026-11-08 14:04:22,851 INFO fresh_rag_topk_hotpotqa: 100/500 done, 0 errors, 57s
+2026-11-08 14:04:37,272 INFO fresh_rag_topk_hotpotqa: 125/500 done, 0 errors, 71s
+2026-11-08 14:04:50,850 INFO fresh_rag_topk_hotpotqa: 150/500 done, 0 errors, 85s
+2026-11-08 14:05:04,554 INFO fresh_rag_topk_hotpotqa: 175/500 done, 0 errors, 99s
+2026-11-08 14:05:17,925 INFO fresh_rag_topk_hotpotqa: 200/500 done, 0 errors, 112s
+2026-11-08 14:05:30,157 INFO fresh_rag_topk_hotpotqa: 225/500 done, 0 errors, 124s
+2026-11-08 14:05:43,954 INFO fresh_rag_topk_hotpotqa: 250/500 done, 0 errors, 138s
+2026-11-08 14:05:57,710 INFO fresh_rag_topk_hotpotqa: 275/500 done, 0 errors, 152s
+2026-11-08 14:06:13,689 INFO fresh_rag_topk_hotpotqa: 300/500 done, 0 errors, 168s
+2026-11-08 14:06:27,192 INFO fresh_rag_topk_hotpotqa: 325/500 done, 0 errors, 181s
+2026-11-08 14:06:41,518 INFO fresh_rag_topk_hotpotqa: 350/500 done, 0 errors, 196s
+2026-11-08 14:06:51,986 INFO fresh_rag_topk_hotpotqa: 375/500 done, 0 errors, 206s
+2026-11-08 14:07:06,547 INFO fresh_rag_topk_hotpotqa: 400/500 done, 0 errors, 221s
+2026-11-08 14:07:20,848 INFO fresh_rag_topk_hotpotqa: 425/500 done, 0 errors, 235s
+2026-11-08 14:07:35,828 INFO fresh_rag_topk_hotpotqa: 450/500 done, 0 errors, 250s
+2026-11-08 14:07:48,098 INFO fresh_rag_topk_hotpotqa: 475/500 done, 0 errors, 262s
+2026-11-08 14:07:58,505 INFO fresh_rag_topk_hotpotqa: 500/500 done, 0 errors, 273s
+2026-11-08 14:07:58,758 INFO END fresh_rag_topk_hotpotqa: complete, wall 4.5 min, stats {'llm_calls': 498, 'cache_hits': 2, 'prompt_tokens': 300474, 'completion_tokens': 2484, 'llm_seconds': 2173.2007797005062, 'retrievals': 0, 'verifier_pairs': 0}

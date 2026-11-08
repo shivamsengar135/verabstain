@@ -1,0 +1,24 @@
+2026-11-08 12:19:58,411 INFO START fresh_rarr_triviaqa: 500/500 examples to run; projected 58 min
+2026-11-08 12:25:47,396 INFO fresh_rarr_triviaqa: 25/500 done, 0 errors, 349s
+2026-11-08 12:29:46,422 INFO fresh_rarr_triviaqa: 50/500 done, 0 errors, 588s
+2026-11-08 12:31:57,155 INFO fresh_rarr_triviaqa: 75/500 done, 0 errors, 719s
+2026-11-08 12:34:17,215 INFO fresh_rarr_triviaqa: 100/500 done, 0 errors, 859s
+2026-11-08 12:36:40,488 INFO fresh_rarr_triviaqa: 125/500 done, 0 errors, 1002s
+2026-11-08 12:39:12,260 INFO fresh_rarr_triviaqa: 150/500 done, 0 errors, 1154s
+2026-11-08 12:42:48,597 INFO fresh_rarr_triviaqa: 175/500 done, 0 errors, 1370s
+2026-11-08 12:47:21,106 INFO fresh_rarr_triviaqa: 200/500 done, 0 errors, 1643s
+2026-11-08 12:50:38,370 INFO fresh_rarr_triviaqa: 225/500 done, 0 errors, 1840s
+2026-11-08 12:53:22,594 INFO fresh_rarr_triviaqa: 250/500 done, 0 errors, 2004s
+2026-11-08 12:56:18,688 INFO fresh_rarr_triviaqa: 275/500 done, 0 errors, 2180s
+2026-11-08 12:59:20,319 INFO fresh_rarr_triviaqa: 300/500 done, 0 errors, 2362s
+2026-11-08 13:01:38,485 INFO fresh_rarr_triviaqa: 325/500 done, 0 errors, 2500s
+2026-11-08 13:04:23,202 INFO fresh_rarr_triviaqa: 350/500 done, 0 errors, 2665s
+2026-11-08 13:06:42,031 INFO fresh_rarr_triviaqa: 375/500 done, 0 errors, 2803s
+2026-11-08 13:09:08,585 INFO fresh_rarr_triviaqa: 400/500 done, 0 errors, 2950s
+2026-11-08 13:11:32,401 INFO fresh_rarr_triviaqa: 425/500 done, 0 errors, 3094s
+2026-11-08 13:14:00,651 INFO fresh_rarr_triviaqa: 450/500 done, 0 errors, 3242s
+2026-11-08 13:17:37,983 INFO fresh_rarr_triviaqa: 475/500 done, 0 errors, 3459s
+2026-11-08 13:19:16,491 WARNING PAUSE: gpu_temp=80 cpu_zone=50.9 cpu_load=13.1 on_battery=False
+2026-11-08 13:19:36,504 WARNING RESUME: gpu_temp=47 cpu_zone=46.9 cpu_load=4.3
+2026-11-08 13:19:49,350 INFO fresh_rarr_triviaqa: 500/500 done, 0 errors, 3591s
+2026-11-08 13:19:50,947 INFO END fresh_rarr_triviaqa: complete, wall 59.8 min, stats {'llm_calls': 2668, 'cache_hits': 500, 'prompt_tokens': 3243398, 'completion_tokens': 211780, 'llm_seconds': 28068.310180800763, 'retrievals': 0, 'verifier_pairs': 0}

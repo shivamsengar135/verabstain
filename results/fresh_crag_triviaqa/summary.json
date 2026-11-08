@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_crag_triviaqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "crag",
+ "dataset": "triviaqa",
+ "split": "fresh",
+ "correct": 0.626,
+ "match": 0.626,
+ "match_norm": 0.642,
+ "em": 0.594,
+ "f1": 0.6752708513708513,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 2.0,
+ "mean_prompt_tokens": 988.226,
+ "mean_completion_tokens": 16.086,
+ "mean_llm_seconds": 3.3020534466006795,
+ "mean_retrievals": 2.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 17.395302635399567,
+ "wall_s": 1097.5369124412537
+}

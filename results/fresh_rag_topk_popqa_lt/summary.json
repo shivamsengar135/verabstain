@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_rag_topk_popqa_lt",
+ "n": 399,
+ "n_expected": 399,
+ "method": "rag_topk",
+ "dataset": "popqa_lt",
+ "split": "fresh",
+ "correct": 0.5012531328320802,
+ "match": 0.5012531328320802,
+ "match_norm": 0.5639097744360902,
+ "em": 0.48872180451127817,
+ "f1": 0.5408354847017293,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 654.6741854636591,
+ "mean_completion_tokens": 4.81453634085213,
+ "mean_llm_seconds": 2.27101278195422,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 2.24782144761871,
+ "wall_s": 267.9058873653412
+}

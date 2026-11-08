@@ -1,0 +1,22 @@
+2026-11-08 10:59:51,156 INFO START fresh_closed_book_triviaqa: 500/500 examples to run; projected 2 min
+2026-11-08 10:59:59,014 INFO fresh_closed_book_triviaqa: 25/500 done, 0 errors, 0s
+2026-11-08 10:59:59,030 INFO fresh_closed_book_triviaqa: 50/500 done, 0 errors, 0s
+2026-11-08 10:59:59,031 INFO fresh_closed_book_triviaqa: 75/500 done, 0 errors, 0s
+2026-11-08 10:59:59,054 INFO fresh_closed_book_triviaqa: 100/500 done, 0 errors, 0s
+2026-11-08 10:59:59,062 INFO fresh_closed_book_triviaqa: 125/500 done, 0 errors, 0s
+2026-11-08 10:59:59,081 INFO fresh_closed_book_triviaqa: 150/500 done, 0 errors, 0s
+2026-11-08 10:59:59,100 INFO fresh_closed_book_triviaqa: 175/500 done, 0 errors, 0s
+2026-11-08 10:59:59,116 INFO fresh_closed_book_triviaqa: 200/500 done, 0 errors, 0s
+2026-11-08 10:59:59,134 INFO fresh_closed_book_triviaqa: 225/500 done, 0 errors, 0s
+2026-11-08 10:59:59,147 INFO fresh_closed_book_triviaqa: 250/500 done, 0 errors, 0s
+2026-11-08 10:59:59,162 INFO fresh_closed_book_triviaqa: 275/500 done, 0 errors, 0s
+2026-11-08 10:59:59,178 INFO fresh_closed_book_triviaqa: 300/500 done, 0 errors, 0s
+2026-11-08 10:59:59,183 INFO fresh_closed_book_triviaqa: 325/500 done, 0 errors, 0s
+2026-11-08 10:59:59,202 INFO fresh_closed_book_triviaqa: 350/500 done, 0 errors, 0s
+2026-11-08 10:59:59,220 INFO fresh_closed_book_triviaqa: 375/500 done, 0 errors, 0s
+2026-11-08 10:59:59,233 INFO fresh_closed_book_triviaqa: 400/500 done, 0 errors, 0s
+2026-11-08 10:59:59,245 INFO fresh_closed_book_triviaqa: 425/500 done, 0 errors, 0s
+2026-11-08 10:59:59,262 INFO fresh_closed_book_triviaqa: 450/500 done, 0 errors, 0s
+2026-11-08 10:59:59,277 INFO fresh_closed_book_triviaqa: 475/500 done, 0 errors, 0s
+2026-11-08 10:59:59,292 INFO fresh_closed_book_triviaqa: 500/500 done, 0 errors, 0s
+2026-11-08 10:59:59,475 INFO END fresh_closed_book_triviaqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 500, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

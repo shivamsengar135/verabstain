@@ -1,0 +1,23 @@
+2026-11-08 10:34:22,820 INFO START fresh_crag_popqa_lt: 399/399 examples to run; projected 20 min
+2026-11-08 10:35:21,662 INFO fresh_crag_popqa_lt: 25/399 done, 0 errors, 53s
+2026-11-08 10:36:00,292 INFO fresh_crag_popqa_lt: 50/399 done, 0 errors, 92s
+2026-11-08 10:36:19,385 WARNING PAUSE: gpu_temp=82 cpu_zone=54.9 cpu_load=20.6 on_battery=False
+2026-11-08 10:36:39,400 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=1.0
+2026-11-08 10:37:00,267 INFO fresh_crag_popqa_lt: 75/399 done, 0 errors, 152s
+2026-11-08 10:37:36,063 INFO fresh_crag_popqa_lt: 100/399 done, 0 errors, 187s
+2026-11-08 10:38:25,293 INFO fresh_crag_popqa_lt: 125/399 done, 0 errors, 237s
+2026-11-08 10:39:03,164 INFO fresh_crag_popqa_lt: 150/399 done, 0 errors, 275s
+2026-11-08 10:39:43,338 INFO fresh_crag_popqa_lt: 175/399 done, 0 errors, 315s
+2026-11-08 10:40:24,840 INFO fresh_crag_popqa_lt: 200/399 done, 0 errors, 356s
+2026-11-08 10:41:12,282 INFO fresh_crag_popqa_lt: 225/399 done, 0 errors, 404s
+2026-11-08 10:41:56,044 INFO fresh_crag_popqa_lt: 250/399 done, 0 errors, 447s
+2026-11-08 10:42:38,170 INFO fresh_crag_popqa_lt: 275/399 done, 0 errors, 490s
+2026-11-08 10:42:43,886 WARNING PAUSE: gpu_temp=80 cpu_zone=55.9 cpu_load=17.3 on_battery=False
+2026-11-08 10:43:03,899 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=4.3
+2026-11-08 10:43:36,432 INFO fresh_crag_popqa_lt: 300/399 done, 0 errors, 548s
+2026-11-08 10:44:19,406 INFO fresh_crag_popqa_lt: 325/399 done, 0 errors, 591s
+2026-11-08 10:45:02,447 INFO fresh_crag_popqa_lt: 350/399 done, 0 errors, 634s
+2026-11-08 10:45:42,018 WARNING PAUSE: gpu_temp=80 cpu_zone=54.9 cpu_load=21.0 on_battery=False
+2026-11-08 10:46:02,035 WARNING RESUME: gpu_temp=48 cpu_zone=47.9 cpu_load=1.5
+2026-11-08 10:46:03,901 INFO fresh_crag_popqa_lt: 375/399 done, 0 errors, 695s
+2026-11-08 10:46:38,644 INFO END fresh_crag_popqa_lt: complete, wall 12.2 min, stats {'llm_calls': 788, 'cache_hits': 10, 'prompt_tokens': 367799, 'completion_tokens': 4894, 'llm_seconds': 1378.8818625003041, 'retrievals': 0, 'verifier_pairs': 0}

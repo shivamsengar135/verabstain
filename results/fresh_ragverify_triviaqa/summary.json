@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_ragverify_triviaqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "ragverify",
+ "dataset": "triviaqa",
+ "split": "fresh",
+ "correct": 0.676,
+ "match": 0.676,
+ "match_norm": 0.69,
+ "em": 0.628,
+ "f1": 0.7205557563781247,
+ "native_abstain_rate": 0.1,
+ "mean_llm_calls": 2.768,
+ "mean_prompt_tokens": 1347.396,
+ "mean_completion_tokens": 61.92,
+ "mean_llm_seconds": 8.058840450799151,
+ "mean_retrievals": 1.326,
+ "mean_verifier_pairs": 1.19,
+ "mean_seconds": 2.9346119732008664,
+ "wall_s": 266.43947768211365
+}

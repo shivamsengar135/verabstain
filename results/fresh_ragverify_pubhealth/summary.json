@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_ragverify_pubhealth",
+ "n": 200,
+ "n_expected": 200,
+ "method": "ragverify",
+ "dataset": "pubhealth",
+ "split": "fresh",
+ "correct": 0.435,
+ "match": 0.435,
+ "match_norm": 0.435,
+ "em": 0.435,
+ "f1": 0.435,
+ "native_abstain_rate": 0.125,
+ "mean_llm_calls": 2.345,
+ "mean_prompt_tokens": 963.17,
+ "mean_completion_tokens": 47.795,
+ "mean_llm_seconds": 6.265212684499857,
+ "mean_retrievals": 1.11,
+ "mean_verifier_pairs": 1.11,
+ "mean_seconds": 6.26496853949895,
+ "wall_s": 220.34694361686707
+}

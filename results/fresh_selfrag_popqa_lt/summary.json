@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_selfrag_popqa_lt",
+ "n": 399,
+ "n_expected": 399,
+ "method": "selfrag",
+ "dataset": "popqa_lt",
+ "split": "fresh",
+ "correct": 0.518796992481203,
+ "match": 0.518796992481203,
+ "match_norm": 0.5338345864661654,
+ "em": 0.015037593984962405,
+ "f1": 0.19673838946663164,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 810.578947368421,
+ "mean_completion_tokens": 127.79949874686717,
+ "mean_llm_seconds": 14.929518462907197,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 14.83016663784512,
+ "wall_s": 786.1007053852081
+}

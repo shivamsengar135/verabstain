@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_closed_book_triviaqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "closed_book",
+ "dataset": "triviaqa",
+ "split": "fresh",
+ "correct": 0.486,
+ "match": 0.486,
+ "match_norm": 0.488,
+ "em": 0.462,
+ "f1": 0.5243666326046189,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 64.66,
+ "mean_completion_tokens": 4.366,
+ "mean_llm_seconds": 1.1921141827997053,
+ "mean_retrievals": 0.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.0004572359998128377,
+ "wall_s": 0.30904173851013184
+}

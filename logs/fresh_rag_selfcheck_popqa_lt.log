@@ -1,0 +1,33 @@
+2026-11-08 09:26:38,117 INFO START fresh_rag_selfcheck_popqa_lt: 399/399 examples to run; projected 6 min
+2026-11-08 09:26:50,696 INFO fresh_rag_selfcheck_popqa_lt: 25/399 done, 0 errors, 12s
+2026-11-08 09:26:52,183 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=11.2 on_battery=False
+2026-11-08 09:27:12,199 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=0.7
+2026-11-08 09:27:21,739 INFO fresh_rag_selfcheck_popqa_lt: 50/399 done, 0 errors, 44s
+2026-11-08 09:27:31,409 INFO fresh_rag_selfcheck_popqa_lt: 75/399 done, 0 errors, 53s
+2026-11-08 09:27:32,215 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=8.3 on_battery=False
+2026-11-08 09:27:52,234 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.6
+2026-11-08 09:28:02,065 INFO fresh_rag_selfcheck_popqa_lt: 100/399 done, 0 errors, 84s
+2026-11-08 09:28:13,379 INFO fresh_rag_selfcheck_popqa_lt: 125/399 done, 0 errors, 95s
+2026-11-08 09:28:14,246 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=11.0 on_battery=False
+2026-11-08 09:28:34,263 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.2
+2026-11-08 09:28:43,403 INFO fresh_rag_selfcheck_popqa_lt: 150/399 done, 0 errors, 125s
+2026-11-08 09:28:53,137 INFO fresh_rag_selfcheck_popqa_lt: 175/399 done, 0 errors, 135s
+2026-11-08 09:28:56,276 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=10.8 on_battery=False
+2026-11-08 09:29:16,293 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.0
+2026-11-08 09:29:24,079 INFO fresh_rag_selfcheck_popqa_lt: 200/399 done, 0 errors, 166s
+2026-11-08 09:29:36,624 INFO fresh_rag_selfcheck_popqa_lt: 225/399 done, 0 errors, 178s
+2026-11-08 09:29:49,347 INFO fresh_rag_selfcheck_popqa_lt: 250/399 done, 0 errors, 191s
+2026-11-08 09:29:50,319 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=12.0 on_battery=False
+2026-11-08 09:30:10,337 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.6
+2026-11-08 09:30:20,731 INFO fresh_rag_selfcheck_popqa_lt: 275/399 done, 0 errors, 222s
+2026-11-08 09:30:28,348 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.5 on_battery=False
+2026-11-08 09:30:48,367 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=0.9
+2026-11-08 09:30:51,288 INFO fresh_rag_selfcheck_popqa_lt: 300/399 done, 0 errors, 253s
+2026-11-08 09:31:01,749 INFO fresh_rag_selfcheck_popqa_lt: 325/399 done, 0 errors, 264s
+2026-11-08 09:31:04,376 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.9 on_battery=False
+2026-11-08 09:31:24,394 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=0.4
+2026-11-08 09:31:30,690 INFO fresh_rag_selfcheck_popqa_lt: 350/399 done, 0 errors, 292s
+2026-11-08 09:31:38,407 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=12.4 on_battery=False
+2026-11-08 09:31:58,427 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.4
+2026-11-08 09:32:02,089 INFO fresh_rag_selfcheck_popqa_lt: 375/399 done, 0 errors, 324s
+2026-11-08 09:32:10,799 INFO END fresh_rag_selfcheck_popqa_lt: complete, wall 5.5 min, stats {'llm_calls': 1970, 'cache_hits': 424, 'prompt_tokens': 1291510, 'completion_tokens': 9506, 'llm_seconds': 2409.1937542004744, 'retrievals': 0, 'verifier_pairs': 0}

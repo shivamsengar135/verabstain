@@ -1,0 +1,17 @@
+2026-11-08 09:12:49,217 INFO START fresh_closed_book_popqa_lt: 399/399 examples to run; projected 2 min
+2026-11-08 09:12:57,583 INFO fresh_closed_book_popqa_lt: 25/399 done, 0 errors, 0s
+2026-11-08 09:12:57,583 INFO fresh_closed_book_popqa_lt: 50/399 done, 0 errors, 0s
+2026-11-08 09:12:57,599 INFO fresh_closed_book_popqa_lt: 75/399 done, 0 errors, 0s
+2026-11-08 09:12:57,615 INFO fresh_closed_book_popqa_lt: 100/399 done, 0 errors, 0s
+2026-11-08 09:12:57,642 INFO fresh_closed_book_popqa_lt: 125/399 done, 0 errors, 0s
+2026-11-08 09:12:57,652 INFO fresh_closed_book_popqa_lt: 150/399 done, 0 errors, 0s
+2026-11-08 09:12:57,662 INFO fresh_closed_book_popqa_lt: 175/399 done, 0 errors, 0s
+2026-11-08 09:12:57,678 INFO fresh_closed_book_popqa_lt: 200/399 done, 0 errors, 0s
+2026-11-08 09:12:57,693 INFO fresh_closed_book_popqa_lt: 225/399 done, 0 errors, 0s
+2026-11-08 09:12:57,710 INFO fresh_closed_book_popqa_lt: 250/399 done, 0 errors, 0s
+2026-11-08 09:12:57,726 INFO fresh_closed_book_popqa_lt: 275/399 done, 0 errors, 0s
+2026-11-08 09:12:57,726 INFO fresh_closed_book_popqa_lt: 300/399 done, 0 errors, 0s
+2026-11-08 09:12:57,742 INFO fresh_closed_book_popqa_lt: 325/399 done, 0 errors, 0s
+2026-11-08 09:12:57,762 INFO fresh_closed_book_popqa_lt: 350/399 done, 0 errors, 0s
+2026-11-08 09:12:57,773 INFO fresh_closed_book_popqa_lt: 375/399 done, 0 errors, 0s
+2026-11-08 09:12:57,948 INFO END fresh_closed_book_popqa_lt: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 399, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

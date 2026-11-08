@@ -1,0 +1,10 @@
+2026-11-08 08:59:02,647 INFO START fresh_ragverify_v2_pubhealth: 200/200 examples to run; projected 11 min
+2026-11-08 08:59:33,403 INFO fresh_ragverify_v2_pubhealth: 25/200 done, 0 errors, 31s
+2026-11-08 08:59:41,016 INFO fresh_ragverify_v2_pubhealth: 50/200 done, 0 errors, 38s
+2026-11-08 08:59:49,040 INFO fresh_ragverify_v2_pubhealth: 75/200 done, 0 errors, 46s
+2026-11-08 08:59:56,943 INFO fresh_ragverify_v2_pubhealth: 100/200 done, 0 errors, 54s
+2026-11-08 09:00:05,204 INFO fresh_ragverify_v2_pubhealth: 125/200 done, 0 errors, 62s
+2026-11-08 09:00:13,136 INFO fresh_ragverify_v2_pubhealth: 150/200 done, 0 errors, 70s
+2026-11-08 09:00:19,754 INFO fresh_ragverify_v2_pubhealth: 175/200 done, 0 errors, 77s
+2026-11-08 09:00:29,438 INFO fresh_ragverify_v2_pubhealth: 200/200 done, 0 errors, 87s
+2026-11-08 09:00:30,733 INFO END fresh_ragverify_v2_pubhealth: complete, wall 1.4 min, stats {'llm_calls': 0, 'cache_hits': 0, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

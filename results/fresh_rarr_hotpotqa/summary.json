@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_rarr_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rarr",
+ "dataset": "hotpotqa",
+ "split": "fresh",
+ "correct": 0.306,
+ "match": 0.306,
+ "match_norm": 0.37,
+ "em": 0.338,
+ "f1": 0.4511659424586254,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 6.458,
+ "mean_prompt_tokens": 7274.724,
+ "mean_completion_tokens": 447.104,
+ "mean_llm_seconds": 54.389570710800704,
+ "mean_retrievals": 3.646,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 51.24525185060047,
+ "wall_s": 3230.4939692020416
+}

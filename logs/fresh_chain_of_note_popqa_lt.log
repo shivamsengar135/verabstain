@@ -1,0 +1,72 @@
+2026-11-08 09:32:10,967 INFO START fresh_chain_of_note_popqa_lt: 399/399 examples to run; projected 17 min
+2026-11-08 09:32:16,440 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=7.4 on_battery=False
+2026-11-08 09:32:36,455 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.3
+2026-11-08 09:32:46,461 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.1 on_battery=False
+2026-11-08 09:33:06,477 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=0.5
+2026-11-08 09:33:16,022 INFO fresh_chain_of_note_popqa_lt: 25/399 done, 0 errors, 65s
+2026-11-08 09:33:22,486 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=13.9 on_battery=False
+2026-11-08 09:33:42,512 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.5
+2026-11-08 09:33:54,520 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=7.4 on_battery=False
+2026-11-08 09:33:59,605 INFO fresh_chain_of_note_popqa_lt: 50/399 done, 0 errors, 109s
+2026-11-08 09:34:14,534 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.0
+2026-11-08 09:34:24,542 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.4 on_battery=False
+2026-11-08 09:34:44,558 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=0.8
+2026-11-08 09:34:58,566 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.3 on_battery=False
+2026-11-08 09:35:01,275 INFO fresh_chain_of_note_popqa_lt: 75/399 done, 0 errors, 170s
+2026-11-08 09:35:18,579 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.2
+2026-11-08 09:35:28,586 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=8.8 on_battery=False
+2026-11-08 09:35:48,600 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.5
+2026-11-08 09:35:59,746 INFO fresh_chain_of_note_popqa_lt: 100/399 done, 0 errors, 229s
+2026-11-08 09:36:00,608 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.3 on_battery=False
+2026-11-08 09:36:20,622 WARNING RESUME: gpu_temp=46 cpu_zone=44.9 cpu_load=2.3
+2026-11-08 09:36:34,630 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.1 on_battery=False
+2026-11-08 09:36:40,809 INFO fresh_chain_of_note_popqa_lt: 125/399 done, 0 errors, 270s
+2026-11-08 09:36:54,644 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=2.1
+2026-11-08 09:37:12,654 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.3 on_battery=False
+2026-11-08 09:37:32,670 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=0.4
+2026-11-08 09:37:42,402 INFO fresh_chain_of_note_popqa_lt: 150/399 done, 0 errors, 331s
+2026-11-08 09:37:44,677 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=8.8 on_battery=False
+2026-11-08 09:38:04,693 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=0.8
+2026-11-08 09:38:18,703 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=8.9 on_battery=False
+2026-11-08 09:38:22,673 INFO fresh_chain_of_note_popqa_lt: 175/399 done, 0 errors, 372s
+2026-11-08 09:38:38,717 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=0.7
+2026-11-08 09:38:50,725 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=8.8 on_battery=False
+2026-11-08 09:39:10,738 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.1
+2026-11-08 09:39:24,745 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.5 on_battery=False
+2026-11-08 09:39:29,047 INFO fresh_chain_of_note_popqa_lt: 200/399 done, 0 errors, 438s
+2026-11-08 09:39:44,761 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=0.6
+2026-11-08 09:39:56,769 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.9 on_battery=False
+2026-11-08 09:40:16,785 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=0.9
+2026-11-08 09:40:28,547 INFO fresh_chain_of_note_popqa_lt: 225/399 done, 0 errors, 497s
+2026-11-08 09:40:36,799 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=8.8 on_battery=False
+2026-11-08 09:40:56,814 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.4
+2026-11-08 09:41:06,820 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=8.0 on_battery=False
+2026-11-08 09:41:26,837 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.4
+2026-11-08 09:41:35,201 INFO fresh_chain_of_note_popqa_lt: 250/399 done, 0 errors, 564s
+2026-11-08 09:41:42,846 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=8.8 on_battery=False
+2026-11-08 09:42:02,863 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.7
+2026-11-08 09:42:12,869 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=8.2 on_battery=False
+2026-11-08 09:42:19,252 INFO fresh_chain_of_note_popqa_lt: 275/399 done, 0 errors, 608s
+2026-11-08 09:42:32,881 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.0
+2026-11-08 09:42:44,889 WARNING PAUSE: gpu_temp=82 cpu_zone=48.9 cpu_load=8.8 on_battery=False
+2026-11-08 09:43:04,904 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.2
+2026-11-08 09:43:18,912 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=8.2 on_battery=False
+2026-11-08 09:43:22,324 INFO fresh_chain_of_note_popqa_lt: 300/399 done, 0 errors, 671s
+2026-11-08 09:43:38,928 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.5
+2026-11-08 09:43:50,937 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=10.3 on_battery=False
+2026-11-08 09:44:10,953 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.1
+2026-11-08 09:44:18,959 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=8.9 on_battery=False
+2026-11-08 09:44:20,358 INFO fresh_chain_of_note_popqa_lt: 325/399 done, 0 errors, 729s
+2026-11-08 09:44:38,974 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=0.4
+2026-11-08 09:44:48,981 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.4 on_battery=False
+2026-11-08 09:45:08,998 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.4
+2026-11-08 09:45:21,004 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.0 on_battery=False
+2026-11-08 09:45:23,693 INFO fresh_chain_of_note_popqa_lt: 350/399 done, 0 errors, 793s
+2026-11-08 09:45:41,019 WARNING RESUME: gpu_temp=45 cpu_zone=43.9 cpu_load=1.8
+2026-11-08 09:45:55,066 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.5 on_battery=False
+2026-11-08 09:46:15,081 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.5
+2026-11-08 09:46:25,447 INFO fresh_chain_of_note_popqa_lt: 375/399 done, 0 errors, 854s
+2026-11-08 09:46:27,089 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.0 on_battery=False
+2026-11-08 09:46:47,105 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=0.8
+2026-11-08 09:47:03,113 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=9.0 on_battery=False
+2026-11-08 09:47:05,255 INFO END fresh_chain_of_note_popqa_lt: complete, wall 14.9 min, stats {'llm_calls': 394, 'cache_hits': 5, 'prompt_tokens': 297308, 'completion_tokens': 62480, 'llm_seconds': 3478.3104944999795, 'retrievals': 0, 'verifier_pairs': 0}

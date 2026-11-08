@@ -1,0 +1,83 @@
+2026-11-08 11:07:32,687 INFO START fresh_rag_largek_triviaqa: 500/500 examples to run; projected 8 min
+2026-11-08 11:07:38,866 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.1 on_battery=False
+2026-11-08 11:07:58,882 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.7
+2026-11-08 11:08:06,888 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=10.7 on_battery=False
+2026-11-08 11:08:11,391 INFO fresh_rag_largek_triviaqa: 25/500 done, 0 errors, 39s
+2026-11-08 11:08:26,902 WARNING RESUME: gpu_temp=44 cpu_zone=44.9 cpu_load=2.9
+2026-11-08 11:08:34,906 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=11.0 on_battery=False
+2026-11-08 11:08:54,925 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.8
+2026-11-08 11:09:06,341 INFO fresh_rag_largek_triviaqa: 50/500 done, 0 errors, 94s
+2026-11-08 11:09:06,931 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.1 on_battery=False
+2026-11-08 11:09:26,946 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.2
+2026-11-08 11:09:36,951 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.7 on_battery=False
+2026-11-08 11:09:56,965 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.2
+2026-11-08 11:10:02,532 INFO fresh_rag_largek_triviaqa: 75/500 done, 0 errors, 150s
+2026-11-08 11:10:06,971 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.2 on_battery=False
+2026-11-08 11:10:26,985 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=0.9
+2026-11-08 11:10:36,699 INFO fresh_rag_largek_triviaqa: 100/500 done, 0 errors, 184s
+2026-11-08 11:10:36,992 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.7 on_battery=False
+2026-11-08 11:10:57,009 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.2
+2026-11-08 11:11:07,015 WARNING PAUSE: gpu_temp=81 cpu_zone=45.9 cpu_load=9.4 on_battery=False
+2026-11-08 11:11:27,027 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.2
+2026-11-08 11:11:31,629 INFO fresh_rag_largek_triviaqa: 125/500 done, 0 errors, 239s
+2026-11-08 11:11:39,034 WARNING PAUSE: gpu_temp=81 cpu_zone=45.9 cpu_load=9.0 on_battery=False
+2026-11-08 11:11:59,048 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.9
+2026-11-08 11:12:07,801 INFO fresh_rag_largek_triviaqa: 150/500 done, 0 errors, 275s
+2026-11-08 11:12:09,054 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.4 on_battery=False
+2026-11-08 11:12:29,070 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.9
+2026-11-08 11:12:39,079 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.2 on_battery=False
+2026-11-08 11:12:43,242 INFO fresh_rag_largek_triviaqa: 175/500 done, 0 errors, 310s
+2026-11-08 11:12:59,090 WARNING RESUME: gpu_temp=44 cpu_zone=45.9 cpu_load=4.1
+2026-11-08 11:13:07,095 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=10.6 on_battery=False
+2026-11-08 11:13:27,109 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.5
+2026-11-08 11:13:37,115 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=7.9 on_battery=False
+2026-11-08 11:13:38,599 INFO fresh_rag_largek_triviaqa: 200/500 done, 0 errors, 366s
+2026-11-08 11:13:57,131 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=3.1
+2026-11-08 11:14:11,139 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.9 on_battery=False
+2026-11-08 11:14:13,766 INFO fresh_rag_largek_triviaqa: 225/500 done, 0 errors, 401s
+2026-11-08 11:14:31,153 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.3
+2026-11-08 11:14:41,160 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.4 on_battery=False
+2026-11-08 11:15:01,175 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.7
+2026-11-08 11:15:09,953 INFO fresh_rag_largek_triviaqa: 250/500 done, 0 errors, 457s
+2026-11-08 11:15:11,181 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.2 on_battery=False
+2026-11-08 11:15:31,193 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.6
+2026-11-08 11:15:39,198 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.2 on_battery=False
+2026-11-08 11:15:59,212 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.5
+2026-11-08 11:16:04,385 INFO fresh_rag_largek_triviaqa: 275/500 done, 0 errors, 512s
+2026-11-08 11:16:11,219 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.0 on_battery=False
+2026-11-08 11:16:31,233 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.1
+2026-11-08 11:16:41,240 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=9.2 on_battery=False
+2026-11-08 11:16:43,245 INFO fresh_rag_largek_triviaqa: 300/500 done, 0 errors, 550s
+2026-11-08 11:17:01,254 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.0
+2026-11-08 11:17:09,258 WARNING PAUSE: gpu_temp=80 cpu_zone=44.9 cpu_load=8.6 on_battery=False
+2026-11-08 11:17:29,272 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.6
+2026-11-08 11:17:44,136 INFO fresh_rag_largek_triviaqa: 325/500 done, 0 errors, 611s
+2026-11-08 11:17:45,281 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.2 on_battery=False
+2026-11-08 11:18:05,298 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.6
+2026-11-08 11:18:15,304 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=11.3 on_battery=False
+2026-11-08 11:18:18,179 INFO fresh_rag_largek_triviaqa: 350/500 done, 0 errors, 645s
+2026-11-08 11:18:35,317 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=1.7
+2026-11-08 11:18:45,322 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=8.3 on_battery=False
+2026-11-08 11:19:05,333 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.8
+2026-11-08 11:19:16,816 INFO fresh_rag_largek_triviaqa: 375/500 done, 0 errors, 704s
+2026-11-08 11:19:17,342 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=9.8 on_battery=False
+2026-11-08 11:19:37,354 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.4
+2026-11-08 11:19:47,360 WARNING PAUSE: gpu_temp=81 cpu_zone=45.9 cpu_load=9.0 on_battery=False
+2026-11-08 11:19:49,928 INFO fresh_rag_largek_triviaqa: 400/500 done, 0 errors, 737s
+2026-11-08 11:20:07,372 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.7
+2026-11-08 11:20:17,383 WARNING PAUSE: gpu_temp=80 cpu_zone=46.9 cpu_load=8.3 on_battery=False
+2026-11-08 11:20:37,397 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=1.3
+2026-11-08 11:20:47,403 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=10.8 on_battery=False
+2026-11-08 11:20:48,833 INFO fresh_rag_largek_triviaqa: 425/500 done, 0 errors, 796s
+2026-11-08 11:21:07,416 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.7
+2026-11-08 11:21:21,426 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=9.1 on_battery=False
+2026-11-08 11:21:24,607 INFO fresh_rag_largek_triviaqa: 450/500 done, 0 errors, 832s
+2026-11-08 11:21:41,440 WARNING RESUME: gpu_temp=44 cpu_zone=43.9 cpu_load=2.3
+2026-11-08 11:21:49,445 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=10.4 on_battery=False
+2026-11-08 11:22:09,460 WARNING RESUME: gpu_temp=43 cpu_zone=42.9 cpu_load=2.4
+2026-11-08 11:22:19,466 WARNING PAUSE: gpu_temp=80 cpu_zone=45.9 cpu_load=10.7 on_battery=False
+2026-11-08 11:22:21,679 INFO fresh_rag_largek_triviaqa: 475/500 done, 0 errors, 889s
+2026-11-08 11:22:39,481 WARNING RESUME: gpu_temp=43 cpu_zone=43.9 cpu_load=1.5
+2026-11-08 11:22:51,488 WARNING PAUSE: gpu_temp=81 cpu_zone=46.9 cpu_load=8.6 on_battery=False
+2026-11-08 11:22:55,317 INFO fresh_rag_largek_triviaqa: 500/500 done, 0 errors, 923s
+2026-11-08 11:22:55,503 INFO END fresh_rag_largek_triviaqa: complete, wall 15.4 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 978860, 'completion_tokens': 2312, 'llm_seconds': 3222.6786127001687, 'retrievals': 0, 'verifier_pairs': 0}

@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_selfrag_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "selfrag",
+ "dataset": "hotpotqa",
+ "split": "fresh",
+ "correct": 0.35,
+ "match": 0.35,
+ "match_norm": 0.398,
+ "em": 0.14,
+ "f1": 0.2755622442085094,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 7.0,
+ "mean_prompt_tokens": 847.192,
+ "mean_completion_tokens": 161.916,
+ "mean_llm_seconds": 17.693854695799818,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 17.766032887000883,
+ "wall_s": 1190.4154069423676
+}

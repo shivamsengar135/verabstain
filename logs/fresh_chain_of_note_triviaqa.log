@@ -1,0 +1,44 @@
+2026-11-08 11:31:47,306 INFO START fresh_chain_of_note_triviaqa: 500/500 examples to run; projected 21 min
+2026-11-08 11:31:49,917 WARNING PAUSE: gpu_temp=81 cpu_zone=47.9 cpu_load=9.9 on_battery=False
+2026-11-08 11:32:09,930 WARNING RESUME: gpu_temp=46 cpu_zone=48.9 cpu_load=1.6
+2026-11-08 11:32:19,941 WARNING PAUSE: gpu_temp=81 cpu_zone=48.9 cpu_load=12.1 on_battery=False
+2026-11-08 11:32:39,953 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.7
+2026-11-08 11:32:55,963 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.4 on_battery=False
+2026-11-08 11:32:58,030 INFO fresh_chain_of_note_triviaqa: 25/500 done, 0 errors, 71s
+2026-11-08 11:33:15,977 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=4.1
+2026-11-08 11:33:25,983 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=12.0 on_battery=False
+2026-11-08 11:33:45,998 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=1.7
+2026-11-08 11:33:56,005 WARNING PAUSE: gpu_temp=80 cpu_zone=47.9 cpu_load=9.0 on_battery=False
+2026-11-08 11:33:58,650 INFO fresh_chain_of_note_triviaqa: 50/500 done, 0 errors, 131s
+2026-11-08 11:34:16,016 WARNING RESUME: gpu_temp=45 cpu_zone=46.9 cpu_load=3.3
+2026-11-08 11:34:28,024 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=14.1 on_battery=False
+2026-11-08 11:34:48,035 WARNING RESUME: gpu_temp=45 cpu_zone=52.9 cpu_load=7.8
+2026-11-08 11:35:02,044 WARNING PAUSE: gpu_temp=81 cpu_zone=50.9 cpu_load=15.4 on_battery=False
+2026-11-08 11:35:07,390 INFO fresh_chain_of_note_triviaqa: 75/500 done, 0 errors, 200s
+2026-11-08 11:35:22,059 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=1.7
+2026-11-08 11:35:30,064 WARNING PAUSE: gpu_temp=80 cpu_zone=48.9 cpu_load=9.3 on_battery=False
+2026-11-08 11:35:50,079 WARNING RESUME: gpu_temp=45 cpu_zone=44.9 cpu_load=2.1
+2026-11-08 11:36:02,087 WARNING PAUSE: gpu_temp=80 cpu_zone=49.9 cpu_load=13.8 on_battery=False
+2026-11-08 11:36:22,102 WARNING RESUME: gpu_temp=46 cpu_zone=45.9 cpu_load=9.9
+2026-11-08 11:36:32,106 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=10.2 on_battery=False
+2026-11-08 11:36:32,693 INFO fresh_chain_of_note_triviaqa: 100/500 done, 0 errors, 285s
+2026-11-08 11:36:52,120 WARNING RESUME: gpu_temp=45 cpu_zone=45.9 cpu_load=7.6
+2026-11-08 11:37:02,127 WARNING PAUSE: gpu_temp=81 cpu_zone=49.9 cpu_load=12.1 on_battery=False
+2026-11-08 11:37:22,137 WARNING RESUME: gpu_temp=46 cpu_zone=54.9 cpu_load=25.3
+2026-11-08 11:38:04,743 INFO fresh_chain_of_note_triviaqa: 125/500 done, 0 errors, 377s
+2026-11-08 11:39:27,852 INFO fresh_chain_of_note_triviaqa: 150/500 done, 0 errors, 460s
+2026-11-08 11:40:51,956 INFO fresh_chain_of_note_triviaqa: 175/500 done, 0 errors, 545s
+2026-11-08 11:42:18,005 INFO fresh_chain_of_note_triviaqa: 200/500 done, 0 errors, 631s
+2026-11-08 11:43:43,542 INFO fresh_chain_of_note_triviaqa: 225/500 done, 0 errors, 716s
+2026-11-08 11:45:05,660 INFO fresh_chain_of_note_triviaqa: 250/500 done, 0 errors, 798s
+2026-11-08 11:46:35,412 INFO fresh_chain_of_note_triviaqa: 275/500 done, 0 errors, 888s
+2026-11-08 11:48:03,623 INFO fresh_chain_of_note_triviaqa: 300/500 done, 0 errors, 976s
+2026-11-08 11:49:26,086 INFO fresh_chain_of_note_triviaqa: 325/500 done, 0 errors, 1059s
+2026-11-08 11:50:54,448 INFO fresh_chain_of_note_triviaqa: 350/500 done, 0 errors, 1147s
+2026-11-08 11:52:17,270 INFO fresh_chain_of_note_triviaqa: 375/500 done, 0 errors, 1230s
+2026-11-08 11:53:41,716 INFO fresh_chain_of_note_triviaqa: 400/500 done, 0 errors, 1314s
+2026-11-08 11:55:06,712 INFO fresh_chain_of_note_triviaqa: 425/500 done, 0 errors, 1399s
+2026-11-08 11:56:30,275 INFO fresh_chain_of_note_triviaqa: 450/500 done, 0 errors, 1483s
+2026-11-08 11:57:50,494 INFO fresh_chain_of_note_triviaqa: 475/500 done, 0 errors, 1563s
+2026-11-08 11:59:02,619 INFO fresh_chain_of_note_triviaqa: 500/500 done, 0 errors, 1635s
+2026-11-08 11:59:02,893 INFO END fresh_chain_of_note_triviaqa: complete, wall 27.3 min, stats {'llm_calls': 500, 'cache_hits': 0, 'prompt_tokens': 463731, 'completion_tokens': 87199, 'llm_seconds': 11549.036505799886, 'retrievals': 0, 'verifier_pairs': 0}

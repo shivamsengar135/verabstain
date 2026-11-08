@@ -1,0 +1,30 @@
+2026-11-08 12:01:05,483 INFO START fresh_cove_triviaqa: 500/500 examples to run; projected 23 min
+2026-11-08 12:02:26,415 INFO fresh_cove_triviaqa: 25/500 done, 0 errors, 81s
+2026-11-08 12:03:39,706 INFO fresh_cove_triviaqa: 50/500 done, 0 errors, 154s
+2026-11-08 12:04:27,559 INFO fresh_cove_triviaqa: 75/500 done, 0 errors, 202s
+2026-11-08 12:04:42,696 WARNING PAUSE: gpu_temp=81 cpu_zone=54.9 cpu_load=24.0 on_battery=False
+2026-11-08 12:05:02,725 WARNING RESUME: gpu_temp=47 cpu_zone=50.9 cpu_load=16.3
+2026-11-08 12:05:23,039 INFO fresh_cove_triviaqa: 100/500 done, 0 errors, 257s
+2026-11-08 12:05:54,963 WARNING PAUSE: gpu_temp=80 cpu_zone=55.9 cpu_load=22.1 on_battery=False
+2026-11-08 12:06:15,050 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=14.0
+2026-11-08 12:06:23,322 INFO fresh_cove_triviaqa: 125/500 done, 0 errors, 318s
+2026-11-08 12:07:13,094 INFO fresh_cove_triviaqa: 150/500 done, 0 errors, 367s
+2026-11-08 12:07:59,414 INFO fresh_cove_triviaqa: 175/500 done, 0 errors, 414s
+2026-11-08 12:08:49,566 INFO fresh_cove_triviaqa: 200/500 done, 0 errors, 464s
+2026-11-08 12:09:34,536 INFO fresh_cove_triviaqa: 225/500 done, 0 errors, 509s
+2026-11-08 12:09:51,811 WARNING PAUSE: gpu_temp=80 cpu_zone=53.9 cpu_load=26.2 on_battery=False
+2026-11-08 12:10:11,877 WARNING RESUME: gpu_temp=50 cpu_zone=48.9 cpu_load=18.8
+2026-11-08 12:10:35,095 INFO fresh_cove_triviaqa: 250/500 done, 0 errors, 569s
+2026-11-08 12:10:52,292 WARNING PAUSE: gpu_temp=80 cpu_zone=55.9 cpu_load=32.1 on_battery=False
+2026-11-08 12:11:12,308 WARNING RESUME: gpu_temp=48 cpu_zone=48.9 cpu_load=15.0
+2026-11-08 12:11:37,708 INFO fresh_cove_triviaqa: 275/500 done, 0 errors, 632s
+2026-11-08 12:12:29,860 INFO fresh_cove_triviaqa: 300/500 done, 0 errors, 684s
+2026-11-08 12:13:28,977 INFO fresh_cove_triviaqa: 325/500 done, 0 errors, 743s
+2026-11-08 12:14:11,856 INFO fresh_cove_triviaqa: 350/500 done, 0 errors, 786s
+2026-11-08 12:15:06,332 INFO fresh_cove_triviaqa: 375/500 done, 0 errors, 841s
+2026-11-08 12:16:03,983 INFO fresh_cove_triviaqa: 400/500 done, 0 errors, 898s
+2026-11-08 12:17:06,950 INFO fresh_cove_triviaqa: 425/500 done, 0 errors, 961s
+2026-11-08 12:18:01,865 INFO fresh_cove_triviaqa: 450/500 done, 0 errors, 1016s
+2026-11-08 12:19:02,959 INFO fresh_cove_triviaqa: 475/500 done, 0 errors, 1077s
+2026-11-08 12:19:56,286 INFO fresh_cove_triviaqa: 500/500 done, 0 errors, 1131s
+2026-11-08 12:19:58,138 INFO END fresh_cove_triviaqa: complete, wall 18.8 min, stats {'llm_calls': 2494, 'cache_hits': 501, 'prompt_tokens': 709584, 'completion_tokens': 65159, 'llm_seconds': 8021.185157900327, 'retrievals': 0, 'verifier_pairs': 0}

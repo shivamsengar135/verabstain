@@ -1,0 +1,14 @@
+2026-11-07 23:12:59,898 INFO START v2dev_ragverify_v2_hotpotqa: 300/300 examples to run; projected 12 min
+2026-11-07 23:13:00,321 INFO v2dev_ragverify_v2_hotpotqa: 25/300 done, 0 errors, 0s
+2026-11-07 23:13:00,549 INFO v2dev_ragverify_v2_hotpotqa: 50/300 done, 0 errors, 1s
+2026-11-07 23:13:00,774 INFO v2dev_ragverify_v2_hotpotqa: 75/300 done, 0 errors, 1s
+2026-11-07 23:13:00,992 INFO v2dev_ragverify_v2_hotpotqa: 100/300 done, 0 errors, 1s
+2026-11-07 23:13:01,217 INFO v2dev_ragverify_v2_hotpotqa: 125/300 done, 0 errors, 1s
+2026-11-07 23:13:01,451 INFO v2dev_ragverify_v2_hotpotqa: 150/300 done, 0 errors, 1s
+2026-11-07 23:13:01,667 INFO v2dev_ragverify_v2_hotpotqa: 175/300 done, 0 errors, 2s
+2026-11-07 23:13:01,879 INFO v2dev_ragverify_v2_hotpotqa: 200/300 done, 0 errors, 2s
+2026-11-07 23:13:02,093 INFO v2dev_ragverify_v2_hotpotqa: 225/300 done, 0 errors, 2s
+2026-11-07 23:13:02,303 INFO v2dev_ragverify_v2_hotpotqa: 250/300 done, 0 errors, 2s
+2026-11-07 23:13:02,519 INFO v2dev_ragverify_v2_hotpotqa: 275/300 done, 0 errors, 2s
+2026-11-07 23:13:02,684 INFO v2dev_ragverify_v2_hotpotqa: 300/300 done, 0 errors, 3s
+2026-11-07 23:13:02,791 INFO END v2dev_ragverify_v2_hotpotqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 900, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

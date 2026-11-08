@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_flare_pubhealth",
+ "n": 200,
+ "n_expected": 200,
+ "method": "flare",
+ "dataset": "pubhealth",
+ "split": "fresh",
+ "correct": 0.39,
+ "match": 0.39,
+ "match_norm": 0.39,
+ "em": 0.39,
+ "f1": 0.39,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.095,
+ "mean_prompt_tokens": 683.995,
+ "mean_completion_tokens": 2.19,
+ "mean_llm_seconds": 2.1706628084996193,
+ "mean_retrievals": 1.095,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 0.9378704315015056,
+ "wall_s": 24.06784224510193
+}

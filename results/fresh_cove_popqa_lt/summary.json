@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_cove_popqa_lt",
+ "n": 399,
+ "n_expected": 399,
+ "method": "cove",
+ "dataset": "popqa_lt",
+ "split": "fresh",
+ "correct": 0.568922305764411,
+ "match": 0.568922305764411,
+ "match_norm": 0.6390977443609023,
+ "em": 0.5388471177944862,
+ "f1": 0.6048227327150442,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 5.994987468671679,
+ "mean_prompt_tokens": 1837.814536340852,
+ "mean_completion_tokens": 118.40601503759399,
+ "mean_llm_seconds": 18.15644687393286,
+ "mean_retrievals": 3.9949874686716793,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 17.809006411027,
+ "wall_s": 906.228588104248
+}

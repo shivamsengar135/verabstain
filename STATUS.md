@@ -1,6 +1,6 @@
 # STATUS — RAG-Verify
 
-Last updated: 2026-11-05 22:05 IST · **Phase 3 main runs running unattended (watchdog chains Phase 4)** · TARGET = A
+Last updated: 2026-11-08 18:45 IST · **All experiments done (incl. follow-up study v2); paper rebuilt; nothing running** · TARGET = A
 
 ## Done
 - Phases 0–2 complete; Gate 1 = GO, option B (2026-11-05 ~02:00). The user asked for autonomous default decisions and **no overheating under any condition**.
@@ -162,3 +162,20 @@ Last updated: 2026-11-05 22:05 IST · **Phase 3 main runs running unattended (wa
 - analysis/make_paper_numbers.py now emits ph1-*/ph2-*/ph3-* keys; no previously existing number changed. New subsection "Post-hoc fairness checks" (sec:posthoc) at the end of paper/sections/analysis.tex; limitations updated. Paper builds cleanly.
 - GPU: ≈47.2 of 50 GPU-h used (COMPUTE_LEDGER note). No further GPU jobs planned; the project llama-server was stopped.
 - Next (user): read/edit the paper; supervisor review; create the anonymous mirror and replace the Data-availability placeholder link; both authors confirm CRediT and the AI declaration; optionally re-publish the paper-free repo snapshot.
+- 2026-11-07 13:30: Public repo updated: https://github.com/shivamsengar135/verabstain main = 7a64f8a (parent 42063f0), built from master f3d84fe with a temporary index excluding paper/ and reviews/ (the simulated review describes the manuscript). Re-publish the same way: fetch public main, read-tree HEAD into a temp index, `git rm -r --cached paper reviews`, write-tree, commit-tree -p FETCH_HEAD, push the commit to refs/heads/main. Never push master.
+
+### 2026-11-07 23:15 — Follow-up study v2 (user decision 13:40: "Pre-registered v2 study"; limits +24 h, +12 GPU-h)
+- Registered in PROTOCOL §17 (13:50 entry, V1–V6) before development; frozen at 23:15 (hash in COMPUTE_LEDGER, copy logs/protocol_freeze/PROTOCOL_v2.md; the runner refuses split=fresh unless it matches).
+- Fresh items: data/splits/*_fresh.ids via scripts/make_fresh_splits.py (PopQA-LT test 1000–1398, TriviaQA/HotpotQA test 1000–1499, PubHealth dev 300–499). RGB excluded (no unused items).
+- v2 = class RAGVerifyV2 (src/ragverify/methods.py) + analysis/v2/v2_model.json (fit_v2.py, dev 0–299 only). Dev analysis: analysis/v2/dev_candidates.py, dev_support.py (GPU verifier), dev_select.py. Dev readout: acc 0.440/0.520/0.497/0.647 vs v1 0.427/0.480/0.483/0.410; selective prediction mixed on dev. PubHealth claim rule ≈ class prior + weak verifier signal (dev Self-RAG 0.697 still higher).
+- Running: `scripts/watchdog.py jobs/queue_fresh.yaml` (52 jobs, v2 and v1 first; projected 13.1 GPU-h; started 23:14; cut-off 2026-11-08 15:46). Keep-awake requested (laptop slept 21:17–23:00 earlier).
+- Next: score all fresh_* runs (`scripts/score.py` with the run ids), run `analysis/v2/fresh_stats.py`, add a clearly separate "Follow-up study" section/appendix to the paper from table_fresh.tex (report every method, wins and losses), update ledger (GPU-h), commit.
+- 2026-11-07 23:19: PAUSED at the user's request (laptop shutdown). Watchdog, runner and llama-server stopped cleanly; fresh_ragverify_v2_popqa_lt was partly done (outputs saved per item; the runner skips finished ids on restart). Resume only when the user writes "continue": `.venv/Scripts/python.exe scripts/watchdog.py jobs/queue_fresh.yaml` (background). Note the cut-off NO_NEW_GPU_JOBS_AFTER=2026-11-08T15:46 in DEADLINE.txt; if the pause makes the queue impossible to finish by then, ask the user before extending it.
+
+### 2026-11-08 18:45 — Follow-up study v2 COMPLETE
+- Fresh queue: 52/52 jobs complete at 17:56 (watchdog exited 0). 9.4 GPU-h logged; total logged ≈ 56.6 of 62 GPU-h (v2 dev scripts not in the ledger, see COMPUTE_LEDGER note). Nothing is running; no further GPU jobs planned.
+- Scored all fresh_* runs; `analysis/v2/fresh_stats.py` → results/analysis/fresh_stats.json, paper/generated/table_fresh.tex, table_fresh_full.tex (table writer fixed after the results, PROTOCOL §17 18:40 entry).
+- Results (Holm over 12 baselines): **v1 (unchanged pre-registered VerAbstain) replicated**: PopQA-LT significantly better than all 12 baselines on accuracy, H@0.8 and AURC; TriviaQA better than 9–10, worse than none; HotpotQA better than 3–5, worse than none; PubHealth worse than Self-RAG (acc 0.435 vs 0.695). **v2 did not improve on v1** overall: worse on PopQA-LT (all 3 metrics) and HotpotQA accuracy; on TriviaQA better AURC than v1 and significantly better than all 12 baselines on AURC; on PubHealth acc 0.630 but it labels 199/200 claims "true" (majority rate 0.625) — class prior, not better verification; Self-RAG still best there (n.s. vs v2).
+- Paper: new Section 8 `paper/sections/followup.tex` (sec:followup), Table tab:fresh, Appendix table tab:fresh-full, limitation item, one conclusion sentence; numbers via fr-* keys in make_paper_numbers.py fresh(). Also fixed paper-wide: doubled periods after paragraph titles and "Appendix Appendix". Build: 92 pages, no undefined keys/refs. Abstract unchanged.
+- Windows Application Control now blocks fontTools' compiled bezierTools .pyd; make_paper_numbers.py falls back to the pure-Python module (no system change).
+- Next (user): read/edit the paper incl. Section 8 (decide whether the abstract should mention the follow-up); supervisor review; anonymous mirror + Data-availability link; both authors confirm CRediT and AI declaration; optionally re-publish the paper-free public repo snapshot (procedure in the 11-07 13:30 entry).

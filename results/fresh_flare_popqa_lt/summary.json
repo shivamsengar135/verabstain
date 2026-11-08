@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_flare_popqa_lt",
+ "n": 399,
+ "n_expected": 399,
+ "method": "flare",
+ "dataset": "popqa_lt",
+ "split": "fresh",
+ "correct": 0.5789473684210527,
+ "match": 0.5789473684210527,
+ "match_norm": 0.6265664160401002,
+ "em": 0.5338345864661654,
+ "f1": 0.6015037593984962,
+ "native_abstain_rate": 0.0,
+ "mean_llm_calls": 1.3709273182957393,
+ "mean_prompt_tokens": 829.4411027568922,
+ "mean_completion_tokens": 6.639097744360902,
+ "mean_llm_seconds": 3.0278395779445018,
+ "mean_retrievals": 1.3709273182957393,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 1.442248933834933,
+ "wall_s": 97.21746754646301
+}

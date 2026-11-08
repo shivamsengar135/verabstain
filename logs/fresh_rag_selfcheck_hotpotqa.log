@@ -1,0 +1,22 @@
+2026-11-08 14:28:59,440 INFO START fresh_rag_selfcheck_hotpotqa: 500/500 examples to run; projected 7 min
+2026-11-08 14:29:26,570 INFO fresh_rag_selfcheck_hotpotqa: 25/500 done, 0 errors, 27s
+2026-11-08 14:29:51,999 INFO fresh_rag_selfcheck_hotpotqa: 50/500 done, 0 errors, 52s
+2026-11-08 14:30:23,186 INFO fresh_rag_selfcheck_hotpotqa: 75/500 done, 0 errors, 84s
+2026-11-08 14:30:50,654 INFO fresh_rag_selfcheck_hotpotqa: 100/500 done, 0 errors, 111s
+2026-11-08 14:31:20,428 INFO fresh_rag_selfcheck_hotpotqa: 125/500 done, 0 errors, 141s
+2026-11-08 14:31:47,591 INFO fresh_rag_selfcheck_hotpotqa: 150/500 done, 0 errors, 168s
+2026-11-08 14:32:12,918 INFO fresh_rag_selfcheck_hotpotqa: 175/500 done, 0 errors, 193s
+2026-11-08 14:32:38,577 INFO fresh_rag_selfcheck_hotpotqa: 200/500 done, 0 errors, 219s
+2026-11-08 14:33:03,047 INFO fresh_rag_selfcheck_hotpotqa: 225/500 done, 0 errors, 243s
+2026-11-08 14:33:29,877 INFO fresh_rag_selfcheck_hotpotqa: 250/500 done, 0 errors, 270s
+2026-11-08 14:33:56,214 INFO fresh_rag_selfcheck_hotpotqa: 275/500 done, 0 errors, 297s
+2026-11-08 14:34:21,739 INFO fresh_rag_selfcheck_hotpotqa: 300/500 done, 0 errors, 322s
+2026-11-08 14:34:48,146 INFO fresh_rag_selfcheck_hotpotqa: 325/500 done, 0 errors, 349s
+2026-11-08 14:35:12,615 INFO fresh_rag_selfcheck_hotpotqa: 350/500 done, 0 errors, 373s
+2026-11-08 14:35:38,748 INFO fresh_rag_selfcheck_hotpotqa: 375/500 done, 0 errors, 399s
+2026-11-08 14:36:05,607 INFO fresh_rag_selfcheck_hotpotqa: 400/500 done, 0 errors, 426s
+2026-11-08 14:36:37,325 INFO fresh_rag_selfcheck_hotpotqa: 425/500 done, 0 errors, 458s
+2026-11-08 14:37:03,784 INFO fresh_rag_selfcheck_hotpotqa: 450/500 done, 0 errors, 484s
+2026-11-08 14:37:28,616 INFO fresh_rag_selfcheck_hotpotqa: 475/500 done, 0 errors, 509s
+2026-11-08 14:37:48,620 INFO fresh_rag_selfcheck_hotpotqa: 500/500 done, 0 errors, 529s
+2026-11-08 14:37:48,958 INFO END fresh_rag_selfcheck_hotpotqa: complete, wall 8.8 min, stats {'llm_calls': 2500, 'cache_hits': 500, 'prompt_tokens': 1509580, 'completion_tokens': 12985, 'llm_seconds': 4209.728376999876, 'retrievals': 0, 'verifier_pairs': 0}

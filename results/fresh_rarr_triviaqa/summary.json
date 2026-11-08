@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_rarr_triviaqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "rarr",
+ "dataset": "triviaqa",
+ "split": "fresh",
+ "correct": 0.562,
+ "match": 0.562,
+ "match_norm": 0.578,
+ "em": 0.534,
+ "f1": 0.6225667943167944,
+ "native_abstain_rate": 0.002,
+ "mean_llm_calls": 6.336,
+ "mean_prompt_tokens": 7315.258,
+ "mean_completion_tokens": 428.084,
+ "mean_llm_seconds": 58.96989478160127,
+ "mean_retrievals": 3.606,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 57.37129527879925,
+ "wall_s": 3590.8217701911926
+}

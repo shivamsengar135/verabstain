@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(ROOT / "scripts"))
 from ragverify.metrics import crc_threshold, ltt_threshold  # noqa: E402
 
-SCORE = {"rag_selfcheck": "selfcheck", "selfrag": "selfrag_final"}
+SCORE = {"rag_selfcheck": "selfcheck", "selfrag": "selfrag_final", "ragverify_v2": "v2conf"}  # v2: follow-up study
 
 
 def lg(p):

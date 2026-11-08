@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_chain_of_note_pubhealth",
+ "n": 200,
+ "n_expected": 200,
+ "method": "chain_of_note",
+ "dataset": "pubhealth",
+ "split": "fresh",
+ "correct": 0.365,
+ "match": 0.365,
+ "match_norm": 0.365,
+ "em": 0.365,
+ "f1": 0.365,
+ "native_abstain_rate": 0.08,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 718.705,
+ "mean_completion_tokens": 190.68,
+ "mean_llm_seconds": 9.891794064999267,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 9.902960989499553,
+ "wall_s": 529.5459868907928
+}

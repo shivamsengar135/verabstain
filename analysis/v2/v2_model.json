@@ -1,0 +1,35 @@
+{
+ "selector": {
+  "features": [
+   "logit support",
+   "logit c1 (closed-book cand.)",
+   "is C",
+   "is R",
+   "n other cands agreeing",
+   "agrees with C * logit c1",
+   "draft insufficient"
+  ],
+  "coef": [
+   0.10726271010182718,
+   0.2218472939609141,
+   -1.0462734728952754,
+   0.08287433068134437,
+   0.9612504973862763,
+   0.08119731483288438,
+   -1.3218282841147704
+  ],
+  "intercept": -1.074415030173794,
+  "n_rows": 2700
+ },
+ "claim": {
+  "features": [
+   "logit MiniCheck support of the claim"
+  ],
+  "coef": [
+   0.293375532115945
+  ],
+  "intercept": 1.496546108228282,
+  "n": 300,
+  "dev_acc_in_sample": 0.6466666666666666
+ }
+}

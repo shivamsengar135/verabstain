@@ -7,6 +7,7 @@ Costs are accumulated in the per-example Counter by the LLM / retrieval / verifi
 """
 from __future__ import annotations
 
+import json
 import math
 import re
 
@@ -385,6 +386,66 @@ class RAGVerify:
                 "trace": tr}
 
 
+class RAGVerifyV2:
+    """Follow-up study v2 (PROTOCOL §17, 2026-11-07 entries): M2 evidence; three candidate answers -- grounded draft D
+    (standard-RAG answer when the draft says 'insufficient evidence'), standard RAG answer R on the same evidence
+    (identical call to the '+reranker' baseline) and closed-book answer C; MiniCheck support of each; a frozen logistic
+    selector (analysis/v2/v2_model.json, fitted on dev items 0-299) picks the answer and its probability is the
+    confidence score. No revision (M5) and no gate. Claims: label from a frozen logistic rule on the MiniCheck support of
+    the claim (no LLM call)."""
+
+    def __init__(self, ctx, name="ragverify_v2", **kw):
+        self.ctx, self.name = ctx, name
+        from .core import ROOT
+        self.model = json.loads((ROOT / "analysis" / "v2" / "v2_model.json").read_text(encoding="utf-8"))
+
+    @staticmethod
+    def _lg(p):
+        p = min(max(float(p), 1e-4), 1 - 1e-4)
+        return math.log(p / (1 - p))
+
+    def run(self, ex, cnt):
+        c, llm = self.ctx.cfg, self.ctx.llm
+        ev = self.ctx.pool(ex, cnt)[: c["k"]]
+        doc = evidence_doc(ev)
+        tr = {"pids": [p["id"] for p in ev]}
+        if ex["task"] == "claim":
+            s = self.ctx.verify(doc, ex["question"], cnt) if ev else 0.5
+            m = self.model["claim"]
+            pt = 1 / (1 + math.exp(-(m["coef"][0] * self._lg(s) + m["intercept"])))
+            pred = "true" if pt >= 0.5 else "false"
+            tr.update({"s_claim": s, "p_true": pt})
+            return {"pred": pred, "native_abstain": False, "scores": {"v2conf": max(pt, 1 - pt), "support": s}, "trace": tr}
+        cb = llm.chat(P.closed_book(ex), max_tokens=c["max_answer_tokens"], top_logprobs=5, counter=cnt)
+        C, c1 = clean_answer(cb["text"], ex["task"]), gm_prob(cb["tokens"])
+        rr = llm.chat(P.standard_rag(ex, ev), max_tokens=c["max_answer_tokens"], top_logprobs=5, counter=cnt)
+        R = clean_answer(rr["text"], ex["task"])
+        r = llm.chat(P.grounded_draft(ex, ev), max_tokens=c["max_draft_tokens"], top_logprobs=5, counter=cnt)
+        D, _ = parse_grounded(r["text"], ex["task"])
+        insufficient = D == P.INSUFFICIENT
+        if insufficient:
+            D = R
+        cand = {"D": D, "R": R, "C": C}
+        sup, memo = {}, {}
+        for k, a in cand.items():
+            key = a.strip().lower()
+            if key not in memo:
+                memo[key] = self.ctx.verify(doc, template_statement(ex, a), cnt) if ev else 0.0
+            sup[k] = memo[key]
+        m = self.model["selector"]
+        probs = {}
+        for k, a in cand.items():
+            agree = sum(cand[j].strip().lower() == a.strip().lower() for j in "DRC") - 1
+            f = [self._lg(sup[k]), self._lg(c1) if k == "C" else 0.0, float(k == "C"), float(k == "R"), agree,
+                 float(C.strip().lower() == a.strip().lower()) * self._lg(c1), float(insufficient)]
+            probs[k] = 1 / (1 + math.exp(-(sum(w * x for w, x in zip(m["coef"], f)) + m["intercept"])))
+        best = max("DRC", key=lambda k: probs[k])  # ties -> D, then R, then C
+        tr.update({"cand": cand, "sup": sup, "probs": probs, "c1": c1, "insufficient": insufficient, "chosen": best,
+                   "draft_raw": r["text"]})
+        return {"pred": cand[best], "native_abstain": False, "scores": {"v2conf": probs[best], "c1": c1, "support": sup[best]},
+                "trace": tr}
+
+
 REGISTRY = {
     "closed_book": lambda ctx, **kw: ClosedBook(ctx, **kw),
     "rag_topk": lambda ctx, **kw: StandardRAG(ctx, "topk", **kw),
@@ -395,4 +456,5 @@ REGISTRY = {
     "flare": lambda ctx, **kw: FLARE(ctx, **kw),
     "cove": lambda ctx, **kw: CoVe(ctx, **kw),
     "ragverify": lambda ctx, **kw: RAGVerify(ctx, **kw),
+    "ragverify_v2": lambda ctx, **kw: RAGVerifyV2(ctx, **kw),
 }

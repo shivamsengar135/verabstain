@@ -1,0 +1,22 @@
+2026-11-08 14:03:17,221 INFO START fresh_closed_book_hotpotqa: 500/500 examples to run; projected 2 min
+2026-11-08 14:03:25,138 INFO fresh_closed_book_hotpotqa: 25/500 done, 0 errors, 0s
+2026-11-08 14:03:25,157 INFO fresh_closed_book_hotpotqa: 50/500 done, 0 errors, 0s
+2026-11-08 14:03:25,168 INFO fresh_closed_book_hotpotqa: 75/500 done, 0 errors, 0s
+2026-11-08 14:03:25,188 INFO fresh_closed_book_hotpotqa: 100/500 done, 0 errors, 0s
+2026-11-08 14:03:25,198 INFO fresh_closed_book_hotpotqa: 125/500 done, 0 errors, 0s
+2026-11-08 14:03:25,218 INFO fresh_closed_book_hotpotqa: 150/500 done, 0 errors, 0s
+2026-11-08 14:03:25,239 INFO fresh_closed_book_hotpotqa: 175/500 done, 0 errors, 0s
+2026-11-08 14:03:25,255 INFO fresh_closed_book_hotpotqa: 200/500 done, 0 errors, 0s
+2026-11-08 14:03:25,268 INFO fresh_closed_book_hotpotqa: 225/500 done, 0 errors, 0s
+2026-11-08 14:03:25,288 INFO fresh_closed_book_hotpotqa: 250/500 done, 0 errors, 0s
+2026-11-08 14:03:25,308 INFO fresh_closed_book_hotpotqa: 275/500 done, 0 errors, 0s
+2026-11-08 14:03:25,324 INFO fresh_closed_book_hotpotqa: 300/500 done, 0 errors, 0s
+2026-11-08 14:03:25,338 INFO fresh_closed_book_hotpotqa: 325/500 done, 0 errors, 0s
+2026-11-08 14:03:25,358 INFO fresh_closed_book_hotpotqa: 350/500 done, 0 errors, 0s
+2026-11-08 14:03:25,369 INFO fresh_closed_book_hotpotqa: 375/500 done, 0 errors, 0s
+2026-11-08 14:03:25,390 INFO fresh_closed_book_hotpotqa: 400/500 done, 0 errors, 0s
+2026-11-08 14:03:25,404 INFO fresh_closed_book_hotpotqa: 425/500 done, 0 errors, 0s
+2026-11-08 14:03:25,418 INFO fresh_closed_book_hotpotqa: 450/500 done, 0 errors, 0s
+2026-11-08 14:03:25,438 INFO fresh_closed_book_hotpotqa: 475/500 done, 0 errors, 0s
+2026-11-08 14:03:25,453 INFO fresh_closed_book_hotpotqa: 500/500 done, 0 errors, 0s
+2026-11-08 14:03:25,658 INFO END fresh_closed_book_hotpotqa: complete, wall 0.0 min, stats {'llm_calls': 0, 'cache_hits': 500, 'prompt_tokens': 0, 'completion_tokens': 0, 'llm_seconds': 0.0, 'retrievals': 0, 'verifier_pairs': 0}

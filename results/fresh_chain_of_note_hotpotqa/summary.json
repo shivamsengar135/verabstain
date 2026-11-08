@@ -1,0 +1,22 @@
+{
+ "run_id": "fresh_chain_of_note_hotpotqa",
+ "n": 500,
+ "n_expected": 500,
+ "method": "chain_of_note",
+ "dataset": "hotpotqa",
+ "split": "fresh",
+ "correct": 0.304,
+ "match": 0.304,
+ "match_norm": 0.336,
+ "em": 0.268,
+ "f1": 0.3583508797435627,
+ "native_abstain_rate": 0.382,
+ "mean_llm_calls": 1.0,
+ "mean_prompt_tokens": 702.832,
+ "mean_completion_tokens": 174.264,
+ "mean_llm_seconds": 12.870227019799698,
+ "mean_retrievals": 1.0,
+ "mean_verifier_pairs": 0.0,
+ "mean_seconds": 12.88057675979979,
+ "wall_s": 1359.3621611595154
+}
